@@ -1,0 +1,292 @@
+[2018-05-12 00:54:45,205] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-12 00:54:45,205] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-12 00:54:45,205] launcher  INFO    Worker distribution: 
+[2018-05-12 00:54:45,206] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-12 00:54:45,608 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 00:54:45,608 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 00:54:45,614 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 00:54:45,614 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 00:54:45,616 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 00:54:45,616 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 00:54:45,622 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 00:54:45,622 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 00:54:45,626 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 00:54:45,626 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 00:54:45,637 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 00:54:45,637 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 48, in <module>
+    paramhelper = parameterhelper.ParameterHelper(args.optconfig, args.percent_dim)
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 75, in __init__
+    self._parse()
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 88, in _parse
+    self._parameter_format['embedding_parameters'][self._optconfig['embedding']]
+KeyError: 'empca'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 48, in <module>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    paramhelper = parameterhelper.ParameterHelper(args.optconfig, args.percent_dim)
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 75, in __init__
+    self._parse()
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 88, in _parse
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    self._parameter_format['embedding_parameters'][self._optconfig['embedding']]
+KeyError: 'empca'
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 48, in <module>
+    paramhelper = parameterhelper.ParameterHelper(args.optconfig, args.percent_dim)
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 75, in __init__
+    self._parse()
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 88, in _parse
+    self._parameter_format['embedding_parameters'][self._optconfig['embedding']]
+KeyError: 'empca'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 48, in <module>
+    paramhelper = parameterhelper.ParameterHelper(args.optconfig, args.percent_dim)
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 75, in __init__
+    self._parse()
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 88, in _parse
+    self._parameter_format['embedding_parameters'][self._optconfig['embedding']]
+KeyError: 'empca'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 48, in <module>
+    paramhelper = parameterhelper.ParameterHelper(args.optconfig, args.percent_dim)
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 75, in __init__
+    self._parse()
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 88, in _parse
+    self._parameter_format['embedding_parameters'][self._optconfig['embedding']]
+KeyError: 'empca'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 48, in <module>
+    paramhelper = parameterhelper.ParameterHelper(args.optconfig, args.percent_dim)
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 75, in __init__
+    self._parse()
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 88, in _parse
+    self._parameter_format['embedding_parameters'][self._optconfig['embedding']]
+KeyError: 'empca'
+2018-05-12 00:54:45,682 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 00:54:45,686 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 48, in <module>
+    paramhelper = parameterhelper.ParameterHelper(args.optconfig, args.percent_dim)
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 75, in __init__
+    self._parse()
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 88, in _parse
+    self._parameter_format['embedding_parameters'][self._optconfig['embedding']]
+KeyError: 'empca'
+2018-05-12 00:54:45,767 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 00:54:45,767 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 48, in <module>
+    paramhelper = parameterhelper.ParameterHelper(args.optconfig, args.percent_dim)
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 75, in __init__
+    self._parse()
+  File "/home/minh/PycharmProjects/MultivariateESN/parameterhelper.py", line 88, in _parse
+    self._parameter_format['embedding_parameters'][self._optconfig['embedding']]
+KeyError: 'empca'
+[2018-05-12 00:54:45,809] launcher  (127.0.0.1:38045) INFO    Root process is done.
+[2018-05-12 00:54:45,809] launcher  (127.0.0.1:38045) INFO    Finished cleaning spawned subprocesses.
+[2018-05-12 00:54:45,850] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-12 00:54:45,850] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-12 00:54:45,850] launcher  INFO    Worker distribution: 
+[2018-05-12 00:54:45,850] launcher  INFO       127.0.0.1:	7 + origin
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_empca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_empca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_empca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_empca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_empca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_empca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_empca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_empca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[2018-05-12 00:54:46,384] launcher  (127.0.0.1:46075) INFO    Root process is done.
+[2018-05-12 00:54:46,385] launcher  (127.0.0.1:46075) INFO    Finished cleaning spawned subprocesses.

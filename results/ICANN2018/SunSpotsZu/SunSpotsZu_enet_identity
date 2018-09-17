@@ -1,0 +1,81 @@
+[2018-05-15 03:54:42,677] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 03:54:42,678] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 03:54:42,678] launcher  INFO    Worker distribution: 
+[2018-05-15 03:54:42,678] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 03:54:43,132 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:54:43,133 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 03:54:43,133 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:54:43,133 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:54:43,133 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:54:43,133 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:54:43,133 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 03:54:43,133 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 03:54:43,133 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 03:54:43,133 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 03:54:43,133 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:54:43,134 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:54:43,134 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:54:43,134 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:54:43,134 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:54:43,135 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:54:43,136 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 03:54:43,136 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:54:43,146 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:54:43,146 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 03:54:43,146 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:54:43,147 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 03:54:43,147 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:54:43,147 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:54:43,225 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:54:43,225 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:54:43,225 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 03:54:43,225 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 03:54:43,226 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:54:43,226 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:54:43,254 root            INFO     Initializing genetic algorithm
+2018-05-15 03:54:43,254 root            INFO     Initializing genetic algorithm
+2018-05-15 03:54:43,256 root            INFO     Running GA optimization
+2018-05-15 03:54:43,256 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min     	max    
+0  	50    	0.753349	0.232702	0.434585	1.02671
+1  	23    	0.54011 	0.12028 	0.434585	0.843724
+2  	20    	0.454776	0.0215176	0.433377	0.563784
+3  	21    	0.443502	0.00740769	0.433377	0.455166
+4  	17    	0.43499 	0.00289667	0.433139	0.446732
+5  	25    	0.433249	0.000498399	0.431769	0.434152
+6  	19    	0.432879	0.000608024	0.431672	0.433524
+7  	22    	0.432329	0.000570626	0.431672	0.433377
+8  	23    	0.431909	0.000377435	0.431672	0.433215
+9  	21    	0.431809	0.000390141	0.431672	0.434367
+10 	19    	0.431677	0.000155664	0.430989	0.431769
+11 	19    	0.431542	0.000284323	0.430811	0.431769
+12 	21    	0.431204	0.000495762	0.430019	0.431672
+13 	21    	0.43067 	0.000624256	0.429387	0.431672
+14 	20    	0.430271	0.000599343	0.429387	0.431424
+15 	20    	0.429728	0.00036056 	0.429387	0.430811
+16 	20    	0.429493	0.000348291	0.428931	0.431188
+17 	23    	0.429273	0.000224028	0.428931	0.429737
+18 	21    	0.429098	0.0002377  	0.428733	0.429737
+19 	21    	0.428932	7.56343e-05	0.428733	0.429387
+20 	23    	0.428893	7.3019e-05 	0.428733	0.428931
+2018-05-15 03:57:44,204 root            INFO     Saving the best parameters
+2018-05-15 03:57:44,204 root            INFO     Saving the best parameters
+2018-05-15 03:57:44,204 root            INFO     Done
+2018-05-15 03:57:44,204 root            INFO     Done
+[2018-05-15 03:57:44,634] launcher  (127.0.0.1:34669) INFO    Root process is done.
+[2018-05-15 03:57:44,634] launcher  (127.0.0.1:34669) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 03:57:44,671] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 03:57:44,671] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 03:57:44,671] launcher  INFO    Worker distribution: 
+[2018-05-15 03:57:44,671] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.34687896 0.35017581 0.35008941 0.35138184 0.34821383 0.34666388
+ 0.35326909 0.35071178 0.3507912  0.35084199 0.35150847 0.35355935
+ 0.35198878 0.34632555 0.34943172 0.34991932 0.35231852 0.35180073
+ 0.34971234 0.34883444]
+Mean:
+0.35022084990624675
+Std:
+0.0020044040289474846
+[2018-05-15 03:57:56,515] launcher  (127.0.0.1:36255) INFO    Root process is done.
+[2018-05-15 03:57:56,516] launcher  (127.0.0.1:36255) INFO    Finished cleaning spawned subprocesses.

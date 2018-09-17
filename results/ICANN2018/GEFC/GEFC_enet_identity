@@ -1,0 +1,103 @@
+[2018-05-01 04:10:51,722] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-01 04:10:51,722] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-01 04:10:51,722] launcher  INFO    Worker distribution: 
+[2018-05-01 04:10:51,722] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-01 04:10:52,135 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 04:10:52,135 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 04:10:52,135 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-01 04:10:52,136 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-01 04:10:52,136 root            INFO     Loading data (./data/GEFC)
+2018-05-01 04:10:52,136 root            INFO     Loading data (./data/GEFC)
+2018-05-01 04:10:52,138 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 04:10:52,138 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-01 04:10:52,139 root            INFO     Loading data (./data/GEFC)
+2018-05-01 04:10:52,141 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 04:10:52,141 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-01 04:10:52,142 root            INFO     Loading data (./data/GEFC)
+2018-05-01 04:10:52,143 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 04:10:52,143 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-01 04:10:52,143 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 04:10:52,144 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-01 04:10:52,144 root            INFO     Loading data (./data/GEFC)
+2018-05-01 04:10:52,144 root            INFO     Loading data (./data/GEFC)
+2018-05-01 04:10:52,145 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 04:10:52,145 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-01 04:10:52,146 root            INFO     Loading data (./data/GEFC)
+2018-05-01 04:10:52,150 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 04:10:52,150 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-01 04:10:52,151 root            INFO     Loading data (./data/GEFC)
+2018-05-01 04:10:52,337 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 04:10:52,337 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 04:10:52,337 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-01 04:10:52,337 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-01 04:10:52,337 root            INFO     Loading data (./data/GEFC)
+2018-05-01 04:10:52,337 root            INFO     Loading data (./data/GEFC)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-05-01 04:10:52,428 root            INFO     Initializing genetic algorithm
+2018-05-01 04:10:52,428 root            INFO     Initializing genetic algorithm
+2018-05-01 04:10:52,430 root            INFO     Running GA optimization
+2018-05-01 04:10:52,430 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min     	max    
+0  	50    	0.840125	0.248832	0.367905	1.15008
+1  	18    	0.545321	0.183669	0.366358	1.09754
+2  	18    	0.393603	0.0575496	0.358892	0.632913
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+3  	22    	0.357212	0.0232343	0.269163	0.369324
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+4  	15    	0.343468	0.027937 	0.269163	0.36931 
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+5  	20    	0.306452	0.0304672	0.253815	0.361423
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+6  	25    	0.273738	0.026485 	0.201103	0.339814
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+7  	20    	0.251327	0.025073 	0.201103	0.269163
+8  	21    	0.224193	0.027869 	0.201103	0.265213
+9  	20    	0.202612	0.00761823	0.196152	0.253815
+10 	20    	0.20017 	0.00209196	0.196152	0.203762
+11 	20    	0.198225	0.002192  	0.196152	0.201103
+12 	21    	0.196492	0.00105643	0.196152	0.200539
+13 	21    	0.19599 	0.000634887	0.191692	0.196152
+14 	19    	0.195607	0.00126445 	0.191692	0.199622
+15 	21    	0.194029	0.00177318 	0.190965	0.196152
+16 	20    	0.192524	0.00155621 	0.190965	0.196231
+17 	23    	0.191558	0.000910903	0.190965	0.196152
+18 	22    	0.191081	0.000266733	0.190965	0.191692
+19 	24    	0.191023	0.000197386	0.190965	0.191692
+20 	22    	0.190965	2.77556e-17	0.190965	0.190965
+2018-05-01 04:22:40,493 root            INFO     Saving the best parameters
+2018-05-01 04:22:40,493 root            INFO     Saving the best parameters
+2018-05-01 04:22:40,493 root            INFO     Done
+2018-05-01 04:22:40,493 root            INFO     Done
+[2018-05-01 04:22:40,921] launcher  (127.0.0.1:41865) INFO    Root process is done.
+[2018-05-01 04:22:40,922] launcher  (127.0.0.1:41865) INFO    Finished cleaning spawned subprocesses.
+[2018-05-01 04:22:40,960] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-01 04:22:40,960] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-01 04:22:40,960] launcher  INFO    Worker distribution: 
+[2018-05-01 04:22:40,960] launcher  INFO       127.0.0.1:	7 + origin
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+Errors:
+[0.17021719 0.18984524 0.19604085 0.19579665 0.18568218 0.17636639
+ 0.19008705 0.19823692 0.18291978 0.18147272 0.18504416 0.17913821
+ 0.18431514 0.19158477 0.18994825 0.1799177  0.19203394 0.17473691
+ 0.19320993 0.17719689]
+Mean:
+0.18568954257221876
+Std:
+0.0076662857108771455
+[2018-05-01 04:23:34,939] launcher  (127.0.0.1:39681) INFO    Root process is done.
+[2018-05-01 04:23:34,939] launcher  (127.0.0.1:39681) INFO    Finished cleaning spawned subprocesses.

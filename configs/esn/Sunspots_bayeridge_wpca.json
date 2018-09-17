@@ -1,0 +1,22 @@
+{
+    "embedding_parameters": null,
+    "input_scaling": 0.16983409162269147,
+    "teacher_shift": 0.0,
+    "n_dim": 17,
+    "feedback_scaling": 0.0,
+    "embedding": "wpca",
+    "regression_parameters": [
+        0.4481487552869981,
+        0.5470031580345259,
+        0.001,
+        0.001
+    ],
+    "spectral_radius": 0.9901832859830837,
+    "n_internal_units": 458,
+    "connectivity": 0.25,
+    "input_shift": 0.0,
+    "n_drop": 100,
+    "noise_level": 0.04403697201551808,
+    "teacher_scaling": 0.8080425448174617,
+    "regression_method": "bayeridge"
+}

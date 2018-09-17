@@ -1,0 +1,81 @@
+[2018-08-24 19:23:51,586] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 19:23:51,586] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 19:23:51,586] launcher  INFO    Worker distribution: 
+[2018-08-24 19:23:51,586] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-24 19:23:52,003 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:23:52,004 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-08-24 19:23:52,005 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:23:52,007 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:23:52,007 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:23:52,007 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-08-24 19:23:52,008 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-08-24 19:23:52,008 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:23:52,008 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:23:52,010 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:23:52,010 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-08-24 19:23:52,011 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:23:52,011 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:23:52,012 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-08-24 19:23:52,012 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:23:52,013 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:23:52,013 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-08-24 19:23:52,013 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:23:52,015 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:23:52,015 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-08-24 19:23:52,016 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:23:52,028 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:23:52,028 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-08-24 19:23:52,029 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:23:52,147 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:23:52,147 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:23:52,147 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-08-24 19:23:52,147 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-08-24 19:23:52,148 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:23:52,148 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:23:52,213 root            INFO     Initializing genetic algorithm
+2018-08-24 19:23:52,213 root            INFO     Initializing genetic algorithm
+2018-08-24 19:23:52,214 root            INFO     Running GA optimization
+2018-08-24 19:23:52,214 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min      	max    
+0  	50    	0.71928	0.361678	0.0151057	1.07405
+1  	17    	0.513682	0.311818	0.00278552	1.07405
+2  	25    	0.439407	0.24017 	0.165493  	0.934307
+3  	22    	0.370394	0.219336	0.165493  	0.934307
+4  	22    	0.335522	0.212052	0.175606  	0.933148
+5  	22    	0.268899	0.0930773	0.175606  	0.36747 
+6  	21    	0.264545	0.0913382	0.175606  	0.36747 
+7  	22    	0.257678	0.0879481	0.175606  	0.36747 
+8  	20    	0.250379	0.0812259	0.175606  	0.36747 
+9  	20    	0.258026	0.084985 	0.175592  	0.36747 
+10 	23    	0.263542	0.0893   	0.175586  	0.36747 
+11 	25    	0.261412	0.0867517	0.175567  	0.36747 
+12 	18    	0.254538	0.0791888	0.175567  	0.36747 
+13 	20    	0.254371	0.0790592	0.175567  	0.36747 
+14 	20    	0.253446	0.0778793	0.175567  	0.331325
+15 	21    	0.253506	0.0779403	0.175567  	0.333333
+16 	22    	0.258125	0.0854182	0.175567  	0.445783
+17 	20    	0.266137	0.096551 	0.175567  	0.445783
+18 	20    	0.285635	0.117995 	0.175567  	0.487952
+19 	23    	0.308205	0.134884 	0.175567  	0.487952
+20 	24    	0.313084	0.139782 	0.175566  	0.60241 
+2018-08-24 19:39:09,638 root            INFO     Saving the best parameters
+2018-08-24 19:39:09,638 root            INFO     Saving the best parameters
+2018-08-24 19:39:09,638 root            INFO     Done
+2018-08-24 19:39:09,638 root            INFO     Done
+[2018-08-24 19:39:10,071] launcher  (127.0.0.1:36637) INFO    Root process is done.
+[2018-08-24 19:39:10,071] launcher  (127.0.0.1:36637) INFO    Finished cleaning spawned subprocesses.
+[2018-08-24 19:39:10,108] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 19:39:10,108] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 19:39:10,108] launcher  INFO    Worker distribution: 
+[2018-08-24 19:39:10,108] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.14503915 0.14503538 0.14503825 0.14504117 0.14503619 0.14504035
+ 0.14503726 0.14503999 0.14503701 0.14504022 0.14503656 0.14503827
+ 0.14503743 0.14503924 0.14504154 0.14504117 0.1450389  0.145031
+ 0.14503984 0.14503721]
+Mean:
+0.14503830564210934
+Std:
+2.4087550617159017e-06
+[2018-08-24 19:39:30,393] launcher  (127.0.0.1:46365) INFO    Root process is done.
+[2018-08-24 19:39:30,394] launcher  (127.0.0.1:46365) INFO    Finished cleaning spawned subprocesses.

@@ -1,0 +1,524 @@
+[2018-05-13 01:17:21,821] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-13 01:17:21,821] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-13 01:17:21,821] launcher  INFO    Worker distribution: 
+[2018-05-13 01:17:21,821] launcher  INFO       127.0.0.1:	7 + origin
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 14, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 14, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 14, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 14, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 14, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 14, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 14, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./genoptesn.py", line 14, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+[2018-05-13 01:17:22,638] launcher  (127.0.0.1:39383) INFO    Root process is done.
+[2018-05-13 01:17:22,638] launcher  (127.0.0.1:39383) INFO    Finished cleaning spawned subprocesses.
+[2018-05-13 01:17:22,687] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-13 01:17:22,688] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-13 01:17:22,688] launcher  INFO    Worker distribution: 
+[2018-05-13 01:17:22,688] launcher  INFO       127.0.0.1:	7 + origin
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./esn_experiment.py", line 9, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./esn_experiment.py", line 9, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./esn_experiment.py", line 9, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./esn_experiment.py", line 9, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./esn_experiment.py", line 9, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./esn_experiment.py", line 9, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./esn_experiment.py", line 9, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 257, in run
+    globs.update(self.setupEnvironment(self))
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 210, in setupEnvironment
+    scoop.MAIN_MODULE,
+  File "/usr/local/lib/python3.5/dist-packages/scoop/bootstrap/__main__.py", line 35, in <lambda>
+    importFunction = lambda name, path: importlib.machinery.SourceFileLoader(name, path).load_module()
+  File "<frozen importlib._bootstrap_external>", line 388, in _check_name_wrapper
+  File "<frozen importlib._bootstrap_external>", line 809, in load_module
+  File "<frozen importlib._bootstrap_external>", line 668, in load_module
+  File "<frozen importlib._bootstrap>", line 268, in _load_module_shim
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./esn_experiment.py", line 9, in <module>
+    import esnet
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 27, in <module>
+    from autoencoder import DenoisingAutoencoder
+  File "/home/minh/PycharmProjects/MultivariateESN/autoencoder.py", line 2, in <module>
+    from dA import *
+  File "/home/minh/PycharmProjects/MultivariateESN/dA.py", line 32, in <module>
+    import theano
+ImportError: No module named 'theano'
+[2018-05-13 01:17:23,481] launcher  (127.0.0.1:43463) INFO    Root process is done.
+[2018-05-13 01:17:23,482] launcher  (127.0.0.1:43463) INFO    Finished cleaning spawned subprocesses.

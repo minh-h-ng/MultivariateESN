@@ -1,0 +1,81 @@
+[2018-09-13 10:17:34,640] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-13 10:17:34,640] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-13 10:17:34,640] launcher  INFO    Worker distribution: 
+[2018-09-13 10:17:34,640] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-13 10:17:35,057 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:17:35,057 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 10:17:35,058 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:17:35,058 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:17:35,059 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 10:17:35,060 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:17:35,062 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:17:35,062 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 10:17:35,063 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:17:35,069 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:17:35,070 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 10:17:35,070 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:17:35,074 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:17:35,074 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:17:35,074 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 10:17:35,074 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 10:17:35,075 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:17:35,075 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:17:35,085 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:17:35,086 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 10:17:35,086 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:17:35,141 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:17:35,142 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 10:17:35,142 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:17:35,288 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:17:35,288 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:17:35,288 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 10:17:35,288 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 10:17:35,288 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:17:35,288 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:17:35,373 root            INFO     Initializing genetic algorithm
+2018-09-13 10:17:35,373 root            INFO     Initializing genetic algorithm
+2018-09-13 10:17:35,375 root            INFO     Running GA optimization
+2018-09-13 10:17:35,375 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max    
+0  	50    	0.303476	0.364855	0.00101653	1.87996
+1  	15    	0.119264	0.212985	0.00101653	0.995495
+2  	23    	0.0527931	0.0901028	0.000828773	0.402214
+3  	20    	0.0496145	0.0659996	0.000763875	0.221264
+4  	21    	0.027528 	0.0442483	0.000687699	0.152299
+5  	22    	0.014617 	0.0139197	0.000687699	0.0316092
+6  	21    	0.0151151	0.0144987	0.000657717	0.0332226
+7  	19    	0.0163056	0.015633 	0.000657717	0.0332226
+8  	23    	0.0158615	0.0157249	0.000640153	0.0332226
+9  	21    	0.0147961	0.0156709	0.000640153	0.0332226
+10 	19    	0.0148341	0.0154478	0.000640153	0.0332226
+11 	17    	0.0153096	0.0154221	0.000640153	0.0332226
+12 	21    	0.0161192	0.0154794	0.000630498	0.0316092
+13 	18    	0.0161138	0.0154742	0.000630498	0.0316092
+14 	23    	0.0160865	0.0154483	0.000630498	0.0316092
+15 	19    	0.0160374	0.0154014	0.000630498	0.0316092
+16 	19    	0.0159549	0.0153233	0.000557998	0.0316092
+17 	24    	0.0158757	0.0152625	0.000548167	0.0316092
+18 	23    	0.0155691	0.0152422	0.000548167	0.0316092
+19 	16    	0.0149912	0.0151928	0.000451705	0.0316092
+20 	23    	0.014401 	0.0150995	0.000451705	0.0316092
+2018-09-13 10:40:22,989 root            INFO     Saving the best parameters
+2018-09-13 10:40:22,989 root            INFO     Saving the best parameters
+2018-09-13 10:40:22,989 root            INFO     Done
+2018-09-13 10:40:22,989 root            INFO     Done
+[2018-09-13 10:40:23,416] launcher  (127.0.0.1:42279) INFO    Root process is done.
+[2018-09-13 10:40:23,416] launcher  (127.0.0.1:42279) INFO    Finished cleaning spawned subprocesses.
+[2018-09-13 10:40:23,454] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-13 10:40:23,454] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-13 10:40:23,454] launcher  INFO    Worker distribution: 
+[2018-09-13 10:40:23,454] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.00049369 0.00055765 0.00045317 0.00044356 0.0004688  0.00041423
+ 0.00040925 0.00045833 0.00057409 0.00042424 0.00054954 0.0004537
+ 0.00054149 0.00046853 0.00035726 0.00054934 0.00040883 0.00050785
+ 0.00052338 0.0004547 ]
+Mean:
+0.0004755818072600287
+Std:
+5.8067641203443055e-05
+[2018-09-13 10:41:01,975] launcher  (127.0.0.1:36977) INFO    Root process is done.
+[2018-09-13 10:41:01,976] launcher  (127.0.0.1:36977) INFO    Finished cleaning spawned subprocesses.

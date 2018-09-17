@@ -1,0 +1,81 @@
+[2018-08-24 05:56:13,105] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 05:56:13,105] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 05:56:13,105] launcher  INFO    Worker distribution: 
+[2018-08-24 05:56:13,105] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-24 05:56:13,522 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 05:56:13,522 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 05:56:13,522 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-08-24 05:56:13,522 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-08-24 05:56:13,523 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 05:56:13,523 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 05:56:13,524 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 05:56:13,525 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-08-24 05:56:13,525 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 05:56:13,526 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 05:56:13,527 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-08-24 05:56:13,527 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 05:56:13,528 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 05:56:13,528 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-08-24 05:56:13,529 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 05:56:13,529 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 05:56:13,530 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-08-24 05:56:13,530 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 05:56:13,537 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 05:56:13,538 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-08-24 05:56:13,538 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 05:56:13,538 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-08-24 05:56:13,538 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 05:56:13,539 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 05:56:13,676 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 05:56:13,676 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 05:56:13,676 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-08-24 05:56:13,676 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-08-24 05:56:13,676 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 05:56:13,676 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 05:56:13,742 root            INFO     Initializing genetic algorithm
+2018-08-24 05:56:13,742 root            INFO     Initializing genetic algorithm
+2018-08-24 05:56:13,743 root            INFO     Running GA optimization
+2018-08-24 05:56:13,743 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max     
+0  	50    	0.182874	0.260012	0.00116236	0.962247
+1  	16    	0.0177069	0.0420852	0.00116236	0.296725
+2  	21    	0.00358125	0.00175732	0.000753543	0.00877365
+3  	22    	0.00174667	0.000781165	0.000753543	0.00421094
+4  	20    	0.00105286	0.000355425	0.000694321	0.00176421
+5  	24    	0.000743777	6.62179e-05	0.000646883	0.00116236
+6  	20    	0.000691924	5.51573e-05	0.000493683	0.000753543
+7  	21    	0.000631446	7.25013e-05	0.000493683	0.000735617
+8  	21    	0.000562259	7.69649e-05	0.000374724	0.000675557
+9  	21    	0.000488003	4.6374e-05 	0.000374724	0.000662169
+10 	20    	0.000443614	4.28571e-05	0.000374724	0.000493683
+11 	20    	0.000397999	2.78349e-05	0.00033481 	0.000483839
+12 	22    	0.000372698	1.74492e-05	0.00033481 	0.000406151
+13 	24    	0.000360558	1.8091e-05 	0.00033481 	0.000380139
+14 	18    	0.000344325	1.58726e-05	0.000316333	0.000376481
+15 	21    	0.000332658	6.79312e-06	0.000316333	0.000341761
+16 	22    	0.000326007	1.01434e-05	0.000307912	0.00033481 
+17 	20    	0.000317887	7.78411e-06	0.000307912	0.00033481 
+18 	24    	0.000310022	3.90099e-06	0.000301025	0.000316333
+19 	19    	0.000305088	4.8798e-06 	0.000293644	0.000315881
+20 	20    	0.000296818	6.88573e-06	0.000277093	0.000307912
+2018-08-24 06:23:31,410 root            INFO     Saving the best parameters
+2018-08-24 06:23:31,410 root            INFO     Saving the best parameters
+2018-08-24 06:23:31,410 root            INFO     Done
+2018-08-24 06:23:31,410 root            INFO     Done
+[2018-08-24 06:23:31,843] launcher  (127.0.0.1:35029) INFO    Root process is done.
+[2018-08-24 06:23:31,844] launcher  (127.0.0.1:35029) INFO    Finished cleaning spawned subprocesses.
+[2018-08-24 06:23:31,880] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 06:23:31,880] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 06:23:31,880] launcher  INFO    Worker distribution: 
+[2018-08-24 06:23:31,880] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.00027713 0.00026163 0.00026411 0.00025779 0.00028392 0.0002584
+ 0.00029387 0.00025688 0.00025917 0.00026026 0.00025846 0.00024968
+ 0.00026756 0.00028569 0.00026677 0.00026505 0.00026452 0.0002352
+ 0.00025937 0.00025657]
+Mean:
+0.0002641011049711713
+Std:
+1.2764279066799351e-05
+[2018-08-24 06:24:34,601] launcher  (127.0.0.1:35065) INFO    Root process is done.
+[2018-08-24 06:24:34,602] launcher  (127.0.0.1:35065) INFO    Finished cleaning spawned subprocesses.

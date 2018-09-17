@@ -1,0 +1,81 @@
+[2018-08-23 05:28:08,625] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 05:28:08,626] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 05:28:08,626] launcher  INFO    Worker distribution: 
+[2018-08-23 05:28:08,626] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 05:28:09,042 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 05:28:09,043 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-08-23 05:28:09,044 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 05:28:09,046 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 05:28:09,046 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 05:28:09,046 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 05:28:09,046 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-08-23 05:28:09,047 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-08-23 05:28:09,047 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-08-23 05:28:09,047 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 05:28:09,047 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 05:28:09,047 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 05:28:09,050 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 05:28:09,050 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-08-23 05:28:09,051 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 05:28:09,052 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 05:28:09,052 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-08-23 05:28:09,053 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 05:28:09,054 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 05:28:09,054 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 05:28:09,055 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-08-23 05:28:09,055 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-08-23 05:28:09,056 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 05:28:09,056 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 05:28:09,181 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 05:28:09,181 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 05:28:09,181 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-08-23 05:28:09,181 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-08-23 05:28:09,181 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 05:28:09,181 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 05:28:09,239 root            INFO     Initializing genetic algorithm
+2018-08-23 05:28:09,239 root            INFO     Initializing genetic algorithm
+2018-08-23 05:28:09,240 root            INFO     Running GA optimization
+2018-08-23 05:28:09,240 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.436491	0.232636	0.0156658	0.97878
+1  	22    	0.347636	0.188616	0.00278552	0.835681
+2  	15    	0.295527	0.160261	0.00278552	0.543611
+3  	21    	0.218875	0.142977	0.00204499	0.503597
+4  	20    	0.23314 	0.123475	0.00204499	0.334526
+5  	21    	0.231211	0.124958	0.00204499	0.332142
+6  	21    	0.182398	0.155762	0.00529101	0.331001
+7  	22    	0.166637	0.161144	0.00529101	0.328738
+8  	21    	0.166357	0.160858	0.00529101	0.32788 
+9  	21    	0.166259	0.160762	0.00529101	0.327313
+10 	21    	0.16616 	0.16063 	0.00529101	0.327127
+11 	24    	0.166041	0.160514	0.00552486	0.326986
+12 	21    	0.165968	0.160443	0.00552486	0.326537
+13 	20    	0.165898	0.160373	0.00552486	0.326935
+14 	21    	0.165868	0.160343	0.00552486	0.327345
+15 	26    	0.165832	0.160307	0.00552486	0.326668
+16 	23    	0.165751	0.160226	0.00552486	0.326265
+17 	22    	0.165691	0.160166	0.00552486	0.326218
+18 	19    	0.16564 	0.160115	0.00552486	0.325754
+19 	21    	0.16564 	0.160115	0.00552486	0.325754
+20 	21    	0.16564 	0.160115	0.00552486	0.325754
+2018-08-23 06:00:19,962 root            INFO     Saving the best parameters
+2018-08-23 06:00:19,962 root            INFO     Saving the best parameters
+2018-08-23 06:00:19,963 root            INFO     Done
+2018-08-23 06:00:19,963 root            INFO     Done
+[2018-08-23 06:00:20,396] launcher  (127.0.0.1:41415) INFO    Root process is done.
+[2018-08-23 06:00:20,396] launcher  (127.0.0.1:41415) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 06:00:20,433] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 06:00:20,433] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 06:00:20,433] launcher  INFO    Worker distribution: 
+[2018-08-23 06:00:20,433] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.32201991 0.32158051 0.32005821 0.31850122 0.3169161  0.31863142
+ 0.31762978 0.31959261 0.31726784 0.31755206 0.32406703 0.32022316
+ 0.31670428 0.3197427  0.31887458 0.31893343 0.31506145 0.31930062
+ 0.31831694 0.31798873]
+Mean:
+0.31894812945533507
+Std:
+0.001987492997830807
+[2018-08-23 06:00:42,601] launcher  (127.0.0.1:32919) INFO    Root process is done.
+[2018-08-23 06:00:42,602] launcher  (127.0.0.1:32919) INFO    Finished cleaning spawned subprocesses.

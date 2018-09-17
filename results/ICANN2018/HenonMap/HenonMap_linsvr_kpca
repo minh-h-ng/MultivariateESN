@@ -1,0 +1,81 @@
+[2018-08-24 04:42:32,334] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 04:42:32,334] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 04:42:32,334] launcher  INFO    Worker distribution: 
+[2018-08-24 04:42:32,335] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-24 04:42:32,751 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:42:32,752 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-08-24 04:42:32,752 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:42:32,752 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-08-24 04:42:32,752 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:42:32,752 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:42:32,753 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-08-24 04:42:32,753 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:42:32,754 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:42:32,755 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:42:32,755 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-08-24 04:42:32,756 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:42:32,757 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:42:32,757 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:42:32,757 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:42:32,758 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-08-24 04:42:32,758 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-08-24 04:42:32,758 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-08-24 04:42:32,758 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:42:32,758 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:42:32,759 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:42:32,769 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:42:32,770 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-08-24 04:42:32,771 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:42:32,910 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:42:32,910 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:42:32,910 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-08-24 04:42:32,910 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-08-24 04:42:32,911 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:42:32,911 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:42:32,977 root            INFO     Initializing genetic algorithm
+2018-08-24 04:42:32,977 root            INFO     Initializing genetic algorithm
+2018-08-24 04:42:32,979 root            INFO     Running GA optimization
+2018-08-24 04:42:32,979 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max   
+0  	50    	0.587555	0.334915	0.00510204	1.0001
+1  	16    	0.389538	0.286509	0.0114943 	1.0001
+2  	16    	0.205329	0.179662	0.00872749	0.653846
+3  	22    	0.231104	0.222256	0.00689655	0.5     
+4  	20    	0.258513	0.244717	0.00793265	0.56051 
+5  	16    	0.257237	0.249487	0.00332969	0.56051 
+6  	20    	0.262538	0.257399	0.00151587	0.561966
+7  	18    	0.259697	0.257306	0.00107291	0.56051 
+8  	22    	0.26613 	0.265354	0.00107291	0.562232
+9  	22    	0.262714	0.262372	0.00103609	0.562232
+10 	21    	0.251575	0.250781	0.00100464	0.56051 
+11 	22    	0.250081	0.249192	0.000894201	0.561966
+12 	22    	0.253218	0.252554	0.000894201	0.561966
+13 	18    	0.254076	0.253385	0.00086342 	0.523504
+14 	19    	0.249223	0.248389	0.00086342 	0.523504
+15 	20    	0.248024	0.247145	0.00086342 	0.495726
+16 	21    	0.247618	0.246781	0.00086342 	0.495146
+17 	26    	0.242421	0.242718	0.000840434	0.495146
+18 	26    	0.223436	0.226007	0.000831152	0.495146
+19 	19    	0.201101	0.202339	0.000831152	0.495146
+20 	22    	0.192163	0.191333	0.000808738	0.383495
+2018-08-24 05:49:23,807 root            INFO     Saving the best parameters
+2018-08-24 05:49:23,807 root            INFO     Saving the best parameters
+2018-08-24 05:49:23,808 root            INFO     Done
+2018-08-24 05:49:23,808 root            INFO     Done
+[2018-08-24 05:49:24,244] launcher  (127.0.0.1:34491) INFO    Root process is done.
+[2018-08-24 05:49:24,244] launcher  (127.0.0.1:34491) INFO    Finished cleaning spawned subprocesses.
+[2018-08-24 05:49:24,281] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 05:49:24,281] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 05:49:24,281] launcher  INFO    Worker distribution: 
+[2018-08-24 05:49:24,281] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.00081161 0.00077472 0.0007767  0.00081192 0.00068137 0.00078441
+ 0.00072417 0.00070593 0.00077683 0.00068114 0.00075005 0.00079994
+ 0.00078294 0.00079298 0.00071293 0.00092336 0.00073839 0.00072845
+ 0.00071394 0.00070104]
+Mean:
+0.0007586403646762306
+Std:
+5.593541222422131e-05
+[2018-08-24 05:50:36,760] launcher  (127.0.0.1:35807) INFO    Root process is done.
+[2018-08-24 05:50:36,761] launcher  (127.0.0.1:35807) INFO    Finished cleaning spawned subprocesses.

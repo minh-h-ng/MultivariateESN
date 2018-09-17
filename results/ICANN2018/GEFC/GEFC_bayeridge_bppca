@@ -1,0 +1,63 @@
+2018-05-11 17:59:27,127 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 17:59:27,127 parameterhelper INFO     Config: ./configs/user/bayeridge_bppca (overload)
+2018-05-11 17:59:27,127 root            INFO     Loading data (./data/GEFC)
+2018-05-11 17:59:27,231 root            INFO     Initializing genetic algorithm
+2018-05-11 17:59:27,233 root            INFO     Running GA optimization
+/usr/local/lib/python3.5/dist-packages/scoop/fallbacks.py:46: RuntimeWarning: SCOOP was not started properly.
+Be sure to start your program with the '-m scoop' parameter. You can find further information in the documentation.
+Your map call has been replaced by the builtin serial Python map().
+  RuntimeWarning
+Traceback (most recent call last):
+  File "./genoptesn.py", line 385, in <module>
+    main()
+  File "./genoptesn.py", line 374, in main
+    lambda_ = n_offsprings, cxpb=cxpb, mutpb=mutpb, ngen=ngen, stats=stats, verbose=True, halloffame=halloffame)
+  File "/usr/local/lib/python3.5/dist-packages/deap/algorithms.py", line 304, in eaMuPlusLambda
+    for ind, fit in zip(invalid_ind, fitnesses):
+  File "./genoptesn.py", line 268, in evaluate_ind
+    _, errors[i] = esnet.run_from_config(Xtr, Ytr, Xval, Yval, parameters, Yscaler)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 320, in run_from_config
+    embedding = embedding, n_dim = n_dim, embedding_parameters = embedding_parameters)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 60, in fit
+    _,_ = self._fit_transform(Xtr = Xtr, Ytr = Ytr, n_drop = n_drop, regression_method = regression_method, regression_parameters = regression_parameters, embedding = embedding, n_dim = n_dim, embedding_parameters = embedding_parameters)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 167, in _fit_transform
+    states, embedded_states,_ = self._compute_state_matrix(X = Xtr, Y = Ytr, n_drop = n_drop)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 257, in _compute_state_matrix
+    embedded_states = self._embedding_method.fit_transform(state_matrix)
+  File "/home/minh/PycharmProjects/MultivariateESN/bppca.py", line 22, in fit_transform
+    self.fit(*args, **kwargs)
+  File "/home/minh/PycharmProjects/MultivariateESN/bppca.py", line 19, in fit
+    self.fit_vb(*args, **kwargs)
+  File "/home/minh/PycharmProjects/MultivariateESN/bppca.py", line 53, in fit_vb
+    for i in range(maxit):
+TypeError: only integer scalar arrays can be converted to a scalar index
+[2018-05-11 17:59:27,455] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-11 17:59:27,455] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-11 17:59:27,455] launcher  INFO    Worker distribution: 
+[2018-05-11 17:59:27,455] launcher  INFO       127.0.0.1:	7 + origin
+[Errno 2] No such file or directory: './configs/esn/GEFC_bayeridge_bppca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/GEFC_bayeridge_bppca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/GEFC_bayeridge_bppca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/GEFC_bayeridge_bppca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/GEFC_bayeridge_bppca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/GEFC_bayeridge_bppca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/GEFC_bayeridge_bppca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/GEFC_bayeridge_bppca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[2018-05-11 17:59:27,995] launcher  (127.0.0.1:33259) INFO    Root process is done.
+[2018-05-11 17:59:27,995] launcher  (127.0.0.1:33259) INFO    Finished cleaning spawned subprocesses.

@@ -1,0 +1,81 @@
+[2018-05-15 00:56:28,777] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 00:56:28,777] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 00:56:28,777] launcher  INFO    Worker distribution: 
+[2018-05-15 00:56:28,777] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 00:56:29,233 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:56:29,234 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 00:56:29,234 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:56:29,234 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 00:56:29,234 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:56:29,235 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:56:29,235 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:56:29,235 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 00:56:29,236 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:56:29,238 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:56:29,239 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 00:56:29,240 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:56:29,240 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:56:29,241 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 00:56:29,241 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:56:29,244 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:56:29,245 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 00:56:29,245 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:56:29,248 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:56:29,248 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 00:56:29,249 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:56:29,258 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:56:29,259 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 00:56:29,259 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:56:29,335 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:56:29,335 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:56:29,335 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 00:56:29,335 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-05-15 00:56:29,336 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:56:29,336 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:56:29,373 root            INFO     Initializing genetic algorithm
+2018-05-15 00:56:29,373 root            INFO     Initializing genetic algorithm
+2018-05-15 00:56:29,375 root            INFO     Running GA optimization
+2018-05-15 00:56:29,375 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min    	max    
+0  	50    	0.878683	0.144216	0.63202	1.00179
+1  	21    	0.747034	0.114641	0.624887	1.00179
+2  	23    	0.645126	0.0189764	0.623044	0.694555
+3  	19    	0.627334	0.00481386	0.623044	0.642956
+4  	22    	0.623833	0.00142569	0.621406	0.629451
+5  	19    	0.622733	0.000420672	0.621406	0.623233
+6  	20    	0.622194	0.000475501	0.621406	0.623044
+7  	23    	0.621815	0.000350556	0.621406	0.622647
+8  	19    	0.621453	0.000112661	0.621318	0.621932
+9  	22    	0.621334	9.83538e-05	0.621003	0.621528
+10 	22    	0.621254	0.000109544	0.621003	0.621476
+11 	20    	0.621127	0.000122662	0.62081 	0.621378
+12 	19    	0.62101 	0.000146714	0.620616	0.621299
+13 	19    	0.620937	0.000167897	0.620616	0.621511
+14 	18    	0.620764	0.000149925	0.620616	0.621003
+15 	23    	0.620675	0.000118053	0.620616	0.621003
+16 	22    	0.620635	7.0579e-05 	0.620616	0.621009
+17 	18    	0.620616	1.11022e-16	0.620616	0.620616
+18 	26    	0.620628	8.95021e-05	0.620616	0.621255
+19 	21    	0.620629	9.59478e-05	0.620616	0.621301
+20 	20    	0.620616	1.11022e-16	0.620616	0.620616
+2018-05-15 00:58:44,479 root            INFO     Saving the best parameters
+2018-05-15 00:58:44,479 root            INFO     Saving the best parameters
+2018-05-15 00:58:44,479 root            INFO     Done
+2018-05-15 00:58:44,479 root            INFO     Done
+[2018-05-15 00:58:44,973] launcher  (127.0.0.1:39027) INFO    Root process is done.
+[2018-05-15 00:58:44,974] launcher  (127.0.0.1:39027) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 00:58:45,011] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 00:58:45,011] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 00:58:45,011] launcher  INFO    Worker distribution: 
+[2018-05-15 00:58:45,011] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.6006596  0.59952083 0.60075009 0.59868475 0.59969449 0.60160961
+ 0.59937332 0.59984959 0.59838871 0.59949969 0.59934896 0.60089404
+ 0.5994125  0.60020039 0.60028791 0.60072888 0.59994591 0.59977466
+ 0.60143645 0.6001165 ]
+Mean:
+0.6000088445068666
+Std:
+0.0008140960399747655
+[2018-05-15 00:58:52,607] launcher  (127.0.0.1:33805) INFO    Root process is done.
+[2018-05-15 00:58:52,607] launcher  (127.0.0.1:33805) INFO    Finished cleaning spawned subprocesses.

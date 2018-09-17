@@ -1,0 +1,81 @@
+[2018-08-22 19:52:20,509] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-22 19:52:20,509] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-22 19:52:20,509] launcher  INFO    Worker distribution: 
+[2018-08-22 19:52:20,509] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-22 19:52:20,927 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 19:52:20,927 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 19:52:20,927 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-08-22 19:52:20,927 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-08-22 19:52:20,927 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 19:52:20,927 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 19:52:20,928 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-08-22 19:52:20,928 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-08-22 19:52:20,928 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 19:52:20,928 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-08-22 19:52:20,929 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 19:52:20,929 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 19:52:20,929 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 19:52:20,929 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 19:52:20,929 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 19:52:20,933 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 19:52:20,933 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-08-22 19:52:20,934 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 19:52:20,936 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 19:52:20,937 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-08-22 19:52:20,937 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 19:52:20,941 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 19:52:20,941 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-08-22 19:52:20,942 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 19:52:21,062 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 19:52:21,062 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 19:52:21,062 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-08-22 19:52:21,062 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-08-22 19:52:21,063 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 19:52:21,063 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 19:52:21,121 root            INFO     Initializing genetic algorithm
+2018-08-22 19:52:21,121 root            INFO     Initializing genetic algorithm
+2018-08-22 19:52:21,123 root            INFO     Running GA optimization
+2018-08-22 19:52:21,123 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max     
+0  	50    	0.308692	0.255281	0.0179028	0.943396
+1  	19    	0.342321	0.246189	0.124905 	0.920513
+2  	25    	0.354715	0.259479	0.124905 	0.920513
+3  	22    	0.343818	0.265773	0.124905 	0.920513
+4  	22    	0.359611	0.285057	0.124905 	0.790281
+5  	23    	0.420215	0.319009	0.124905 	0.790281
+6  	24    	0.45758 	0.332668	0.124905 	0.790281
+7  	20    	0.457593	0.332688	0.124905 	0.790281
+8  	20    	0.457593	0.332688	0.124905 	0.790281
+9  	22    	0.457593	0.332688	0.124905 	0.790281
+10 	21    	0.457593	0.332688	0.124905 	0.790281
+11 	20    	0.457593	0.332688	0.124905 	0.790281
+12 	26    	0.457593	0.332688	0.124905 	0.790281
+13 	22    	0.457593	0.332688	0.124905 	0.790281
+14 	20    	0.457593	0.332688	0.124905 	0.790281
+15 	23    	0.457593	0.332688	0.124905 	0.790281
+16 	21    	0.457593	0.332688	0.124905 	0.790281
+17 	17    	0.457593	0.332688	0.124905 	0.790281
+18 	18    	0.457593	0.332688	0.124905 	0.790281
+19 	20    	0.457593	0.332688	0.124905 	0.790281
+20 	25    	0.457593	0.332688	0.124905 	0.790281
+2018-08-22 20:02:45,075 root            INFO     Saving the best parameters
+2018-08-22 20:02:45,075 root            INFO     Saving the best parameters
+2018-08-22 20:02:45,075 root            INFO     Done
+2018-08-22 20:02:45,075 root            INFO     Done
+[2018-08-22 20:02:45,504] launcher  (127.0.0.1:36905) INFO    Root process is done.
+[2018-08-22 20:02:45,504] launcher  (127.0.0.1:36905) INFO    Finished cleaning spawned subprocesses.
+[2018-08-22 20:02:45,541] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-22 20:02:45,541] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-22 20:02:45,541] launcher  INFO    Worker distribution: 
+[2018-08-22 20:02:45,541] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.15201462 0.16830924 0.15464083 0.17977507 0.16259652 0.15161944
+ 0.16056372 0.16410578 0.16718343 0.14472684 0.1567302  0.17269556
+ 0.15245179 0.17023259 0.16057412 0.15809109 0.16865884 0.16498277
+ 0.16396337 0.16489621]
+Mean:
+0.16194060135243904
+Std:
+0.008164849255865572
+[2018-08-22 20:03:03,830] launcher  (127.0.0.1:42459) INFO    Root process is done.
+[2018-08-22 20:03:03,830] launcher  (127.0.0.1:42459) INFO    Finished cleaning spawned subprocesses.

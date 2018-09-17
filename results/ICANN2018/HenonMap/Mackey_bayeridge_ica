@@ -1,0 +1,81 @@
+[2018-08-24 00:18:13,743] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 00:18:13,743] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 00:18:13,743] launcher  INFO    Worker distribution: 
+[2018-08-24 00:18:13,743] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-24 00:18:14,158 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 00:18:14,159 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 00:18:14,159 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 00:18:14,159 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-08-24 00:18:14,159 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-08-24 00:18:14,159 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-08-24 00:18:14,159 root            INFO     Loading data (./data/Mackey)
+2018-08-24 00:18:14,160 root            INFO     Loading data (./data/Mackey)
+2018-08-24 00:18:14,160 root            INFO     Loading data (./data/Mackey)
+2018-08-24 00:18:14,164 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 00:18:14,165 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-08-24 00:18:14,166 root            INFO     Loading data (./data/Mackey)
+2018-08-24 00:18:14,168 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 00:18:14,168 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 00:18:14,168 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-08-24 00:18:14,168 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-08-24 00:18:14,169 root            INFO     Loading data (./data/Mackey)
+2018-08-24 00:18:14,169 root            INFO     Loading data (./data/Mackey)
+2018-08-24 00:18:14,172 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 00:18:14,172 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-08-24 00:18:14,173 root            INFO     Loading data (./data/Mackey)
+2018-08-24 00:18:14,187 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 00:18:14,187 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-08-24 00:18:14,188 root            INFO     Loading data (./data/Mackey)
+2018-08-24 00:18:14,282 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 00:18:14,282 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 00:18:14,282 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-08-24 00:18:14,282 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-08-24 00:18:14,282 root            INFO     Loading data (./data/Mackey)
+2018-08-24 00:18:14,282 root            INFO     Loading data (./data/Mackey)
+2018-08-24 00:18:14,330 root            INFO     Initializing genetic algorithm
+2018-08-24 00:18:14,330 root            INFO     Initializing genetic algorithm
+2018-08-24 00:18:14,332 root            INFO     Running GA optimization
+2018-08-24 00:18:14,332 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min        	max    
+0  	50    	0.271541	0.338436	0.000214173	0.99635
+1  	25    	0.180367	0.251591	0.000214173	0.991071
+2  	19    	0.121368	0.22097 	0.000214173	0.991071
+3  	21    	0.0624302	0.135067	0.000198805	0.626984
+4  	17    	0.0287025	0.0654727	0.000179598	0.626984
+5  	24    	0.0183036	0.0200315	0.000179598	0.072   
+6  	17    	0.0176742	0.019655 	0.000173919	0.072   
+7  	22    	0.0196677	0.0240184	0.000170151	0.072   
+8  	19    	0.0112036	0.0178244	0.000165888	0.072   
+9  	18    	0.00980031	0.0163215	0.000160928	0.072   
+10 	20    	0.0110129 	0.0140751	0.000160628	0.031746
+11 	22    	0.00918825	0.0126645	0.000160628	0.031746
+12 	24    	0.0125108 	0.0146231	0.000155909	0.031746
+13 	22    	0.0147628 	0.0154515	0.000154244	0.031746
+14 	20    	0.0147608 	0.015453 	0.000154244	0.031746
+15 	17    	0.0157123 	0.0157351	0.000154244	0.031746
+16 	25    	0.0159501 	0.0157959	0.000153041	0.031746
+17 	22    	0.01595   	0.015796 	0.000152937	0.031746
+18 	25    	0.0159498 	0.0157962	0.000152937	0.031746
+19 	19    	0.0159496 	0.0157965	0.000152937	0.031746
+20 	15    	0.0159495 	0.0157965	0.000152937	0.031746
+2018-08-24 00:28:31,555 root            INFO     Saving the best parameters
+2018-08-24 00:28:31,555 root            INFO     Saving the best parameters
+2018-08-24 00:28:31,556 root            INFO     Done
+2018-08-24 00:28:31,556 root            INFO     Done
+[2018-08-24 00:28:31,986] launcher  (127.0.0.1:43241) INFO    Root process is done.
+[2018-08-24 00:28:31,986] launcher  (127.0.0.1:43241) INFO    Finished cleaning spawned subprocesses.
+[2018-08-24 00:28:32,023] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 00:28:32,023] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 00:28:32,023] launcher  INFO    Worker distribution: 
+[2018-08-24 00:28:32,023] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.00017321 0.00017673 0.00017326 0.00017355 0.00017735 0.00017885
+ 0.00018465 0.00017078 0.00017887 0.00017464 0.00017876 0.00017165
+ 0.00017637 0.00017965 0.00018259 0.00017667 0.0001766  0.00017533
+ 0.00017815 0.00018063]
+Mean:
+0.0001769148228100882
+Std:
+3.4489645690256215e-06
+[2018-08-24 00:28:37,314] launcher  (127.0.0.1:45651) INFO    Root process is done.
+[2018-08-24 00:28:37,314] launcher  (127.0.0.1:45651) INFO    Finished cleaning spawned subprocesses.

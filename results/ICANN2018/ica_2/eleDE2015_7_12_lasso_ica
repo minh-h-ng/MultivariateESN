@@ -1,0 +1,81 @@
+[2018-09-13 01:08:54,252] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-13 01:08:54,252] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-13 01:08:54,252] launcher  INFO    Worker distribution: 
+[2018-09-13 01:08:54,252] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-13 01:08:54,668 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 01:08:54,669 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-09-13 01:08:54,670 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 01:08:54,671 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-09-13 01:08:54,671 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-13 01:08:54,671 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-13 01:08:54,684 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 01:08:54,684 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-09-13 01:08:54,685 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-13 01:08:54,686 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 01:08:54,686 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-09-13 01:08:54,687 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-13 01:08:54,689 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 01:08:54,689 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-09-13 01:08:54,690 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-13 01:08:54,695 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 01:08:54,696 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-09-13 01:08:54,696 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-13 01:08:54,718 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 01:08:54,719 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-09-13 01:08:54,719 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-13 01:08:54,725 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 01:08:54,725 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-09-13 01:08:54,726 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-13 01:08:54,844 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 01:08:54,844 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 01:08:54,844 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-09-13 01:08:54,844 parameterhelper INFO     Config: ./configs/user/lasso_ica (overload)
+2018-09-13 01:08:54,845 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-13 01:08:54,845 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-13 01:08:54,908 root            INFO     Initializing genetic algorithm
+2018-09-13 01:08:54,908 root            INFO     Initializing genetic algorithm
+2018-09-13 01:08:54,909 root            INFO     Running GA optimization
+2018-09-13 01:08:54,909 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.719525	0.359712	0.0167598	1.07405
+1  	19    	0.599178	0.313088	0.032345 	1.07405
+2  	19    	0.538678	0.297073	0.0351759	1      
+3  	27    	0.568002	0.313629	0.107991 	0.966368
+4  	22    	0.575893	0.307938	0.153348 	0.922246
+5  	20    	0.535552	0.299024	0.153348 	0.923977
+6  	17    	0.54299 	0.310819	0.153348 	0.922246
+7  	23    	0.529942	0.352151	0.12311  	0.937365
+8  	24    	0.539567	0.36423 	0.175966 	0.937365
+9  	22    	0.534052	0.359263	0.175966 	0.937365
+10 	25    	0.536475	0.36155 	0.175808 	0.923077
+11 	20    	0.535615	0.361338	0.175808 	0.922246
+12 	21    	0.51537 	0.341573	0.175808 	0.922246
+13 	23    	0.503552	0.329214	0.175738 	0.922246
+14 	18    	0.503602	0.328185	0.175738 	0.838013
+15 	21    	0.504565	0.329042	0.175738 	0.838013
+16 	19    	0.50688 	0.331133	0.175738 	0.838013
+17 	17    	0.506926	0.33119 	0.175709 	0.839744
+18 	22    	0.507041	0.331318	0.17567  	0.839744
+19 	21    	0.507166	0.33147 	0.175636 	0.839744
+20 	22    	0.507064	0.331399	0.175636 	0.839744
+2018-09-13 04:05:03,412 root            INFO     Saving the best parameters
+2018-09-13 04:05:03,412 root            INFO     Saving the best parameters
+2018-09-13 04:05:03,413 root            INFO     Done
+2018-09-13 04:05:03,413 root            INFO     Done
+[2018-09-13 04:05:03,855] launcher  (127.0.0.1:41473) INFO    Root process is done.
+[2018-09-13 04:05:03,855] launcher  (127.0.0.1:41473) INFO    Finished cleaning spawned subprocesses.
+[2018-09-13 04:05:03,893] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-13 04:05:03,893] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-13 04:05:03,893] launcher  INFO    Worker distribution: 
+[2018-09-13 04:05:03,893] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.14560651 0.14560626 0.14560702 0.1456051  0.14560664 0.14560615
+ 0.14560565 0.14560681 0.14560591 0.14560623 0.14560603 0.14560706
+ 0.14560563 0.14560673 0.14560607 0.14560537 0.1456052  0.14560625
+ 0.1456057  0.14560623]
+Mean:
+0.14560612732023603
+Std:
+5.555266385783884e-07
+[2018-09-13 04:11:21,957] launcher  (127.0.0.1:38533) INFO    Root process is done.
+[2018-09-13 04:11:21,958] launcher  (127.0.0.1:38533) INFO    Finished cleaning spawned subprocesses.

@@ -5,7 +5,8 @@
 DATAFILE=$1
 OPTCONFIG=$2
 ESNCONFIG=$3
-RUNS=$4
+RECONSTRUCTCONFIG=$4
+RUNS=$5
 
 #DATAFILE=./data/NARMA
 #OPTCONFIG=ridge_identity
@@ -13,7 +14,9 @@ RUNS=$4
 #RUNS=30
 
 # Tune parameters. Note: the config file for the best parameters are saved at the location in $ESNCONFIG
-python -m scoop -n 8 ./genoptesn.py $DATAFILE $OPTCONFIG $ESNCONFIG --percent_dim
+python -m scoop -n 8 ./genoptesn.py $DATAFILE $OPTCONFIG $ESNCONFIG $RECONSTRUCTCONFIG --percent_dim
+#python ./genoptesn.py $DATAFILE $OPTCONFIG $ESNCONFIG $RECONSTRUCTCONFIG --percent_dim
 
 # Run experiments with these parameters
-python -m scoop -n 8 ./esn_experiment.py $DATAFILE $ESNCONFIG $RUNS
+python -m scoop -n 8 ./esn_experiment.py $DATAFILE $ESNCONFIG $RECONSTRUCTCONFIG $RUNS
+#python ./esn_experiment.py $DATAFILE $ESNCONFIG $RECONSTRUCTCONFIG $RUNS

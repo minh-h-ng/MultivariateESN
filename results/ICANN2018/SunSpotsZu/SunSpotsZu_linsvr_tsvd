@@ -1,0 +1,120 @@
+[2018-05-15 04:47:34,844] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 04:47:34,844] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 04:47:34,844] launcher  INFO    Worker distribution: 
+[2018-05-15 04:47:34,844] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 04:47:35,266 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:47:35,266 parameterhelper INFO     Config: ./configs/user/linsvr_tsvd (overload)
+2018-05-15 04:47:35,267 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:47:35,267 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:47:35,267 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:47:35,267 parameterhelper INFO     Config: ./configs/user/linsvr_tsvd (overload)
+2018-05-15 04:47:35,267 parameterhelper INFO     Config: ./configs/user/linsvr_tsvd (overload)
+2018-05-15 04:47:35,268 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:47:35,268 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:47:35,268 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:47:35,268 parameterhelper INFO     Config: ./configs/user/linsvr_tsvd (overload)
+2018-05-15 04:47:35,269 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:47:35,270 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:47:35,270 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:47:35,270 parameterhelper INFO     Config: ./configs/user/linsvr_tsvd (overload)
+2018-05-15 04:47:35,270 parameterhelper INFO     Config: ./configs/user/linsvr_tsvd (overload)
+2018-05-15 04:47:35,271 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:47:35,271 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:47:35,275 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:47:35,275 parameterhelper INFO     Config: ./configs/user/linsvr_tsvd (overload)
+2018-05-15 04:47:35,276 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:47:35,287 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:47:35,287 parameterhelper INFO     Config: ./configs/user/linsvr_tsvd (overload)
+2018-05-15 04:47:35,288 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:47:35,350 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:47:35,350 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:47:35,350 parameterhelper INFO     Config: ./configs/user/linsvr_tsvd (overload)
+2018-05-15 04:47:35,350 parameterhelper INFO     Config: ./configs/user/linsvr_tsvd (overload)
+2018-05-15 04:47:35,350 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:47:35,350 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:47:35,376 root            INFO     Initializing genetic algorithm
+2018-05-15 04:47:35,376 root            INFO     Initializing genetic algorithm
+2018-05-15 04:47:35,377 root            INFO     Running GA optimization
+2018-05-15 04:47:35,377 root            INFO     Running GA optimization
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 290, in run
+    futures_startup()
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 271, in futures_startup
+    run_name="__main__"
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 64, in _startup
+    result = _controller.switch(rootFuture, *args, **kargs)
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/_control.py", line 253, in runController
+    raise future.exceptionValue
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/_control.py", line 127, in runFuture
+    future.resultValue = future.callable(*future.args, **future.kargs)
+  File "/usr/lib/python3.5/runpy.py", line 254, in run_path
+    pkg_name=pkg_name, script_name=fname)
+  File "/usr/lib/python3.5/runpy.py", line 96, in _run_module_code
+    mod_name, mod_spec, pkg_name, script_name)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./genoptesn.py", line 391, in <module>
+    main()
+  File "./genoptesn.py", line 380, in main
+    lambda_ = n_offsprings, cxpb=cxpb, mutpb=mutpb, ngen=ngen, stats=stats, verbose=True, halloffame=halloffame)
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/deap/algorithms.py", line 304, in eaMuPlusLambda
+    for ind, fit in zip(invalid_ind, fitnesses):
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 102, in _mapGenerator
+    for future in _waitAll(*futures):
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 358, in _waitAll
+    for f in _waitAny(future):
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 321, in _waitAny
+    raise future.exceptionValue
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/_control.py", line 127, in runFuture
+    future.resultValue = future.callable(*future.args, **future.kargs)
+  File "./genoptesn.py", line 274, in evaluate_ind
+    _, errors[i] = esnet.run_from_config(Xtr, Ytr, Xval, Yval, parameters, Yscaler)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 363, in run_from_config
+    Yhat,error = esn.predict(Xte, Yte, scaler = scaler)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 222, in predict
+    Yhat, error, _, _ = self._predict_transform(X = X, Y = Y, n_drop = n_drop, error_function = error_function, scaler = scaler)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 228, in _predict_transform
+    states,embedded_states,Yhat = self._compute_state_matrix(X = X, n_drop = n_drop)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 291, in _compute_state_matrix
+    embedded_states[i - n_drop, :] = current_embedding.flatten()
+ValueError: could not broadcast input array from shape (174) into shape (175)
+[2018-05-15 04:48:03,101] launcher  (127.0.0.1:35449) INFO    Root process is done.
+[2018-05-15 04:48:03,101] launcher  (127.0.0.1:35449) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 04:48:03,139] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 04:48:03,139] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 04:48:03,139] launcher  INFO    Worker distribution: 
+[2018-05-15 04:48:03,139] launcher  INFO       127.0.0.1:	7 + origin
+[Errno 2] No such file or directory: './configs/esn/SunSpotsZu_linsvr_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SunSpotsZu_linsvr_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SunSpotsZu_linsvr_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SunSpotsZu_linsvr_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SunSpotsZu_linsvr_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SunSpotsZu_linsvr_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SunSpotsZu_linsvr_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SunSpotsZu_linsvr_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[2018-05-15 04:48:03,675] launcher  (127.0.0.1:41993) INFO    Root process is done.
+[2018-05-15 04:48:03,675] launcher  (127.0.0.1:41993) INFO    Finished cleaning spawned subprocesses.

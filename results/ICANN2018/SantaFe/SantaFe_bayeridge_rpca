@@ -1,0 +1,74 @@
+2018-05-12 17:21:34,815 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 17:21:34,815 parameterhelper INFO     Config: ./configs/user/bayeridge_rpca (overload)
+2018-05-12 17:21:34,816 root            INFO     Loading data (./data/SantaFe)
+2018-05-12 17:21:34,870 root            INFO     Initializing genetic algorithm
+2018-05-12 17:21:34,872 root            INFO     Running GA optimization
+/usr/local/lib/python3.5/dist-packages/scoop/fallbacks.py:46: RuntimeWarning: SCOOP was not started properly.
+Be sure to start your program with the '-m scoop' parameter. You can find further information in the documentation.
+Your map call has been replaced by the builtin serial Python map().
+  RuntimeWarning
+A: [[ 0.00406286 -0.00652011 -0.00596175 ...  0.00506812  0.00340118
+  -0.00374452]
+ [-0.00377976 -0.00438143 -0.00277103 ...  0.00568971  0.00100196
+   0.00035276]
+ [-0.00683225 -0.0049141  -0.00606934 ...  0.00789328 -0.00726957
+   0.00554633]
+ ...
+ [-0.01031576  0.01074196 -0.00147457 ...  0.003161    0.02968797
+   0.00963656]
+ [ 0.01005757  0.0074741   0.0017705  ... -0.01116779  0.02645741
+  -0.01551941]
+ [-0.00305201  0.02720662  0.0004614  ... -0.00140259 -0.00704246
+  -0.01690029]]
+Traceback (most recent call last):
+  File "./genoptesn.py", line 385, in <module>
+    main()
+  File "./genoptesn.py", line 374, in main
+    lambda_ = n_offsprings, cxpb=cxpb, mutpb=mutpb, ngen=ngen, stats=stats, verbose=True, halloffame=halloffame)
+  File "/usr/local/lib/python3.5/dist-packages/deap/algorithms.py", line 304, in eaMuPlusLambda
+    for ind, fit in zip(invalid_ind, fitnesses):
+  File "./genoptesn.py", line 268, in evaluate_ind
+    _, errors[i] = esnet.run_from_config(Xtr, Ytr, Xval, Yval, parameters, Yscaler)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 340, in run_from_config
+    embedding = embedding, n_dim = n_dim, embedding_parameters = embedding_parameters)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 68, in fit
+    _,_ = self._fit_transform(Xtr = Xtr, Ytr = Ytr, n_drop = n_drop, regression_method = regression_method, regression_parameters = regression_parameters, embedding = embedding, n_dim = n_dim, embedding_parameters = embedding_parameters)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 187, in _fit_transform
+    states, embedded_states,_ = self._compute_state_matrix(X = Xtr, Y = Ytr, n_drop = n_drop)
+  File "/home/minh/PycharmProjects/MultivariateESN/esnet.py", line 277, in _compute_state_matrix
+    embedded_states = self._embedding_method.fit_transform(state_matrix)
+  File "/home/minh/PycharmProjects/MultivariateESN/RobustPCA.py", line 162, in fit_transform
+    Z = self.__l1_prox(Xt - Y - W, self.alpha_ / rho)
+  File "/home/minh/PycharmProjects/MultivariateESN/RobustPCA.py", line 64, in __l1_prox
+    if (A[i]-r > 0):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+[2018-05-12 17:21:35,053] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-12 17:21:35,053] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-12 17:21:35,053] launcher  INFO    Worker distribution: 
+[2018-05-12 17:21:35,053] launcher  INFO       127.0.0.1:	7 + origin
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_rpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_rpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_rpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_rpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_rpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_rpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_rpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/SantaFe_bayeridge_rpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[2018-05-12 17:21:35,614] launcher  (127.0.0.1:37525) INFO    Root process is done.
+[2018-05-12 17:21:35,615] launcher  (127.0.0.1:37525) INFO    Finished cleaning spawned subprocesses.

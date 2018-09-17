@@ -1,0 +1,38 @@
+[2018-05-14 23:50:02,975] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-14 23:50:02,975] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-14 23:50:02,975] launcher  INFO    Worker distribution: 
+[2018-05-14 23:50:02,975] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-14 23:50:03,398 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:50:03,398 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:50:03,398 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-14 23:50:03,398 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-14 23:50:03,399 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:50:03,399 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:50:03,402 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:50:03,403 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-14 23:50:03,403 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:50:03,403 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:50:03,404 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-14 23:50:03,403 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:50:03,404 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-14 23:50:03,404 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:50:03,405 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:50:03,407 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:50:03,407 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-14 23:50:03,408 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:50:03,408 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:50:03,409 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-14 23:50:03,409 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:50:03,419 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:50:03,420 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-14 23:50:03,420 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:50:03,448 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:50:03,448 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:50:03,448 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-14 23:50:03,448 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-14 23:50:03,449 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:50:03,449 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:50:03,462 root            INFO     Initializing genetic algorithm
+2018-05-14 23:50:03,462 root            INFO     Initializing genetic algorithm
+2018-05-14 23:50:03,464 root            INFO     Running GA optimization
+2018-05-14 23:50:03,464 root            INFO     Running GA optimization

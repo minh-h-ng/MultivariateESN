@@ -1,0 +1,85 @@
+[2018-05-01 03:52:18,172] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-01 03:52:18,172] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-01 03:52:18,172] launcher  INFO    Worker distribution: 
+[2018-05-01 03:52:18,172] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-01 03:52:18,586 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 03:52:18,586 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 03:52:18,586 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-01 03:52:18,586 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-01 03:52:18,587 root            INFO     Loading data (./data/GEFC)
+2018-05-01 03:52:18,587 root            INFO     Loading data (./data/GEFC)
+2018-05-01 03:52:18,589 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 03:52:18,589 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 03:52:18,590 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-01 03:52:18,591 root            INFO     Loading data (./data/GEFC)
+2018-05-01 03:52:18,591 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-01 03:52:18,591 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 03:52:18,591 root            INFO     Loading data (./data/GEFC)
+2018-05-01 03:52:18,592 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-01 03:52:18,592 root            INFO     Loading data (./data/GEFC)
+2018-05-01 03:52:18,594 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 03:52:18,594 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-01 03:52:18,595 root            INFO     Loading data (./data/GEFC)
+2018-05-01 03:52:18,597 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 03:52:18,597 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-01 03:52:18,598 root            INFO     Loading data (./data/GEFC)
+2018-05-01 03:52:18,601 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 03:52:18,601 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-01 03:52:18,602 root            INFO     Loading data (./data/GEFC)
+2018-05-01 03:52:18,784 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 03:52:18,784 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-01 03:52:18,784 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-01 03:52:18,784 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-01 03:52:18,785 root            INFO     Loading data (./data/GEFC)
+2018-05-01 03:52:18,785 root            INFO     Loading data (./data/GEFC)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-05-01 03:52:18,879 root            INFO     Initializing genetic algorithm
+2018-05-01 03:52:18,879 root            INFO     Initializing genetic algorithm
+2018-05-01 03:52:18,881 root            INFO     Running GA optimization
+2018-05-01 03:52:18,881 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max   
+0  	50    	0.345561	0.259061	0.0403226	0.9875
+1  	23    	0.295037	0.208251	0.0403226	0.9875
+2  	21    	0.335858	0.182594	0.118012 	0.754545
+3  	20    	0.314051	0.139342	0.181218 	0.754545
+4  	23    	0.301968	0.1203  	0.181218 	0.493421
+5  	25    	0.300007	0.118831	0.178265 	0.418838
+6  	21    	0.299779	0.119062	0.178265 	0.418838
+7  	21    	0.299289	0.119553	0.178265 	0.418838
+8  	25    	0.29878 	0.120061	0.17645  	0.418838
+9  	24    	0.298421	0.120418	0.176196 	0.418838
+10 	24    	0.298117	0.120723	0.176196 	0.418838
+11 	22    	0.297877	0.120967	0.176196 	0.418838
+12 	21    	0.297669	0.121178	0.176196 	0.418838
+13 	15    	0.297517	0.121321	0.176196 	0.418838
+14 	18    	0.297517	0.121321	0.176196 	0.418838
+15 	20    	0.297517	0.121321	0.176196 	0.418838
+16 	23    	0.297517	0.121321	0.176196 	0.418838
+17 	20    	0.297517	0.121321	0.176196 	0.418838
+18 	18    	0.297517	0.121321	0.176196 	0.418838
+19 	19    	0.297517	0.121321	0.176196 	0.418838
+20 	22    	0.297517	0.121321	0.176196 	0.418838
+2018-05-01 04:10:14,323 root            INFO     Saving the best parameters
+2018-05-01 04:10:14,323 root            INFO     Saving the best parameters
+2018-05-01 04:10:14,323 root            INFO     Done
+2018-05-01 04:10:14,323 root            INFO     Done
+[2018-05-01 04:10:14,751] launcher  (127.0.0.1:43061) INFO    Root process is done.
+[2018-05-01 04:10:14,752] launcher  (127.0.0.1:43061) INFO    Finished cleaning spawned subprocesses.
+[2018-05-01 04:10:14,789] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-01 04:10:14,789] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-01 04:10:14,789] launcher  INFO    Worker distribution: 
+[2018-05-01 04:10:14,789] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.18242122 0.1797049  0.16440004 0.17449838 0.17414285 0.17097456
+ 0.17572803 0.18079763 0.17905507 0.18640017 0.18368413 0.17663871
+ 0.18344102 0.17512787 0.18776836 0.16845446 0.17257304 0.16525833
+ 0.17345561 0.15872301]
+Mean:
+0.17566236988668435
+Std:
+0.00742257791873407
+[2018-05-01 04:10:51,676] launcher  (127.0.0.1:42261) INFO    Root process is done.
+[2018-05-01 04:10:51,676] launcher  (127.0.0.1:42261) INFO    Finished cleaning spawned subprocesses.

@@ -1,0 +1,81 @@
+[2018-08-23 02:11:41,818] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 02:11:41,818] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 02:11:41,818] launcher  INFO    Worker distribution: 
+[2018-08-23 02:11:41,818] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 02:11:42,238 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 02:11:42,238 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 02:11:42,239 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-08-23 02:11:42,239 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 02:11:42,240 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 02:11:42,240 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 02:11:42,240 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-08-23 02:11:42,240 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-08-23 02:11:42,240 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 02:11:42,241 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 02:11:42,241 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-08-23 02:11:42,241 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 02:11:42,241 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 02:11:42,241 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-08-23 02:11:42,242 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 02:11:42,242 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 02:11:42,243 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 02:11:42,243 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 02:11:42,243 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-08-23 02:11:42,243 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-08-23 02:11:42,244 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 02:11:42,244 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 02:11:42,247 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-08-23 02:11:42,247 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 02:11:42,375 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 02:11:42,375 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 02:11:42,375 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-08-23 02:11:42,375 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-08-23 02:11:42,375 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 02:11:42,375 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 02:11:42,434 root            INFO     Initializing genetic algorithm
+2018-08-23 02:11:42,434 root            INFO     Initializing genetic algorithm
+2018-08-23 02:11:42,436 root            INFO     Running GA optimization
+2018-08-23 02:11:42,436 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max     
+0  	50    	0.310487	0.253836	0.00862069	0.996942
+1  	22    	0.379432	0.302452	0.0837209 	0.97593 
+2  	24    	0.389055	0.287804	0.124919  	0.97593 
+3  	20    	0.312185	0.195945	0.122245  	0.651852
+4  	23    	0.303684	0.183604	0.122245  	0.638132
+5  	19    	0.296639	0.177786	0.119221  	0.636656
+6  	22    	0.285583	0.166632	0.119033  	0.518421
+7  	24    	0.293681	0.175063	0.118008  	0.476695
+8  	21    	0.297675	0.17902 	0.117664  	0.476695
+9  	22    	0.297423	0.179268	0.117664  	0.476695
+10 	21    	0.297246	0.179449	0.117196  	0.476695
+11 	20    	0.297169	0.179526	0.117196  	0.476695
+12 	24    	0.297109	0.179586	0.117196  	0.476695
+13 	23    	0.297061	0.179618	0.117196  	0.476695
+14 	17    	0.296967	0.179728	0.117196  	0.476695
+15 	20    	0.296946	0.179749	0.117196  	0.476695
+16 	18    	0.296946	0.179749	0.117196  	0.476695
+17 	24    	0.29696 	0.179735	0.117196  	0.476695
+18 	22    	0.296946	0.179749	0.117196  	0.476695
+19 	23    	0.296956	0.179739	0.117196  	0.476695
+20 	20    	0.29696 	0.179735	0.117196  	0.476695
+2018-08-23 03:33:42,597 root            INFO     Saving the best parameters
+2018-08-23 03:33:42,597 root            INFO     Saving the best parameters
+2018-08-23 03:33:42,597 root            INFO     Done
+2018-08-23 03:33:42,597 root            INFO     Done
+[2018-08-23 03:33:43,029] launcher  (127.0.0.1:38495) INFO    Root process is done.
+[2018-08-23 03:33:43,029] launcher  (127.0.0.1:38495) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 03:33:43,066] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 03:33:43,066] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 03:33:43,067] launcher  INFO    Worker distribution: 
+[2018-08-23 03:33:43,067] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.14080274 0.14413815 0.14679774 0.14305368 0.14645576 0.14866048
+ 0.15221743 0.14638036 0.14836312 0.1456804  0.1442507  0.14664019
+ 0.14821839 0.15143614 0.14511838 0.14376499 0.1516495  0.14491738
+ 0.15001381 0.1476615 ]
+Mean:
+0.14681104116069849
+Std:
+0.002950324074018987
+[2018-08-23 03:35:17,515] launcher  (127.0.0.1:37165) INFO    Root process is done.
+[2018-08-23 03:35:17,516] launcher  (127.0.0.1:37165) INFO    Finished cleaning spawned subprocesses.

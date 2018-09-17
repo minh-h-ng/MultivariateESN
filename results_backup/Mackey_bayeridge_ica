@@ -1,0 +1,457 @@
+[2018-05-12 22:27:56,588] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-12 22:27:56,588] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-12 22:27:56,588] launcher  INFO    Worker distribution: 
+[2018-05-12 22:27:56,588] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-12 22:27:57,009 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 22:27:57,010 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-12 22:27:57,011 root            INFO     Loading data (./data/Mackey)
+2018-05-12 22:27:57,016 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 22:27:57,016 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-12 22:27:57,017 root            INFO     Loading data (./data/Mackey)
+2018-05-12 22:27:57,025 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 22:27:57,025 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-12 22:27:57,026 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 22:27:57,026 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-12 22:27:57,026 root            INFO     Loading data (./data/Mackey)
+2018-05-12 22:27:57,027 root            INFO     Loading data (./data/Mackey)
+2018-05-12 22:27:57,050 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 22:27:57,050 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-12 22:27:57,051 root            INFO     Loading data (./data/Mackey)
+2018-05-12 22:27:57,137 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 22:27:57,137 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-12 22:27:57,138 root            INFO     Loading data (./data/Mackey)
+2018-05-12 22:27:57,167 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 22:27:57,167 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-12 22:27:57,168 root            INFO     Loading data (./data/Mackey)
+2018-05-12 22:27:57,184 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 22:27:57,184 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-12 22:27:57,185 root            INFO     Loading data (./data/Mackey)
+2018-05-12 22:27:57,220 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 22:27:57,220 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 22:27:57,220 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-12 22:27:57,220 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-12 22:27:57,221 root            INFO     Loading data (./data/Mackey)
+2018-05-12 22:27:57,221 root            INFO     Loading data (./data/Mackey)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-05-12 22:27:57,277 root            INFO     Initializing genetic algorithm
+2018-05-12 22:27:57,277 root            INFO     Initializing genetic algorithm
+2018-05-12 22:27:57,278 root            INFO     Running GA optimization
+2018-05-12 22:27:57,278 root            INFO     Running GA optimization
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+gen	nevals	avg     	std     	min        	max     
+0  	50    	0.256281	0.314547	0.000370327	0.947075
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+1  	21    	0.20778 	0.295101	0.000370327	0.937931
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+2  	20    	0.0924108	0.206406	0.00034575 	0.937931
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+3  	18    	0.0212089	0.0222018	0.000283066	0.0550162
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+4  	20    	0.0203178	0.0208373	0.000204578	0.0553633
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+5  	23    	0.0169743	0.0186915	0.000204578	0.0553633
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+6  	20    	0.0157449	0.0179562	0.000187722	0.0415225
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+7  	19    	0.0162049	0.0192973	0.000187722	0.0415225
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+8  	22    	0.00770293	0.0136429	0.000186146	0.0415225
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+9  	21    	0.00234182	0.00452879	0.000183967	0.0415225
+10 	21    	0.0018213 	0.00163608	0.000183967	0.00346021
+11 	20    	0.00182145	0.00163664	0.000183967	0.00346021
+12 	23    	0.00182226	0.00163795	0.000183967	0.00346021
+13 	19    	0.00182215	0.00163806	0.000183967	0.00346021
+14 	24    	0.0018221 	0.00163811	0.000183967	0.00346021
+15 	23    	0.0018221 	0.0016381 	0.000183967	0.00346021
+16 	24    	0.00182209	0.00163812	0.000183967	0.00346021
+17 	23    	0.00182209	0.00163812	0.000183967	0.00346021
+18 	22    	0.00182209	0.00163812	0.000183967	0.00346021
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/decomposition/fastica_.py:118: UserWarning: FastICA did not converge. Consider increasing tolerance or the maximum number of iterations.
+  warnings.warn('FastICA did not converge. Consider increasing '
+19 	16    	0.00182209	0.00163812	0.000183967	0.00346021
+20 	24    	0.00182209	0.00163812	0.000183967	0.00346021
+2018-05-12 23:23:34,271 root            INFO     Saving the best parameters
+2018-05-12 23:23:34,271 root            INFO     Saving the best parameters
+2018-05-12 23:23:34,271 root            INFO     Done
+2018-05-12 23:23:34,271 root            INFO     Done
+[2018-05-12 23:23:34,691] launcher  (127.0.0.1:38379) INFO    Root process is done.
+[2018-05-12 23:23:34,691] launcher  (127.0.0.1:38379) INFO    Finished cleaning spawned subprocesses.
+[2018-05-12 23:23:34,730] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-12 23:23:34,730] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-12 23:23:34,730] launcher  INFO    Worker distribution: 
+[2018-05-12 23:23:34,730] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.0001961  0.00019729 0.000195   0.00019625 0.00019703 0.00019619
+ 0.00019739 0.00019476 0.00019923 0.0001992  0.00019608 0.0001946
+ 0.00019809 0.00019473 0.00019561 0.00019691 0.00019478 0.00019634
+ 0.00019314 0.00019616]
+Mean:
+0.0001962447323914318
+Std:
+1.5087472656024343e-06
+[2018-05-12 23:23:47,977] launcher  (127.0.0.1:33145) INFO    Root process is done.
+[2018-05-12 23:23:47,977] launcher  (127.0.0.1:33145) INFO    Finished cleaning spawned subprocesses.

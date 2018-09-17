@@ -1,0 +1,20 @@
+{
+    "embedding": "ica",
+    "input_shift": 0.0,
+    "teacher_shift": 0.0,
+    "connectivity": 0.25,
+    "regression_method": "linsvr",
+    "noise_level": 0.008059867293423317,
+    "embedding_parameters": null,
+    "spectral_radius": 0.5786342300187941,
+    "n_drop": 100,
+    "n_internal_units": 323,
+    "feedback_scaling": 0.0,
+    "input_scaling": 0.18067995930297798,
+    "teacher_scaling": 0.5195690923343431,
+    "regression_parameters": [
+        6.339475159967187,
+        0.01567135404400725
+    ],
+    "n_dim": 94
+}

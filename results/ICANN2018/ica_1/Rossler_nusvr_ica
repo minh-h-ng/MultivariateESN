@@ -1,0 +1,81 @@
+[2018-08-25 04:01:20,729] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-25 04:01:20,729] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-25 04:01:20,729] launcher  INFO    Worker distribution: 
+[2018-08-25 04:01:20,729] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-25 04:01:21,149 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 04:01:21,149 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 04:01:21,149 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 04:01:21,149 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 04:01:21,150 root            INFO     Loading data (./data/Rossler)
+2018-08-25 04:01:21,150 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 04:01:21,150 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 04:01:21,150 root            INFO     Loading data (./data/Rossler)
+2018-08-25 04:01:21,150 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 04:01:21,150 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 04:01:21,151 root            INFO     Loading data (./data/Rossler)
+2018-08-25 04:01:21,151 root            INFO     Loading data (./data/Rossler)
+2018-08-25 04:01:21,152 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 04:01:21,153 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 04:01:21,153 root            INFO     Loading data (./data/Rossler)
+2018-08-25 04:01:21,154 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 04:01:21,155 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 04:01:21,155 root            INFO     Loading data (./data/Rossler)
+2018-08-25 04:01:21,159 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 04:01:21,160 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 04:01:21,161 root            INFO     Loading data (./data/Rossler)
+2018-08-25 04:01:21,165 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 04:01:21,165 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 04:01:21,166 root            INFO     Loading data (./data/Rossler)
+2018-08-25 04:01:21,334 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 04:01:21,334 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 04:01:21,334 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 04:01:21,334 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 04:01:21,335 root            INFO     Loading data (./data/Rossler)
+2018-08-25 04:01:21,335 root            INFO     Loading data (./data/Rossler)
+2018-08-25 04:01:21,419 root            INFO     Initializing genetic algorithm
+2018-08-25 04:01:21,419 root            INFO     Initializing genetic algorithm
+2018-08-25 04:01:21,420 root            INFO     Running GA optimization
+2018-08-25 04:01:21,420 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min        	max    
+0  	50    	0.340971	0.354977	0.000665534	1.35917
+1  	25    	0.205227	0.294642	0.000665534	0.979058
+2  	20    	0.105654	0.196835	0.000526714	0.810219
+3  	18    	0.0188428	0.0369844	0.000526714	0.175182
+4  	19    	0.00783579	0.00753778	0.000452922	0.0188679
+5  	24    	0.0078035 	0.00756869	0.000429052	0.0188679
+6  	22    	0.00860007	0.00838752	0.000429052	0.0188679
+7  	23    	0.00876205	0.00854053	0.000429052	0.0188679
+8  	22    	0.00923795	0.00892407	0.00041189 	0.0188679
+9  	18    	0.0096479 	0.00922003	0.00041189 	0.0188679
+10 	19    	0.0096462 	0.00922172	0.00041189 	0.0188679
+11 	24    	0.00964509	0.00922284	0.00041189 	0.0188679
+12 	25    	0.00964255	0.00922538	0.00041189 	0.0188679
+13 	20    	0.0096402 	0.00922772	0.00041189 	0.0188679
+14 	16    	0.00964005	0.00922787	0.00041189 	0.0188679
+15 	22    	0.00963991	0.00922802	0.00041189 	0.0188679
+16 	23    	0.00963991	0.00922802	0.00041189 	0.0188679
+17 	19    	0.00963991	0.00922802	0.00041189 	0.0188679
+18 	23    	0.00964062	0.00922731	0.00041189 	0.0188679
+19 	18    	0.0096404 	0.00922752	0.00041189 	0.0188679
+20 	18    	0.00963991	0.00922802	0.00041189 	0.0188679
+2018-08-25 04:22:55,675 root            INFO     Saving the best parameters
+2018-08-25 04:22:55,675 root            INFO     Saving the best parameters
+2018-08-25 04:22:55,675 root            INFO     Done
+2018-08-25 04:22:55,675 root            INFO     Done
+[2018-08-25 04:22:56,107] launcher  (127.0.0.1:38425) INFO    Root process is done.
+[2018-08-25 04:22:56,107] launcher  (127.0.0.1:38425) INFO    Finished cleaning spawned subprocesses.
+[2018-08-25 04:22:56,144] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-25 04:22:56,144] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-25 04:22:56,144] launcher  INFO    Worker distribution: 
+[2018-08-25 04:22:56,144] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.000595   0.00052212 0.00064456 0.00039061 0.000464   0.00060183
+ 0.00062675 0.00036401 0.00054284 0.00056779 0.0005721  0.00044069
+ 0.00064455 0.00045427 0.00052001 0.00061187 0.00040365 0.00057078
+ 0.00051804 0.00061059]
+Mean:
+0.0005333024313017418
+Std:
+8.494640058472816e-05
+[2018-08-25 04:23:22,902] launcher  (127.0.0.1:32819) INFO    Root process is done.
+[2018-08-25 04:23:22,903] launcher  (127.0.0.1:32819) INFO    Finished cleaning spawned subprocesses.

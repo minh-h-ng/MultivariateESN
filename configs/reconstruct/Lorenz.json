@@ -1,0 +1,8 @@
+{
+  "reconstruct_dim_x": 10,
+  "reconstruct_delay_x": 1,
+  "reconstruct_dim_y": 10,
+  "reconstruct_delay_y": 1,
+  "reconstruct_dim_z": 10,
+  "reconstruct_delay_z": 1
+}

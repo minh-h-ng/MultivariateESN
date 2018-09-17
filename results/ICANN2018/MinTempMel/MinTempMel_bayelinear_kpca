@@ -1,0 +1,81 @@
+[2018-05-15 19:10:59,187] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 19:10:59,187] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 19:10:59,187] launcher  INFO    Worker distribution: 
+[2018-05-15 19:10:59,187] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 19:10:59,609 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:10:59,609 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-05-15 19:10:59,609 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:10:59,609 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-05-15 19:10:59,610 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:10:59,610 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:10:59,612 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:10:59,613 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-05-15 19:10:59,613 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:10:59,613 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:10:59,614 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-05-15 19:10:59,614 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:10:59,617 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:10:59,617 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-05-15 19:10:59,618 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:10:59,624 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:10:59,625 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-05-15 19:10:59,625 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:10:59,628 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:10:59,628 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-05-15 19:10:59,629 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:10:59,633 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:10:59,633 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-05-15 19:10:59,634 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:10:59,703 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:10:59,703 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:10:59,704 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-05-15 19:10:59,704 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-05-15 19:10:59,704 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:10:59,704 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:10:59,739 root            INFO     Initializing genetic algorithm
+2018-05-15 19:10:59,739 root            INFO     Initializing genetic algorithm
+2018-05-15 19:10:59,740 root            INFO     Running GA optimization
+2018-05-15 19:10:59,740 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max
+0  	50    	0.604646	0.201407	0.0193705	1  
+1  	19    	0.552715	0.278655	0.0193705	1  
+2  	20    	0.489817	0.294511	0.0193705	0.981595
+3  	22    	0.442663	0.252842	0.00242131	0.940265
+4  	26    	0.413233	0.23994 	0.0193705 	0.622552
+5  	24    	0.41627 	0.239605	0.00280899	0.622119
+6  	18    	0.375667	0.269092	0.00280899	0.622017
+7  	26    	0.335832	0.288851	0.00280899	0.621847
+8  	18    	0.329891	0.292404	0.00280899	0.621693
+9  	15    	0.330441	0.291762	0.00280899	0.621629
+10 	19    	0.339264	0.282413	0.00280899	0.621609
+11 	23    	0.341627	0.279829	0.0617978 	0.621721
+12 	17    	0.341617	0.27982 	0.0617978 	0.621445
+13 	23    	0.34161 	0.279813	0.0617978 	0.621445
+14 	24    	0.341603	0.279777	0.0617978 	0.621445
+15 	23    	0.34155 	0.279752	0.0617978 	0.621445
+16 	19    	0.341512	0.279714	0.0617978 	0.621332
+17 	16    	0.34149 	0.279693	0.0617978 	0.621278
+18 	18    	0.341482	0.279684	0.0617978 	0.621176
+19 	21    	0.341465	0.279667	0.0617978 	0.621176
+20 	23    	0.34143 	0.279632	0.0617978 	0.621431
+2018-05-15 19:27:35,121 root            INFO     Saving the best parameters
+2018-05-15 19:27:35,121 root            INFO     Saving the best parameters
+2018-05-15 19:27:35,121 root            INFO     Done
+2018-05-15 19:27:35,121 root            INFO     Done
+[2018-05-15 19:27:35,616] launcher  (127.0.0.1:37321) INFO    Root process is done.
+[2018-05-15 19:27:35,616] launcher  (127.0.0.1:37321) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 19:27:35,653] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 19:27:35,653] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 19:27:35,653] launcher  INFO    Worker distribution: 
+[2018-05-15 19:27:35,653] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.60134012 0.60122374 0.6014849  0.600596   0.60123126 0.60104757
+ 0.60127725 0.60114993 0.60189275 0.60128812 0.60088171 0.60090105
+ 0.60119017 0.60105641 0.60169231 0.60147925 0.6010566  0.60104396
+ 0.60168052 0.6015842 ]
+Mean:
+0.6012548898203163
+Std:
+0.0003067110530703746
+[2018-05-15 19:28:10,142] launcher  (127.0.0.1:43161) INFO    Root process is done.
+[2018-05-15 19:28:10,142] launcher  (127.0.0.1:43161) INFO    Finished cleaning spawned subprocesses.

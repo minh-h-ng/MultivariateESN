@@ -1,0 +1,38 @@
+[2018-05-15 00:25:41,208] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 00:25:41,208] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 00:25:41,208] launcher  INFO    Worker distribution: 
+[2018-05-15 00:25:41,208] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 00:25:41,627 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:25:41,627 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-15 00:25:41,628 root            INFO     Loading data (./data/TempMontreal)
+2018-05-15 00:25:41,632 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:25:41,632 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:25:41,632 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:25:41,633 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-15 00:25:41,633 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-15 00:25:41,633 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-15 00:25:41,633 root            INFO     Loading data (./data/TempMontreal)
+2018-05-15 00:25:41,633 root            INFO     Loading data (./data/TempMontreal)
+2018-05-15 00:25:41,633 root            INFO     Loading data (./data/TempMontreal)
+2018-05-15 00:25:41,640 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:25:41,641 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-15 00:25:41,641 root            INFO     Loading data (./data/TempMontreal)
+2018-05-15 00:25:41,642 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:25:41,642 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-15 00:25:41,643 root            INFO     Loading data (./data/TempMontreal)
+2018-05-15 00:25:41,645 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:25:41,645 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-15 00:25:41,646 root            INFO     Loading data (./data/TempMontreal)
+2018-05-15 00:25:41,670 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:25:41,670 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-15 00:25:41,671 root            INFO     Loading data (./data/TempMontreal)
+2018-05-15 00:25:41,814 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:25:41,814 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:25:41,814 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-15 00:25:41,814 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-05-15 00:25:41,815 root            INFO     Loading data (./data/TempMontreal)
+2018-05-15 00:25:41,815 root            INFO     Loading data (./data/TempMontreal)
+2018-05-15 00:25:41,900 root            INFO     Initializing genetic algorithm
+2018-05-15 00:25:41,900 root            INFO     Initializing genetic algorithm
+2018-05-15 00:25:41,901 root            INFO     Running GA optimization
+2018-05-15 00:25:41,901 root            INFO     Running GA optimization

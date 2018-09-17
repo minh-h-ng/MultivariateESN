@@ -4,19 +4,47 @@
       "lasso": "regularization",
       "ridge": "regularization",
       "enet": ["regularization", "l1_ratio"],
-      "nusvr": ["C", "nu", "svrgamma"]
+      "linsvr": ["C", "epsilon"],
+      "nusvr": ["C", "nu", "svrgamma"],
+      "bayeridge": ["lambda_1", "lambda_2", "alpha_1", "alpha_2"],
+      "gpr": null,
+      "rvr": null,
+      "ransac": null,
+      "bayelinear": null
     },
 
     "n_dim": {
       "identity": null,
       "pca": "n_dim",
-      "kpca": "n_dim"
+      "kpca": "n_dim",
+      "spca": "n_dim",
+      "ipca": "n_dim",
+      "tsvd": "n_dim",
+      "wpca": "n_dim",
+      "empca": "n_dim",
+      "tga": "n_dim",
+      "rpca": "n_dim",
+      "fa": "n_dim",
+      "mds": "n_dim",
+      "ica": "n_dim",
+      "autoencoder": null
     },
 
     "embedding_parameters": {
       "identity": null,
       "pca": null,
-      "kpca": "kpcagamma"
+      "kpca": "kpcagamma",
+      "spca": "spcaalpha",
+      "ipca": null,
+      "tsvd": null,
+      "wpca": null,
+      "empca": null,
+      "tga": null,
+      "rpca": null,
+      "fa": null,
+      "mds": null,
+      "ica": null,
+      "autoencoder": null
     },
 
     "regression_method": "regression_method",

@@ -1,0 +1,81 @@
+[2018-08-24 06:24:34,646] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 06:24:34,646] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 06:24:34,646] launcher  INFO    Worker distribution: 
+[2018-08-24 06:24:34,646] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-24 06:24:35,061 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 06:24:35,062 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-24 06:24:35,063 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 06:24:35,063 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 06:24:35,064 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-24 06:24:35,064 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 06:24:35,065 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 06:24:35,065 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 06:24:35,065 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-24 06:24:35,065 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-24 06:24:35,066 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 06:24:35,066 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 06:24:35,068 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 06:24:35,069 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-24 06:24:35,069 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 06:24:35,072 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 06:24:35,073 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-24 06:24:35,073 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 06:24:35,075 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 06:24:35,076 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-24 06:24:35,077 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 06:24:35,079 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 06:24:35,080 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-24 06:24:35,081 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 06:24:35,221 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 06:24:35,221 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 06:24:35,221 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-24 06:24:35,221 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-24 06:24:35,222 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 06:24:35,222 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 06:24:35,287 root            INFO     Initializing genetic algorithm
+2018-08-24 06:24:35,287 root            INFO     Initializing genetic algorithm
+2018-08-24 06:24:35,289 root            INFO     Running GA optimization
+2018-08-24 06:24:35,289 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min        	max     
+0  	50    	0.242143	0.299275	0.000376722	0.997669
+1  	18    	0.204406	0.261054	0.000376722	0.725857
+2  	18    	0.188532	0.247251	0.000307058	0.680769
+3  	21    	0.170096	0.234114	0.000294222	0.679707
+4  	19    	0.0915384	0.145142	0.000294222	0.594306
+5  	21    	0.0546794	0.0643495	0.000294222	0.443787
+6  	22    	0.0579557	0.0834215	0.000273336	0.443787
+7  	22    	0.0706929	0.118714 	0.000266929	0.443787
+8  	21    	0.0998376	0.164715 	0.000245665	0.443787
+9  	22    	0.135208 	0.186655 	0.000234877	0.449541
+10 	18    	0.150696 	0.195215 	0.000234877	0.443787
+11 	22    	0.196856 	0.219113 	0.000234877	0.443787
+12 	22    	0.222005 	0.221768 	0.000234877	0.443787
+13 	20    	0.222011 	0.221776 	0.000234877	0.443787
+14 	23    	0.221715 	0.221499 	0.000233693	0.443787
+15 	19    	0.222011 	0.221776 	0.000233693	0.443787
+16 	16    	0.222011 	0.221776 	0.000233693	0.443787
+17 	19    	0.222011 	0.221776 	0.000233693	0.443787
+18 	22    	0.22201  	0.221777 	0.000233693	0.443787
+19 	19    	0.22201  	0.221777 	0.000233693	0.443787
+20 	24    	0.22201  	0.221777 	0.000233693	0.443787
+2018-08-24 07:11:06,238 root            INFO     Saving the best parameters
+2018-08-24 07:11:06,238 root            INFO     Saving the best parameters
+2018-08-24 07:11:06,239 root            INFO     Done
+2018-08-24 07:11:06,239 root            INFO     Done
+[2018-08-24 07:11:06,672] launcher  (127.0.0.1:39955) INFO    Root process is done.
+[2018-08-24 07:11:06,673] launcher  (127.0.0.1:39955) INFO    Finished cleaning spawned subprocesses.
+[2018-08-24 07:11:06,709] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 07:11:06,710] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 07:11:06,710] launcher  INFO    Worker distribution: 
+[2018-08-24 07:11:06,710] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.00021706 0.00025303 0.0002392  0.00022872 0.00021215 0.00022918
+ 0.00025978 0.00026458 0.00022879 0.00025943 0.0002395  0.00027239
+ 0.00021989 0.00025694 0.00028107 0.00025949 0.00023619 0.00026223
+ 0.00025863 0.0002563 ]
+Mean:
+0.00024672649862615866
+Std:
+1.902434924535683e-05
+[2018-08-24 07:12:33,043] launcher  (127.0.0.1:36731) INFO    Root process is done.
+[2018-08-24 07:12:33,043] launcher  (127.0.0.1:36731) INFO    Finished cleaning spawned subprocesses.

@@ -1,0 +1,81 @@
+[2018-05-15 03:05:04,167] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 03:05:04,167] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 03:05:04,167] launcher  INFO    Worker distribution: 
+[2018-05-15 03:05:04,167] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 03:05:04,592 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:05:04,592 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-05-15 03:05:04,592 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:05:04,592 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:05:04,592 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:05:04,593 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-05-15 03:05:04,593 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-05-15 03:05:04,593 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-05-15 03:05:04,593 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:05:04,593 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:05:04,593 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:05:04,593 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:05:04,593 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:05:04,593 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-05-15 03:05:04,594 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:05:04,595 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:05:04,595 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-05-15 03:05:04,596 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:05:04,596 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:05:04,596 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-05-15 03:05:04,596 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:05:04,597 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-05-15 03:05:04,597 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:05:04,597 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:05:04,681 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:05:04,681 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:05:04,681 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-05-15 03:05:04,681 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-05-15 03:05:04,682 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:05:04,682 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:05:04,716 root            INFO     Initializing genetic algorithm
+2018-05-15 03:05:04,716 root            INFO     Initializing genetic algorithm
+2018-05-15 03:05:04,717 root            INFO     Running GA optimization
+2018-05-15 03:05:04,717 root            INFO     Running GA optimization
+gen	nevals	avg     	std      	min     	max     
+0  	50    	0.726443	0.0536663	0.660494	0.868559
+1  	21    	0.680345	0.01869  	0.65327 	0.741678
+2  	23    	0.661715	0.00742123	0.646264	0.673565
+3  	22    	0.6535  	0.00588203	0.641482	0.666404
+4  	20    	0.64801 	0.00342148	0.638116	0.65327 
+5  	25    	0.644054	0.00479815	0.63006 	0.650508
+6  	21    	0.636006	0.00451178	0.627286	0.64602 
+7  	18    	0.630484	0.00326482	0.627286	0.638116
+8  	22    	0.628217	0.00101875	0.627286	0.63006 
+9  	24    	0.627485	0.000453121	0.627286	0.628833
+10 	22    	0.627304	0.000176539	0.627202	0.62853 
+11 	18    	0.627269	3.36328e-05	0.627202	0.627286
+12 	18    	0.627242	4.20074e-05	0.627202	0.627286
+13 	23    	0.627241	0.000203697	0.627202	0.628654
+14 	22    	0.627088	0.000264281	0.626448	0.627286
+15 	21    	0.626774	0.000534373	0.625174	0.627202
+16 	20    	0.626474	0.000562847	0.625174	0.627202
+17 	19    	0.625982	0.000641292	0.625174	0.627202
+18 	25    	0.625699	0.000656411	0.625174	0.627273
+19 	22    	0.625305	0.000365614	0.625174	0.626448
+20 	24    	0.625159	4.56595e-05	0.625022	0.625174
+2018-05-15 03:06:30,182 root            INFO     Saving the best parameters
+2018-05-15 03:06:30,182 root            INFO     Saving the best parameters
+2018-05-15 03:06:30,183 root            INFO     Done
+2018-05-15 03:06:30,183 root            INFO     Done
+[2018-05-15 03:06:30,612] launcher  (127.0.0.1:38767) INFO    Root process is done.
+[2018-05-15 03:06:30,613] launcher  (127.0.0.1:38767) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 03:06:30,649] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 03:06:30,649] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 03:06:30,649] launcher  INFO    Worker distribution: 
+[2018-05-15 03:06:30,649] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.6036812  0.60197212 0.60489163 0.60337606 0.60294326 0.60237178
+ 0.60268328 0.60138663 0.601267   0.60078185 0.60346348 0.60389536
+ 0.60092091 0.60203553 0.60427587 0.60223158 0.60160582 0.60036578
+ 0.60112961 0.60328806]
+Mean:
+0.602428340722234
+Std:
+0.0012385640427557978
+[2018-05-15 03:06:35,828] launcher  (127.0.0.1:44835) INFO    Root process is done.
+[2018-05-15 03:06:35,828] launcher  (127.0.0.1:44835) INFO    Finished cleaning spawned subprocesses.

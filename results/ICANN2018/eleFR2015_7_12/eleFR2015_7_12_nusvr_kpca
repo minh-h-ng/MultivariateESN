@@ -1,0 +1,81 @@
+[2018-08-23 09:38:25,449] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 09:38:25,449] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 09:38:25,449] launcher  INFO    Worker distribution: 
+[2018-08-23 09:38:25,449] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 09:38:25,870 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 09:38:25,870 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 09:38:25,870 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 09:38:25,870 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 09:38:25,870 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 09:38:25,870 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 09:38:25,870 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 09:38:25,871 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 09:38:25,871 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 09:38:25,871 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 09:38:25,871 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 09:38:25,871 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 09:38:25,871 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 09:38:25,872 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 09:38:25,873 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 09:38:25,873 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 09:38:25,874 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 09:38:25,874 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 09:38:25,875 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 09:38:25,875 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 09:38:25,875 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 09:38:25,875 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 09:38:25,875 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 09:38:25,876 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 09:38:26,008 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 09:38:26,008 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 09:38:26,008 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 09:38:26,008 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 09:38:26,008 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 09:38:26,008 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 09:38:26,067 root            INFO     Initializing genetic algorithm
+2018-08-23 09:38:26,067 root            INFO     Initializing genetic algorithm
+2018-08-23 09:38:26,069 root            INFO     Running GA optimization
+2018-08-23 09:38:26,069 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.648359	0.283635	0.0176471	1.34379
+1  	19    	0.562665	0.175375	0.157407 	0.934579
+2  	17    	0.510635	0.172538	0.214953 	0.934579
+3  	23    	0.45379 	0.138346	0.214953 	0.83368 
+4  	19    	0.422147	0.0887968	0.214953 	0.577495
+5  	20    	0.440193	0.0972965	0.30543  	0.577495
+6  	22    	0.459614	0.107251 	0.35399  	0.577495
+7  	23    	0.466105	0.111108 	0.353157 	0.577495
+8  	25    	0.472261	0.121062 	0.350516 	0.675159
+9  	25    	0.48525 	0.137447 	0.350516 	0.675159
+10 	20    	0.504228	0.155625 	0.350516 	0.675159
+11 	22    	0.512406	0.162763 	0.340444 	0.675159
+12 	22    	0.511725	0.163452 	0.340444 	0.675159
+13 	19    	0.510147	0.165035 	0.340444 	0.675159
+14 	21    	0.508453	0.166713 	0.340444 	0.675159
+15 	21    	0.507803	0.167357 	0.340444 	0.675159
+16 	21    	0.507799	0.16736  	0.340362 	0.675159
+17 	22    	0.507794	0.167365 	0.340362 	0.675159
+18 	21    	0.507783	0.167376 	0.340362 	0.675159
+19 	21    	0.507748	0.167412 	0.338383 	0.675159
+20 	22    	0.507685	0.167475 	0.338383 	0.675159
+2018-08-23 11:14:46,152 root            INFO     Saving the best parameters
+2018-08-23 11:14:46,152 root            INFO     Saving the best parameters
+2018-08-23 11:14:46,152 root            INFO     Done
+2018-08-23 11:14:46,152 root            INFO     Done
+[2018-08-23 11:14:46,585] launcher  (127.0.0.1:46257) INFO    Root process is done.
+[2018-08-23 11:14:46,586] launcher  (127.0.0.1:46257) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 11:14:46,622] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 11:14:46,622] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 11:14:46,622] launcher  INFO    Worker distribution: 
+[2018-08-23 11:14:46,622] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.41746334 0.40794534 0.5014961  0.44563758 0.47462222 0.58567524
+ 0.4696643  0.44212719 0.66583578 0.56914394 0.41281768 0.41994811
+ 0.34947994 0.45404158 0.58993312 0.58065292 0.42852924 0.38145441
+ 0.49508464 0.38134549]
+Mean:
+0.4736449076500254
+Std:
+0.0823173146208603
+[2018-08-23 11:16:09,803] launcher  (127.0.0.1:39133) INFO    Root process is done.
+[2018-08-23 11:16:09,804] launcher  (127.0.0.1:39133) INFO    Finished cleaning spawned subprocesses.

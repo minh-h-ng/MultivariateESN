@@ -1,0 +1,81 @@
+[2018-08-24 19:51:11,981] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 19:51:11,981] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 19:51:11,981] launcher  INFO    Worker distribution: 
+[2018-08-24 19:51:11,981] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-24 19:51:12,400 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:51:12,400 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:51:12,400 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:51:12,400 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-24 19:51:12,400 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-24 19:51:12,400 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-24 19:51:12,401 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:51:12,401 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:51:12,401 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:51:12,402 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:51:12,403 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-24 19:51:12,403 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:51:12,407 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:51:12,407 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-24 19:51:12,408 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:51:12,410 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:51:12,410 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:51:12,410 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-24 19:51:12,411 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-24 19:51:12,411 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:51:12,411 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:51:12,417 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:51:12,417 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-24 19:51:12,418 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:51:12,539 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:51:12,539 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:51:12,540 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-24 19:51:12,540 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-24 19:51:12,540 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:51:12,540 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:51:12,599 root            INFO     Initializing genetic algorithm
+2018-08-24 19:51:12,599 root            INFO     Initializing genetic algorithm
+2018-08-24 19:51:12,601 root            INFO     Running GA optimization
+2018-08-24 19:51:12,601 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max     
+0  	50    	0.382974	0.254525	0.0104167	0.990826
+1  	24    	0.205855	0.191833	0.0104167	0.990826
+2  	24    	0.102467	0.0659255	0.0034965	0.309524
+3  	19    	0.0975024	0.0594897	0.0034965	0.161592
+4  	21    	0.0960745	0.0617148	0.0034965	0.155938
+5  	25    	0.093446 	0.0640488	0.0034965	0.154608
+6  	19    	0.0928616	0.0635314	0.0034965	0.152698
+7  	18    	0.0826346	0.0703266	0.0034965	0.1516  
+8  	21    	0.0768613	0.073365 	0.0034965	0.150504
+9  	19    	0.0767597	0.0732633	0.0034965	0.150426
+10 	25    	0.0766869	0.0731904	0.0034965	0.150385
+11 	19    	0.0766501	0.0731536	0.0034965	0.149942
+12 	22    	0.0766224	0.0731259	0.0034965	0.149867
+13 	22    	0.0766038	0.0731073	0.0034965	0.149813
+14 	23    	0.0765981	0.0731016	0.0034965	0.149905
+15 	18    	0.0765918	0.0730953	0.0034965	0.149691
+16 	23    	0.0765891	0.0730926	0.0034965	0.149691
+17 	23    	0.0765846	0.0730881	0.0034965	0.149691
+18 	19    	0.0765759	0.0730794	0.0034965	0.149679
+19 	22    	0.0765712	0.0730747	0.0034965	0.149679
+20 	22    	0.0766327	0.0729997	0.0034965	0.14964 
+2018-08-24 20:16:56,029 root            INFO     Saving the best parameters
+2018-08-24 20:16:56,029 root            INFO     Saving the best parameters
+2018-08-24 20:16:56,030 root            INFO     Done
+2018-08-24 20:16:56,030 root            INFO     Done
+[2018-08-24 20:16:56,464] launcher  (127.0.0.1:42803) INFO    Root process is done.
+[2018-08-24 20:16:56,464] launcher  (127.0.0.1:42803) INFO    Finished cleaning spawned subprocesses.
+[2018-08-24 20:16:56,501] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 20:16:56,501] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 20:16:56,501] launcher  INFO    Worker distribution: 
+[2018-08-24 20:16:56,501] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.25581738 0.25600586 0.25599837 0.25597801 0.25632158 0.2566816
+ 0.25664775 0.25666368 0.2565541  0.25582227 0.2567834  0.25672223
+ 0.25709555 0.25713394 0.25627351 0.2566168  0.25717721 0.25600377
+ 0.2566495  0.25654129]
+Mean:
+0.2564743893832214
+Std:
+0.0004169485585464277
+[2018-08-24 20:17:45,110] launcher  (127.0.0.1:40045) INFO    Root process is done.
+[2018-08-24 20:17:45,111] launcher  (127.0.0.1:40045) INFO    Finished cleaning spawned subprocesses.

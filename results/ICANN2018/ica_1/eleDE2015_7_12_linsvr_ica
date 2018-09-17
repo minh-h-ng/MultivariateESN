@@ -1,0 +1,81 @@
+[2018-08-24 19:39:30,438] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 19:39:30,438] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 19:39:30,438] launcher  INFO    Worker distribution: 
+[2018-08-24 19:39:30,438] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-24 19:39:30,854 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:39:30,855 parameterhelper INFO     Config: ./configs/user/linsvr_ica (overload)
+2018-08-24 19:39:30,855 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:39:30,855 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:39:30,855 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:39:30,855 parameterhelper INFO     Config: ./configs/user/linsvr_ica (overload)
+2018-08-24 19:39:30,856 parameterhelper INFO     Config: ./configs/user/linsvr_ica (overload)
+2018-08-24 19:39:30,856 parameterhelper INFO     Config: ./configs/user/linsvr_ica (overload)
+2018-08-24 19:39:30,856 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:39:30,856 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:39:30,856 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:39:30,856 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:39:30,857 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:39:30,858 parameterhelper INFO     Config: ./configs/user/linsvr_ica (overload)
+2018-08-24 19:39:30,859 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:39:30,865 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:39:30,865 parameterhelper INFO     Config: ./configs/user/linsvr_ica (overload)
+2018-08-24 19:39:30,866 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:39:30,866 parameterhelper INFO     Config: ./configs/user/linsvr_ica (overload)
+2018-08-24 19:39:30,866 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:39:30,867 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:39:30,904 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:39:30,905 parameterhelper INFO     Config: ./configs/user/linsvr_ica (overload)
+2018-08-24 19:39:30,905 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:39:30,994 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:39:30,994 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 19:39:30,994 parameterhelper INFO     Config: ./configs/user/linsvr_ica (overload)
+2018-08-24 19:39:30,994 parameterhelper INFO     Config: ./configs/user/linsvr_ica (overload)
+2018-08-24 19:39:30,994 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:39:30,994 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-24 19:39:31,054 root            INFO     Initializing genetic algorithm
+2018-08-24 19:39:31,054 root            INFO     Initializing genetic algorithm
+2018-08-24 19:39:31,055 root            INFO     Running GA optimization
+2018-08-24 19:39:31,055 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max    
+0  	50    	0.665482	0.337114	0.00552486	1.07228
+1  	21    	0.523812	0.263062	0.0173611 	1.07228
+2  	19    	0.380549	0.203816	0.207686  	0.948498
+3  	19    	0.302083	0.156324	0.207686  	0.857143
+4  	20    	0.236682	0.050157	0.197436  	0.346847
+5  	18    	0.229019	0.047977	0.18745   	0.346847
+6  	18    	0.251771	0.0685949	0.18745   	0.347826
+7  	19    	0.256236	0.0728032	0.18745   	0.347826
+8  	21    	0.235534	0.0649159	0.17853   	0.347826
+9  	18    	0.206676	0.035453 	0.176053  	0.346341
+10 	21    	0.196541	0.0189822	0.171879  	0.216216
+11 	14    	0.194851	0.0201616	0.171879  	0.216216
+12 	27    	0.186322	0.0325741	0.0536585 	0.216216
+13 	22    	0.174402	0.0429665	0.0536585 	0.216216
+14 	16    	0.152733	0.0503255	0.0536585 	0.216216
+15 	23    	0.145255	0.0498639	0.0536585 	0.214634
+16 	22    	0.133724	0.0493002	0.0536585 	0.214634
+17 	24    	0.138605	0.0452789	0.0514019 	0.214634
+18 	16    	0.146362	0.0410572	0.0514019 	0.214634
+19 	22    	0.146849	0.0297699	0.0536585 	0.193069
+20 	22    	0.149815	0.0201452	0.0536585 	0.167125
+2018-08-24 19:51:02,469 root            INFO     Saving the best parameters
+2018-08-24 19:51:02,469 root            INFO     Saving the best parameters
+2018-08-24 19:51:02,469 root            INFO     Done
+2018-08-24 19:51:02,469 root            INFO     Done
+[2018-08-24 19:51:02,900] launcher  (127.0.0.1:45267) INFO    Root process is done.
+[2018-08-24 19:51:02,900] launcher  (127.0.0.1:45267) INFO    Finished cleaning spawned subprocesses.
+[2018-08-24 19:51:02,938] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 19:51:02,938] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 19:51:02,938] launcher  INFO    Worker distribution: 
+[2018-08-24 19:51:02,938] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.13982644 0.13858193 0.13838437 0.13888856 0.13967103 0.13569168
+ 0.1371182  0.13954775 0.13470404 0.13606837 0.14099212 0.13937556
+ 0.13972987 0.14519876 0.138314   0.1393519  0.13661559 0.14184199
+ 0.13885761 0.13643198]
+Mean:
+0.13875958788861686
+Std:
+0.002306708228076784
+[2018-08-24 19:51:11,936] launcher  (127.0.0.1:43605) INFO    Root process is done.
+[2018-08-24 19:51:11,936] launcher  (127.0.0.1:43605) INFO    Finished cleaning spawned subprocesses.

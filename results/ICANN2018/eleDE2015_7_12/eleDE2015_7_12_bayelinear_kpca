@@ -1,0 +1,81 @@
+[2018-08-22 16:27:23,563] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-22 16:27:23,563] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-22 16:27:23,563] launcher  INFO    Worker distribution: 
+[2018-08-22 16:27:23,563] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-22 16:27:23,977 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 16:27:23,978 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-22 16:27:23,978 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 16:27:23,978 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-22 16:27:23,978 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 16:27:23,979 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 16:27:23,981 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 16:27:23,981 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-22 16:27:23,982 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 16:27:23,982 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 16:27:23,982 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-22 16:27:23,983 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 16:27:23,988 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 16:27:23,988 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-22 16:27:23,989 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 16:27:23,990 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 16:27:23,990 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 16:27:23,990 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-22 16:27:23,990 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-22 16:27:23,991 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 16:27:23,991 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 16:27:24,002 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 16:27:24,003 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-22 16:27:24,004 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 16:27:24,125 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 16:27:24,125 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-22 16:27:24,125 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-22 16:27:24,125 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-22 16:27:24,125 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 16:27:24,125 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-22 16:27:24,187 root            INFO     Initializing genetic algorithm
+2018-08-22 16:27:24,187 root            INFO     Initializing genetic algorithm
+2018-08-22 16:27:24,189 root            INFO     Running GA optimization
+2018-08-22 16:27:24,189 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max     
+0  	50    	0.293355	0.242978	0.0282051	0.994429
+1  	19    	0.377367	0.288878	0.117889 	0.996988
+2  	19    	0.457317	0.356577	0.117889 	0.994429
+3  	16    	0.515704	0.398449	0.117889 	0.995708
+4  	21    	0.549889	0.432497	0.117889 	0.995708
+5  	23    	0.55617 	0.438284	0.117773 	0.995708
+6  	28    	0.556184	0.438271	0.117773 	0.995708
+7  	20    	0.556127	0.438302	0.117773 	0.994429
+8  	22    	0.556104	0.438325	0.117286 	0.994429
+9  	20    	0.556026	0.438403	0.116192 	0.994429
+10 	20    	0.55591 	0.43852 	0.116192 	0.994429
+11 	21    	0.555873	0.439003	0.116192 	1       
+12 	19    	0.555601	0.439164	0.116192 	1       
+13 	24    	0.55535 	0.439079	0.116192 	0.994429
+14 	23    	0.55534 	0.439089	0.116192 	0.994429
+15 	21    	0.555311	0.439118	0.116192 	0.994429
+16 	16    	0.555311	0.439118	0.116192 	0.994429
+17 	21    	0.555311	0.439118	0.116192 	0.994429
+18 	21    	0.555311	0.439118	0.116192 	0.994429
+19 	21    	0.555311	0.439118	0.116192 	0.994429
+20 	19    	0.555308	0.439121	0.11606  	0.994429
+2018-08-22 17:52:44,809 root            INFO     Saving the best parameters
+2018-08-22 17:52:44,809 root            INFO     Saving the best parameters
+2018-08-22 17:52:44,809 root            INFO     Done
+2018-08-22 17:52:44,809 root            INFO     Done
+[2018-08-22 17:52:45,241] launcher  (127.0.0.1:38753) INFO    Root process is done.
+[2018-08-22 17:52:45,241] launcher  (127.0.0.1:38753) INFO    Finished cleaning spawned subprocesses.
+[2018-08-22 17:52:45,280] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-22 17:52:45,280] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-22 17:52:45,280] launcher  INFO    Worker distribution: 
+[2018-08-22 17:52:45,280] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.16318564 0.15387664 0.15537436 0.15799827 0.15991852 0.15104891
+ 0.14653928 0.15996036 0.15944588 0.15566823 0.14564006 0.14511022
+ 0.15022312 0.15183812 0.15093558 0.14594633 0.15550663 0.15900369
+ 0.15186966 0.1496812 ]
+Mean:
+0.15343853574353422
+Std:
+0.005272251653454442
+[2018-08-22 17:54:24,731] launcher  (127.0.0.1:41575) INFO    Root process is done.
+[2018-08-22 17:54:24,731] launcher  (127.0.0.1:41575) INFO    Finished cleaning spawned subprocesses.

@@ -1,0 +1,17 @@
+{
+    "embedding": "kpca",
+    "regression_parameters": 0.001,
+    "regression_method": "lasso",
+    "input_shift": 0.0,
+    "feedback_scaling": 0.0,
+    "teacher_shift": 0.0,
+    "n_dim": 172,
+    "connectivity": 0.25,
+    "noise_level": 0.06604668304583862,
+    "spectral_radius": 0.7665658395760934,
+    "teacher_scaling": 0.7584484807039003,
+    "n_internal_units": 345,
+    "embedding_parameters": 0.027001663822109744,
+    "input_scaling": 0.8325351907966748,
+    "n_drop": 100
+}

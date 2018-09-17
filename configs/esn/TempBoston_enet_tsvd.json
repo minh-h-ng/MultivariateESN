@@ -1,0 +1,20 @@
+{
+    "spectral_radius": 1.4,
+    "teacher_shift": 0.0,
+    "n_drop": 100,
+    "n_dim": 328,
+    "input_shift": 0.0,
+    "embedding": "tsvd",
+    "n_internal_units": 344,
+    "regression_parameters": [
+        0.001,
+        0.17466789062440702
+    ],
+    "embedding_parameters": null,
+    "feedback_scaling": 0.0,
+    "noise_level": 0.06929295040918391,
+    "regression_method": "enet",
+    "input_scaling": 0.820587097838213,
+    "connectivity": 0.25,
+    "teacher_scaling": 0.495050546393372
+}

@@ -1,0 +1,17 @@
+{
+    "n_drop": 100,
+    "regression_method": "bayelinear",
+    "teacher_scaling": 0.8511576089871798,
+    "teacher_shift": 0.0,
+    "connectivity": 0.25,
+    "n_internal_units": 318,
+    "embedding": "kpca",
+    "input_shift": 0.0,
+    "feedback_scaling": 0.0,
+    "spectral_radius": 0.9078833449693534,
+    "regression_parameters": null,
+    "n_dim": 134,
+    "noise_level": 0.06395280196874686,
+    "embedding_parameters": 0.005693274021245447,
+    "input_scaling": 0.27416114111078366
+}

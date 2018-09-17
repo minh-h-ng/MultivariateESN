@@ -1,0 +1,108 @@
+[2018-05-14 23:54:26,677] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-14 23:54:26,677] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-14 23:54:26,677] launcher  INFO    Worker distribution: 
+[2018-05-14 23:54:26,677] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-14 23:54:27,098 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:54:27,098 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:54:27,098 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-05-14 23:54:27,099 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-05-14 23:54:27,099 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:54:27,099 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:54:27,102 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:54:27,102 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-05-14 23:54:27,103 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:54:27,103 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:54:27,104 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-05-14 23:54:27,104 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:54:27,105 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:54:27,105 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-05-14 23:54:27,105 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:54:27,106 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-05-14 23:54:27,106 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:54:27,106 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:54:27,110 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:54:27,110 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-05-14 23:54:27,111 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:54:27,115 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:54:27,115 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-05-14 23:54:27,116 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:54:27,149 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:54:27,149 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 23:54:27,149 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-05-14 23:54:27,149 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-05-14 23:54:27,149 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:54:27,149 root            INFO     Loading data (./data/Rainfall)
+2018-05-14 23:54:27,162 root            INFO     Initializing genetic algorithm
+2018-05-14 23:54:27,162 root            INFO     Initializing genetic algorithm
+2018-05-14 23:54:27,163 root            INFO     Running GA optimization
+2018-05-14 23:54:27,163 root            INFO     Running GA optimization
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 290, in run
+    futures_startup()
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 271, in futures_startup
+    run_name="__main__"
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 64, in _startup
+    result = _controller.switch(rootFuture, *args, **kargs)
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/_control.py", line 253, in runController
+    raise future.exceptionValue
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/_control.py", line 127, in runFuture
+    future.resultValue = future.callable(*future.args, **future.kargs)
+  File "/usr/lib/python3.5/runpy.py", line 254, in run_path
+    pkg_name=pkg_name, script_name=fname)
+  File "/usr/lib/python3.5/runpy.py", line 96, in _run_module_code
+    mod_name, mod_spec, pkg_name, script_name)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./genoptesn.py", line 388, in <module>
+    main()
+  File "./genoptesn.py", line 377, in main
+    lambda_ = n_offsprings, cxpb=cxpb, mutpb=mutpb, ngen=ngen, stats=stats, verbose=True, halloffame=halloffame)
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/deap/algorithms.py", line 304, in eaMuPlusLambda
+    for ind, fit in zip(invalid_ind, fitnesses):
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 102, in _mapGenerator
+    for future in _waitAll(*futures):
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 358, in _waitAll
+    for f in _waitAny(future):
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 321, in _waitAny
+    raise future.exceptionValue
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+[2018-05-14 23:54:33,182] launcher  (127.0.0.1:38723) INFO    Root process is done.
+[2018-05-14 23:54:33,189] launcher  (127.0.0.1:38723) INFO    Finished cleaning spawned subprocesses.
+[2018-05-14 23:54:33,226] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-14 23:54:33,227] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-14 23:54:33,227] launcher  INFO    Worker distribution: 
+[2018-05-14 23:54:33,227] launcher  INFO       127.0.0.1:	7 + origin
+[Errno 2] No such file or directory: './configs/esn/Rainfall_lasso_kpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/Rainfall_lasso_kpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/Rainfall_lasso_kpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/Rainfall_lasso_kpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/Rainfall_lasso_kpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/Rainfall_lasso_kpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/Rainfall_lasso_kpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/Rainfall_lasso_kpca.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[2018-05-14 23:54:33,763] launcher  (127.0.0.1:40107) INFO    Root process is done.
+[2018-05-14 23:54:33,763] launcher  (127.0.0.1:40107) INFO    Finished cleaning spawned subprocesses.

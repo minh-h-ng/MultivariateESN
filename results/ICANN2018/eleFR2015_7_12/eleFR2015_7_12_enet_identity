@@ -1,0 +1,81 @@
+[2018-08-23 06:03:36,369] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 06:03:36,370] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 06:03:36,370] launcher  INFO    Worker distribution: 
+[2018-08-23 06:03:36,370] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 06:03:36,789 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 06:03:36,789 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 06:03:36,790 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 06:03:36,790 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-23 06:03:36,790 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-23 06:03:36,790 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-23 06:03:36,790 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 06:03:36,790 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 06:03:36,791 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-23 06:03:36,791 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 06:03:36,791 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 06:03:36,791 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 06:03:36,792 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 06:03:36,792 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-23 06:03:36,793 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 06:03:36,794 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 06:03:36,794 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 06:03:36,794 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-23 06:03:36,794 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-23 06:03:36,795 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 06:03:36,795 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 06:03:36,797 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 06:03:36,798 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-23 06:03:36,799 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 06:03:36,923 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 06:03:36,923 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 06:03:36,923 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-23 06:03:36,923 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-23 06:03:36,924 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 06:03:36,924 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 06:03:36,983 root            INFO     Initializing genetic algorithm
+2018-08-23 06:03:36,983 root            INFO     Initializing genetic algorithm
+2018-08-23 06:03:36,984 root            INFO     Running GA optimization
+2018-08-23 06:03:36,984 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min     	max    
+0  	50    	1.25858	0.374976	0.452451	1.60318
+1  	22    	0.84747	0.28607 	0.452451	1.60318
+2  	19    	0.578544	0.120016	0.452451	0.895816
+3  	21    	0.477668	0.0339137	0.452451	0.648123
+4  	17    	0.451785	0.0136217	0.420299	0.483326
+5  	20    	0.438594	0.0159533	0.411529	0.459228
+6  	21    	0.419787	0.00475277	0.411529	0.432394
+7  	20    	0.41297 	0.00512516	0.392208	0.420299
+8  	23    	0.408677	0.00670669	0.392208	0.412248
+9  	21    	0.403706	0.0100447 	0.375166	0.411529
+10 	18    	0.392589	0.0112306 	0.373801	0.411529
+11 	25    	0.380054	0.00638415	0.370518	0.392208
+12 	24    	0.375242	0.00347637	0.370518	0.385362
+13 	20    	0.372637	0.00178002	0.370518	0.376239
+14 	21    	0.370472	0.00175443	0.365205	0.373801
+15 	18    	0.369535	0.00206084	0.365205	0.371366
+16 	21    	0.368109	0.00259412	0.365205	0.370518
+17 	23    	0.366468	0.00224452	0.365205	0.370518
+18 	22    	0.365511	0.00257221	0.36287 	0.382287
+19 	21    	0.364643	0.000960338	0.36287 	0.365205
+20 	25    	0.364315	0.00106695 	0.36287 	0.365205
+2018-08-23 06:06:40,236 root            INFO     Saving the best parameters
+2018-08-23 06:06:40,236 root            INFO     Saving the best parameters
+2018-08-23 06:06:40,236 root            INFO     Done
+2018-08-23 06:06:40,236 root            INFO     Done
+[2018-08-23 06:06:40,668] launcher  (127.0.0.1:42491) INFO    Root process is done.
+[2018-08-23 06:06:40,668] launcher  (127.0.0.1:42491) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 06:06:40,705] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 06:06:40,705] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 06:06:40,705] launcher  INFO    Worker distribution: 
+[2018-08-23 06:06:40,705] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.40993667 0.42850764 0.43051701 0.45798854 0.40852027 0.41483493
+ 0.54539796 0.51237166 0.41398769 0.45402804 0.46926598 0.47367548
+ 0.36491987 0.43218262 0.45643375 0.405607   0.42867336 0.43254416
+ 0.44570808 0.3988325 ]
+Mean:
+0.4391966606052059
+Std:
+0.03958118312904215
+[2018-08-23 06:06:48,721] launcher  (127.0.0.1:39077) INFO    Root process is done.
+[2018-08-23 06:06:48,721] launcher  (127.0.0.1:39077) INFO    Finished cleaning spawned subprocesses.

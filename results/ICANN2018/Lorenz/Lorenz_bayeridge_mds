@@ -1,0 +1,646 @@
+[2018-05-12 18:46:12,946] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-12 18:46:12,946] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-12 18:46:12,946] launcher  INFO    Worker distribution: 
+[2018-05-12 18:46:12,946] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-12 18:46:13,366 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 18:46:13,366 parameterhelper INFO     Config: ./configs/user/bayeridge_mds (overload)
+2018-05-12 18:46:13,367 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 18:46:13,387 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 18:46:13,388 parameterhelper INFO     Config: ./configs/user/bayeridge_mds (overload)
+2018-05-12 18:46:13,388 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 18:46:13,401 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 18:46:13,401 parameterhelper INFO     Config: ./configs/user/bayeridge_mds (overload)
+2018-05-12 18:46:13,402 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 18:46:13,424 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 18:46:13,424 parameterhelper INFO     Config: ./configs/user/bayeridge_mds (overload)
+2018-05-12 18:46:13,425 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 18:46:13,431 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 18:46:13,432 parameterhelper INFO     Config: ./configs/user/bayeridge_mds (overload)
+2018-05-12 18:46:13,432 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 18:46:13,556 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 18:46:13,556 parameterhelper INFO     Config: ./configs/user/bayeridge_mds (overload)
+2018-05-12 18:46:13,557 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 18:46:13,589 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 18:46:13,589 parameterhelper INFO     Config: ./configs/user/bayeridge_mds (overload)
+2018-05-12 18:46:13,590 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 18:46:13,592 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 18:46:13,592 parameterhelper INFO     Config: ./configs/user/bayeridge_mds (overload)
+2018-05-12 18:46:13,593 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 18:46:13,710 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 18:46:13,710 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 18:46:13,710 parameterhelper INFO     Config: ./configs/user/bayeridge_mds (overload)
+2018-05-12 18:46:13,710 parameterhelper INFO     Config: ./configs/user/bayeridge_mds (overload)
+2018-05-12 18:46:13,711 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 18:46:13,711 root            INFO     Loading data (./data/Lorenz)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-05-12 18:46:13,782 root            INFO     Initializing genetic algorithm
+2018-05-12 18:46:13,782 root            INFO     Initializing genetic algorithm
+2018-05-12 18:46:13,782 root            INFO     Running GA optimization
+2018-05-12 18:46:13,782 root            INFO     Running GA optimization
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:129: RuntimeWarning: invalid value encountered in double_scalars
+  old_stress = stress / dis
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/manifold/mds.py:124: RuntimeWarning: invalid value encountered in double_scalars
+  if(old_stress - stress / dis) < eps:

@@ -1,0 +1,81 @@
+[2018-08-17 07:09:16,985] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-17 07:09:16,985] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-17 07:09:16,985] launcher  INFO    Worker distribution: 
+[2018-08-17 07:09:16,985] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-17 07:09:17,400 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 07:09:17,401 parameterhelper INFO     Config: ./configs/user/enet_kpca (overload)
+2018-08-17 07:09:17,401 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 07:09:17,411 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 07:09:17,411 parameterhelper INFO     Config: ./configs/user/enet_kpca (overload)
+2018-08-17 07:09:17,412 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 07:09:17,417 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 07:09:17,417 parameterhelper INFO     Config: ./configs/user/enet_kpca (overload)
+2018-08-17 07:09:17,418 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 07:09:17,436 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 07:09:17,437 parameterhelper INFO     Config: ./configs/user/enet_kpca (overload)
+2018-08-17 07:09:17,438 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 07:09:17,453 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 07:09:17,453 parameterhelper INFO     Config: ./configs/user/enet_kpca (overload)
+2018-08-17 07:09:17,454 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 07:09:17,479 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 07:09:17,494 parameterhelper INFO     Config: ./configs/user/enet_kpca (overload)
+2018-08-17 07:09:17,495 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 07:09:17,522 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 07:09:17,522 parameterhelper INFO     Config: ./configs/user/enet_kpca (overload)
+2018-08-17 07:09:17,523 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 07:09:17,612 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 07:09:17,612 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 07:09:17,612 parameterhelper INFO     Config: ./configs/user/enet_kpca (overload)
+2018-08-17 07:09:17,612 parameterhelper INFO     Config: ./configs/user/enet_kpca (overload)
+2018-08-17 07:09:17,613 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 07:09:17,613 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 07:09:17,633 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 07:09:17,633 parameterhelper INFO     Config: ./configs/user/enet_kpca (overload)
+2018-08-17 07:09:17,634 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 07:09:17,714 root            INFO     Initializing genetic algorithm
+2018-08-17 07:09:17,714 root            INFO     Initializing genetic algorithm
+2018-08-17 07:09:17,716 root            INFO     Running GA optimization
+2018-08-17 07:09:17,716 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.983096	0.601708	0.0453333	1.84288
+1  	24    	0.679337	0.399833	0.0453333	1.84288
+2  	20    	0.454886	0.174252	0.256684 	0.893182
+3  	24    	0.389253	0.209768	0.256684 	0.859155
+4  	19    	0.361328	0.189913	0.208556 	0.859155
+5  	22    	0.433972	0.244321	0.246056 	0.860963
+6  	18    	0.529475	0.294884	0.242016 	0.860963
+7  	20    	0.5429  	0.301882	0.242016 	0.860963
+8  	21    	0.533006	0.2976  	0.242016 	0.860963
+9  	22    	0.538396	0.301553	0.242008 	0.860963
+10 	21    	0.550876	0.308854	0.241663 	0.887324
+11 	20    	0.551332	0.30955 	0.241316 	0.887324
+12 	20    	0.552888	0.311451	0.240928 	0.901408
+13 	24    	0.551924	0.310698	0.240928 	0.901408
+14 	20    	0.550696	0.309611	0.240417 	0.887324
+15 	23    	0.548686	0.308031	0.240292 	0.887324
+16 	24    	0.546962	0.306726	0.24005  	0.887324
+17 	19    	0.537696	0.298456	0.24005  	0.859155
+18 	22    	0.534391	0.295475	0.239572 	0.859155
+19 	22    	0.537527	0.298624	0.239572 	0.859155
+20 	17    	0.547902	0.308236	0.239572 	0.859155
+2018-08-17 09:56:21,338 root            INFO     Saving the best parameters
+2018-08-17 09:56:21,338 root            INFO     Saving the best parameters
+2018-08-17 09:56:21,339 root            INFO     Done
+2018-08-17 09:56:21,339 root            INFO     Done
+[2018-08-17 09:56:21,759] launcher  (127.0.0.1:39047) INFO    Root process is done.
+[2018-08-17 09:56:21,760] launcher  (127.0.0.1:39047) INFO    Finished cleaning spawned subprocesses.
+[2018-08-17 09:56:21,797] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-17 09:56:21,797] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-17 09:56:21,797] launcher  INFO    Worker distribution: 
+[2018-08-17 09:56:21,797] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.17590115 0.17570165 0.17535035 0.17599835 0.17460831 0.1742246
+ 0.17387823 0.17402391 0.17659598 0.17385104 0.1727924  0.17357921
+ 0.17303939 0.17598441 0.17381891 0.17473855 0.17546062 0.17307909
+ 0.17525316 0.17418566]
+Mean:
+0.1746032494728601
+Std:
+0.0010933091714219682
+[2018-08-17 10:02:05,997] launcher  (127.0.0.1:39033) INFO    Root process is done.
+[2018-08-17 10:02:05,997] launcher  (127.0.0.1:39033) INFO    Finished cleaning spawned subprocesses.

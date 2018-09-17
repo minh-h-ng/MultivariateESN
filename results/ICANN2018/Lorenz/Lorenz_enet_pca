@@ -1,0 +1,93 @@
+[2018-04-27 00:45:13,103] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-04-27 00:45:13,103] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-04-27 00:45:13,103] launcher  INFO    Worker distribution: 
+[2018-04-27 00:45:13,103] launcher  INFO       127.0.0.1:	7 + origin
+2018-04-27 00:45:13,510 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 00:45:13,511 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-04-27 00:45:13,513 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 00:45:13,515 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 00:45:13,515 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-04-27 00:45:13,516 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 00:45:13,516 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 00:45:13,516 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-04-27 00:45:13,517 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 00:45:13,520 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 00:45:13,520 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-04-27 00:45:13,521 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 00:45:13,523 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 00:45:13,523 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-04-27 00:45:13,524 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 00:45:13,526 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 00:45:13,526 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-04-27 00:45:13,527 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 00:45:13,536 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 00:45:13,537 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-04-27 00:45:13,537 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 00:45:13,545 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 00:45:13,545 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-04-27 00:45:13,546 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 00:45:13,679 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 00:45:13,679 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 00:45:13,679 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-04-27 00:45:13,679 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-04-27 00:45:13,680 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 00:45:13,680 root            INFO     Loading data (./data/Lorenz)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-04-27 00:45:13,754 root            INFO     Initializing genetic algorithm
+2018-04-27 00:45:13,754 root            INFO     Initializing genetic algorithm
+2018-04-27 00:45:13,756 root            INFO     Running GA optimization
+2018-04-27 00:45:13,756 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min      	max
+0  	50    	0.40714	0.260231	0.0419287	1  
+1  	20    	0.342541	0.253991	0.0523691	0.990741
+2  	20    	0.283355	0.251267	0.116095 	0.92459 
+3  	21    	0.22803 	0.23141 	0.0744952	0.83378 
+4  	22    	0.209673	0.235544	0.0720926	0.833773
+5  	23    	0.19947 	0.220271	0.0414271	0.833773
+6  	24    	0.265263	0.257782	0.0110214	0.665455
+7  	22    	0.266351	0.268403	0.0110214	0.665455
+8  	23    	0.170907	0.215907	0.00938704	0.607724
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+9  	21    	0.116429	0.144646	0.00804145	0.634146
+10 	17    	0.137177	0.145782	0.00777071	0.349091
+11 	22    	0.148209	0.155292	0.00724694	0.349174
+12 	20    	0.157058	0.158043	0.00647202	0.349174
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+13 	22    	0.133616	0.138498	0.00647202	0.349174
+14 	20    	0.125549	0.131773	0.00587182	0.349174
+15 	17    	0.101195	0.0980336	0.00587182	0.349174
+16 	25    	0.099384	0.095346 	0.00568804	0.349174
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+17 	23    	0.101542	0.0969231	0.00539961	0.349174
+18 	19    	0.0999197	0.0941521	0.00539961	0.194215
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+19 	20    	0.0997015	0.0941077	0.0044542 	0.194215
+20 	19    	0.0993456	0.0940088	0.00465452	0.194215
+2018-04-27 00:51:05,241 root            INFO     Saving the best parameters
+2018-04-27 00:51:05,241 root            INFO     Saving the best parameters
+2018-04-27 00:51:05,241 root            INFO     Done
+2018-04-27 00:51:05,241 root            INFO     Done
+[2018-04-27 00:51:05,671] launcher  (127.0.0.1:44863) INFO    Root process is done.
+[2018-04-27 00:51:05,671] launcher  (127.0.0.1:44863) INFO    Finished cleaning spawned subprocesses.
+[2018-04-27 00:51:05,709] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-04-27 00:51:05,709] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-04-27 00:51:05,709] launcher  INFO    Worker distribution: 
+[2018-04-27 00:51:05,709] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.00892755 0.00905689 0.00912148 0.00999603 0.00795824 0.01085699
+ 0.01290776 0.01460076 0.01169475 0.00978539 0.0122156  0.01520426
+ 0.01176287 0.01182963 0.01260943 0.00979634 0.012466   0.0103419
+ 0.00994801 0.01216357]
+Mean:
+0.011162172029482812
+Std:
+0.0018631012871262553
+[2018-04-27 00:51:21,624] launcher  (127.0.0.1:39387) INFO    Root process is done.
+[2018-04-27 00:51:21,624] launcher  (127.0.0.1:39387) INFO    Finished cleaning spawned subprocesses.

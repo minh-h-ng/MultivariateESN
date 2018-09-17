@@ -1,0 +1,4 @@
+{
+  "regression_method": "linsvr",
+  "embedding": "pca"
+}

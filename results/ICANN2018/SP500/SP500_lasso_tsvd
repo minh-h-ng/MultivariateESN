@@ -1,0 +1,42 @@
+[2018-05-14 20:11:29,744] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-14 20:11:29,744] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-14 20:11:29,744] launcher  INFO    Worker distribution: 
+[2018-05-14 20:11:29,744] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-14 20:11:30,167 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 20:11:30,167 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 20:11:30,168 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-14 20:11:30,168 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-14 20:11:30,169 root            INFO     Loading data (./data/SP500)
+2018-05-14 20:11:30,169 root            INFO     Loading data (./data/SP500)
+2018-05-14 20:11:30,169 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 20:11:30,169 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-14 20:11:30,169 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 20:11:30,170 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-14 20:11:30,170 root            INFO     Loading data (./data/SP500)
+2018-05-14 20:11:30,170 root            INFO     Loading data (./data/SP500)
+2018-05-14 20:11:30,173 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 20:11:30,173 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 20:11:30,174 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-14 20:11:30,174 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-14 20:11:30,174 root            INFO     Loading data (./data/SP500)
+2018-05-14 20:11:30,174 root            INFO     Loading data (./data/SP500)
+2018-05-14 20:11:30,177 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 20:11:30,178 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-14 20:11:30,179 root            INFO     Loading data (./data/SP500)
+2018-05-14 20:11:30,191 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 20:11:30,191 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-14 20:11:30,192 root            INFO     Loading data (./data/SP500)
+2018-05-14 20:11:30,285 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 20:11:30,285 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-14 20:11:30,285 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-14 20:11:30,285 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-14 20:11:30,286 root            INFO     Loading data (./data/SP500)
+2018-05-14 20:11:30,286 root            INFO     Loading data (./data/SP500)
+/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-05-14 20:11:30,332 root            INFO     Initializing genetic algorithm
+2018-05-14 20:11:30,332 root            INFO     Initializing genetic algorithm
+2018-05-14 20:11:30,333 root            INFO     Running GA optimization
+2018-05-14 20:11:30,333 root            INFO     Running GA optimization

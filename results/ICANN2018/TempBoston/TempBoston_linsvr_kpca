@@ -1,0 +1,51 @@
+[2018-05-15 12:19:54,301] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 12:19:54,301] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 12:19:54,301] launcher  INFO    Worker distribution: 
+[2018-05-15 12:19:54,301] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 12:19:54,723 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 12:19:54,723 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 12:19:54,723 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-05-15 12:19:54,723 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-05-15 12:19:54,723 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 12:19:54,723 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-05-15 12:19:54,724 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 12:19:54,724 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 12:19:54,724 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 12:19:54,725 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 12:19:54,725 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-05-15 12:19:54,726 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 12:19:54,731 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 12:19:54,731 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 12:19:54,731 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-05-15 12:19:54,731 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-05-15 12:19:54,732 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 12:19:54,732 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 12:19:54,732 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 12:19:54,733 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-05-15 12:19:54,733 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 12:19:54,737 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 12:19:54,738 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-05-15 12:19:54,738 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 12:19:54,902 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 12:19:54,902 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 12:19:54,902 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-05-15 12:19:54,902 parameterhelper INFO     Config: ./configs/user/linsvr_kpca (overload)
+2018-05-15 12:19:54,902 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 12:19:54,902 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 12:19:54,983 root            INFO     Initializing genetic algorithm
+2018-05-15 12:19:54,983 root            INFO     Initializing genetic algorithm
+2018-05-15 12:19:54,985 root            INFO     Running GA optimization
+2018-05-15 12:19:54,985 root            INFO     Running GA optimization
+gen	nevals	avg     	std    	min      	max    
+0  	50    	0.883545	0.72269	0.0225564	2.31333
+1  	19    	0.5129  	0.374024	0.04     	2.31333
+2  	20    	0.371646	0.249166	0.04     	0.745798
+3  	19    	0.335571	0.23771 	0.130432 	0.745798
+4  	15    	0.24694 	0.126041	0.126241 	0.746575
+5  	18    	0.236132	0.10644 	0.123476 	0.346405
+6  	22    	0.235465	0.108815	0.121617 	0.383562
+7  	22    	0.234632	0.110576	0.121617 	0.383562
+8  	23    	0.234077	0.110989	0.121617 	0.383562
+9  	21    	0.232907	0.110525	0.121562 	0.383562
+10 	23    	0.232195	0.110508	0.121345 	0.344156
+11 	22    	0.232113	0.110658	0.120788 	0.344156

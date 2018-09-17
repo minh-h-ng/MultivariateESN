@@ -1,0 +1,81 @@
+[2018-08-23 07:14:50,228] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 07:14:50,228] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 07:14:50,228] launcher  INFO    Worker distribution: 
+[2018-08-23 07:14:50,228] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 07:14:50,644 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:14:50,645 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-08-23 07:14:50,645 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:14:50,649 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:14:50,649 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:14:50,649 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:14:50,649 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-08-23 07:14:50,649 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-08-23 07:14:50,649 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-08-23 07:14:50,650 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:14:50,650 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:14:50,650 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:14:50,650 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:14:50,650 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-08-23 07:14:50,651 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:14:50,654 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:14:50,654 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-08-23 07:14:50,655 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:14:50,655 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:14:50,655 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-08-23 07:14:50,656 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:14:50,656 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:14:50,657 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-08-23 07:14:50,658 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:14:50,779 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:14:50,779 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:14:50,779 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-08-23 07:14:50,779 parameterhelper INFO     Config: ./configs/user/lasso_kpca (overload)
+2018-08-23 07:14:50,780 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:14:50,780 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:14:50,837 root            INFO     Initializing genetic algorithm
+2018-08-23 07:14:50,837 root            INFO     Initializing genetic algorithm
+2018-08-23 07:14:50,838 root            INFO     Running GA optimization
+2018-08-23 07:14:50,838 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min       	max    
+0  	50    	1.00774	0.543102	0.00865801	1.60318
+1  	19    	0.730201	0.50882 	0.00865801	1.60318
+2  	20    	0.507356	0.33751 	0.00865801	1.4013 
+3  	19    	0.491936	0.239224	0.00865801	0.830189
+4  	19    	0.577212	0.238822	0.00865801	0.830189
+5  	18    	0.465208	0.286297	0.00865801	0.830189
+6  	23    	0.307875	0.267791	0.00865801	0.828571
+7  	21    	0.371345	0.286286	0.0021645 	0.828571
+8  	18    	0.525811	0.269808	0.0021645 	0.828571
+9  	23    	0.589123	0.23517 	0.0021645 	0.828571
+10 	22    	0.546253	0.262247	0.0021645 	0.828571
+11 	20    	0.370764	0.291537	0.0021645 	0.828571
+12 	24    	0.239719	0.238464	0.0021645 	0.828571
+13 	24    	0.197321	0.200842	0.0021645 	0.824675
+14 	21    	0.188897	0.191452	0.00214592	0.824675
+15 	22    	0.188727	0.191315	0.00214592	0.824675
+16 	17    	0.171822	0.16966 	0.00214592	0.342669
+17 	23    	0.171343	0.16918 	0.00214592	0.34262 
+18 	22    	0.170871	0.168707	0.00214592	0.340481
+19 	18    	0.170655	0.168491	0.00214592	0.340076
+20 	20    	0.17061 	0.168445	0.0021645 	0.339299
+2018-08-23 08:03:50,860 root            INFO     Saving the best parameters
+2018-08-23 08:03:50,860 root            INFO     Saving the best parameters
+2018-08-23 08:03:50,860 root            INFO     Done
+2018-08-23 08:03:50,860 root            INFO     Done
+[2018-08-23 08:03:51,292] launcher  (127.0.0.1:45591) INFO    Root process is done.
+[2018-08-23 08:03:51,292] launcher  (127.0.0.1:45591) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 08:03:51,329] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 08:03:51,329] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 08:03:51,329] launcher  INFO    Worker distribution: 
+[2018-08-23 08:03:51,329] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.3243867  0.32550614 0.32450317 0.32703927 0.32513057 0.32567087
+ 0.32501256 0.32478544 0.32471148 0.32653023 0.32642002 0.32553385
+ 0.325135   0.32620622 0.32384378 0.32565643 0.32592461 0.32537584
+ 0.32610498 0.32639092]
+Mean:
+0.32549340387967124
+Std:
+0.0008000356120347882
+[2018-08-23 08:04:42,562] launcher  (127.0.0.1:43687) INFO    Root process is done.
+[2018-08-23 08:04:42,562] launcher  (127.0.0.1:43687) INFO    Finished cleaning spawned subprocesses.

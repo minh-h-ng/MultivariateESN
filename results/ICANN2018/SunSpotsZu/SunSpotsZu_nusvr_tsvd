@@ -1,0 +1,81 @@
+[2018-05-15 05:02:51,267] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 05:02:51,267] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 05:02:51,267] launcher  INFO    Worker distribution: 
+[2018-05-15 05:02:51,267] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 05:02:51,692 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 05:02:51,692 parameterhelper INFO     Config: ./configs/user/nusvr_tsvd (overload)
+2018-05-15 05:02:51,692 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 05:02:51,692 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 05:02:51,692 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 05:02:51,692 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 05:02:51,692 parameterhelper INFO     Config: ./configs/user/nusvr_tsvd (overload)
+2018-05-15 05:02:51,692 parameterhelper INFO     Config: ./configs/user/nusvr_tsvd (overload)
+2018-05-15 05:02:51,692 parameterhelper INFO     Config: ./configs/user/nusvr_tsvd (overload)
+2018-05-15 05:02:51,692 parameterhelper INFO     Config: ./configs/user/nusvr_tsvd (overload)
+2018-05-15 05:02:51,693 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 05:02:51,693 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 05:02:51,693 parameterhelper INFO     Config: ./configs/user/nusvr_tsvd (overload)
+2018-05-15 05:02:51,693 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 05:02:51,693 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 05:02:51,693 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 05:02:51,693 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 05:02:51,694 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 05:02:51,695 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 05:02:51,695 parameterhelper INFO     Config: ./configs/user/nusvr_tsvd (overload)
+2018-05-15 05:02:51,696 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 05:02:51,703 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 05:02:51,703 parameterhelper INFO     Config: ./configs/user/nusvr_tsvd (overload)
+2018-05-15 05:02:51,704 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 05:02:51,768 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 05:02:51,768 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 05:02:51,768 parameterhelper INFO     Config: ./configs/user/nusvr_tsvd (overload)
+2018-05-15 05:02:51,768 parameterhelper INFO     Config: ./configs/user/nusvr_tsvd (overload)
+2018-05-15 05:02:51,769 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 05:02:51,769 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 05:02:51,795 root            INFO     Initializing genetic algorithm
+2018-05-15 05:02:51,795 root            INFO     Initializing genetic algorithm
+2018-05-15 05:02:51,797 root            INFO     Running GA optimization
+2018-05-15 05:02:51,797 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.703262	0.266544	0.0118343	1.03041
+1  	25    	0.644192	0.203266	0.0118343	0.988764
+2  	20    	0.624754	0.166705	0.0118343	0.988764
+3  	17    	0.655207	0.149117	0.482697 	0.988764
+4  	22    	0.643615	0.160048	0.441173 	0.958525
+5  	26    	0.632636	0.179356	0.441173 	0.958525
+6  	20    	0.659182	0.213886	0.43618  	0.958525
+7  	21    	0.669115	0.229061	0.433532 	0.958525
+8  	14    	0.656267	0.224519	0.433532 	0.958525
+9  	19    	0.660133	0.22784 	0.433116 	0.958525
+10 	19    	0.660933	0.22889 	0.43295  	0.958525
+11 	22    	0.662542	0.230958	0.432704 	0.958525
+12 	18    	0.657202	0.225174	0.43254  	0.958525
+13 	20    	0.651878	0.21909 	0.431955 	0.870968
+14 	22    	0.651689	0.21927 	0.431426 	0.870968
+15 	24    	0.651517	0.21939 	0.431426 	0.870968
+16 	23    	0.651254	0.219507	0.431426 	0.870968
+17 	23    	0.651019	0.219617	0.430806 	0.871245
+18 	23    	0.646255	0.217444	0.430168 	0.870968
+19 	19    	0.648279	0.218731	0.430168 	0.870968
+20 	20    	0.648086	0.218804	0.430032 	0.870968
+2018-05-15 05:09:00,929 root            INFO     Saving the best parameters
+2018-05-15 05:09:00,929 root            INFO     Saving the best parameters
+2018-05-15 05:09:00,929 root            INFO     Done
+2018-05-15 05:09:00,929 root            INFO     Done
+[2018-05-15 05:09:01,361] launcher  (127.0.0.1:42509) INFO    Root process is done.
+[2018-05-15 05:09:01,361] launcher  (127.0.0.1:42509) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 05:09:01,398] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 05:09:01,398] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 05:09:01,398] launcher  INFO    Worker distribution: 
+[2018-05-15 05:09:01,398] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.35234538 0.35028456 0.35879555 0.3523447  0.35789315 0.35326662
+ 0.35583924 0.35382851 0.35186174 0.35238589 0.35438081 0.35452417
+ 0.35135322 0.35662101 0.35384114 0.35053361 0.35219074 0.35339337
+ 0.34854408 0.35523238]
+Mean:
+0.3534729935220645
+Std:
+0.0024927119674199956
+[2018-05-15 05:09:20,301] launcher  (127.0.0.1:35321) INFO    Root process is done.
+[2018-05-15 05:09:20,301] launcher  (127.0.0.1:35321) INFO    Finished cleaning spawned subprocesses.

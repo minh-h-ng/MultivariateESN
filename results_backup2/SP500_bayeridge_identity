@@ -1,0 +1,81 @@
+[2018-05-21 20:02:31,829] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-21 20:02:31,829] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-21 20:02:31,829] launcher  INFO    Worker distribution: 
+[2018-05-21 20:02:31,829] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-21 20:02:32,249 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-21 20:02:32,249 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-21 20:02:32,250 root            INFO     Loading data (./data/SP500)
+2018-05-21 20:02:32,254 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-21 20:02:32,254 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-21 20:02:32,255 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-21 20:02:32,255 root            INFO     Loading data (./data/SP500)
+2018-05-21 20:02:32,255 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-21 20:02:32,256 root            INFO     Loading data (./data/SP500)
+2018-05-21 20:02:32,256 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-21 20:02:32,257 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-21 20:02:32,257 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-21 20:02:32,257 root            INFO     Loading data (./data/SP500)
+2018-05-21 20:02:32,258 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-21 20:02:32,258 root            INFO     Loading data (./data/SP500)
+2018-05-21 20:02:32,259 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-21 20:02:32,260 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-21 20:02:32,260 root            INFO     Loading data (./data/SP500)
+2018-05-21 20:02:32,268 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-21 20:02:32,269 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-21 20:02:32,269 root            INFO     Loading data (./data/SP500)
+2018-05-21 20:02:32,292 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-21 20:02:32,292 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-21 20:02:32,293 root            INFO     Loading data (./data/SP500)
+2018-05-21 20:02:32,366 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-21 20:02:32,366 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-21 20:02:32,367 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-21 20:02:32,367 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-05-21 20:02:32,367 root            INFO     Loading data (./data/SP500)
+2018-05-21 20:02:32,367 root            INFO     Loading data (./data/SP500)
+2018-05-21 20:02:32,411 root            INFO     Initializing genetic algorithm
+2018-05-21 20:02:32,411 root            INFO     Initializing genetic algorithm
+2018-05-21 20:02:32,413 root            INFO     Running GA optimization
+2018-05-21 20:02:32,413 root            INFO     Running GA optimization
+gen	nevals	avg     	std       	min     	max     
+0  	50    	0.116874	0.00290293	0.113921	0.134839
+1  	21    	0.115352	0.000646402	0.113921	0.116947
+2  	20    	0.114656	0.000427305	0.113921	0.115271
+3  	22    	0.114268	0.000313424	0.113889	0.114996
+4  	22    	0.114   	0.000155367	0.113889	0.114394
+5  	21    	0.113922	3.01756e-05	0.113887	0.114107
+6  	20    	0.113895	2.49115e-05	0.113826	0.113921
+7  	18    	0.11387 	2.81193e-05	0.11376 	0.113921
+8  	21    	0.113811	5.16626e-05	0.113694	0.113887
+9  	21    	0.113764	4.49575e-05	0.113694	0.113848
+10 	23    	0.113729	3.60925e-05	0.113694	0.113812
+11 	20    	0.113707	2.30086e-05	0.113694	0.113776
+12 	18    	0.113696	1.04381e-05	0.113694	0.113751
+13 	19    	0.113694	6.03585e-06	0.113694	0.113737
+14 	19    	0.113694	1.38778e-17	0.113694	0.113694
+15 	23    	0.113694	1.38778e-17	0.113694	0.113694
+16 	24    	0.113694	1.38778e-17	0.113694	0.113694
+17 	22    	0.113694	1.38778e-17	0.113694	0.113694
+18 	21    	0.113694	1.38778e-17	0.113694	0.113694
+19 	15    	0.113694	1.38778e-17	0.113694	0.113694
+20 	19    	0.113694	1.38778e-17	0.113694	0.113694
+2018-05-21 20:04:54,979 root            INFO     Saving the best parameters
+2018-05-21 20:04:54,979 root            INFO     Saving the best parameters
+2018-05-21 20:04:54,980 root            INFO     Done
+2018-05-21 20:04:54,980 root            INFO     Done
+[2018-05-21 20:04:55,410] launcher  (127.0.0.1:38439) INFO    Root process is done.
+[2018-05-21 20:04:55,410] launcher  (127.0.0.1:38439) INFO    Finished cleaning spawned subprocesses.
+[2018-05-21 20:04:55,448] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-21 20:04:55,448] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-21 20:04:55,448] launcher  INFO    Worker distribution: 
+[2018-05-21 20:04:55,448] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.40231535 0.42309965 0.34077496 0.43863308 0.33361288 0.46384431
+ 0.37196259 0.37361559 0.36172596 0.43038942 0.44053061 0.38506728
+ 0.37848668 0.46189997 0.37059587 0.32583725 0.40235605 0.39927386
+ 0.40018671 0.41242184]
+Mean:
+0.3958314946381902
+Std:
+0.03887854243620921
+[2018-05-21 20:05:02,127] launcher  (127.0.0.1:36671) INFO    Root process is done.
+[2018-05-21 20:05:02,127] launcher  (127.0.0.1:36671) INFO    Finished cleaning spawned subprocesses.

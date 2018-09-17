@@ -1,0 +1,17 @@
+{
+    "noise_level": 0.027190843766351315,
+    "input_scaling": 0.1,
+    "teacher_scaling": 0.1,
+    "input_shift": 0.0,
+    "n_internal_units": 421,
+    "n_dim": null,
+    "n_drop": 100,
+    "connectivity": 0.25,
+    "teacher_shift": 0.0,
+    "regression_parameters": null,
+    "spectral_radius": 0.6145286668742919,
+    "embedding_parameters": null,
+    "feedback_scaling": 0.09628361837058891,
+    "embedding": "identity",
+    "regression_method": "gpr"
+}

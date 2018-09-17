@@ -1,0 +1,81 @@
+[2018-08-17 18:58:48,569] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-17 18:58:48,569] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-17 18:58:48,569] launcher  INFO    Worker distribution: 
+[2018-08-17 18:58:48,569] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-17 18:58:49,001 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 18:58:49,002 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-17 18:58:49,002 root            INFO     Loading data (./data/TempDenver)
+2018-08-17 18:58:49,004 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 18:58:49,004 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-17 18:58:49,005 root            INFO     Loading data (./data/TempDenver)
+2018-08-17 18:58:49,030 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 18:58:49,031 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-17 18:58:49,032 root            INFO     Loading data (./data/TempDenver)
+2018-08-17 18:58:49,037 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 18:58:49,038 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-17 18:58:49,038 root            INFO     Loading data (./data/TempDenver)
+2018-08-17 18:58:49,039 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 18:58:49,039 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-17 18:58:49,040 root            INFO     Loading data (./data/TempDenver)
+2018-08-17 18:58:49,055 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 18:58:49,055 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-17 18:58:49,056 root            INFO     Loading data (./data/TempDenver)
+2018-08-17 18:58:49,113 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 18:58:49,127 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-17 18:58:49,127 root            INFO     Loading data (./data/TempDenver)
+2018-08-17 18:58:49,201 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 18:58:49,201 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 18:58:49,202 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-17 18:58:49,202 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-17 18:58:49,202 root            INFO     Loading data (./data/TempDenver)
+2018-08-17 18:58:49,202 root            INFO     Loading data (./data/TempDenver)
+2018-08-17 18:58:49,210 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 18:58:49,210 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-08-17 18:58:49,211 root            INFO     Loading data (./data/TempDenver)
+2018-08-17 18:58:49,284 root            INFO     Initializing genetic algorithm
+2018-08-17 18:58:49,284 root            INFO     Initializing genetic algorithm
+2018-08-17 18:58:49,286 root            INFO     Running GA optimization
+2018-08-17 18:58:49,286 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min     	max    
+0  	50    	1.09693	0.436086	0.227234	1.56598
+1  	20    	0.638174	0.331941	0.227234	1.39259
+2  	17    	0.334333	0.118644	0.226404	0.627989
+3  	20    	0.2344  	0.0324992	0.211681	0.436921
+4  	22    	0.224509	0.0037526	0.211681	0.227234
+5  	17    	0.215665	0.0174783	0.15029 	0.226404
+6  	17    	0.198098	0.0218925	0.15029 	0.225006
+7  	23    	0.174788	0.0154514	0.15029 	0.207117
+8  	21    	0.160993	0.0133979	0.148254	0.178333
+9  	16    	0.149785	0.000848553	0.148254	0.151168
+10 	20    	0.148946	0.000819488	0.147496	0.15029 
+11 	22    	0.148148	0.00035846 	0.147496	0.149448
+12 	20    	0.147831	0.00034055 	0.147496	0.148254
+13 	23    	0.147536	0.000137528	0.147496	0.148254
+14 	19    	0.147445	0.00015326 	0.146985	0.147496
+15 	19    	0.147342	0.000234108	0.146985	0.147496
+16 	21    	0.147179	0.000247967	0.146985	0.147496
+17 	20    	0.147055	0.000199986	0.146985	0.147956
+18 	21    	0.146995	7.15211e-05	0.146985	0.147496
+19 	17    	0.146985	2.77556e-17	0.146985	0.146985
+20 	23    	0.146985	2.77556e-17	0.146985	0.146985
+2018-08-17 19:09:32,848 root            INFO     Saving the best parameters
+2018-08-17 19:09:32,848 root            INFO     Saving the best parameters
+2018-08-17 19:09:32,848 root            INFO     Done
+2018-08-17 19:09:32,848 root            INFO     Done
+[2018-08-17 19:09:33,271] launcher  (127.0.0.1:33287) INFO    Root process is done.
+[2018-08-17 19:09:33,271] launcher  (127.0.0.1:33287) INFO    Finished cleaning spawned subprocesses.
+[2018-08-17 19:09:33,312] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-17 19:09:33,312] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-17 19:09:33,312] launcher  INFO    Worker distribution: 
+[2018-08-17 19:09:33,312] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.12887457 0.12390093 0.13450895 0.12925269 0.12972975 0.12894337
+ 0.13120334 0.12794716 0.12760829 0.1295155  0.12993392 0.12679544
+ 0.13057193 0.13170281 0.13088418 0.12453319 0.13277988 0.1307351
+ 0.12891612 0.1273295 ]
+Mean:
+0.12928333137503029
+Std:
+0.0024762002429530787
+[2018-08-17 19:10:10,463] launcher  (127.0.0.1:38327) INFO    Root process is done.
+[2018-08-17 19:10:10,463] launcher  (127.0.0.1:38327) INFO    Finished cleaning spawned subprocesses.

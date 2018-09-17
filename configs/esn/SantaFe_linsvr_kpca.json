@@ -1,0 +1,20 @@
+{
+    "n_drop": 100,
+    "n_internal_units": 408,
+    "regression_method": "linsvr",
+    "spectral_radius": 0.5863125173615794,
+    "input_scaling": 0.7111706702244555,
+    "regression_parameters": [
+        6.33870407773567,
+        0.04189746929221834
+    ],
+    "input_shift": 0.0,
+    "connectivity": 0.25,
+    "teacher_shift": 0.0,
+    "noise_level": 0.015064181611082951,
+    "n_dim": 202,
+    "feedback_scaling": 0.0,
+    "embedding": "kpca",
+    "teacher_scaling": 0.608473019983757,
+    "embedding_parameters": 0.005754796411208896
+}

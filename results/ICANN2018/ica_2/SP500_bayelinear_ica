@@ -1,0 +1,81 @@
+[2018-09-13 10:59:16,295] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-13 10:59:16,296] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-13 10:59:16,296] launcher  INFO    Worker distribution: 
+[2018-09-13 10:59:16,296] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-13 10:59:16,730 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:59:16,730 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-13 10:59:16,731 root            INFO     Loading data (./data/SP500)
+2018-09-13 10:59:16,733 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:59:16,733 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-13 10:59:16,734 root            INFO     Loading data (./data/SP500)
+2018-09-13 10:59:16,737 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:59:16,738 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-13 10:59:16,738 root            INFO     Loading data (./data/SP500)
+2018-09-13 10:59:16,746 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:59:16,747 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-13 10:59:16,748 root            INFO     Loading data (./data/SP500)
+2018-09-13 10:59:16,817 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:59:16,818 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-13 10:59:16,821 root            INFO     Loading data (./data/SP500)
+2018-09-13 10:59:16,825 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:59:16,825 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-13 10:59:16,825 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:59:16,826 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-13 10:59:16,826 root            INFO     Loading data (./data/SP500)
+2018-09-13 10:59:16,826 root            INFO     Loading data (./data/SP500)
+2018-09-13 10:59:16,899 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:59:16,899 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-13 10:59:16,900 root            INFO     Loading data (./data/SP500)
+2018-09-13 10:59:16,928 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:59:16,928 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:59:16,928 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-13 10:59:16,928 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-13 10:59:16,928 root            INFO     Loading data (./data/SP500)
+2018-09-13 10:59:16,928 root            INFO     Loading data (./data/SP500)
+2018-09-13 10:59:16,991 root            INFO     Initializing genetic algorithm
+2018-09-13 10:59:16,991 root            INFO     Initializing genetic algorithm
+2018-09-13 10:59:16,993 root            INFO     Running GA optimization
+2018-09-13 10:59:16,993 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max     
+0  	50    	0.301162	0.263555	0.0138249	0.964286
+1  	22    	0.29347 	0.28009 	0.0138249	0.951613
+2  	25    	0.16032 	0.208431	0.0127389	0.882353
+3  	22    	0.0673696	0.0492815	0.0127389	0.117719
+4  	20    	0.063955 	0.0505062	0.0127389	0.114606
+5  	19    	0.0636347	0.0507877	0.0127389	0.114432
+6  	21    	0.0635786	0.0508397	0.0127389	0.114429
+7  	19    	0.0635775	0.0508387	0.0127389	0.11442 
+8  	21    	0.0635756	0.0508368	0.0127389	0.114425
+9  	22    	0.0635741	0.0508353	0.0127389	0.114419
+10 	19    	0.0636273	0.0507804	0.0127389	0.11442 
+11 	20    	0.0636811	0.0507259	0.0127389	0.11441 
+12 	20    	0.0637917	0.0506198	0.0127389	0.114401
+13 	19    	0.0640134	0.0504065	0.0127389	0.114401
+14 	20    	0.0645678	0.0498652	0.0127389	0.114401
+15 	20    	0.0658425	0.0485729	0.0127389	0.114401
+16 	21    	0.0662859	0.0481074	0.0127389	0.114401
+17 	24    	0.0663413	0.0480486	0.0182927	0.11439 
+18 	20    	0.0663413	0.0480486	0.0182927	0.11439 
+19 	24    	0.0663427	0.04805  	0.0182927	0.114522
+20 	18    	0.0663413	0.0480486	0.0182927	0.11439 
+2018-09-13 11:13:25,277 root            INFO     Saving the best parameters
+2018-09-13 11:13:25,277 root            INFO     Saving the best parameters
+2018-09-13 11:13:25,277 root            INFO     Done
+2018-09-13 11:13:25,277 root            INFO     Done
+[2018-09-13 11:13:25,722] launcher  (127.0.0.1:38489) INFO    Root process is done.
+[2018-09-13 11:13:25,723] launcher  (127.0.0.1:38489) INFO    Finished cleaning spawned subprocesses.
+[2018-09-13 11:13:25,761] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-13 11:13:25,761] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-13 11:13:25,761] launcher  INFO    Worker distribution: 
+[2018-09-13 11:13:25,761] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.0553026  0.05651048 0.05671004 0.05496939 0.05523288 0.05561821
+ 0.05614051 0.05607582 0.05873151 0.05554254 0.05738686 0.05530336
+ 0.05697244 0.05623058 0.05540699 0.05498402 0.05732467 0.05626404
+ 0.05492596 0.05540044]
+Mean:
+0.056051667725547635
+Std:
+0.0009700224024255855
+[2018-09-13 11:13:32,025] launcher  (127.0.0.1:44601) INFO    Root process is done.
+[2018-09-13 11:13:32,025] launcher  (127.0.0.1:44601) INFO    Finished cleaning spawned subprocesses.

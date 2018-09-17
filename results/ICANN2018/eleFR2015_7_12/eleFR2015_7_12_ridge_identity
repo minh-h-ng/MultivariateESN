@@ -1,0 +1,81 @@
+[2018-08-23 11:32:01,006] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 11:32:01,006] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 11:32:01,007] launcher  INFO    Worker distribution: 
+[2018-08-23 11:32:01,007] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 11:32:01,424 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 11:32:01,424 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 11:32:01,424 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 11:32:01,425 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-08-23 11:32:01,425 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-08-23 11:32:01,425 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-08-23 11:32:01,426 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 11:32:01,426 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 11:32:01,426 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 11:32:01,427 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 11:32:01,428 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-08-23 11:32:01,428 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 11:32:01,428 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 11:32:01,429 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-08-23 11:32:01,429 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-08-23 11:32:01,429 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 11:32:01,429 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 11:32:01,429 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 11:32:01,433 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 11:32:01,433 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 11:32:01,433 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-08-23 11:32:01,433 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-08-23 11:32:01,434 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 11:32:01,434 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 11:32:01,559 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 11:32:01,559 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 11:32:01,559 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-08-23 11:32:01,559 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-08-23 11:32:01,559 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 11:32:01,559 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 11:32:01,618 root            INFO     Initializing genetic algorithm
+2018-08-23 11:32:01,618 root            INFO     Initializing genetic algorithm
+2018-08-23 11:32:01,619 root            INFO     Running GA optimization
+2018-08-23 11:32:01,619 root            INFO     Running GA optimization
+gen	nevals	avg     	std      	min     	max     
+0  	50    	0.467697	0.0570771	0.337075	0.605008
+1  	23    	0.40351 	0.0447151	0.337075	0.490508
+2  	24    	0.361593	0.02402  	0.337009	0.437827
+3  	22    	0.342574	0.00590505	0.334935	0.361526
+4  	21    	0.33722 	0.00348134	0.331185	0.350363
+5  	20    	0.334776	0.00219403	0.328905	0.337009
+6  	23    	0.331871	0.00323086	0.326056	0.337009
+7  	22    	0.32971 	0.00262165	0.325753	0.334297
+8  	22    	0.327371	0.00248444	0.320822	0.333918
+9  	24    	0.325892	0.00207729	0.320822	0.330419
+10 	21    	0.323946	0.00219795	0.32016 	0.328564
+11 	23    	0.321614	0.00214227	0.314395	0.325753
+12 	21    	0.319762	0.00180425	0.313574	0.322421
+13 	17    	0.317972	0.00241112	0.313574	0.32016 
+14 	25    	0.316   	0.00287963	0.313574	0.329986
+15 	17    	0.314371	0.00118335	0.313574	0.319451
+16 	21    	0.313991	0.000795105	0.313574	0.318816
+17 	21    	0.313606	0.000160986	0.313574	0.314395
+18 	24    	0.313788	0.00127528 	0.313448	0.322479
+19 	20    	0.313321	0.00167627 	0.305599	0.317625
+20 	25    	0.312397	0.00274979 	0.305599	0.313574
+2018-08-23 11:36:50,253 root            INFO     Saving the best parameters
+2018-08-23 11:36:50,253 root            INFO     Saving the best parameters
+2018-08-23 11:36:50,253 root            INFO     Done
+2018-08-23 11:36:50,253 root            INFO     Done
+[2018-08-23 11:36:50,686] launcher  (127.0.0.1:45907) INFO    Root process is done.
+[2018-08-23 11:36:50,686] launcher  (127.0.0.1:45907) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 11:36:50,723] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 11:36:50,723] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 11:36:50,723] launcher  INFO    Worker distribution: 
+[2018-08-23 11:36:50,723] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.51732593 0.40343789 0.42377234 0.36123844 0.51912485 0.3985428
+ 0.45323937 0.43773953 0.5757439  0.47669272 0.43314955 0.46904671
+ 0.44419649 0.38952435 0.47143507 0.41187149 0.39766048 0.49501304
+ 0.40603721 0.43115552]
+Mean:
+0.44579738469461805
+Std:
+0.0511514372495374
+[2018-08-23 11:36:59,793] launcher  (127.0.0.1:35489) INFO    Root process is done.
+[2018-08-23 11:36:59,793] launcher  (127.0.0.1:35489) INFO    Finished cleaning spawned subprocesses.

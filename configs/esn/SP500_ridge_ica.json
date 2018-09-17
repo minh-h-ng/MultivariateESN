@@ -1,0 +1,17 @@
+{
+    "embedding_parameters": null,
+    "regression_parameters": 0.2889024860046347,
+    "connectivity": 0.25,
+    "regression_method": "ridge",
+    "feedback_scaling": 0.0,
+    "teacher_shift": 0.0,
+    "noise_level": 0.015091065996841013,
+    "spectral_radius": 1.0009225734120624,
+    "embedding": "ica",
+    "input_shift": 0.0,
+    "input_scaling": 0.8802628361924846,
+    "n_dim": 11,
+    "n_drop": 100,
+    "n_internal_units": 244,
+    "teacher_scaling": 0.16119886878118583
+}

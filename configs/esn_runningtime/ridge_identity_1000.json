@@ -1,0 +1,17 @@
+{
+    "embedding": "identity",
+    "embedding_parameters": null,
+    "teacher_shift": 0.0,
+    "regression_method": "ridge",
+    "noise_level": 0.01,
+    "connectivity": 0.25,
+    "input_shift": 0.0,
+    "n_internal_units": 1000,
+    "spectral_radius": 0.9,
+    "input_scaling": 0.1,
+    "regression_parameters": 1.0,
+    "n_dim": null,
+    "feedback_scaling": 0.0,
+    "n_drop": 100,
+    "teacher_scaling": 0.1
+}

@@ -1,0 +1,20 @@
+{
+    "regression_parameters": [
+        7.055998246219615,
+        0.5903496931847764
+    ],
+    "n_internal_units": 286,
+    "teacher_shift": 0.0,
+    "n_drop": 100,
+    "embedding_parameters": null,
+    "n_dim": 2,
+    "noise_level": 0.09969535523994533,
+    "input_scaling": 0.13231853957272754,
+    "spectral_radius": 0.5643751724948263,
+    "embedding": "pca",
+    "teacher_scaling": 0.7648244997039061,
+    "input_shift": 0.0,
+    "feedback_scaling": 0.0,
+    "regression_method": "linsvr",
+    "connectivity": 0.25
+}

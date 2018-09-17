@@ -1,0 +1,81 @@
+[2018-05-15 03:40:55,578] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 03:40:55,578] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 03:40:55,578] launcher  INFO    Worker distribution: 
+[2018-05-15 03:40:55,578] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 03:40:56,001 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:40:56,001 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:40:56,002 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:40:56,002 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 03:40:56,002 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 03:40:56,002 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 03:40:56,003 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:40:56,003 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:40:56,003 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:40:56,003 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:40:56,003 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:40:56,004 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 03:40:56,004 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 03:40:56,004 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:40:56,005 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:40:56,005 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:40:56,005 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 03:40:56,006 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:40:56,007 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:40:56,007 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:40:56,007 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 03:40:56,007 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 03:40:56,008 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:40:56,008 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:40:56,078 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:40:56,078 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:40:56,078 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 03:40:56,078 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 03:40:56,078 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:40:56,078 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 03:40:56,104 root            INFO     Initializing genetic algorithm
+2018-05-15 03:40:56,104 root            INFO     Initializing genetic algorithm
+2018-05-15 03:40:56,106 root            INFO     Running GA optimization
+2018-05-15 03:40:56,106 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max     
+0  	50    	0.494141	0.201156	0.00659341	0.963235
+1  	21    	0.491421	0.243765	0.00659341	0.963235
+2  	22    	0.442761	0.222483	0.00659341	0.93401 
+3  	19    	0.427183	0.208607	0.0391459 	0.93401 
+4  	20    	0.362335	0.248541	0.0391459 	0.93401 
+5  	22    	0.382981	0.256138	0.0391459 	0.777778
+6  	23    	0.484313	0.243817	0.0391459 	0.777778
+7  	24    	0.573873	0.195721	0.0391459 	0.777778
+8  	25    	0.594089	0.173076	0.422095  	0.777228
+9  	23    	0.588018	0.168773	0.421463  	0.777228
+10 	26    	0.573544	0.156918	0.421463  	0.777228
+11 	19    	0.560293	0.143915	0.421463  	0.777228
+12 	21    	0.563788	0.147807	0.421463  	0.777228
+13 	24    	0.583929	0.166465	0.421463  	0.777228
+14 	21    	0.595674	0.175547	0.41899   	0.777228
+15 	24    	0.591968	0.173138	0.41899   	0.777228
+16 	19    	0.579745	0.164121	0.41899   	0.777228
+17 	20    	0.546978	0.131046	0.41899   	0.777228
+18 	22    	0.53972 	0.12127 	0.41899   	0.777228
+19 	20    	0.538511	0.119521	0.41899   	0.658031
+20 	20    	0.538577	0.119456	0.41899   	0.658031
+2018-05-15 03:49:04,446 root            INFO     Saving the best parameters
+2018-05-15 03:49:04,446 root            INFO     Saving the best parameters
+2018-05-15 03:49:04,446 root            INFO     Done
+2018-05-15 03:49:04,446 root            INFO     Done
+[2018-05-15 03:49:04,877] launcher  (127.0.0.1:37241) INFO    Root process is done.
+[2018-05-15 03:49:04,877] launcher  (127.0.0.1:37241) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 03:49:04,914] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 03:49:04,914] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 03:49:04,914] launcher  INFO    Worker distribution: 
+[2018-05-15 03:49:04,914] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.33967093 0.33727668 0.33992954 0.33419894 0.33724031 0.33537062
+ 0.34384608 0.34024133 0.3358122  0.34062054 0.3339638  0.33350965
+ 0.33185618 0.33903953 0.3344501  0.33459802 0.33367054 0.33704492
+ 0.33950251 0.33659617]
+Mean:
+0.33692192950003175
+Std:
+0.002999397082330095
+[2018-05-15 03:49:26,134] launcher  (127.0.0.1:44999) INFO    Root process is done.
+[2018-05-15 03:49:26,135] launcher  (127.0.0.1:44999) INFO    Finished cleaning spawned subprocesses.

@@ -4,7 +4,13 @@
       "lasso": "regularization",
       "ridge": "regularization",
       "enet": ["regularization", "l1_ratio"],
-      "nusvr": ["C", "nu", "svrgamma"]
+      "linsvr": ["C", "epsilon"],
+      "nusvr": ["C", "nu", "svrgamma"],
+      "bayeridge": ["lambda_1", "lambda_2", "alpha_1", "alpha_2"],
+      "gpr": null,
+      "rvr": null,
+      "ransac": null,
+      "bayelinear": null
     },
 
     "n_dim": {
@@ -20,13 +26,90 @@
         "operator": "multiply_intreturn",
         "val1": "n_dim_percent",
         "val2": "n_internal_units"
+      },
+
+      "spca": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
+      "ipca": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
+      "tsvd": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
+      "wpca": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
+      "empca": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
+      "tga": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
+      "rpca": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
+      "fa": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
+      "mds": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
+      "ica": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
+      "autoencoder": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
       }
     },
 
     "embedding_parameters": {
       "identity": null,
       "pca": null,
-      "kpca": "kpcagamma"
+      "kpca": "kpcagamma",
+      "spca": "spcaalpha",
+      "ipca": null,
+      "tsvd": null,
+      "wpca": null,
+      "empca": null,
+      "tga": null,
+      "rpca": null,
+      "fa": null,
+      "mds": null,
+      "ica": null,
+      "autoencoder": null
     },
 
     "regression_method": "regression_method",

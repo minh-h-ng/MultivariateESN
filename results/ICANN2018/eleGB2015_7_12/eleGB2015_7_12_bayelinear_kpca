@@ -1,0 +1,81 @@
+[2018-08-23 12:23:04,294] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 12:23:04,294] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 12:23:04,294] launcher  INFO    Worker distribution: 
+[2018-08-23 12:23:04,294] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 12:23:04,713 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 12:23:04,713 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 12:23:04,713 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 12:23:04,713 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 12:23:04,713 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-23 12:23:04,713 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-23 12:23:04,713 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-23 12:23:04,714 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-23 12:23:04,714 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 12:23:04,714 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 12:23:04,714 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 12:23:04,714 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 12:23:04,715 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 12:23:04,715 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-23 12:23:04,716 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 12:23:04,716 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 12:23:04,717 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-23 12:23:04,718 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 12:23:04,719 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 12:23:04,720 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-23 12:23:04,720 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 12:23:04,726 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 12:23:04,726 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-23 12:23:04,727 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 12:23:04,849 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 12:23:04,849 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 12:23:04,849 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-23 12:23:04,849 parameterhelper INFO     Config: ./configs/user/bayelinear_kpca (overload)
+2018-08-23 12:23:04,850 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 12:23:04,850 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 12:23:04,909 root            INFO     Initializing genetic algorithm
+2018-08-23 12:23:04,909 root            INFO     Initializing genetic algorithm
+2018-08-23 12:23:04,910 root            INFO     Running GA optimization
+2018-08-23 12:23:04,910 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min 	max     
+0  	50    	0.325163	0.282595	0.01	0.995086
+1  	23    	0.341615	0.25979 	0.129978	0.995086
+2  	20    	0.364961	0.272357	0.12826 	0.937824
+3  	22    	0.40554 	0.284934	0.127661	0.802083
+4  	14    	0.398637	0.276398	0.127661	0.728571
+5  	20    	0.379334	0.258612	0.127661	0.728571
+6  	23    	0.3549  	0.231684	0.125705	0.727651
+7  	21    	0.342763	0.215855	0.125705	0.727651
+8  	24    	0.346154	0.220621	0.125705	0.727651
+9  	20    	0.366643	0.246241	0.12507 	0.727651
+10 	21    	0.394002	0.274354	0.12507 	0.727651
+11 	23    	0.41968 	0.295986	0.12507 	0.727651
+12 	25    	0.424789	0.299791	0.124437	0.727651
+13 	20    	0.423915	0.299181	0.124437	0.727651
+14 	17    	0.419823	0.295603	0.124437	0.727651
+15 	21    	0.406743	0.28344 	0.12432 	0.727651
+16 	23    	0.391222	0.26744 	0.12432 	0.727651
+17 	19    	0.385467	0.261102	0.124264	0.64657 
+18 	22    	0.385426	0.261143	0.123899	0.64657 
+19 	23    	0.3854  	0.26117 	0.123899	0.64657 
+20 	20    	0.385307	0.261262	0.123899	0.64657 
+2018-08-23 13:44:46,213 root            INFO     Saving the best parameters
+2018-08-23 13:44:46,213 root            INFO     Saving the best parameters
+2018-08-23 13:44:46,214 root            INFO     Done
+2018-08-23 13:44:46,214 root            INFO     Done
+[2018-08-23 13:44:46,648] launcher  (127.0.0.1:35167) INFO    Root process is done.
+[2018-08-23 13:44:46,648] launcher  (127.0.0.1:35167) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 13:44:46,685] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 13:44:46,685] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 13:44:46,685] launcher  INFO    Worker distribution: 
+[2018-08-23 13:44:46,685] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.16324147 0.16157132 0.16516389 0.16502688 0.16692129 0.16492233
+ 0.15420331 0.16366447 0.15685775 0.15639534 0.16803316 0.16619399
+ 0.16440296 0.16133704 0.16365813 0.16505428 0.15814773 0.16224275
+ 0.16072633 0.15779453]
+Mean:
+0.1622779467524928
+Std:
+0.0037417406654278503
+[2018-08-23 13:46:35,229] launcher  (127.0.0.1:41217) INFO    Root process is done.
+[2018-08-23 13:46:35,229] launcher  (127.0.0.1:41217) INFO    Finished cleaning spawned subprocesses.

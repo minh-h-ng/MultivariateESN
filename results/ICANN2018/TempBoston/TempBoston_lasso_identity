@@ -1,0 +1,81 @@
+[2018-05-15 09:53:48,931] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 09:53:48,931] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 09:53:48,931] launcher  INFO    Worker distribution: 
+[2018-05-15 09:53:48,931] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 09:53:49,351 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:53:49,352 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 09:53:49,353 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:53:49,353 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:53:49,353 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 09:53:49,354 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:53:49,357 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:53:49,357 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:53:49,357 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:53:49,357 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 09:53:49,357 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 09:53:49,357 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 09:53:49,357 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:53:49,358 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:53:49,358 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:53:49,358 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 09:53:49,358 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:53:49,358 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:53:49,358 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:53:49,359 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 09:53:49,359 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:53:49,369 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:53:49,370 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 09:53:49,370 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:53:49,533 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:53:49,533 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:53:49,534 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 09:53:49,534 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 09:53:49,534 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:53:49,534 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:53:49,617 root            INFO     Initializing genetic algorithm
+2018-05-15 09:53:49,617 root            INFO     Initializing genetic algorithm
+2018-05-15 09:53:49,619 root            INFO     Running GA optimization
+2018-05-15 09:53:49,619 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min    	max    
+0  	50    	2.12027	0.492278	0.15339	2.32029
+1  	22    	1.54348	0.884627	0.15339	2.32029
+2  	19    	0.482748	0.544444	0.151365	2.32029
+3  	20    	0.160241	0.0378364	0.144745	0.395931
+4  	18    	0.148792	0.00418717	0.135713	0.15339 
+5  	22    	0.146041	0.00437803	0.135713	0.151624
+6  	20    	0.140419	0.00503182	0.131193	0.150062
+7  	23    	0.135584	0.00297934	0.131193	0.144745
+8  	22    	0.132688	0.00139986	0.131193	0.135713
+9  	19    	0.13182 	0.000815563	0.131193	0.134119
+10 	23    	0.131358	0.000428539	0.131193	0.133005
+11 	23    	0.131193	0          	0.131193	0.131193
+12 	17    	0.131222	0.000201979	0.131193	0.132636
+13 	23    	0.131241	0.000335054	0.131193	0.133587
+14 	24    	0.131193	0          	0.131193	0.131193
+15 	26    	0.131193	0          	0.131193	0.131193
+16 	20    	0.131193	0          	0.131193	0.131193
+17 	21    	0.131193	0          	0.131193	0.131193
+18 	20    	0.131193	0          	0.131193	0.131193
+19 	23    	0.131193	0          	0.131193	0.131193
+20 	24    	0.131193	0          	0.131193	0.131193
+2018-05-15 09:59:56,211 root            INFO     Saving the best parameters
+2018-05-15 09:59:56,211 root            INFO     Saving the best parameters
+2018-05-15 09:59:56,212 root            INFO     Done
+2018-05-15 09:59:56,212 root            INFO     Done
+[2018-05-15 09:59:56,644] launcher  (127.0.0.1:34897) INFO    Root process is done.
+[2018-05-15 09:59:56,644] launcher  (127.0.0.1:34897) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 09:59:56,681] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 09:59:56,681] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 09:59:56,681] launcher  INFO    Worker distribution: 
+[2018-05-15 09:59:56,681] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.12579302 0.12367781 0.11513457 0.12388097 0.11019251 0.11522417
+ 0.12319199 0.11889737 0.11911817 0.11383187 0.11568887 0.12156114
+ 0.11269172 0.11305691 0.11721225 0.11376266 0.13018794 0.11076499
+ 0.11437374 0.11751935]
+Mean:
+0.11778810072567003
+Std:
+0.005260217433179253
+[2018-05-15 10:00:16,780] launcher  (127.0.0.1:41087) INFO    Root process is done.
+[2018-05-15 10:00:16,780] launcher  (127.0.0.1:41087) INFO    Finished cleaning spawned subprocesses.

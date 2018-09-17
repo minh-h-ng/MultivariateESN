@@ -1,0 +1,85 @@
+[2018-04-27 04:02:07,877] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-04-27 04:02:07,877] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-04-27 04:02:07,877] launcher  INFO    Worker distribution: 
+[2018-04-27 04:02:07,877] launcher  INFO       127.0.0.1:	7 + origin
+2018-04-27 04:02:08,288 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 04:02:08,288 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-04-27 04:02:08,288 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 04:02:08,289 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-04-27 04:02:08,289 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 04:02:08,289 root            INFO     Loading data (./data/Rossler)
+2018-04-27 04:02:08,289 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 04:02:08,289 root            INFO     Loading data (./data/Rossler)
+2018-04-27 04:02:08,289 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-04-27 04:02:08,290 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-04-27 04:02:08,290 root            INFO     Loading data (./data/Rossler)
+2018-04-27 04:02:08,290 root            INFO     Loading data (./data/Rossler)
+2018-04-27 04:02:08,295 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 04:02:08,295 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-04-27 04:02:08,296 root            INFO     Loading data (./data/Rossler)
+2018-04-27 04:02:08,301 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 04:02:08,301 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-04-27 04:02:08,302 root            INFO     Loading data (./data/Rossler)
+2018-04-27 04:02:08,304 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 04:02:08,304 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-04-27 04:02:08,305 root            INFO     Loading data (./data/Rossler)
+2018-04-27 04:02:08,338 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 04:02:08,338 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-04-27 04:02:08,339 root            INFO     Loading data (./data/Rossler)
+2018-04-27 04:02:08,440 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 04:02:08,440 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 04:02:08,440 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-04-27 04:02:08,440 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-04-27 04:02:08,440 root            INFO     Loading data (./data/Rossler)
+2018-04-27 04:02:08,440 root            INFO     Loading data (./data/Rossler)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-04-27 04:02:08,503 root            INFO     Initializing genetic algorithm
+2018-04-27 04:02:08,503 root            INFO     Initializing genetic algorithm
+2018-04-27 04:02:08,504 root            INFO     Running GA optimization
+2018-04-27 04:02:08,504 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.857403	0.277717	0.0497684	1.00045
+1  	19    	0.580018	0.353637	0.0497684	1.00045
+2  	22    	0.257341	0.167124	0.0497684	0.873791
+3  	25    	0.116526	0.078145	0.0369757	0.353768
+4  	21    	0.0551675	0.0186972	0.0369757	0.101243
+5  	20    	0.0435828	0.00472899	0.0369757	0.0497684
+6  	24    	0.0389746	0.00281   	0.0365029	0.0468064
+7  	17    	0.0370302	0.000928671	0.035741 	0.0404808
+8  	19    	0.0362055	0.000554576	0.0353401	0.0369757
+9  	21    	0.0354363	0.000931238	0.0313922	0.0366184
+10 	18    	0.034347 	0.00165994 	0.0309529	0.035741 
+11 	24    	0.0311632	0.00746084 	0.00263632	0.035741 
+12 	19    	0.0215674	0.0137039  	0.00219753	0.0351281
+13 	22    	0.00803484	0.0113439  	0.00212898	0.0309529
+14 	20    	0.00277192	0.0039853  	0.00209152	0.0306581
+15 	18    	0.00214349	2.36598e-05	0.00209152	0.00220574
+16 	23    	0.00212919	6.88416e-06	0.00209152	0.00215603
+17 	23    	0.00212394	1.22558e-05	0.0020909 	0.00212898
+18 	14    	0.00211217	1.61787e-05	0.0020909 	0.00212898
+19 	20    	0.00209755	1.21758e-05	0.0020909 	0.00212898
+20 	22    	0.00209216	5.43661e-06	0.0020909 	0.00211877
+2018-04-27 04:04:12,772 root            INFO     Saving the best parameters
+2018-04-27 04:04:12,772 root            INFO     Saving the best parameters
+2018-04-27 04:04:12,772 root            INFO     Done
+2018-04-27 04:04:12,772 root            INFO     Done
+[2018-04-27 04:04:13,203] launcher  (127.0.0.1:36659) INFO    Root process is done.
+[2018-04-27 04:04:13,204] launcher  (127.0.0.1:36659) INFO    Finished cleaning spawned subprocesses.
+[2018-04-27 04:04:13,242] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-04-27 04:04:13,242] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-04-27 04:04:13,242] launcher  INFO    Worker distribution: 
+[2018-04-27 04:04:13,242] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.00218799 0.0022304  0.00230291 0.00216649 0.00220807 0.0022343
+ 0.00216972 0.00218015 0.00234079 0.00220332 0.00222572 0.00226269
+ 0.00221743 0.00226556 0.00212236 0.00221147 0.00217712 0.00222871
+ 0.00241883 0.00240263]
+Mean:
+0.002237833579449585
+Std:
+7.489541018757925e-05
+[2018-04-27 04:04:19,739] launcher  (127.0.0.1:33571) INFO    Root process is done.
+[2018-04-27 04:04:19,739] launcher  (127.0.0.1:33571) INFO    Finished cleaning spawned subprocesses.

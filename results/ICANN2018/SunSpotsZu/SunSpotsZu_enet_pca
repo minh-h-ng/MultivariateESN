@@ -1,0 +1,81 @@
+[2018-05-15 04:11:45,206] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 04:11:45,206] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 04:11:45,207] launcher  INFO    Worker distribution: 
+[2018-05-15 04:11:45,207] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 04:11:45,627 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:11:45,627 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-05-15 04:11:45,628 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:11:45,628 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:11:45,628 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-05-15 04:11:45,629 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:11:45,629 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:11:45,629 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-05-15 04:11:45,630 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:11:45,633 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:11:45,633 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-05-15 04:11:45,634 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:11:45,636 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:11:45,636 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:11:45,637 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-05-15 04:11:45,637 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-05-15 04:11:45,637 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:11:45,637 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:11:45,641 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:11:45,641 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-05-15 04:11:45,642 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:11:45,642 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:11:45,642 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-05-15 04:11:45,643 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:11:45,705 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:11:45,705 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:11:45,705 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-05-15 04:11:45,705 parameterhelper INFO     Config: ./configs/user/enet_pca (overload)
+2018-05-15 04:11:45,706 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:11:45,706 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:11:45,731 root            INFO     Initializing genetic algorithm
+2018-05-15 04:11:45,731 root            INFO     Initializing genetic algorithm
+2018-05-15 04:11:45,733 root            INFO     Running GA optimization
+2018-05-15 04:11:45,733 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max    
+0  	50    	0.502542	0.210081	0.00930233	1.02671
+1  	21    	0.472702	0.203945	0.00930233	0.899225
+2  	17    	0.440398	0.194872	0.00930233	0.873563
+3  	22    	0.518961	0.157174	0.126214  	0.873563
+4  	26    	0.555074	0.141022	0.123249  	0.694678
+5  	21    	0.56414 	0.130444	0.431574  	0.694678
+6  	20    	0.563751	0.130927	0.431574  	0.694678
+7  	18    	0.563544	0.131136	0.428098  	0.694678
+8  	18    	0.563213	0.131468	0.428098  	0.694678
+9  	24    	0.562636	0.132046	0.428098  	0.694678
+10 	20    	0.562037	0.132627	0.428098  	0.694678
+11 	21    	0.561446	0.133232	0.427549  	0.694678
+12 	20    	0.56135 	0.133328	0.427549  	0.694678
+13 	16    	0.561305	0.133373	0.427549  	0.694678
+14 	22    	0.561233	0.133445	0.427549  	0.694678
+15 	23    	0.561144	0.133534	0.427549  	0.694678
+16 	20    	0.561114	0.133564	0.427549  	0.694678
+17 	18    	0.56111 	0.133568	0.427184  	0.694678
+18 	16    	0.561096	0.133582	0.426935  	0.694678
+19 	21    	0.561064	0.133614	0.426935  	0.694678
+20 	18    	0.560986	0.133692	0.426935  	0.694678
+2018-05-15 04:16:29,877 root            INFO     Saving the best parameters
+2018-05-15 04:16:29,877 root            INFO     Saving the best parameters
+2018-05-15 04:16:29,877 root            INFO     Done
+2018-05-15 04:16:29,877 root            INFO     Done
+[2018-05-15 04:16:30,306] launcher  (127.0.0.1:43603) INFO    Root process is done.
+[2018-05-15 04:16:30,306] launcher  (127.0.0.1:43603) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 04:16:30,343] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 04:16:30,343] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 04:16:30,343] launcher  INFO    Worker distribution: 
+[2018-05-15 04:16:30,343] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.35796714 0.35283444 0.35537223 0.35860734 0.35380181 0.35186182
+ 0.35176903 0.35856256 0.35193089 0.35223215 0.35540265 0.35337321
+ 0.35465907 0.35154032 0.35500476 0.35589777 0.35614947 0.35369636
+ 0.3543833  0.35448994]
+Mean:
+0.35447681265497766
+Std:
+0.0021450793935403273
+[2018-05-15 04:16:44,188] launcher  (127.0.0.1:42979) INFO    Root process is done.
+[2018-05-15 04:16:44,188] launcher  (127.0.0.1:42979) INFO    Finished cleaning spawned subprocesses.

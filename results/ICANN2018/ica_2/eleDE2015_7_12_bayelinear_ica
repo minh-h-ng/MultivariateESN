@@ -1,0 +1,81 @@
+[2018-09-12 22:51:34,933] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-12 22:51:34,933] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-12 22:51:34,933] launcher  INFO    Worker distribution: 
+[2018-09-12 22:51:34,933] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-12 22:51:35,352 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-12 22:51:35,352 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-12 22:51:35,353 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-12 22:51:35,354 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-12 22:51:35,355 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-12 22:51:35,355 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-12 22:51:35,370 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-12 22:51:35,370 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-12 22:51:35,371 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-12 22:51:35,375 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-12 22:51:35,375 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-12 22:51:35,376 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-12 22:51:35,390 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-12 22:51:35,391 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-12 22:51:35,391 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-12 22:51:35,394 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-12 22:51:35,395 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-12 22:51:35,396 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-12 22:51:35,418 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-12 22:51:35,418 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-12 22:51:35,419 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-12 22:51:35,488 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-12 22:51:35,488 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-12 22:51:35,489 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-12 22:51:35,586 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-12 22:51:35,586 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-12 22:51:35,586 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-12 22:51:35,586 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-12 22:51:35,586 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-12 22:51:35,586 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-09-12 22:51:35,651 root            INFO     Initializing genetic algorithm
+2018-09-12 22:51:35,651 root            INFO     Initializing genetic algorithm
+2018-09-12 22:51:35,652 root            INFO     Running GA optimization
+2018-09-12 22:51:35,652 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.473814	0.263919	0.0357143	1.17518
+1  	19    	0.408645	0.2147  	0.0357143	0.967914
+2  	24    	0.375922	0.179237	0.214179 	0.967914
+3  	22    	0.354879	0.172887	0.193145 	0.967914
+4  	19    	0.326635	0.152143	0.192458 	0.814346
+5  	22    	0.293039	0.109931	0.192458 	0.536036
+6  	20    	0.326223	0.149462	0.192458 	0.535211
+7  	18    	0.353556	0.167088	0.181277 	0.535211
+8  	23    	0.355103	0.168497	0.181277 	0.535211
+9  	23    	0.332316	0.156762	0.181277 	0.535211
+10 	19    	0.338151	0.163782	0.181277 	0.535211
+11 	19    	0.35069 	0.172802	0.181277 	0.535211
+12 	20    	0.358244	0.176967	0.181277 	0.535211
+13 	21    	0.358365	0.17685 	0.181277 	0.535211
+14 	22    	0.358244	0.176967	0.181277 	0.535211
+15 	17    	0.358244	0.176967	0.181277 	0.535211
+16 	19    	0.358244	0.176967	0.181277 	0.535211
+17 	20    	0.358244	0.176967	0.181277 	0.535211
+18 	20    	0.358244	0.176967	0.181277 	0.535211
+19 	21    	0.358225	0.176986	0.180801 	0.535211
+20 	20    	0.358154	0.177058	0.180801 	0.535211
+2018-09-12 23:54:32,728 root            INFO     Saving the best parameters
+2018-09-12 23:54:32,728 root            INFO     Saving the best parameters
+2018-09-12 23:54:32,728 root            INFO     Done
+2018-09-12 23:54:32,728 root            INFO     Done
+[2018-09-12 23:54:33,156] launcher  (127.0.0.1:35209) INFO    Root process is done.
+[2018-09-12 23:54:33,156] launcher  (127.0.0.1:35209) INFO    Finished cleaning spawned subprocesses.
+[2018-09-12 23:54:33,193] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-12 23:54:33,193] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-12 23:54:33,193] launcher  INFO    Worker distribution: 
+[2018-09-12 23:54:33,193] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.19620106 0.16735854 0.20654378 0.17371579 0.15773519 0.17042615
+ 0.16234656 0.15652423 0.16830587 0.15475184 0.21345979 0.17648928
+ 0.17048641 0.15893465 0.14966179 0.16982781 0.17017273 0.16933427
+ 0.18918125 0.21320011]
+Mean:
+0.174732854999616
+Std:
+0.018604761639512506
+[2018-09-12 23:57:08,252] launcher  (127.0.0.1:44849) INFO    Root process is done.
+[2018-09-12 23:57:08,252] launcher  (127.0.0.1:44849) INFO    Finished cleaning spawned subprocesses.

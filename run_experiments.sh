@@ -1,7 +1,9 @@
 #!/bin/bash
 
-#
+# Virtual Environment
 source ~/keras-tf-venv3/bin/activate
+
+#python -c "import scipy; print(scipy.__version__)"
 
 # Don't want numpy to use OMP. Parallelization via SCOOP.
 export OMP_NUM_THREADS=1
@@ -10,7 +12,9 @@ export OMP_NUM_THREADS=1
 shopt -s nullglob
 BASEDIR=.
 CONFIGDIR=configs/user
+RECONSTRUCTDIR=configs/reconstruct
 CONFIGPREFIX=${BASEDIR}/${CONFIGDIR}/
+RECONSTRUCTPREFIX=${BASEDIR}/${RECONSTRUCTDIR}/
 CONFIGFILES=(${CONFIGPREFIX}*.json)
 
 ESNCONFIGDIR=${BASEDIR}/configs/esn
@@ -61,12 +65,13 @@ for DATANAME in ${DATANAMES[@]}; do
     DATAFILE=${DATAPREFIX}${DATANAME}
     CONFIGFILE=${CONFIGPREFIX}${CONFIGNAME}
     ESNCONFIG=$ESNCONFIGDIR/$FILENAME
-    RUNS=32
+    RECONSTRUCTFILE=${RECONSTRUCTPREFIX}${DATANAME}
+    RUNS=20
 
     # Spawn process.
     # Note: unbuffer is in the 'expect' package and ensures that the output is flushed to stdout right away.
     # 2>&1 | tee ... writes to the file AND shows it in the console.
-    unbuffer ./run_single_experiment.sh $DATAFILE $CONFIGFILE $ESNCONFIG $RUNS 2>&1 | tee $RESULTDIR/$FILENAME
+    unbuffer ./run_single_experiment.sh $DATAFILE $CONFIGFILE $ESNCONFIG $RECONSTRUCTFILE $RUNS 2>&1 | tee $RESULTDIR/$FILENAME
 
     idx_j=${idx_j}+1
   done

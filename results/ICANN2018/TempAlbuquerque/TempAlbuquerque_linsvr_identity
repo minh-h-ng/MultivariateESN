@@ -1,0 +1,81 @@
+[2018-08-17 12:38:13,695] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-17 12:38:13,695] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-17 12:38:13,695] launcher  INFO    Worker distribution: 
+[2018-08-17 12:38:13,695] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-17 12:38:14,116 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 12:38:14,117 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-17 12:38:14,118 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 12:38:14,139 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 12:38:14,139 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-17 12:38:14,140 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 12:38:14,146 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 12:38:14,146 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-17 12:38:14,147 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 12:38:14,148 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 12:38:14,148 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-17 12:38:14,149 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 12:38:14,169 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 12:38:14,169 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-17 12:38:14,170 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 12:38:14,198 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 12:38:14,199 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-17 12:38:14,199 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 12:38:14,243 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 12:38:14,243 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-17 12:38:14,244 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 12:38:14,298 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 12:38:14,299 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-17 12:38:14,299 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 12:38:14,321 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 12:38:14,321 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-17 12:38:14,321 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-17 12:38:14,321 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-17 12:38:14,322 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 12:38:14,322 root            INFO     Loading data (./data/TempAlbuquerque)
+2018-08-17 12:38:14,429 root            INFO     Initializing genetic algorithm
+2018-08-17 12:38:14,429 root            INFO     Initializing genetic algorithm
+2018-08-17 12:38:14,430 root            INFO     Running GA optimization
+2018-08-17 12:38:14,430 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min     	max    
+0  	50    	1.24794	0.580755	0.243739	1.86159
+1  	17    	0.594812	0.378097	0.243739	1.8154 
+2  	18    	0.317204	0.0729382	0.243739	0.588749
+3  	25    	0.261264	0.0204331	0.241317	0.312086
+4  	18    	0.245646	0.0057439	0.241317	0.271641
+5  	27    	0.241982	0.00336229	0.232217	0.252464
+6  	23    	0.239685	0.00400296	0.232217	0.25392 
+7  	17    	0.237267	0.00376312	0.232217	0.24186 
+8  	17    	0.234224	0.00308121	0.232217	0.241028
+9  	17    	0.232348	0.000915307	0.232217	0.238755
+10 	15    	0.232217	0          	0.232217	0.232217
+11 	22    	0.232217	0          	0.232217	0.232217
+12 	26    	0.232865	0.00375311 	0.232217	0.258421
+13 	20    	0.232649	0.002119   	0.232217	0.243274
+14 	21    	0.232987	0.00539416 	0.232217	0.270747
+15 	23    	0.232217	0          	0.232217	0.232217
+16 	25    	0.232217	0          	0.232217	0.232217
+17 	21    	0.232217	0          	0.232217	0.232217
+18 	20    	0.232217	0          	0.232217	0.232217
+19 	19    	0.232217	0          	0.232217	0.232217
+20 	19    	0.232525	0.002157   	0.232217	0.247624
+2018-08-17 12:51:17,904 root            INFO     Saving the best parameters
+2018-08-17 12:51:17,904 root            INFO     Saving the best parameters
+2018-08-17 12:51:17,904 root            INFO     Done
+2018-08-17 12:51:17,904 root            INFO     Done
+[2018-08-17 12:51:18,326] launcher  (127.0.0.1:42475) INFO    Root process is done.
+[2018-08-17 12:51:18,326] launcher  (127.0.0.1:42475) INFO    Finished cleaning spawned subprocesses.
+[2018-08-17 12:51:18,364] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-17 12:51:18,364] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-17 12:51:18,364] launcher  INFO    Worker distribution: 
+[2018-08-17 12:51:18,364] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.16618198 0.17194256 0.1624874  0.16718313 0.16431732 0.18363581
+ 0.26320902 0.17344423 0.18208289 0.42032541 0.20409624 0.17836995
+ 0.22715652 0.20487348 0.20225604 0.29170203 0.16128453 0.19457561
+ 0.20110116 0.16739096]
+Mean:
+0.20438081342015998
+Std:
+0.05974538499912362
+[2018-08-17 12:51:42,435] launcher  (127.0.0.1:42335) INFO    Root process is done.
+[2018-08-17 12:51:42,436] launcher  (127.0.0.1:42335) INFO    Finished cleaning spawned subprocesses.

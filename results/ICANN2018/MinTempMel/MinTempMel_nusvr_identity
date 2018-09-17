@@ -1,0 +1,81 @@
+[2018-05-15 02:36:16,360] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 02:36:16,360] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 02:36:16,360] launcher  INFO    Worker distribution: 
+[2018-05-15 02:36:16,360] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 02:36:16,781 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 02:36:16,781 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 02:36:16,782 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-05-15 02:36:16,782 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-05-15 02:36:16,782 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 02:36:16,782 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 02:36:16,782 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 02:36:16,782 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 02:36:16,783 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-05-15 02:36:16,783 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-05-15 02:36:16,783 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 02:36:16,783 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 02:36:16,787 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 02:36:16,787 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 02:36:16,787 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-05-15 02:36:16,787 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-05-15 02:36:16,788 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 02:36:16,788 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 02:36:16,793 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 02:36:16,793 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-05-15 02:36:16,794 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 02:36:16,796 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 02:36:16,796 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-05-15 02:36:16,797 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 02:36:16,872 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 02:36:16,872 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 02:36:16,872 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-05-15 02:36:16,872 parameterhelper INFO     Config: ./configs/user/nusvr_identity (overload)
+2018-05-15 02:36:16,872 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 02:36:16,872 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 02:36:16,906 root            INFO     Initializing genetic algorithm
+2018-05-15 02:36:16,906 root            INFO     Initializing genetic algorithm
+2018-05-15 02:36:16,908 root            INFO     Running GA optimization
+2018-05-15 02:36:16,908 root            INFO     Running GA optimization
+gen	nevals	avg     	std      	min    	max    
+0  	50    	0.969277	0.0696192	0.72579	1.01748
+1  	17    	0.925829	0.0890596	0.729424	1.00123
+2  	18    	0.837845	0.085777 	0.729424	0.982697
+3  	24    	0.739392	0.0343837	0.714214	0.887664
+4  	26    	0.723802	0.00501127	0.714214	0.729424
+5  	20    	0.717889	0.00461917	0.714214	0.729424
+6  	19    	0.71333 	0.0101219 	0.643607	0.721748
+7  	22    	0.704029	0.0252528 	0.639857	0.714214
+8  	22    	0.689694	0.0341861 	0.639124	0.714214
+9  	19    	0.657888	0.0301468 	0.638822	0.717755
+10 	26    	0.640298	0.0018855 	0.638047	0.643607
+11 	19    	0.638724	0.000792096	0.637249	0.642061
+12 	19    	0.63811 	0.000632117	0.637249	0.639124
+13 	18    	0.637525	0.000535733	0.636199	0.638822
+14 	23    	0.637261	0.000289253	0.636199	0.638047
+15 	19    	0.637144	0.000314894	0.636199	0.637249
+16 	16    	0.636976	0.000460411	0.636199	0.637249
+17 	21    	0.636806	0.000949088	0.636199	0.64237 
+18 	22    	0.636325	0.000341095	0.636199	0.637249
+19 	26    	0.636241	0.000205688	0.636199	0.637249
+20 	18    	0.636289	0.000626722	0.636199	0.640676
+2018-05-15 02:39:53,031 root            INFO     Saving the best parameters
+2018-05-15 02:39:53,031 root            INFO     Saving the best parameters
+2018-05-15 02:39:53,032 root            INFO     Done
+2018-05-15 02:39:53,032 root            INFO     Done
+[2018-05-15 02:39:53,462] launcher  (127.0.0.1:46755) INFO    Root process is done.
+[2018-05-15 02:39:53,463] launcher  (127.0.0.1:46755) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 02:39:53,499] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 02:39:53,499] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 02:39:53,499] launcher  INFO    Worker distribution: 
+[2018-05-15 02:39:53,499] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.61703664 0.62625561 0.61625543 0.61710592 0.6156797  0.61280858
+ 0.6247959  0.6173689  0.622383   0.61904496 0.60711763 0.61791742
+ 0.61217857 0.61588388 0.61236443 0.62699728 0.6162946  0.62555719
+ 0.61158327 0.61520537]
+Mean:
+0.6174917130645639
+Std:
+0.005222514742875176
+[2018-05-15 02:40:05,082] launcher  (127.0.0.1:39543) INFO    Root process is done.
+[2018-05-15 02:40:05,082] launcher  (127.0.0.1:39543) INFO    Finished cleaning spawned subprocesses.

@@ -1,0 +1,21 @@
+{
+    "input_shift": 0.0,
+    "feedback_scaling": 0.0,
+    "teacher_scaling": 0.3595914179466857,
+    "input_scaling": 0.22751902097919652,
+    "embedding": "pca",
+    "connectivity": 0.25,
+    "n_drop": 100,
+    "n_internal_units": 335,
+    "teacher_shift": 0.0,
+    "noise_level": 0.0,
+    "embedding_parameters": null,
+    "regression_method": "nusvr",
+    "n_dim": 60,
+    "spectral_radius": 0.6901923790006331,
+    "regression_parameters": [
+        5.823817352408569,
+        0.9122549962835943,
+        0.024512593575776093
+    ]
+}

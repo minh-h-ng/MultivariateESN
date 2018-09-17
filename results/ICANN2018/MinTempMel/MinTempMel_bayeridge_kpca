@@ -1,0 +1,81 @@
+[2018-05-15 00:40:31,342] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 00:40:31,342] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 00:40:31,342] launcher  INFO    Worker distribution: 
+[2018-05-15 00:40:31,342] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 00:40:31,765 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:40:31,765 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:40:31,765 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:40:31,766 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 00:40:31,766 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 00:40:31,766 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 00:40:31,766 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:40:31,766 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:40:31,767 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:40:31,773 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:40:31,773 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:40:31,773 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 00:40:31,773 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 00:40:31,773 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:40:31,774 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 00:40:31,774 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:40:31,774 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:40:31,774 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:40:31,778 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:40:31,778 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 00:40:31,779 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:40:31,780 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:40:31,780 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 00:40:31,781 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:40:31,853 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:40:31,853 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 00:40:31,853 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 00:40:31,853 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-05-15 00:40:31,854 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:40:31,854 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 00:40:31,889 root            INFO     Initializing genetic algorithm
+2018-05-15 00:40:31,889 root            INFO     Initializing genetic algorithm
+2018-05-15 00:40:31,891 root            INFO     Running GA optimization
+2018-05-15 00:40:31,891 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max     
+0  	50    	0.599873	0.208949	0.0136612	0.990847
+1  	22    	0.534701	0.267628	0.0136612	0.967662
+2  	23    	0.429869	0.317537	0.0136612	0.967662
+3  	25    	0.328744	0.297166	0.0177515	0.62539 
+4  	22    	0.323563	0.299224	0.00296736	0.622845
+5  	21    	0.320518	0.302038	0.00296736	0.622708
+6  	25    	0.314156	0.307831	0.00296736	0.622437
+7  	20    	0.312474	0.309254	0.00296736	0.621827
+8  	23    	0.312723	0.308933	0.00296736	0.621738
+9  	23    	0.313231	0.308365	0.00296736	0.621704
+10 	22    	0.313418	0.308042	0.00296736	0.621629
+11 	22    	0.313443	0.307932	0.00296736	0.621526
+12 	19    	0.313248	0.308047	0.00296736	0.621401
+13 	20    	0.313224	0.308028	0.00296736	0.621348
+14 	21    	0.314187	0.307104	0.00296736	0.62131 
+15 	19    	0.315766	0.30568 	0.00289017	0.621274
+16 	21    	0.317858	0.303807	0.00296736	0.62119 
+17 	18    	0.324939	0.297245	0.00296736	0.621181
+18 	19    	0.332187	0.29019 	0.00296736	0.621075
+19 	24    	0.347054	0.274554	0.00296736	0.621075
+20 	24    	0.353578	0.267159	0.0864198 	0.620737
+2018-05-15 00:52:39,822 root            INFO     Saving the best parameters
+2018-05-15 00:52:39,822 root            INFO     Saving the best parameters
+2018-05-15 00:52:39,822 root            INFO     Done
+2018-05-15 00:52:39,822 root            INFO     Done
+[2018-05-15 00:52:40,270] launcher  (127.0.0.1:44027) INFO    Root process is done.
+[2018-05-15 00:52:40,271] launcher  (127.0.0.1:44027) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 00:52:40,308] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 00:52:40,308] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 00:52:40,308] launcher  INFO    Worker distribution: 
+[2018-05-15 00:52:40,308] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.60106394 0.60151691 0.60072783 0.60083093 0.60030723 0.6009783
+ 0.60098043 0.60155113 0.6010945  0.60179151 0.60081966 0.60193394
+ 0.60121842 0.60086461 0.60216486 0.6016719  0.60268933 0.60161484
+ 0.60028802 0.60092724]
+Mean:
+0.601251776223162
+Std:
+0.0005936863715300284
+[2018-05-15 00:53:05,053] launcher  (127.0.0.1:43787) INFO    Root process is done.
+[2018-05-15 00:53:05,054] launcher  (127.0.0.1:43787) INFO    Finished cleaning spawned subprocesses.

@@ -1,0 +1,42 @@
+[2018-05-12 16:36:42,257] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-12 16:36:42,257] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-12 16:36:42,257] launcher  INFO    Worker distribution: 
+[2018-05-12 16:36:42,257] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-12 16:36:42,691 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 16:36:42,692 parameterhelper INFO     Config: ./configs/user/bayeridge_tga (overload)
+2018-05-12 16:36:42,692 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 16:36:42,709 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 16:36:42,710 parameterhelper INFO     Config: ./configs/user/bayeridge_tga (overload)
+2018-05-12 16:36:42,711 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 16:36:42,711 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 16:36:42,712 parameterhelper INFO     Config: ./configs/user/bayeridge_tga (overload)
+2018-05-12 16:36:42,712 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 16:36:42,725 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 16:36:42,726 parameterhelper INFO     Config: ./configs/user/bayeridge_tga (overload)
+2018-05-12 16:36:42,727 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 16:36:42,740 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 16:36:42,740 parameterhelper INFO     Config: ./configs/user/bayeridge_tga (overload)
+2018-05-12 16:36:42,741 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 16:36:42,758 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 16:36:42,758 parameterhelper INFO     Config: ./configs/user/bayeridge_tga (overload)
+2018-05-12 16:36:42,759 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 16:36:42,761 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 16:36:42,761 parameterhelper INFO     Config: ./configs/user/bayeridge_tga (overload)
+2018-05-12 16:36:42,762 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 16:36:42,837 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 16:36:42,846 parameterhelper INFO     Config: ./configs/user/bayeridge_tga (overload)
+2018-05-12 16:36:42,847 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 16:36:42,904 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 16:36:42,904 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 16:36:42,904 parameterhelper INFO     Config: ./configs/user/bayeridge_tga (overload)
+2018-05-12 16:36:42,904 parameterhelper INFO     Config: ./configs/user/bayeridge_tga (overload)
+2018-05-12 16:36:42,905 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 16:36:42,905 root            INFO     Loading data (./data/Lorenz)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-05-12 16:36:42,980 root            INFO     Initializing genetic algorithm
+2018-05-12 16:36:42,980 root            INFO     Initializing genetic algorithm
+2018-05-12 16:36:42,982 root            INFO     Running GA optimization
+2018-05-12 16:36:42,982 root            INFO     Running GA optimization

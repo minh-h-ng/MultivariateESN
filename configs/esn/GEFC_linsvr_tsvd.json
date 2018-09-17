@@ -1,0 +1,20 @@
+{
+    "input_shift": 0.0,
+    "noise_level": 0.08889890420718084,
+    "n_internal_units": 219,
+    "embedding_parameters": null,
+    "input_scaling": 0.15097560582959765,
+    "spectral_radius": 1.049175759923104,
+    "regression_method": "linsvr",
+    "embedding": "tsvd",
+    "n_drop": 100,
+    "regression_parameters": [
+        1.1956258851219392,
+        0.0096240715103047
+    ],
+    "connectivity": 0.25,
+    "teacher_scaling": 0.8868688582722991,
+    "teacher_shift": 0.0,
+    "feedback_scaling": 0.0,
+    "n_dim": 144
+}

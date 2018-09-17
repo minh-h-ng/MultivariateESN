@@ -1,0 +1,17 @@
+{
+    "regression_method": "bayelinear",
+    "teacher_scaling": 0.7682023771788864,
+    "noise_level": 0.014597487056614034,
+    "embedding_parameters": null,
+    "n_dim": 1,
+    "feedback_scaling": 0.0,
+    "input_scaling": 0.41294005831411584,
+    "connectivity": 0.25,
+    "input_shift": 0.0,
+    "embedding": "pca",
+    "spectral_radius": 1.08196502946601,
+    "n_internal_units": 195,
+    "teacher_shift": 0.0,
+    "n_drop": 100,
+    "regression_parameters": null
+}

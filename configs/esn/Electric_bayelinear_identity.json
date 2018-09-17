@@ -1,0 +1,17 @@
+{
+    "feedback_scaling": "feedback_scaling",
+    "teacher_scaling": 0.7517799451389113,
+    "regression_parameters": null,
+    "n_dim": null,
+    "input_scaling": 0.4124464671759054,
+    "embedding_parameters": null,
+    "noise_level": 0.017567212599041038,
+    "n_drop": 100,
+    "spectral_radius": 0.6489093256704843,
+    "n_internal_units": 330,
+    "teacher_shift": 0.0,
+    "regression_method": "bayelinear",
+    "embedding": "identity",
+    "connectivity": 0.25,
+    "input_shift": 0.0
+}

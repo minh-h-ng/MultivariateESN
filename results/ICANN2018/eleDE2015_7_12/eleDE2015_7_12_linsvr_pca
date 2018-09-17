@@ -1,0 +1,81 @@
+[2018-08-23 00:09:39,087] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 00:09:39,087] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 00:09:39,087] launcher  INFO    Worker distribution: 
+[2018-08-23 00:09:39,087] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 00:09:39,500 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:09:39,501 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-08-23 00:09:39,501 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:09:39,501 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-08-23 00:09:39,503 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:09:39,503 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:09:39,503 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:09:39,503 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:09:39,503 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-08-23 00:09:39,503 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-08-23 00:09:39,504 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:09:39,504 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:09:39,506 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:09:39,507 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-08-23 00:09:39,507 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:09:39,515 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:09:39,515 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:09:39,515 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-08-23 00:09:39,515 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-08-23 00:09:39,516 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:09:39,516 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:09:39,516 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:09:39,516 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-08-23 00:09:39,517 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:09:39,643 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:09:39,643 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:09:39,643 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-08-23 00:09:39,643 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-08-23 00:09:39,643 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:09:39,643 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:09:39,702 root            INFO     Initializing genetic algorithm
+2018-08-23 00:09:39,702 root            INFO     Initializing genetic algorithm
+2018-08-23 00:09:39,703 root            INFO     Running GA optimization
+2018-08-23 00:09:39,703 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max    
+0  	50    	0.638503	0.361619	0.00966184	1.07228
+1  	21    	0.464687	0.285506	0.0031746 	1.07228
+2  	24    	0.383681	0.215615	0.0590909 	0.830769
+3  	21    	0.361778	0.233491	0.0589971 	0.830769
+4  	17    	0.36933 	0.229073	0.0589971 	0.654545
+5  	20    	0.383318	0.232627	0.145254  	0.654545
+6  	24    	0.374857	0.228924	0.143252  	0.654545
+7  	25    	0.381645	0.240052	0.141604  	0.839344
+8  	20    	0.392014	0.25434 	0.141604  	0.839344
+9  	21    	0.398807	0.263848	0.141604  	0.839344
+10 	23    	0.390628	0.254828	0.139988  	0.839344
+11 	23    	0.376136	0.235781	0.139988  	0.839344
+12 	20    	0.375065	0.234108	0.139988  	0.619469
+13 	22    	0.377841	0.237472	0.139988  	0.619469
+14 	19    	0.379437	0.239395	0.139988  	0.619469
+15 	18    	0.379728	0.239741	0.139988  	0.619469
+16 	24    	0.379574	0.239897	0.136117  	0.619469
+17 	19    	0.379535	0.239936	0.136117  	0.619469
+18 	21    	0.377465	0.238673	0.136117  	0.619469
+19 	21    	0.376553	0.238469	0.136117  	0.619469
+20 	20    	0.377995	0.241475	0.136117  	0.619469
+2018-08-23 00:21:59,963 root            INFO     Saving the best parameters
+2018-08-23 00:21:59,963 root            INFO     Saving the best parameters
+2018-08-23 00:21:59,963 root            INFO     Done
+2018-08-23 00:21:59,963 root            INFO     Done
+[2018-08-23 00:22:00,394] launcher  (127.0.0.1:43123) INFO    Root process is done.
+[2018-08-23 00:22:00,395] launcher  (127.0.0.1:43123) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 00:22:00,431] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 00:22:00,431] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 00:22:00,431] launcher  INFO    Worker distribution: 
+[2018-08-23 00:22:00,432] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.1850175  0.17722584 0.16697936 0.16756594 0.1949277  0.19199538
+ 0.19766589 0.16309653 0.17285477 0.16950075 0.1885781  0.18970339
+ 0.16927221 0.16623834 0.21204011 0.16211331 0.17603532 0.1879515
+ 0.16491955 0.18299547]
+Mean:
+0.17933384817207274
+Std:
+0.013431329711500746
+[2018-08-23 00:22:23,890] launcher  (127.0.0.1:38915) INFO    Root process is done.
+[2018-08-23 00:22:23,891] launcher  (127.0.0.1:38915) INFO    Finished cleaning spawned subprocesses.

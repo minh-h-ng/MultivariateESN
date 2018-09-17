@@ -1,7 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1df1b71-ea9e-454b-a314-9c629f101192" name="Default" comment="" />
+    <list default="true" id="b1df1b71-ea9e-454b-a314-9c629f101192" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MultivariateESN.iml" afterPath="$PROJECT_DIR$/.idea/MultivariateESN.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/configs/opt/default.json" afterPath="$PROJECT_DIR$/configs/opt/default.json" />
+      <change beforePath="$PROJECT_DIR$/configs/opt/parameter_format_n_dim.json" afterPath="$PROJECT_DIR$/configs/opt/parameter_format_n_dim.json" />
+      <change beforePath="$PROJECT_DIR$/configs/opt/parameter_format_percent_dim.json" afterPath="$PROJECT_DIR$/configs/opt/parameter_format_percent_dim.json" />
+      <change beforePath="$PROJECT_DIR$/configs/user/ridge_identity.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/Lorenz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data_backup/MG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data_backup/MS" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data_backup/MSO" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data_backup/NARMA" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/esn_experiment.py" afterPath="$PROJECT_DIR$/esn_experiment.py" />
+      <change beforePath="$PROJECT_DIR$/esnet.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/genoptesn.py" afterPath="$PROJECT_DIR$/genoptesn.py" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_enet_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_enet_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_enet_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_lasso_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_lasso_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_lasso_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_nusvr_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_nusvr_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_nusvr_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_ridge_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_ridge_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/Lorenz_ridge_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_enet_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_enet_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_enet_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_lasso_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_lasso_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_lasso_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_nusvr_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_nusvr_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_nusvr_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_ridge_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_ridge_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MG_ridge_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_enet_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_enet_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_enet_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_lasso_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_lasso_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_lasso_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_nusvr_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_nusvr_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_nusvr_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_ridge_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_ridge_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MSO_ridge_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_enet_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_enet_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_enet_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_lasso_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_lasso_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_lasso_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_nusvr_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_nusvr_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_nusvr_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_ridge_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_ridge_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/MS_ridge_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_enet_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_enet_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_enet_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_lasso_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_lasso_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_lasso_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_nusvr_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_nusvr_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_nusvr_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_ridge_identity" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_ridge_kpca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/NARMA_ridge_pca" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/run_experiments.sh" afterPath="$PROJECT_DIR$/run_experiments.sh" />
+      <change beforePath="$PROJECT_DIR$/run_single_experiment.sh" afterPath="$PROJECT_DIR$/run_single_experiment.sh" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,52 +88,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="default.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configs/opt/default.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MG" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/MG">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MG_enet_pca" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/results/MG_enet_pca">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="esn_experiment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/esn_experiment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="run_experiments.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_experiments.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="403">
+              <caret line="68" column="11" lean-forward="false" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -63,11 +101,112 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nusvr</find>
+      <find>fast</find>
+      <find>norm</find>
+      <find>weave</find>
+      <find>transform</find>
+      <find>internal_weights</find>
+      <find>dummy</find>
+      <find>?</find>
+      <find>time</find>
+      <find>sp500</find>
+      <find>print</find>
+      <find>echo</find>
+      <find>error</find>
+      <find>run_from</find>
+      <find>def _sym</find>
+      <find>linalg.svd</find>
+      <find>scaler</find>
+      <find>robust</find>
+      <find>_sym</find>
+      <find>_sym_decorrelation</find>
+      <find>w_init</find>
+      <find>_ica_par</find>
+      <find>FastICA</find>
+      <find>scipy.</find>
+      <find>standard</find>
+      <find>linalg</find>
+      <find>scipy</find>
+      <find>test</find>
+      <find>teacher</find>
+      <find>feedback</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/configs/opt/parameter_format_percent_dim.json" />
+        <option value="$PROJECT_DIR$/configs/opt/parameter_format_n_dim.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/GEFC_bayeridge_identity.json" />
+        <option value="$PROJECT_DIR$/run_single_experiment_runningtime.sh" />
+        <option value="$PROJECT_DIR$/run_experiments_runningtime.sh" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayeridge_identity_200.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayeridge_identity_300.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayeridge_identity_400.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/ridge_identity_100.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/linsvr_identity.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/nusvr_identity_100.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayelinear_identity_100.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayeridge_pca_100.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayeridge_kpca_100.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayeridge_ica_100.json" />
+        <option value="$PROJECT_DIR$/results/running_time_1_final.csv" />
+        <option value="$PROJECT_DIR$/results/running_time_2_final.csv" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayeridge_ica_1000.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayeridge_identity_1000.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayelinear_identity_1000.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayeridge_kpca_1000.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/bayeridge_pca_1000.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/linsvr_identity_1000.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/nusvr_identity_1000.json" />
+        <option value="$PROJECT_DIR$/configs/esn_runningtime/ridge_identity_1000.json" />
+        <option value="$PROJECT_DIR$/results/running_time.csv" />
+        <option value="$PROJECT_DIR$/esn_experiment_runningtime.py" />
+        <option value="$PROJECT_DIR$/results/TempSanFrancisco/running_time_3_final.csv" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/configs/reconstruct/Sunspots.json" />
+        <option value="$PROJECT_DIR$/results/SP500_lasso_kpca" />
+        <option value="$PROJECT_DIR$/data_generator/temp_canada_2017/temp_canada_2017.py" />
+        <option value="$PROJECT_DIR$/data/TempVancouver" />
+        <option value="$PROJECT_DIR$/run_single_experiment.sh" />
+        <option value="$PROJECT_DIR$/FastICA.py" />
+        <option value="$PROJECT_DIR$/data_generator/henon_map_generator.py" />
+        <option value="$PROJECT_DIR$/configs/reconstruct/Mackey.json" />
+        <option value="$PROJECT_DIR$/configs/reconstruct/HenonMap.json" />
+        <option value="$PROJECT_DIR$/data_generator/mackey_glass_generator.py" />
+        <option value="$PROJECT_DIR$/configs/user/bayelinear_ica.json" />
+        <option value="$PROJECT_DIR$/configs/user/enet_ica.json" />
+        <option value="$PROJECT_DIR$/configs/user/lasso_ica.json" />
+        <option value="$PROJECT_DIR$/configs/user/linsvr_ica.json" />
+        <option value="$PROJECT_DIR$/configs/user/nusvr_ica.json" />
+        <option value="$PROJECT_DIR$/configs/user/ridge_ica.json" />
+        <option value="$PROJECT_DIR$/results/eleDE2015_7_12_ridge_ica" />
+        <option value="$PROJECT_DIR$/esn_experiment.py" />
+        <option value="$PROJECT_DIR$/genoptesn.py" />
+        <option value="$PROJECT_DIR$/esnet.py" />
+        <option value="$PROJECT_DIR$/run_experiments.sh" />
+        <option value="$PROJECT_DIR$/configs/opt/default.json" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="310" />
-    <option name="y" value="43" />
-    <option name="width" value="1373" />
-    <option name="height" value="1000" />
+    <option name="x" value="241" />
+    <option name="y" value="122" />
+    <option name="width" value="1369" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -84,8 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,18 +230,59 @@
               <item name="MultivariateESN" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultivariateESN" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MultivariateESN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultivariateESN" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultivariateESN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultivariateESN" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+              <item name="opt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultivariateESN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultivariateESN" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultivariateESN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultivariateESN" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultivariateESN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultivariateESN" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ensemble" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonESN" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configs/reconstruct" />
+      <recent name="$PROJECT_DIR$/data_backup" />
+      <recent name="$PROJECT_DIR$/configs/user" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configs/user" />
+      <recent name="$PROJECT_DIR$/configs/user_backup" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/results/ICANN2018" />
+      <recent name="$PROJECT_DIR$/data_backup" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -119,8 +297,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="run_experiments.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+  <component name="RunManager" selected="Bash.run_experiments.sh">
+    <configuration name="run_experiments_runningtime.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_experiments_runningtime.sh" />
+      <option name="PARAMETERS" value="" />
+      <module name="MultivariateESN" />
+      <envs />
+    </configuration>
+    <configuration name="run_experiments.sh" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -130,9 +318,93 @@
       <module name="MultivariateESN" />
       <envs />
     </configuration>
+    <configuration name="esnet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MultivariateESN" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/esnet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="henon_map_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_generator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MultivariateESN" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_generator/henon_map_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mackey_glass_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_generator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MultivariateESN" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_generator/mackey_glass_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="temp_canada_2017" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_generator/temp_canada_2017" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MultivariateESN" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_generator/temp_canada_2017/temp_canada_2017.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Bash.run_experiments.sh" />
+      <item index="1" class="java.lang.String" itemvalue="Python.temp_canada_2017" />
+      <item index="2" class="java.lang.String" itemvalue="Bash.run_experiments_runningtime.sh" />
+      <item index="3" class="java.lang.String" itemvalue="Python.esnet" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mackey_glass_generator" />
+      <item index="5" class="java.lang.String" itemvalue="Python.henon_map_generator" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Bash.run_experiments.sh" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.henon_map_generator" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mackey_glass_generator" />
+        <item index="2" class="java.lang.String" itemvalue="Python.esnet" />
+        <item index="3" class="java.lang.String" itemvalue="Python.temp_canada_2017" />
+        <item index="4" class="java.lang.String" itemvalue="Bash.run_experiments_runningtime.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -153,24 +425,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="310" y="43" width="1373" height="1000" extended-state="0" />
+    <frame x="241" y="122" width="1369" height="875" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981792" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33893353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -178,46 +451,369 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/configs/opt/default.json">
+    <entry file="file://$PROJECT_DIR$/predictions/eleFR2015_7_12_lasso_pca">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-21364">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/MG">
+    <entry file="file://$PROJECT_DIR$/predictions/SP500_enet_ica">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-21962">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/MG_enet_pca">
+    <entry file="file://$PROJECT_DIR$/predictions/SP500_enet_tsvd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38266">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/SP500_linsvr_pca">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/SP500_enet_identity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38252">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/SP500_lasso_pca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38266">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/SP500_lasso_kpca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21976">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/SP500_enet_kpca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21976">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/SP500_enet_pca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21962">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_linsvr_kpca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33500">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_lasso_kpca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33514">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_lasso_pca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33500">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_linsvr_identity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33514">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/HenonMap_bayeridge_ica">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/MinTempMel_bayeridge_pca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30364">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/MinTempMel_bayeridge_kpca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_linsvr_ica">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19100">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_bayeridge_kpca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33514">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_bayeridge_tga">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_bayeridge_pca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33500">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_bayeridge_identity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33500">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_bayeridge_ica">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33514">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_bayelinear_ica">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_bayelinear_identity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33284">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Lorenz">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71462">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_lasso_identity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33500">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_lasso_ica">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_ridge_ica">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19100">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_ridge_kpca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33514">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_ridge_pca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="1088" column="23" lean-forward="false" selection-start-line="1088" selection-start-column="23" selection-end-line="1088" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predictions/Lorenz_ridge_identity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33136">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/esn/eleDE2015_7_12_bayelinear_kpca.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/ICANN2018/eleDE2015_7_12/eleDE2015_7_12_ridge_pca">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-934">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/ICANN2018/eleDE2015_7_12/eleDE2015_7_12_bayelinear_identity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-920">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Electric">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_backup/eleDE2015_7_12">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/reconstruct/eleDE2015_7_12.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/reconstruct/Electric.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genoptesn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/esn_experiment.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_single_experiment.sh">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/esn/eleDE2015_7_12_bayelinear_ica.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/esn/Electric_bayelinear_identity.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/esn/Electric_bayelinear_ica.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/esn/eleDE2015_7_12_enet_pca.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8460">
+          <caret line="42" column="81" lean-forward="false" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/esn/eleDE2015_7_12_ridge_identity.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/esn/eleDE2015_7_12_nusvr_kpca.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/esn/eleFR2015_7_12_bayelinear_pca.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/opt/default.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_experiments.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="403">
+          <caret line="68" column="11" lean-forward="false" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
           <folding />
         </state>
       </provider>

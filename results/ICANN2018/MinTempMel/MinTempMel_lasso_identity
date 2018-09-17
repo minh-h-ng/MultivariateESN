@@ -1,0 +1,81 @@
+[2018-05-15 01:32:47,943] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 01:32:47,943] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 01:32:47,943] launcher  INFO    Worker distribution: 
+[2018-05-15 01:32:47,943] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 01:32:48,363 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 01:32:48,363 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 01:32:48,363 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 01:32:48,363 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 01:32:48,363 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 01:32:48,363 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 01:32:48,364 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 01:32:48,364 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 01:32:48,364 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 01:32:48,368 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 01:32:48,368 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 01:32:48,368 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 01:32:48,368 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 01:32:48,369 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 01:32:48,369 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 01:32:48,375 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 01:32:48,376 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 01:32:48,376 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 01:32:48,376 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 01:32:48,376 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 01:32:48,377 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 01:32:48,379 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 01:32:48,379 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 01:32:48,380 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 01:32:48,464 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 01:32:48,464 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 01:32:48,464 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 01:32:48,464 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 01:32:48,464 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 01:32:48,464 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 01:32:48,498 root            INFO     Initializing genetic algorithm
+2018-05-15 01:32:48,498 root            INFO     Initializing genetic algorithm
+2018-05-15 01:32:48,499 root            INFO     Running GA optimization
+2018-05-15 01:32:48,499 root            INFO     Running GA optimization
+gen	nevals	avg     	std      	min     	max    
+0  	50    	0.966629	0.0863394	0.623121	1.00179
+1  	19    	0.924141	0.122599 	0.623121	1.00179
+2  	24    	0.777173	0.135311 	0.623121	1.00179
+3  	20    	0.646197	0.0535732	0.623121	0.854505
+4  	22    	0.626092	0.00380053	0.622882	0.639819
+5  	22    	0.623079	0.00147063	0.621892	0.629998
+6  	24    	0.622152	0.00032764	0.621547	0.62283 
+7  	25    	0.62177 	0.000201518	0.621547	0.622318
+8  	17    	0.621605	0.000100919	0.621547	0.621892
+9  	15    	0.621557	3.64261e-05	0.621547	0.621767
+10 	21    	0.621534	8.23873e-05	0.620958	0.621547
+11 	23    	0.621464	0.000204057	0.620958	0.621547
+12 	19    	0.621357	0.000273969	0.620958	0.621547
+13 	23    	0.621141	0.000284025	0.620958	0.621911
+14 	21    	0.620985	0.00013085 	0.620958	0.621696
+15 	23    	0.620958	1.11022e-16	0.620958	0.620958
+16 	20    	0.620958	1.11022e-16	0.620958	0.620958
+17 	25    	0.621001	0.0002117  	0.620958	0.622057
+18 	20    	0.620958	1.11022e-16	0.620958	0.620958
+19 	19    	0.620958	1.11022e-16	0.620958	0.620958
+20 	21    	0.620958	1.11022e-16	0.620958	0.620958
+2018-05-15 01:34:40,589 root            INFO     Saving the best parameters
+2018-05-15 01:34:40,589 root            INFO     Saving the best parameters
+2018-05-15 01:34:40,589 root            INFO     Done
+2018-05-15 01:34:40,589 root            INFO     Done
+[2018-05-15 01:34:41,089] launcher  (127.0.0.1:39949) INFO    Root process is done.
+[2018-05-15 01:34:41,090] launcher  (127.0.0.1:39949) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 01:34:41,127] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 01:34:41,127] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 01:34:41,127] launcher  INFO    Worker distribution: 
+[2018-05-15 01:34:41,127] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.59975512 0.60055258 0.59988025 0.60050271 0.59875132 0.59826514
+ 0.59981235 0.60034923 0.59852525 0.59988551 0.59982391 0.59990219
+ 0.60032057 0.59818675 0.59944314 0.60022047 0.60009145 0.59798409
+ 0.59930903 0.59996431]
+Mean:
+0.5995762675988517
+Std:
+0.0007841038790844864
+[2018-05-15 01:34:47,255] launcher  (127.0.0.1:41491) INFO    Root process is done.
+[2018-05-15 01:34:47,255] launcher  (127.0.0.1:41491) INFO    Finished cleaning spawned subprocesses.

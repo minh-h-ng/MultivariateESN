@@ -1,0 +1,81 @@
+[2018-05-15 04:16:52,559] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 04:16:52,559] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 04:16:52,560] launcher  INFO    Worker distribution: 
+[2018-05-15 04:16:52,560] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 04:16:52,981 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:16:52,981 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:16:52,981 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 04:16:52,982 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 04:16:52,982 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:16:52,982 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:16:52,982 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:16:52,982 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 04:16:52,983 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:16:52,983 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:16:52,984 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 04:16:52,984 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:16:52,984 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 04:16:52,984 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:16:52,985 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:16:52,989 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:16:52,989 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 04:16:52,990 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:16:52,990 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:16:52,990 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 04:16:52,991 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:16:52,993 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:16:52,994 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 04:16:52,994 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:16:53,061 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:16:53,061 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 04:16:53,061 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 04:16:53,061 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-05-15 04:16:53,062 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:16:53,062 root            INFO     Loading data (./data/SunSpotsZu)
+2018-05-15 04:16:53,088 root            INFO     Initializing genetic algorithm
+2018-05-15 04:16:53,088 root            INFO     Initializing genetic algorithm
+2018-05-15 04:16:53,090 root            INFO     Running GA optimization
+2018-05-15 04:16:53,090 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min    	max    
+0  	50    	0.916874	0.186161	0.43738	1.02671
+1  	18    	0.733632	0.211858	0.43738	1.02671
+2  	22    	0.519189	0.0856609	0.437004	0.79684
+3  	16    	0.45361 	0.0190653	0.437004	0.488551
+4  	22    	0.438308	0.00637114	0.436517	0.470709
+5  	18    	0.436831	0.000195021	0.436517	0.437018
+6  	21    	0.436399	0.000635283	0.434733	0.437004
+7  	24    	0.435294	0.000719549	0.434487	0.436586
+8  	21    	0.434718	0.000175748	0.434487	0.435076
+9  	16    	0.434498	0.000139386	0.43403 	0.434733
+10 	23    	0.434349	0.000188022	0.43403 	0.434733
+11 	22    	0.434161	0.000147156	0.43403 	0.434478
+12 	20    	0.434056	9.45793e-05	0.433869	0.434615
+13 	22    	0.434023	5.5762e-05 	0.433869	0.434171
+14 	19    	0.433965	7.67435e-05	0.433869	0.43403 
+15 	24    	0.433915	6.91592e-05	0.433869	0.43403 
+16 	24    	0.433873	3.56695e-05	0.433787	0.43403 
+17 	22    	0.433851	4.11211e-05	0.433629	0.433869
+18 	17    	0.43382 	7.82276e-05	0.433505	0.433869
+19 	19    	0.433771	8.91774e-05	0.433505	0.433869
+20 	22    	0.433701	0.000132598	0.433505	0.434047
+2018-05-15 04:18:37,394 root            INFO     Saving the best parameters
+2018-05-15 04:18:37,394 root            INFO     Saving the best parameters
+2018-05-15 04:18:37,394 root            INFO     Done
+2018-05-15 04:18:37,394 root            INFO     Done
+[2018-05-15 04:18:37,899] launcher  (127.0.0.1:36423) INFO    Root process is done.
+[2018-05-15 04:18:37,899] launcher  (127.0.0.1:36423) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 04:18:37,937] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 04:18:37,937] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 04:18:37,937] launcher  INFO    Worker distribution: 
+[2018-05-15 04:18:37,937] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.34623351 0.34616043 0.3476552  0.3474098  0.34612183 0.34787128
+ 0.3465485  0.34610962 0.3482817  0.34734149 0.34635227 0.34679646
+ 0.34640936 0.34792688 0.34688839 0.3467816  0.3468233  0.34673307
+ 0.34696444 0.34703464]
+Mean:
+0.34692218827039617
+Std:
+0.0006280470734000397
+[2018-05-15 04:18:44,163] launcher  (127.0.0.1:45647) INFO    Root process is done.
+[2018-05-15 04:18:44,163] launcher  (127.0.0.1:45647) INFO    Finished cleaning spawned subprocesses.

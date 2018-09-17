@@ -1,0 +1,81 @@
+[2018-05-15 19:28:10,187] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 19:28:10,187] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 19:28:10,187] launcher  INFO    Worker distribution: 
+[2018-05-15 19:28:10,187] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 19:28:10,609 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:28:10,609 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:28:10,609 parameterhelper INFO     Config: ./configs/user/bayelinear_pca (overload)
+2018-05-15 19:28:10,609 parameterhelper INFO     Config: ./configs/user/bayelinear_pca (overload)
+2018-05-15 19:28:10,610 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:28:10,610 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:28:10,618 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:28:10,618 parameterhelper INFO     Config: ./configs/user/bayelinear_pca (overload)
+2018-05-15 19:28:10,619 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:28:10,624 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:28:10,624 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:28:10,624 parameterhelper INFO     Config: ./configs/user/bayelinear_pca (overload)
+2018-05-15 19:28:10,624 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:28:10,624 parameterhelper INFO     Config: ./configs/user/bayelinear_pca (overload)
+2018-05-15 19:28:10,624 parameterhelper INFO     Config: ./configs/user/bayelinear_pca (overload)
+2018-05-15 19:28:10,625 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:28:10,625 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:28:10,625 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:28:10,627 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:28:10,627 parameterhelper INFO     Config: ./configs/user/bayelinear_pca (overload)
+2018-05-15 19:28:10,628 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:28:10,629 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:28:10,629 parameterhelper INFO     Config: ./configs/user/bayelinear_pca (overload)
+2018-05-15 19:28:10,630 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:28:10,704 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:28:10,704 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 19:28:10,704 parameterhelper INFO     Config: ./configs/user/bayelinear_pca (overload)
+2018-05-15 19:28:10,704 parameterhelper INFO     Config: ./configs/user/bayelinear_pca (overload)
+2018-05-15 19:28:10,704 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:28:10,704 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 19:28:10,738 root            INFO     Initializing genetic algorithm
+2018-05-15 19:28:10,738 root            INFO     Initializing genetic algorithm
+2018-05-15 19:28:10,740 root            INFO     Running GA optimization
+2018-05-15 19:28:10,740 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max     
+0  	50    	0.560648	0.191615	0.0100503	0.965675
+1  	25    	0.505025	0.217798	0.0100503	0.965675
+2  	21    	0.401533	0.255628	0.0100503	0.62584 
+3  	21    	0.334839	0.297636	0.00581395	0.62306 
+4  	23    	0.318613	0.303449	0.00512821	0.622536
+5  	17    	0.31844 	0.303324	0.0027248 	0.622165
+6  	21    	0.317324	0.304204	0.0027248 	0.621838
+7  	14    	0.314639	0.306732	0.0027248 	0.621504
+8  	22    	0.312935	0.308267	0.00438596	0.621501
+9  	22    	0.312809	0.30823 	0.00438596	0.621268
+10 	21    	0.312821	0.308153	0.00438596	0.621102
+11 	20    	0.31282 	0.308063	0.00438596	0.621005
+12 	16    	0.312798	0.307994	0.00438596	0.620978
+13 	22    	0.312884	0.30783 	0.00438596	0.620818
+14 	23    	0.312918	0.307789	0.00512821	0.621308
+15 	20    	0.312911	0.307782	0.00512821	0.620693
+16 	21    	0.312911	0.307782	0.00512821	0.620693
+17 	19    	0.312911	0.307782	0.00512821	0.620693
+18 	21    	0.312911	0.307782	0.00512821	0.620693
+19 	21    	0.312914	0.307786	0.00512821	0.621051
+20 	21    	0.312911	0.307782	0.00512821	0.620693
+2018-05-15 19:30:52,646 root            INFO     Saving the best parameters
+2018-05-15 19:30:52,646 root            INFO     Saving the best parameters
+2018-05-15 19:30:52,646 root            INFO     Done
+2018-05-15 19:30:52,646 root            INFO     Done
+[2018-05-15 19:30:53,078] launcher  (127.0.0.1:40631) INFO    Root process is done.
+[2018-05-15 19:30:53,078] launcher  (127.0.0.1:40631) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 19:30:53,115] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 19:30:53,115] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 19:30:53,115] launcher  INFO    Worker distribution: 
+[2018-05-15 19:30:53,115] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.60015604 0.59968903 0.60060805 0.60103259 0.59949281 0.60108853
+ 0.60095076 0.5999223  0.59965622 0.60030782 0.59963536 0.60091951
+ 0.60026505 0.59918872 0.60182865 0.60145378 0.60071136 0.59983571
+ 0.59879629 0.60079885]
+Mean:
+0.6003168720809626
+Std:
+0.0007713085053477819
+[2018-05-15 19:31:02,509] launcher  (127.0.0.1:41387) INFO    Root process is done.
+[2018-05-15 19:31:02,509] launcher  (127.0.0.1:41387) INFO    Finished cleaning spawned subprocesses.

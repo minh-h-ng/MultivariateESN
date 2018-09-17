@@ -1,0 +1,81 @@
+[2018-05-15 03:06:35,872] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 03:06:35,872] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 03:06:35,872] launcher  INFO    Worker distribution: 
+[2018-05-15 03:06:35,873] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 03:06:36,296 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:06:36,296 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:06:36,296 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-05-15 03:06:36,296 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-05-15 03:06:36,297 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:06:36,297 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:06:36,297 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:06:36,297 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:06:36,297 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-05-15 03:06:36,297 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-05-15 03:06:36,298 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:06:36,298 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:06:36,298 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-05-15 03:06:36,298 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-05-15 03:06:36,298 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:06:36,298 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:06:36,299 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:06:36,299 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:06:36,303 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:06:36,303 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:06:36,304 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-05-15 03:06:36,304 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-05-15 03:06:36,304 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:06:36,304 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:06:36,388 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:06:36,388 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 03:06:36,388 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-05-15 03:06:36,388 parameterhelper INFO     Config: ./configs/user/ridge_kpca (overload)
+2018-05-15 03:06:36,389 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:06:36,389 root            INFO     Loading data (./data/MinTempMel)
+2018-05-15 03:06:36,423 root            INFO     Initializing genetic algorithm
+2018-05-15 03:06:36,423 root            INFO     Initializing genetic algorithm
+2018-05-15 03:06:36,424 root            INFO     Running GA optimization
+2018-05-15 03:06:36,424 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max     
+0  	50    	0.573973	0.228224	0.0449173	0.961924
+1  	19    	0.498313	0.206282	0.0468227	0.908127
+2  	20    	0.475677	0.202725	0.04662  	0.86398 
+3  	22    	0.440176	0.212238	0.0525114	0.627585
+4  	18    	0.377437	0.262304	0.0525114	0.626006
+5  	18    	0.343083	0.280632	0.0304183	0.625874
+6  	21    	0.337435	0.285814	0.00380228	0.623608
+7  	18    	0.33704 	0.286095	0.00380228	0.623024
+8  	19    	0.333413	0.289964	0.00380228	0.622642
+9  	20    	0.323512	0.299789	0.00380228	0.622322
+10 	16    	0.326488	0.297131	0.00380228	0.621912
+11 	17    	0.315836	0.305951	0.00380228	0.621846
+12 	24    	0.314769	0.306756	0.008     	0.621826
+13 	21    	0.314759	0.306759	0.008     	0.621518
+14 	20    	0.31475 	0.30675 	0.008     	0.621518
+15 	22    	0.31474 	0.30674 	0.008     	0.621518
+16 	16    	0.314716	0.306716	0.008     	0.621518
+17 	20    	0.314683	0.306683	0.008     	0.621518
+18 	18    	0.314671	0.306671	0.008     	0.621341
+19 	23    	0.314671	0.306671	0.008     	0.621341
+20 	19    	0.314671	0.306671	0.008     	0.621341
+2018-05-15 03:16:17,638 root            INFO     Saving the best parameters
+2018-05-15 03:16:17,638 root            INFO     Saving the best parameters
+2018-05-15 03:16:17,638 root            INFO     Done
+2018-05-15 03:16:17,638 root            INFO     Done
+[2018-05-15 03:16:18,069] launcher  (127.0.0.1:34407) INFO    Root process is done.
+[2018-05-15 03:16:18,069] launcher  (127.0.0.1:34407) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 03:16:18,107] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 03:16:18,107] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 03:16:18,107] launcher  INFO    Worker distribution: 
+[2018-05-15 03:16:18,107] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.60131725 0.60037308 0.60085322 0.60096473 0.6011463  0.60108332
+ 0.60082621 0.60231442 0.60047083 0.60024999 0.60082175 0.60014998
+ 0.60085177 0.60097759 0.60022839 0.59952442 0.60072767 0.60070338
+ 0.60017515 0.60075692]
+Mean:
+0.6007258184410287
+Std:
+0.0005519432803764454
+[2018-05-15 03:16:39,021] launcher  (127.0.0.1:33723) INFO    Root process is done.
+[2018-05-15 03:16:39,021] launcher  (127.0.0.1:33723) INFO    Finished cleaning spawned subprocesses.

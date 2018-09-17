@@ -1,0 +1,108 @@
+[2018-05-15 11:57:03,265] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 11:57:03,265] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 11:57:03,265] launcher  INFO    Worker distribution: 
+[2018-05-15 11:57:03,265] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 11:57:03,685 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:03,685 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:03,686 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-15 11:57:03,686 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-15 11:57:03,686 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:03,686 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:03,688 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:03,688 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-15 11:57:03,689 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:03,689 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:03,689 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:03,689 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-15 11:57:03,689 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-15 11:57:03,690 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:03,690 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:03,696 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:03,696 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-15 11:57:03,697 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:03,697 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:03,698 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-15 11:57:03,698 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:03,702 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:03,702 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-15 11:57:03,703 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:03,866 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:03,866 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:03,866 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-15 11:57:03,866 parameterhelper INFO     Config: ./configs/user/lasso_tsvd (overload)
+2018-05-15 11:57:03,867 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:03,867 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:03,948 root            INFO     Initializing genetic algorithm
+2018-05-15 11:57:03,948 root            INFO     Initializing genetic algorithm
+2018-05-15 11:57:03,949 root            INFO     Running GA optimization
+2018-05-15 11:57:03,949 root            INFO     Running GA optimization
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 302, in <module>
+    b.main()
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 92, in main
+    self.run()
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 290, in run
+    futures_startup()
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/bootstrap/__main__.py", line 271, in futures_startup
+    run_name="__main__"
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 64, in _startup
+    result = _controller.switch(rootFuture, *args, **kargs)
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/_control.py", line 253, in runController
+    raise future.exceptionValue
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/_control.py", line 127, in runFuture
+    future.resultValue = future.callable(*future.args, **future.kargs)
+  File "/usr/lib/python3.5/runpy.py", line 254, in run_path
+    pkg_name=pkg_name, script_name=fname)
+  File "/usr/lib/python3.5/runpy.py", line 96, in _run_module_code
+    mod_name, mod_spec, pkg_name, script_name)
+  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "./genoptesn.py", line 391, in <module>
+    main()
+  File "./genoptesn.py", line 380, in main
+    lambda_ = n_offsprings, cxpb=cxpb, mutpb=mutpb, ngen=ngen, stats=stats, verbose=True, halloffame=halloffame)
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/deap/algorithms.py", line 304, in eaMuPlusLambda
+    for ind, fit in zip(invalid_ind, fitnesses):
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 102, in _mapGenerator
+    for future in _waitAll(*futures):
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 358, in _waitAll
+    for f in _waitAny(future):
+  File "/home/minh/keras-tf-venv3/local/lib/python3.5/site-packages/scoop/futures.py", line 321, in _waitAny
+    raise future.exceptionValue
+ValueError: could not broadcast input array from shape (214) into shape (215)
+[2018-05-15 11:57:20,729] launcher  (127.0.0.1:40989) INFO    Root process is done.
+[2018-05-15 11:57:20,734] launcher  (127.0.0.1:40989) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 11:57:20,771] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 11:57:20,771] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 11:57:20,771] launcher  INFO    Worker distribution: 
+[2018-05-15 11:57:20,771] launcher  INFO       127.0.0.1:	7 + origin
+[Errno 2] No such file or directory: './configs/esn/TempBoston_lasso_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/TempBoston_lasso_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/TempBoston_lasso_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/TempBoston_lasso_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/TempBoston_lasso_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/TempBoston_lasso_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/TempBoston_lasso_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[Errno 2] No such file or directory: './configs/esn/TempBoston_lasso_tsvd.json'
+File: ./esn_experiment.py
+In path: /home/minh/PycharmProjects/MultivariateESN
+[2018-05-15 11:57:21,310] launcher  (127.0.0.1:32837) INFO    Root process is done.
+[2018-05-15 11:57:21,310] launcher  (127.0.0.1:32837) INFO    Finished cleaning spawned subprocesses.

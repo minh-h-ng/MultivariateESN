@@ -1,0 +1,81 @@
+[2018-05-15 14:23:26,941] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 14:23:26,942] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 14:23:26,942] launcher  INFO    Worker distribution: 
+[2018-05-15 14:23:26,942] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 14:23:27,365 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 14:23:27,366 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-05-15 14:23:27,366 root            INFO     Loading data (./data/SP500)
+2018-05-15 14:23:27,366 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 14:23:27,367 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-05-15 14:23:27,367 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 14:23:27,367 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-05-15 14:23:27,367 root            INFO     Loading data (./data/SP500)
+2018-05-15 14:23:27,368 root            INFO     Loading data (./data/SP500)
+2018-05-15 14:23:27,368 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 14:23:27,368 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-05-15 14:23:27,369 root            INFO     Loading data (./data/SP500)
+2018-05-15 14:23:27,372 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 14:23:27,372 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-05-15 14:23:27,373 root            INFO     Loading data (./data/SP500)
+2018-05-15 14:23:27,381 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 14:23:27,381 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-05-15 14:23:27,381 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 14:23:27,382 root            INFO     Loading data (./data/SP500)
+2018-05-15 14:23:27,382 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-05-15 14:23:27,382 root            INFO     Loading data (./data/SP500)
+2018-05-15 14:23:27,399 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 14:23:27,399 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-05-15 14:23:27,400 root            INFO     Loading data (./data/SP500)
+2018-05-15 14:23:27,478 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 14:23:27,478 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 14:23:27,479 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-05-15 14:23:27,479 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-05-15 14:23:27,479 root            INFO     Loading data (./data/SP500)
+2018-05-15 14:23:27,479 root            INFO     Loading data (./data/SP500)
+2018-05-15 14:23:27,522 root            INFO     Initializing genetic algorithm
+2018-05-15 14:23:27,522 root            INFO     Initializing genetic algorithm
+2018-05-15 14:23:27,524 root            INFO     Running GA optimization
+2018-05-15 14:23:27,524 root            INFO     Running GA optimization
+gen	nevals	avg     	std       	min    	max     
+0  	50    	0.116594	0.00188236	0.11349	0.123361
+1  	23    	0.11481 	0.000729775	0.11349	0.116593
+2  	21    	0.113883	0.000395717	0.113415	0.115086
+3  	22    	0.113497	0.000177201	0.113246	0.114064
+4  	24    	0.113387	9.37777e-05	0.113246	0.11349 
+5  	18    	0.113292	6.7646e-05 	0.113168	0.11349 
+6  	21    	0.113242	4.09062e-05	0.113168	0.113351
+7  	24    	0.113211	4.04351e-05	0.113168	0.113269
+8  	21    	0.113185	2.88343e-05	0.113168	0.113269
+9  	17    	0.113172	1.79649e-05	0.113168	0.113269
+10 	19    	0.113168	0          	0.113168	0.113168
+11 	24    	0.113168	0          	0.113168	0.113168
+12 	20    	0.113168	0          	0.113168	0.113168
+13 	26    	0.113168	0          	0.113168	0.113168
+14 	27    	0.113168	0          	0.113168	0.113168
+15 	22    	0.113168	0          	0.113168	0.113168
+16 	18    	0.113168	0          	0.113168	0.113168
+17 	18    	0.113168	0          	0.113168	0.113168
+18 	21    	0.11317 	1.87409e-05	0.113168	0.113301
+19 	22    	0.113168	0          	0.113168	0.113168
+20 	21    	0.113172	2.78666e-05	0.113168	0.113367
+2018-05-15 14:27:01,711 root            INFO     Saving the best parameters
+2018-05-15 14:27:01,711 root            INFO     Saving the best parameters
+2018-05-15 14:27:01,711 root            INFO     Done
+2018-05-15 14:27:01,711 root            INFO     Done
+[2018-05-15 14:27:02,140] launcher  (127.0.0.1:44757) INFO    Root process is done.
+[2018-05-15 14:27:02,140] launcher  (127.0.0.1:44757) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 14:27:02,177] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 14:27:02,177] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 14:27:02,177] launcher  INFO    Worker distribution: 
+[2018-05-15 14:27:02,177] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.49712533 0.41408552 0.45776544 0.51392046 0.54099826 0.52975029
+ 0.40545444 0.4544385  0.45461789 0.4782411  0.46879207 0.43878339
+ 0.48652534 0.52867753 0.53267569 0.48477483 0.55152108 0.44159222
+ 0.4576703  0.49242213]
+Mean:
+0.481491590237769
+Std:
+0.0409692020102702
+[2018-05-15 14:27:12,144] launcher  (127.0.0.1:41851) INFO    Root process is done.
+[2018-05-15 14:27:12,144] launcher  (127.0.0.1:41851) INFO    Finished cleaning spawned subprocesses.

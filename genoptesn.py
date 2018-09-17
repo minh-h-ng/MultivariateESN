@@ -6,6 +6,8 @@ import numpy as np
 import os
 import random
 import sys
+import threading
+import warnings
 
 from deap import base, creator, tools, algorithms
 from functools import partial
@@ -38,6 +40,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("data", help="path to data file", type=str)
 parser.add_argument("optconfig", help="path to optimization config file", type=str)
 parser.add_argument("esnconfig", help="path to where the ESN config file should be saved", type=str)
+parser.add_argument("reconstructconfig", help="path to reconstruct config file", type=str)
 parser.add_argument("--percent_dim", help="use dimensionality as a percentage of the reservoir size. DEFAULT: False.", type=bool, default=False, const=True, nargs='?')
 args = parser.parse_args()
 
@@ -48,19 +51,59 @@ paramhelper = parameterhelper.ParameterHelper(args.optconfig, args.percent_dim)
 optconfig = paramhelper._optimization
 
 ############################################################################
+# Read reconstructconfig file
+############################################################################
+reconstructconfig = json.load(open(args.reconstructconfig + '.json', 'r'))
+
+############################################################################
 # Load data
 ############################################################################
 logger.info("Loading data (%s)"%args.data)
 # If the data is stored in a directory, load the data from there. Otherwise,
 # load from the single file and split it.
+dataType = args.data.split('/')[-1]
+
 if os.path.isdir(args.data):
-    Xtr, Ytr, Xval, Yval, _, _ = esnet.load_from_dir(args.data)
+    Xtr, Ytr, Xval, Yval, _, _, Yscaler = esnet.load_from_dir(args.data, reconstructconfig)
+
+elif dataType=='SantaFe' or dataType=='Sunspots' or dataType=='Hongik' \
+        or dataType=='GEFC' or dataType=='Mackey' or dataType=='SP500' \
+        or dataType == 'Rainfall' or dataType=='Temperature'\
+        or dataType=='MinTempMel' or dataType=='SunSpotsZu' \
+        or dataType == 'TempAlbuquerque' or dataType == 'TempDenver' or dataType=='TempLasVegas' \
+        or dataType == 'TempLosAngeles' or dataType == 'TempPhoenix' or dataType == 'TempPortland' \
+        or dataType == 'TempSanDiego' or dataType == 'TempSanFrancisco' or dataType == 'TempSeattle'\
+        or dataType == 'TempVancouver' \
+        or dataType == 'eleGB2015_7_12' or dataType == 'eleDE2015_7_12' or dataType == 'eleFR2015_7_12' \
+        or dataType == 'Electric':
+    #Xtr, Ytr, Xval, Yval, _, _, Yscaler = esnet.generate_datasets_santafe(args.data)
+    X, Y = esnet.load_from_text(args.data)
+
+    # Construct training/test sets
+    Xtr, Ytr, Xval, Yval, _, _, Yscaler = esnet.generate_datasets(X, Y)
+
+    Xtr, Xval = esnet.reconstruct_input_1d([Xtr, Xval], reconstructconfig)
+    Ytr, Yval = esnet.reconstruct_output_1d([Ytr, Yval], reconstructconfig)
+
+elif dataType=='GEFC_temp' or dataType=='HenonMap':
+    X, Y = esnet.load_from_text(args.data)
+
+    # Construct training/test sets
+    Xtr, Ytr, Xval, Yval, _, _, Yscaler = esnet.generate_datasets(X, Y)
+
+    # Reconstruct
+    Xtr, Xval = esnet.reconstruct_input_2d([Xtr, Xval], reconstructconfig)
+    Ytr, Yval = esnet.reconstruct_output_2d([Ytr, Yval], reconstructconfig)
 
 else:
     X, Y = esnet.load_from_text(args.data)
 
     # Construct training/test sets
-    Xtr, Ytr, Xval, Yval, _, _ = esnet.generate_datasets(X, Y)
+    Xtr, Ytr, Xval, Yval, _, _, Yscaler = esnet.generate_datasets(X, Y)
+
+    # Reconstruct
+    Xtr, Xval = esnet.reconstruct_input_3d([Xtr, Xval], reconstructconfig)
+    Ytr, Yval = esnet.reconstruct_output_3d([Ytr, Yval], reconstructconfig)
 
 ############################################################################
 # Initialization of the genetic algorithm
@@ -228,7 +271,7 @@ def evaluate_ind(individual):
     errors = np.empty((n_eval,), dtype=float)
 
     for i in range(n_eval):
-        _, errors[i] = esnet.run_from_config(Xtr, Ytr, Xval, Yval, parameters)
+        _, errors[i] = esnet.run_from_config(Xtr, Ytr, Xval, Yval, parameters, Yscaler)
 
     error = np.mean(errors)
 

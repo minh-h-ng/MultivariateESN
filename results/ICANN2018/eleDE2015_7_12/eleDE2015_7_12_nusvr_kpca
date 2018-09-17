@@ -1,0 +1,81 @@
+[2018-08-23 00:41:53,563] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 00:41:53,563] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 00:41:53,563] launcher  INFO    Worker distribution: 
+[2018-08-23 00:41:53,563] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 00:41:53,979 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:41:53,980 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 00:41:53,981 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:41:53,982 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:41:53,982 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 00:41:53,982 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:41:53,983 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:41:53,983 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:41:53,983 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 00:41:53,983 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 00:41:53,984 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:41:53,984 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:41:53,984 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:41:53,984 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 00:41:53,985 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:41:53,988 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:41:53,988 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:41:53,988 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 00:41:53,988 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 00:41:53,989 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:41:53,989 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:41:53,989 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:41:53,990 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 00:41:53,991 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:41:54,119 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:41:54,119 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 00:41:54,119 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 00:41:54,119 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-08-23 00:41:54,120 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:41:54,120 root            INFO     Loading data (./data/eleDE2015_7_12)
+2018-08-23 00:41:54,179 root            INFO     Initializing genetic algorithm
+2018-08-23 00:41:54,179 root            INFO     Initializing genetic algorithm
+2018-08-23 00:41:54,181 root            INFO     Running GA optimization
+2018-08-23 00:41:54,181 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max     
+0  	50    	0.324486	0.256758	0.00555556	0.974747
+1  	24    	0.252341	0.251846	0.0121212 	0.966102
+2  	21    	0.259203	0.265525	0.0306748 	0.961039
+3  	23    	0.31492 	0.310111	0.0506667 	0.961039
+4  	19    	0.364797	0.358218	0.0560748 	0.933086
+5  	17    	0.311809	0.360318	0.0560748 	0.933086
+6  	19    	0.15713 	0.230261	0.0560748 	0.933086
+7  	20    	0.120962	0.167825	0.0560748 	0.930493
+8  	19    	0.0852547	0.0292028	0.055814  	0.11798 
+9  	21    	0.0847994	0.028727 	0.0560748 	0.114453
+10 	24    	0.0846247	0.0285501	0.0560748 	0.114123
+11 	23    	0.0846151	0.0285403	0.0560748 	0.113155
+12 	18    	0.0846151	0.0285403	0.0560748 	0.113155
+13 	22    	0.0844267	0.0286137	0.0518868 	0.113155
+14 	21    	0.0841672	0.0287009	0.0518868 	0.113155
+15 	20    	0.083424 	0.0289832	0.0518868 	0.113155
+16 	22    	0.0822174	0.0294395	0.0518868 	0.113155
+17 	14    	0.0817948	0.0295856	0.0518868 	0.112903
+18 	19    	0.0815605	0.0296737	0.0518868 	0.111234
+19 	17    	0.0815605	0.0296737	0.0518868 	0.111234
+20 	23    	0.081606 	0.0297226	0.0518868 	0.115781
+2018-08-23 01:44:46,248 root            INFO     Saving the best parameters
+2018-08-23 01:44:46,248 root            INFO     Saving the best parameters
+2018-08-23 01:44:46,248 root            INFO     Done
+2018-08-23 01:44:46,248 root            INFO     Done
+[2018-08-23 01:44:46,681] launcher  (127.0.0.1:42287) INFO    Root process is done.
+[2018-08-23 01:44:46,681] launcher  (127.0.0.1:42287) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 01:44:46,719] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 01:44:46,719] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 01:44:46,719] launcher  INFO    Worker distribution: 
+[2018-08-23 01:44:46,719] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.17188383 0.1820047  0.15097219 0.15630573 0.16589351 0.16397521
+ 0.1448166  0.18195926 0.17135611 0.18895719 0.16962439 0.17307071
+ 0.15473479 0.16224516 0.15915187 0.15868729 0.14404567 0.17776479
+ 0.16422219 0.17252011]
+Mean:
+0.16570956517402896
+Std:
+0.011922134248844937
+[2018-08-23 01:46:14,122] launcher  (127.0.0.1:36817) INFO    Root process is done.
+[2018-08-23 01:46:14,122] launcher  (127.0.0.1:36817) INFO    Finished cleaning spawned subprocesses.

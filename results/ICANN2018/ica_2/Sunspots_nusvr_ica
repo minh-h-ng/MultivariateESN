@@ -1,0 +1,81 @@
+[2018-09-13 14:46:15,399] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-13 14:46:15,399] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-13 14:46:15,399] launcher  INFO    Worker distribution: 
+[2018-09-13 14:46:15,399] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-13 14:46:15,817 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 14:46:15,817 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 14:46:15,818 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 14:46:15,818 root            INFO     Loading data (./data/Sunspots)
+2018-09-13 14:46:15,818 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 14:46:15,818 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 14:46:15,819 root            INFO     Loading data (./data/Sunspots)
+2018-09-13 14:46:15,819 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 14:46:15,819 root            INFO     Loading data (./data/Sunspots)
+2018-09-13 14:46:15,821 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 14:46:15,822 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 14:46:15,823 root            INFO     Loading data (./data/Sunspots)
+2018-09-13 14:46:15,825 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 14:46:15,826 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 14:46:15,827 root            INFO     Loading data (./data/Sunspots)
+2018-09-13 14:46:15,830 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 14:46:15,830 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 14:46:15,831 root            INFO     Loading data (./data/Sunspots)
+2018-09-13 14:46:15,865 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 14:46:15,865 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 14:46:15,866 root            INFO     Loading data (./data/Sunspots)
+2018-09-13 14:46:15,877 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 14:46:15,878 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 14:46:15,878 root            INFO     Loading data (./data/Sunspots)
+2018-09-13 14:46:15,955 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 14:46:15,955 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 14:46:15,956 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 14:46:15,956 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-09-13 14:46:15,956 root            INFO     Loading data (./data/Sunspots)
+2018-09-13 14:46:15,956 root            INFO     Loading data (./data/Sunspots)
+2018-09-13 14:46:15,996 root            INFO     Initializing genetic algorithm
+2018-09-13 14:46:15,996 root            INFO     Initializing genetic algorithm
+2018-09-13 14:46:15,998 root            INFO     Running GA optimization
+2018-09-13 14:46:15,998 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.448776	0.523977	0.0306122	3.94461
+1  	25    	0.237552	0.232052	0.0306122	0.956835
+2  	23    	0.195719	0.207017	0.00621118	0.69213 
+3  	19    	0.204761	0.218678	0.00621118	0.522936
+4  	21    	0.148676	0.186991	0.00621118	0.522936
+5  	21    	0.0280186	0.0457235	0.00621118	0.412844
+6  	20    	0.0201281	0.013584 	0.00617284	0.0350138
+7  	22    	0.019649 	0.0134261	0.00621118	0.0341771
+8  	19    	0.0194472	0.0132287	0.00621118	0.0332521
+9  	20    	0.0193379	0.013122 	0.00621118	0.0325053
+10 	16    	0.0193239	0.0131128	0.00621118	0.03247  
+11 	24    	0.019307 	0.0130959	0.00621118	0.03247  
+12 	22    	0.0193043	0.0130768	0.00621118	0.032422 
+13 	21    	0.0193132	0.0130612	0.00621118	0.0323872
+14 	24    	0.019346 	0.0130203	0.00621118	0.0323756
+15 	26    	0.0194007	0.0129555	0.00621118	0.032388 
+16 	22    	0.0194309	0.0129146	0.00621118	0.0323667
+17 	20    	0.0193734	0.0129556	0.00621118	0.0323798
+18 	24    	0.0193058	0.0130086	0.00621118	0.0323424
+19 	19    	0.0192795	0.0130277	0.00621118	0.0323323
+20 	19    	0.019263 	0.013036 	0.00621118	0.0323088
+2018-09-13 15:03:06,522 root            INFO     Saving the best parameters
+2018-09-13 15:03:06,522 root            INFO     Saving the best parameters
+2018-09-13 15:03:06,522 root            INFO     Done
+2018-09-13 15:03:06,522 root            INFO     Done
+[2018-09-13 15:03:06,953] launcher  (127.0.0.1:36819) INFO    Root process is done.
+[2018-09-13 15:03:06,953] launcher  (127.0.0.1:36819) INFO    Finished cleaning spawned subprocesses.
+[2018-09-13 15:03:06,991] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-13 15:03:06,991] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-13 15:03:06,991] launcher  INFO    Worker distribution: 
+[2018-09-13 15:03:06,991] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.03564116 0.03512946 0.03480624 0.03460434 0.03496545 0.03527999
+ 0.03558176 0.03534093 0.03546198 0.03552347 0.03481043 0.03539769
+ 0.03547339 0.03504641 0.03532623 0.03501124 0.03532436 0.03471119
+ 0.03484548 0.03509779]
+Mean:
+0.03516894861134897
+Std:
+0.0003018054998041727
+[2018-09-13 15:03:24,108] launcher  (127.0.0.1:44853) INFO    Root process is done.
+[2018-09-13 15:03:24,108] launcher  (127.0.0.1:44853) INFO    Finished cleaning spawned subprocesses.

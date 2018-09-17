@@ -1,0 +1,4 @@
+{
+  "regression_method": "rvm",
+  "embedding": "identity"
+}

@@ -1,0 +1,89 @@
+[2018-04-27 01:20:50,253] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-04-27 01:20:50,253] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-04-27 01:20:50,253] launcher  INFO    Worker distribution: 
+[2018-04-27 01:20:50,253] launcher  INFO       127.0.0.1:	7 + origin
+2018-04-27 01:20:50,665 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 01:20:50,665 parameterhelper INFO     Config: ./configs/user/lasso_pca (overload)
+2018-04-27 01:20:50,667 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 01:20:50,668 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 01:20:50,668 parameterhelper INFO     Config: ./configs/user/lasso_pca (overload)
+2018-04-27 01:20:50,668 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 01:20:50,668 parameterhelper INFO     Config: ./configs/user/lasso_pca (overload)
+2018-04-27 01:20:50,669 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 01:20:50,669 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 01:20:50,670 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 01:20:50,670 parameterhelper INFO     Config: ./configs/user/lasso_pca (overload)
+2018-04-27 01:20:50,671 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 01:20:50,673 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 01:20:50,674 parameterhelper INFO     Config: ./configs/user/lasso_pca (overload)
+2018-04-27 01:20:50,674 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 01:20:50,674 parameterhelper INFO     Config: ./configs/user/lasso_pca (overload)
+2018-04-27 01:20:50,674 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 01:20:50,674 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 01:20:50,674 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 01:20:50,675 parameterhelper INFO     Config: ./configs/user/lasso_pca (overload)
+2018-04-27 01:20:50,675 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 01:20:50,700 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 01:20:50,700 parameterhelper INFO     Config: ./configs/user/lasso_pca (overload)
+2018-04-27 01:20:50,701 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 01:20:50,831 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 01:20:50,831 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-04-27 01:20:50,831 parameterhelper INFO     Config: ./configs/user/lasso_pca (overload)
+2018-04-27 01:20:50,831 parameterhelper INFO     Config: ./configs/user/lasso_pca (overload)
+2018-04-27 01:20:50,832 root            INFO     Loading data (./data/Lorenz)
+2018-04-27 01:20:50,832 root            INFO     Loading data (./data/Lorenz)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-04-27 01:20:50,902 root            INFO     Initializing genetic algorithm
+2018-04-27 01:20:50,902 root            INFO     Initializing genetic algorithm
+2018-04-27 01:20:50,904 root            INFO     Running GA optimization
+2018-04-27 01:20:50,904 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max     
+0  	50    	0.447288	0.248886	0.0191257	0.995434
+1  	22    	0.340991	0.224794	0.0191257	0.995434
+2  	21    	0.356873	0.258215	0.0191257	0.995434
+3  	19    	0.376681	0.333214	0.11724  	0.995475
+4  	21    	0.448878	0.390168	0.104821 	0.995475
+5  	22    	0.445709	0.384648	0.0992356	0.995434
+6  	20    	0.370995	0.336778	0.0370314	1       
+7  	19    	0.37864 	0.36013 	0.0285672	1       
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+8  	21    	0.437158	0.428179	0.0273739	1       
+9  	21    	0.3917  	0.402818	0.0252651	1       
+10 	22    	0.279984	0.273914	0.0247194	1       
+/home/minh/keras-tf-venv3/lib/python3.5/site-packages/sklearn/linear_model/coordinate_descent.py:491: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
+  ConvergenceWarning)
+11 	24    	0.264469	0.247372	0.0233544	0.944272
+12 	25    	0.261199	0.241647	0.0231241	0.944272
+13 	20    	0.26218 	0.239309	0.0231241	0.526316
+14 	19    	0.256417	0.233865	0.0218958	0.526316
+15 	25    	0.250762	0.228038	0.0218958	0.526316
+16 	22    	0.244353	0.222202	0.0218958	0.470588
+17 	23    	0.24286 	0.221635	0.0204125	0.470588
+18 	15    	0.24608 	0.224508	0.0203777	0.470588
+19 	20    	0.245717	0.224872	0.0200598	0.470588
+20 	22    	0.245571	0.225017	0.0200598	0.470588
+2018-04-27 01:24:31,516 root            INFO     Saving the best parameters
+2018-04-27 01:24:31,516 root            INFO     Saving the best parameters
+2018-04-27 01:24:31,516 root            INFO     Done
+2018-04-27 01:24:31,516 root            INFO     Done
+[2018-04-27 01:24:31,945] launcher  (127.0.0.1:44343) INFO    Root process is done.
+[2018-04-27 01:24:31,946] launcher  (127.0.0.1:44343) INFO    Finished cleaning spawned subprocesses.
+[2018-04-27 01:24:31,983] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-04-27 01:24:31,983] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-04-27 01:24:31,983] launcher  INFO    Worker distribution: 
+[2018-04-27 01:24:31,983] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.02881931 0.03689771 0.02952175 0.03193053 0.03012558 0.03623505
+ 0.03390847 0.02925341 0.02818255 0.02805898 0.03207114 0.02930453
+ 0.03662216 0.03373497 0.02663092 0.02723858 0.03551787 0.03350223
+ 0.02895969 0.02928058]
+Mean:
+0.03128980032749566
+Std:
+0.003219603150655115
+[2018-04-27 01:24:43,560] launcher  (127.0.0.1:34683) INFO    Root process is done.
+[2018-04-27 01:24:43,561] launcher  (127.0.0.1:34683) INFO    Finished cleaning spawned subprocesses.

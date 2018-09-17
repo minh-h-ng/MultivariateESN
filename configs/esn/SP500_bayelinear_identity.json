@@ -1,0 +1,17 @@
+{
+    "connectivity": 0.25,
+    "spectral_radius": 0.8610667355174125,
+    "noise_level": 0.09352976272626669,
+    "embedding": "identity",
+    "embedding_parameters": null,
+    "teacher_scaling": 0.6548902949229303,
+    "feedback_scaling": 0.0,
+    "regression_parameters": null,
+    "n_drop": 100,
+    "n_dim": null,
+    "teacher_shift": 0.0,
+    "n_internal_units": 358,
+    "input_shift": 0.0,
+    "regression_method": "bayelinear",
+    "input_scaling": 0.5591236601013487
+}

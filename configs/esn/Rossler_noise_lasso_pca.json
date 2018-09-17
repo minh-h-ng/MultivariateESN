@@ -1,0 +1,17 @@
+{
+    "regression_parameters": 0.001,
+    "teacher_shift": 0.0,
+    "n_drop": 100,
+    "embedding_parameters": null,
+    "input_shift": 0.0,
+    "n_internal_units": 498,
+    "spectral_radius": 0.7300792754790194,
+    "teacher_scaling": 0.8952979046424833,
+    "regression_method": "lasso",
+    "n_dim": 207,
+    "embedding": "pca",
+    "noise_level": 0.0958225290565819,
+    "connectivity": 0.25,
+    "feedback_scaling": 0.0,
+    "input_scaling": 0.6550876835564079
+}

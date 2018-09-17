@@ -1,0 +1,81 @@
+[2018-08-24 04:35:58,510] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 04:35:58,510] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 04:35:58,510] launcher  INFO    Worker distribution: 
+[2018-08-24 04:35:58,510] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-24 04:35:58,927 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:35:58,927 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:35:58,927 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-24 04:35:58,928 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-24 04:35:58,928 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:35:58,928 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:35:58,928 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:35:58,929 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-24 04:35:58,929 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:35:58,930 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:35:58,930 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:35:58,931 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-24 04:35:58,931 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-24 04:35:58,931 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:35:58,932 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-24 04:35:58,932 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:35:58,932 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:35:58,932 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:35:58,938 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:35:58,938 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-24 04:35:58,939 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:35:58,942 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:35:58,942 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-24 04:35:58,943 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:35:59,078 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:35:59,078 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-24 04:35:59,079 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-24 04:35:59,079 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-08-24 04:35:59,079 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:35:59,079 root            INFO     Loading data (./data/HenonMap)
+2018-08-24 04:35:59,145 root            INFO     Initializing genetic algorithm
+2018-08-24 04:35:59,145 root            INFO     Initializing genetic algorithm
+2018-08-24 04:35:59,147 root            INFO     Running GA optimization
+2018-08-24 04:35:59,147 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min     	max   
+0  	50    	0.732979	0.313821	0.032631	1.0001
+1  	19    	0.401315	0.273299	0.032631	1.0001
+2  	25    	0.132868	0.0854562	0.032631	0.365844
+3  	19    	0.0662842	0.0213271	0.032631	0.0866649
+4  	23    	0.0459711	0.0178744	0.0324231	0.0802933
+5  	22    	0.0334987	0.00336835	0.0296104	0.0446699
+6  	20    	0.031652 	0.00115321	0.0296104	0.032631 
+7  	26    	0.0280533	0.0076818 	0.00222087	0.0324231
+8  	21    	0.0230086	0.0116878 	0.00222087	0.0321148
+9  	15    	0.00857401	0.0114038 	0.00127304	0.0296104
+10 	22    	0.00198613	0.000403282	0.00127304	0.00232554
+11 	16    	0.00159182	0.000376673	0.00127304	0.00222087
+12 	23    	0.00127953	7.62322e-05	0.00116335	0.00164023
+13 	14    	0.00121365	4.72922e-05	0.00116335	0.00127304
+14 	22    	0.00117357	1.92967e-05	0.00116335	0.00125734
+15 	21    	0.00116553	7.41779e-06	0.00116335	0.00119069
+16 	26    	0.00116335	0          	0.00116335	0.00116335
+17 	22    	0.00116335	0          	0.00116335	0.00116335
+18 	21    	0.00116335	0          	0.00116335	0.00116335
+19 	22    	0.00116449	7.96673e-06	0.00116335	0.00122025
+20 	21    	0.00116481	1.02577e-05	0.00116335	0.00123662
+2018-08-24 04:42:15,942 root            INFO     Saving the best parameters
+2018-08-24 04:42:15,942 root            INFO     Saving the best parameters
+2018-08-24 04:42:15,942 root            INFO     Done
+2018-08-24 04:42:15,942 root            INFO     Done
+[2018-08-24 04:42:16,374] launcher  (127.0.0.1:46771) INFO    Root process is done.
+[2018-08-24 04:42:16,374] launcher  (127.0.0.1:46771) INFO    Finished cleaning spawned subprocesses.
+[2018-08-24 04:42:16,411] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-24 04:42:16,411] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-24 04:42:16,411] launcher  INFO    Worker distribution: 
+[2018-08-24 04:42:16,411] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.0012527  0.00113882 0.00109266 0.00117989 0.00114384 0.00143072
+ 0.0012209  0.00117636 0.00114367 0.00120532 0.00116177 0.00114127
+ 0.00135372 0.00131409 0.00109654 0.00128666 0.00129335 0.00132006
+ 0.00115564 0.00113287]
+Mean:
+0.001212042021640411
+Std:
+9.09670247760949e-05
+[2018-08-24 04:42:32,290] launcher  (127.0.0.1:38817) INFO    Root process is done.
+[2018-08-24 04:42:32,290] launcher  (127.0.0.1:38817) INFO    Finished cleaning spawned subprocesses.

@@ -1,0 +1,17 @@
+{
+    "teacher_scaling": 0.5583299580664278,
+    "embedding_parameters": 0.001,
+    "n_internal_units": 141,
+    "spectral_radius": 0.9597623310410232,
+    "feedback_scaling": 0.0,
+    "n_drop": 100,
+    "input_shift": 0.0,
+    "regression_method": "ridge",
+    "n_dim": 4,
+    "embedding": "kpca",
+    "noise_level": 0.0059759182147992584,
+    "regression_parameters": 0.6564296033215467,
+    "teacher_shift": 0.0,
+    "connectivity": 0.25,
+    "input_scaling": 0.9
+}

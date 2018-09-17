@@ -1,0 +1,17 @@
+{
+    "n_internal_units": 337,
+    "embedding": "tsvd",
+    "noise_level": 0.019684808099381633,
+    "feedback_scaling": 0.0,
+    "teacher_shift": 0.0,
+    "n_dim": 23,
+    "spectral_radius": 0.9660695468855007,
+    "regression_parameters": 0.8433889634483354,
+    "teacher_scaling": 0.622364917452917,
+    "n_drop": 100,
+    "input_scaling": 0.1,
+    "connectivity": 0.25,
+    "embedding_parameters": null,
+    "input_shift": 0.0,
+    "regression_method": "ridge"
+}

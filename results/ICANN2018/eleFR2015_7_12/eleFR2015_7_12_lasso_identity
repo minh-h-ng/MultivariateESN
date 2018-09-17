@@ -1,0 +1,81 @@
+[2018-08-23 07:10:17,275] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 07:10:17,275] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 07:10:17,275] launcher  INFO    Worker distribution: 
+[2018-08-23 07:10:17,275] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 07:10:17,691 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:10:17,691 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:10:17,691 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:10:17,691 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-08-23 07:10:17,691 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-08-23 07:10:17,691 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-08-23 07:10:17,692 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:10:17,692 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:10:17,692 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:10:17,694 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:10:17,694 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-08-23 07:10:17,695 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:10:17,697 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:10:17,698 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-08-23 07:10:17,698 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:10:17,701 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:10:17,701 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:10:17,701 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:10:17,702 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-08-23 07:10:17,702 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-08-23 07:10:17,702 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-08-23 07:10:17,702 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:10:17,702 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:10:17,702 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:10:17,831 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:10:17,831 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 07:10:17,831 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-08-23 07:10:17,831 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-08-23 07:10:17,832 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:10:17,832 root            INFO     Loading data (./data/eleFR2015_7_12)
+2018-08-23 07:10:17,887 root            INFO     Initializing genetic algorithm
+2018-08-23 07:10:17,887 root            INFO     Initializing genetic algorithm
+2018-08-23 07:10:17,889 root            INFO     Running GA optimization
+2018-08-23 07:10:17,889 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min     	max    
+0  	50    	1.42348	0.346344	0.368443	1.60318
+1  	22    	1.19104	0.400271	0.368443	1.60318
+2  	20    	0.763789	0.345912	0.368443	1.60318
+3  	21    	0.47365 	0.124695	0.368367	0.740776
+4  	21    	0.375433	0.0327169	0.355808	0.531011
+5  	18    	0.366036	0.00383209	0.355808	0.368517
+6  	18    	0.362065	0.00537103	0.345409	0.368391
+7  	19    	0.353964	0.00544543	0.345409	0.366967
+8  	19    	0.349388	0.00372259	0.345409	0.362256
+9  	25    	0.34505 	0.00352085	0.335193	0.352367
+10 	21    	0.342781	0.00311914	0.335193	0.347647
+11 	19    	0.339343	0.00246289	0.335193	0.345409
+12 	25    	0.337915	0.00247881	0.335193	0.344139
+13 	21    	0.336156	0.00181407	0.335193	0.339572
+14 	18    	0.335193	5.55112e-17	0.335193	0.335193
+15 	22    	0.335193	5.55112e-17	0.335193	0.335193
+16 	18    	0.335193	5.55112e-17	0.335193	0.335193
+17 	26    	0.335193	5.55112e-17	0.335193	0.335193
+18 	20    	0.335193	5.55112e-17	0.335193	0.335193
+19 	26    	0.335193	5.55112e-17	0.335193	0.335193
+20 	19    	0.335193	5.55112e-17	0.335193	0.335193
+2018-08-23 07:14:40,664 root            INFO     Saving the best parameters
+2018-08-23 07:14:40,664 root            INFO     Saving the best parameters
+2018-08-23 07:14:40,664 root            INFO     Done
+2018-08-23 07:14:40,664 root            INFO     Done
+[2018-08-23 07:14:41,095] launcher  (127.0.0.1:43371) INFO    Root process is done.
+[2018-08-23 07:14:41,096] launcher  (127.0.0.1:43371) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 07:14:41,133] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 07:14:41,133] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 07:14:41,133] launcher  INFO    Worker distribution: 
+[2018-08-23 07:14:41,133] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.37483836 0.39079012 0.34744788 0.39056408 0.37649348 0.40582528
+ 0.35917508 0.36782373 0.36971998 0.34327945 0.37718301 0.36662236
+ 0.35146187 0.34004014 0.40421085 0.39192597 0.3847112  0.38608668
+ 0.39672199 0.34018291]
+Mean:
+0.3732552195810569
+Std:
+0.020457883923742953
+[2018-08-23 07:14:50,183] launcher  (127.0.0.1:38917) INFO    Root process is done.
+[2018-08-23 07:14:50,183] launcher  (127.0.0.1:38917) INFO    Finished cleaning spawned subprocesses.

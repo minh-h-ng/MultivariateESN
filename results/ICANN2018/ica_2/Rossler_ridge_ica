@@ -1,0 +1,82 @@
+[2018-09-13 10:41:02,021] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-13 10:41:02,021] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-13 10:41:02,021] launcher  INFO    Worker distribution: 
+[2018-09-13 10:41:02,021] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-13 10:41:02,446 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:41:02,446 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:41:02,446 parameterhelper INFO     Config: ./configs/user/ridge_ica (overload)
+2018-09-13 10:41:02,446 parameterhelper INFO     Config: ./configs/user/ridge_ica (overload)
+2018-09-13 10:41:02,447 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:41:02,447 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:41:02,472 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:41:02,473 parameterhelper INFO     Config: ./configs/user/ridge_ica (overload)
+2018-09-13 10:41:02,474 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:41:02,497 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:41:02,498 parameterhelper INFO     Config: ./configs/user/ridge_ica (overload)
+2018-09-13 10:41:02,499 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:41:02,516 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:41:02,516 parameterhelper INFO     Config: ./configs/user/ridge_ica (overload)
+2018-09-13 10:41:02,517 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:41:02,528 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:41:02,529 parameterhelper INFO     Config: ./configs/user/ridge_ica (overload)
+2018-09-13 10:41:02,529 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:41:02,543 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:41:02,544 parameterhelper INFO     Config: ./configs/user/ridge_ica (overload)
+2018-09-13 10:41:02,545 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:41:02,590 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:41:02,591 parameterhelper INFO     Config: ./configs/user/ridge_ica (overload)
+2018-09-13 10:41:02,592 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:41:02,704 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:41:02,704 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-13 10:41:02,704 parameterhelper INFO     Config: ./configs/user/ridge_ica (overload)
+2018-09-13 10:41:02,704 parameterhelper INFO     Config: ./configs/user/ridge_ica (overload)
+2018-09-13 10:41:02,705 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:41:02,705 root            INFO     Loading data (./data/Rossler)
+2018-09-13 10:41:02,792 root            INFO     Initializing genetic algorithm
+2018-09-13 10:41:02,792 root            INFO     Initializing genetic algorithm
+2018-09-13 10:41:02,793 root            INFO     Running GA optimization
+2018-09-13 10:41:02,793 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max     
+0  	50    	0.266085	0.330088	0.00091693	0.990566
+1  	22    	0.202074	0.27958 	0.00091693	0.928571
+2  	21    	0.125293	0.212475	0.000129952	0.704918
+3  	21    	0.0901048	0.18438 	0.000129952	0.704918
+4  	18    	0.114572 	0.221212	0.000108047	0.712   
+5  	25    	0.0662576	0.136538	0.000104759	0.704918
+6  	21    	0.039595 	0.0398272	6.91543e-05	0.0901639
+7  	21    	0.0370521	0.0370792	6.91543e-05	0.0868644
+8  	24    	0.0383059	0.0385535	5.4923e-05 	0.0901639
+9  	22    	0.0395301	0.0398866	5.4923e-05 	0.0901639
+10 	22    	0.0380422	0.0383498	5.4923e-05 	0.0901639
+11 	18    	0.0369516	0.0370952	5.4923e-05 	0.0901639
+12 	22    	0.0360446	0.0359893	5.4923e-05 	0.0720339
+13 	24    	0.0360445	0.0359894	5.4923e-05 	0.0720339
+14 	18    	0.0360444	0.0359895	5.27873e-05	0.0720339
+15 	21    	0.0346453	0.035923 	1.91292e-05	0.0720339
+16 	22    	0.0339455	0.0358694	1.91292e-05	0.0720339
+17 	20    	0.0283356	0.0349185	1.91292e-05	0.0720339
+18 	24    	0.0108617	0.0246999	1.90859e-05	0.0720339
+19 	21    	0.00106886	0.00104978	1.84197e-05	0.00211864
+20 	18    	0.00106876	0.00104989	1.61897e-05	0.00211864
+2018-09-13 10:58:57,646 root            INFO     Saving the best parameters
+2018-09-13 10:58:57,646 root            INFO     Saving the best parameters
+2018-09-13 10:58:57,646 root            INFO     Done
+2018-09-13 10:58:57,646 root            INFO     Done
+[2018-09-13 10:58:58,095] launcher  (127.0.0.1:36101) INFO    Root process is done.
+[2018-09-13 10:58:58,096] launcher  (127.0.0.1:36101) INFO    Finished cleaning spawned subprocesses.
+[2018-09-13 10:58:58,138] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-13 10:58:58,138] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-13 10:58:58,138] launcher  INFO    Worker distribution: 
+[2018-09-13 10:58:58,138] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[1.65302559e-05 1.65577138e-05 1.65076428e-05 1.66052764e-05
+ 1.65245996e-05 1.64938225e-05 1.65368524e-05 1.67411697e-05
+ 1.65153344e-05 1.65010866e-05 1.65406509e-05 1.65115837e-05
+ 1.65249685e-05 1.64896125e-05 1.69390353e-05 1.66007624e-05
+ 1.64950326e-05 1.65180253e-05 1.66893531e-05 1.67176761e-05]
+Mean:
+1.657702272350659e-05
+Std:
+1.1093884136628856e-07
+[2018-09-13 10:59:16,243] launcher  (127.0.0.1:35201) INFO    Root process is done.
+[2018-09-13 10:59:16,243] launcher  (127.0.0.1:35201) INFO    Finished cleaning spawned subprocesses.

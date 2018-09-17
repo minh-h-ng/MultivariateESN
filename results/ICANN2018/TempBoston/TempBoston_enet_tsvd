@@ -1,0 +1,81 @@
+[2018-05-15 09:36:40,730] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 09:36:40,730] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 09:36:40,730] launcher  INFO    Worker distribution: 
+[2018-05-15 09:36:40,730] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 09:36:41,152 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:36:41,152 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:36:41,153 parameterhelper INFO     Config: ./configs/user/enet_tsvd (overload)
+2018-05-15 09:36:41,153 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:36:41,153 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:36:41,153 parameterhelper INFO     Config: ./configs/user/enet_tsvd (overload)
+2018-05-15 09:36:41,153 parameterhelper INFO     Config: ./configs/user/enet_tsvd (overload)
+2018-05-15 09:36:41,153 parameterhelper INFO     Config: ./configs/user/enet_tsvd (overload)
+2018-05-15 09:36:41,153 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:36:41,154 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:36:41,154 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:36:41,154 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:36:41,156 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:36:41,156 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:36:41,156 parameterhelper INFO     Config: ./configs/user/enet_tsvd (overload)
+2018-05-15 09:36:41,156 parameterhelper INFO     Config: ./configs/user/enet_tsvd (overload)
+2018-05-15 09:36:41,157 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:36:41,157 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:36:41,158 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:36:41,158 parameterhelper INFO     Config: ./configs/user/enet_tsvd (overload)
+2018-05-15 09:36:41,159 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:36:41,173 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:36:41,173 parameterhelper INFO     Config: ./configs/user/enet_tsvd (overload)
+2018-05-15 09:36:41,174 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:36:41,336 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:36:41,336 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 09:36:41,336 parameterhelper INFO     Config: ./configs/user/enet_tsvd (overload)
+2018-05-15 09:36:41,336 parameterhelper INFO     Config: ./configs/user/enet_tsvd (overload)
+2018-05-15 09:36:41,337 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:36:41,337 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 09:36:41,417 root            INFO     Initializing genetic algorithm
+2018-05-15 09:36:41,417 root            INFO     Initializing genetic algorithm
+2018-05-15 09:36:41,418 root            INFO     Running GA optimization
+2018-05-15 09:36:41,418 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max    
+0  	50    	0.805138	0.406828	0.00367647	1.73548
+1  	21    	0.679148	0.324111	0.0165289 	1.29163
+2  	21    	0.63386 	0.230795	0.0948276 	1.01706
+3  	21    	0.608577	0.150268	0.162844  	0.797688
+4  	22    	0.577561	0.116488	0.247159  	0.769886
+5  	18    	0.55906 	0.104913	0.247159  	0.769886
+6  	25    	0.539513	0.120401	0.306628  	0.769886
+7  	22    	0.527982	0.136091	0.306628  	0.769886
+8  	22    	0.503817	0.179878	0.306628  	0.769886
+9  	20    	0.533245	0.23207 	0.188595  	0.769886
+10 	17    	0.528744	0.24179 	0.188595  	0.770588
+11 	20    	0.50913 	0.262746	0.1769    	0.768868
+12 	24    	0.483661	0.286111	0.175281  	0.768868
+13 	23    	0.475407	0.293483	0.175281  	0.769976
+14 	20    	0.47308 	0.295821	0.166618  	0.769452
+15 	23    	0.471582	0.297341	0.159046  	0.769452
+16 	20    	0.471688	0.301221	0.159046  	0.953488
+17 	21    	0.473803	0.307555	0.159046  	0.95389 
+18 	19    	0.471804	0.307655	0.159046  	0.953488
+19 	21    	0.467838	0.305512	0.159046  	0.953488
+20 	24    	0.47036 	0.311309	0.157271  	0.953488
+2018-05-15 09:52:53,530 root            INFO     Saving the best parameters
+2018-05-15 09:52:53,530 root            INFO     Saving the best parameters
+2018-05-15 09:52:53,530 root            INFO     Done
+2018-05-15 09:52:53,530 root            INFO     Done
+[2018-05-15 09:52:53,962] launcher  (127.0.0.1:46861) INFO    Root process is done.
+[2018-05-15 09:52:53,963] launcher  (127.0.0.1:46861) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 09:52:53,999] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 09:52:53,999] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 09:52:53,999] launcher  INFO    Worker distribution: 
+[2018-05-15 09:52:54,000] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.1603028  0.21805269 0.18422875 0.14638787 0.17658848 0.15139992
+ 0.176078   0.16188336 0.16677885 0.14710769 0.14985995 0.19599441
+ 0.191476   0.15567648 0.13168873 0.16483355 0.19258498 0.20672054
+ 0.17595934 0.18158747]
+Mean:
+0.17175949376295324
+Std:
+0.02167742820560659
+[2018-05-15 09:53:48,886] launcher  (127.0.0.1:36825) INFO    Root process is done.
+[2018-05-15 09:53:48,886] launcher  (127.0.0.1:36825) INFO    Finished cleaning spawned subprocesses.

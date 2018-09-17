@@ -1,0 +1,47 @@
+[2018-05-11 21:58:46,097] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-11 21:58:46,097] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-11 21:58:46,097] launcher  INFO    Worker distribution: 
+[2018-05-11 21:58:46,097] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-11 21:58:46,514 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 21:58:46,514 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 21:58:46,514 parameterhelper INFO     Config: ./configs/user/bayeridge_wpca (overload)
+2018-05-11 21:58:46,514 parameterhelper INFO     Config: ./configs/user/bayeridge_wpca (overload)
+2018-05-11 21:58:46,515 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 21:58:46,515 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 21:58:46,515 root            INFO     Loading data (./data/GEFC)
+2018-05-11 21:58:46,515 parameterhelper INFO     Config: ./configs/user/bayeridge_wpca (overload)
+2018-05-11 21:58:46,515 parameterhelper INFO     Config: ./configs/user/bayeridge_wpca (overload)
+2018-05-11 21:58:46,515 root            INFO     Loading data (./data/GEFC)
+2018-05-11 21:58:46,516 root            INFO     Loading data (./data/GEFC)
+2018-05-11 21:58:46,516 root            INFO     Loading data (./data/GEFC)
+2018-05-11 21:58:46,518 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 21:58:46,519 parameterhelper INFO     Config: ./configs/user/bayeridge_wpca (overload)
+2018-05-11 21:58:46,520 root            INFO     Loading data (./data/GEFC)
+2018-05-11 21:58:46,521 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 21:58:46,521 parameterhelper INFO     Config: ./configs/user/bayeridge_wpca (overload)
+2018-05-11 21:58:46,522 root            INFO     Loading data (./data/GEFC)
+2018-05-11 21:58:46,530 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 21:58:46,530 parameterhelper INFO     Config: ./configs/user/bayeridge_wpca (overload)
+2018-05-11 21:58:46,531 root            INFO     Loading data (./data/GEFC)
+2018-05-11 21:58:46,550 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 21:58:46,550 parameterhelper INFO     Config: ./configs/user/bayeridge_wpca (overload)
+2018-05-11 21:58:46,551 root            INFO     Loading data (./data/GEFC)
+2018-05-11 21:58:46,734 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 21:58:46,734 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-11 21:58:46,734 parameterhelper INFO     Config: ./configs/user/bayeridge_wpca (overload)
+2018-05-11 21:58:46,734 parameterhelper INFO     Config: ./configs/user/bayeridge_wpca (overload)
+2018-05-11 21:58:46,735 root            INFO     Loading data (./data/GEFC)
+2018-05-11 21:58:46,735 root            INFO     Loading data (./data/GEFC)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-05-11 21:58:46,829 root            INFO     Initializing genetic algorithm
+2018-05-11 21:58:46,829 root            INFO     Initializing genetic algorithm
+2018-05-11 21:58:46,831 root            INFO     Running GA optimization
+2018-05-11 21:58:46,831 root            INFO     Running GA optimization
+gen	nevals	avg     	std   	min      	max
+0  	50    	0.374878	0.2664	0.0246305	1  
+1  	19    	0.393231	0.273858	0.103571 	0.992366
+2  	21    	0.464183	0.312432	0.178132 	0.992366
+3  	23    	0.498328	0.327234	0.178132 	0.992366

@@ -1,0 +1,81 @@
+[2018-08-23 14:14:10,284] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 14:14:10,284] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 14:14:10,284] launcher  INFO    Worker distribution: 
+[2018-08-23 14:14:10,284] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-23 14:14:10,701 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 14:14:10,702 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-08-23 14:14:10,703 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 14:14:10,703 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 14:14:10,703 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 14:14:10,703 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-08-23 14:14:10,703 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 14:14:10,704 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-08-23 14:14:10,704 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 14:14:10,704 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-08-23 14:14:10,704 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 14:14:10,705 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 14:14:10,707 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 14:14:10,707 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-08-23 14:14:10,708 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 14:14:10,708 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 14:14:10,709 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-08-23 14:14:10,709 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 14:14:10,709 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 14:14:10,710 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-08-23 14:14:10,710 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 14:14:10,714 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 14:14:10,715 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-08-23 14:14:10,716 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 14:14:10,839 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 14:14:10,839 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-23 14:14:10,839 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-08-23 14:14:10,839 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-08-23 14:14:10,839 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 14:14:10,839 root            INFO     Loading data (./data/eleGB2015_7_12)
+2018-08-23 14:14:10,898 root            INFO     Initializing genetic algorithm
+2018-08-23 14:14:10,898 root            INFO     Initializing genetic algorithm
+2018-08-23 14:14:10,900 root            INFO     Running GA optimization
+2018-08-23 14:14:10,900 root            INFO     Running GA optimization
+gen	nevals	avg     	std       	min     	max     
+0  	50    	0.158108	0.00649855	0.141066	0.171479
+1  	21    	0.150888	0.00483592	0.141066	0.157789
+2  	18    	0.145141	0.00332824	0.139003	0.154769
+3  	23    	0.14275 	0.00266512	0.135729	0.151414
+4  	19    	0.138437	0.00335772	0.131273	0.143569
+5  	21    	0.134996	0.00197549	0.131273	0.139412
+6  	16    	0.132872	0.00140373	0.131157	0.135729
+7  	22    	0.13193 	0.00103259	0.131157	0.135569
+8  	22    	0.131371	0.000422425	0.131157	0.13318 
+9  	21    	0.131261	3.45974e-05	0.131157	0.131273
+10 	18    	0.131231	5.53559e-05	0.131157	0.131273
+11 	20    	0.131097	0.000451094	0.128901	0.131273
+12 	22    	0.130981	0.000613931	0.128901	0.131273
+13 	18    	0.130212	0.00111576 	0.128901	0.131273
+14 	21    	0.129578	0.00103403 	0.128901	0.131157
+15 	22    	0.128742	0.000894626	0.126407	0.131157
+16 	21    	0.128302	0.00106516 	0.126407	0.128901
+17 	15    	0.127402	0.00121885 	0.126407	0.128901
+18 	20    	0.126527	0.000506203	0.126407	0.128901
+19 	23    	0.126457	0.000349165	0.126407	0.128901
+20 	22    	0.126407	0          	0.126407	0.126407
+2018-08-23 14:23:30,308 root            INFO     Saving the best parameters
+2018-08-23 14:23:30,308 root            INFO     Saving the best parameters
+2018-08-23 14:23:30,308 root            INFO     Done
+2018-08-23 14:23:30,308 root            INFO     Done
+[2018-08-23 14:23:30,740] launcher  (127.0.0.1:38349) INFO    Root process is done.
+[2018-08-23 14:23:30,740] launcher  (127.0.0.1:38349) INFO    Finished cleaning spawned subprocesses.
+[2018-08-23 14:23:30,777] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-23 14:23:30,777] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-23 14:23:30,777] launcher  INFO    Worker distribution: 
+[2018-08-23 14:23:30,777] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.19459174 0.15948677 0.18022907 0.19272475 0.16987001 0.18756633
+ 0.18121515 0.17217116 0.20218839 0.18094194 0.1906648  0.19354059
+ 0.17974964 0.18664785 0.17870335 0.19156013 0.18452923 0.19148177
+ 0.16066555 0.18769998]
+Mean:
+0.18331140992716574
+Std:
+0.010849736649762971
+[2018-08-23 14:23:48,148] launcher  (127.0.0.1:42747) INFO    Root process is done.
+[2018-08-23 14:23:48,148] launcher  (127.0.0.1:42747) INFO    Finished cleaning spawned subprocesses.

@@ -1,0 +1,20 @@
+{
+    "spectral_radius": 1.2634707117859771,
+    "noise_level": 0.02678560174393021,
+    "teacher_scaling": 0.7821702223954139,
+    "embedding": "identity",
+    "embedding_parameters": null,
+    "n_internal_units": 361,
+    "connectivity": 0.25,
+    "n_drop": 100,
+    "feedback_scaling": 0.0,
+    "n_dim": null,
+    "teacher_shift": 0.0,
+    "regression_parameters": [
+        0.001,
+        0.07764550329477232
+    ],
+    "input_scaling": 0.6062998337737021,
+    "input_shift": 0.0,
+    "regression_method": "enet"
+}

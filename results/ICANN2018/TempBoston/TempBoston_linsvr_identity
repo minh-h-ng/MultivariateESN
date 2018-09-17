@@ -1,0 +1,81 @@
+[2018-05-15 11:57:21,355] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 11:57:21,356] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 11:57:21,356] launcher  INFO    Worker distribution: 
+[2018-05-15 11:57:21,356] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 11:57:21,776 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:21,776 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:21,777 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-05-15 11:57:21,777 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-05-15 11:57:21,777 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:21,777 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:21,778 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:21,778 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-05-15 11:57:21,779 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:21,781 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:21,781 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-05-15 11:57:21,781 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:21,781 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-05-15 11:57:21,782 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:21,782 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:21,783 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:21,784 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-05-15 11:57:21,784 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:21,789 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:21,789 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-05-15 11:57:21,790 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:21,795 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:21,796 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-05-15 11:57:21,796 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:21,967 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:21,967 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 11:57:21,967 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-05-15 11:57:21,967 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-05-15 11:57:21,968 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:21,968 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 11:57:22,053 root            INFO     Initializing genetic algorithm
+2018-05-15 11:57:22,053 root            INFO     Initializing genetic algorithm
+2018-05-15 11:57:22,054 root            INFO     Running GA optimization
+2018-05-15 11:57:22,054 root            INFO     Running GA optimization
+gen	nevals	avg    	std    	min     	max    
+0  	50    	1.29009	0.66976	0.237104	2.31333
+1  	23    	0.639255	0.371413	0.237104	2.13422
+2  	24    	0.345449	0.10939 	0.195383	0.720484
+3  	21    	0.247236	0.0384962	0.166764	0.361282
+4  	22    	0.200128	0.0245654	0.166764	0.275955
+5  	21    	0.178007	0.0100786	0.154805	0.195383
+6  	24    	0.168628	0.00949026	0.148345	0.194072
+7  	20    	0.160285	0.00730489	0.148345	0.177201
+8  	20    	0.154927	0.00388982	0.148345	0.16918 
+9  	24    	0.151453	0.00483392	0.139961	0.165931
+10 	26    	0.146904	0.00443287	0.139961	0.154805
+11 	21    	0.143476	0.00311796	0.139961	0.148345
+12 	20    	0.140786	0.00187087	0.139961	0.148345
+13 	22    	0.140038	0.000538023	0.139961	0.143804
+14 	21    	0.140144	0.00128057 	0.139961	0.149108
+15 	21    	0.139961	2.77556e-17	0.139961	0.139961
+16 	17    	0.139961	2.77556e-17	0.139961	0.139961
+17 	17    	0.13942 	0.00183419 	0.1332  	0.139961
+18 	20    	0.13888 	0.0024786  	0.1332  	0.139961
+19 	21    	0.137257	0.00331217 	0.1332  	0.139961
+20 	20    	0.135093	0.00303565 	0.1332  	0.139961
+2018-05-15 12:19:07,984 root            INFO     Saving the best parameters
+2018-05-15 12:19:07,984 root            INFO     Saving the best parameters
+2018-05-15 12:19:07,984 root            INFO     Done
+2018-05-15 12:19:07,984 root            INFO     Done
+[2018-05-15 12:19:08,420] launcher  (127.0.0.1:32845) INFO    Root process is done.
+[2018-05-15 12:19:08,421] launcher  (127.0.0.1:32845) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 12:19:08,457] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 12:19:08,457] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 12:19:08,457] launcher  INFO    Worker distribution: 
+[2018-05-15 12:19:08,457] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.1613566  0.10109528 0.10583509 0.20996918 0.22103254 0.20257562
+ 0.1607281  0.11046136 0.11491761 0.12157862 0.29516115 0.2147195
+ 0.10536471 0.10875131 0.11367431 0.13874836 0.16702933 0.17369832
+ 0.12296547 0.10309552]
+Mean:
+0.1526378985606739
+Std:
+0.051787003232059675
+[2018-05-15 12:19:54,256] launcher  (127.0.0.1:34855) INFO    Root process is done.
+[2018-05-15 12:19:54,256] launcher  (127.0.0.1:34855) INFO    Finished cleaning spawned subprocesses.

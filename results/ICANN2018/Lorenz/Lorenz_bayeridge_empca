@@ -1,0 +1,42 @@
+[2018-05-12 01:49:44,315] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-12 01:49:44,315] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-12 01:49:44,316] launcher  INFO    Worker distribution: 
+[2018-05-12 01:49:44,316] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-12 01:49:44,729 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 01:49:44,729 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 01:49:44,730 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 01:49:44,731 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 01:49:44,732 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 01:49:44,732 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 01:49:44,738 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 01:49:44,739 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 01:49:44,740 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 01:49:44,742 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 01:49:44,743 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 01:49:44,743 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 01:49:44,757 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 01:49:44,757 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 01:49:44,758 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 01:49:44,796 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 01:49:44,796 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 01:49:44,797 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 01:49:44,808 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 01:49:44,808 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 01:49:44,809 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 01:49:44,824 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 01:49:44,824 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 01:49:44,825 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 01:49:44,921 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 01:49:44,921 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-12 01:49:44,921 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 01:49:44,921 parameterhelper INFO     Config: ./configs/user/bayeridge_empca (overload)
+2018-05-12 01:49:44,922 root            INFO     Loading data (./data/Lorenz)
+2018-05-12 01:49:44,922 root            INFO     Loading data (./data/Lorenz)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMin' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.5/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+2018-05-12 01:49:45,000 root            INFO     Initializing genetic algorithm
+2018-05-12 01:49:45,000 root            INFO     Initializing genetic algorithm
+2018-05-12 01:49:45,002 root            INFO     Running GA optimization
+2018-05-12 01:49:45,002 root            INFO     Running GA optimization

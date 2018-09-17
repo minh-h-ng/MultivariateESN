@@ -1,0 +1,81 @@
+[2018-05-15 07:38:25,737] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 07:38:25,737] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 07:38:25,737] launcher  INFO    Worker distribution: 
+[2018-05-15 07:38:25,737] launcher  INFO       127.0.0.1:	7 + origin
+2018-05-15 07:38:26,158 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 07:38:26,158 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 07:38:26,159 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-15 07:38:26,159 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-15 07:38:26,159 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 07:38:26,159 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 07:38:26,159 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 07:38:26,159 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 07:38:26,159 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 07:38:26,160 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-15 07:38:26,160 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-15 07:38:26,160 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-15 07:38:26,160 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 07:38:26,160 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 07:38:26,160 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 07:38:26,166 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 07:38:26,166 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-15 07:38:26,167 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 07:38:26,170 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 07:38:26,171 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-15 07:38:26,171 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 07:38:26,179 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 07:38:26,179 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-15 07:38:26,180 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 07:38:26,345 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 07:38:26,345 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-05-15 07:38:26,345 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-15 07:38:26,345 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-05-15 07:38:26,346 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 07:38:26,346 root            INFO     Loading data (./data/TempBoston)
+2018-05-15 07:38:26,427 root            INFO     Initializing genetic algorithm
+2018-05-15 07:38:26,427 root            INFO     Initializing genetic algorithm
+2018-05-15 07:38:26,429 root            INFO     Running GA optimization
+2018-05-15 07:38:26,429 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max
+0  	50    	0.348042	0.263742	0.0621762	1  
+1  	21    	0.255661	0.243582	0.0621762	1  
+2  	21    	0.225931	0.250668	0.0621762	1  
+3  	21    	0.144834	0.108139	0.0621762	0.587413
+4  	20    	0.136281	0.094718	0.00847458	0.368098
+5  	24    	0.161979	0.112158	0.00847458	0.368098
+6  	19    	0.150118	0.105091	0.00847458	0.368098
+7  	26    	0.139163	0.0950314	0.0621762 	0.368098
+8  	20    	0.12948 	0.0919477	0.0621762 	0.368098
+9  	16    	0.103908	0.0609334	0.0621762 	0.368098
+10 	25    	0.0912981	0.029122 	0.0621762 	0.120421
+11 	20    	0.0912973	0.0291212	0.0621762 	0.120421
+12 	21    	0.0912944	0.0291183	0.0621762 	0.120421
+13 	20    	0.0912479	0.0290732	0.0621762 	0.120421
+14 	18    	0.0911975	0.0290242	0.0621762 	0.120421
+15 	21    	0.0910413	0.0288718	0.0621762 	0.120395
+16 	22    	0.0906512	0.0284842	0.0621762 	0.120395
+17 	17    	0.0902627	0.0280881	0.0621762 	0.120395
+18 	18    	0.0902201	0.0280439	0.0621762 	0.118264
+19 	21    	0.0902201	0.0280439	0.0621762 	0.118264
+20 	20    	0.0902201	0.0280439	0.0621762 	0.118264
+2018-05-15 07:43:27,924 root            INFO     Saving the best parameters
+2018-05-15 07:43:27,924 root            INFO     Saving the best parameters
+2018-05-15 07:43:27,924 root            INFO     Done
+2018-05-15 07:43:27,924 root            INFO     Done
+[2018-05-15 07:43:28,357] launcher  (127.0.0.1:39887) INFO    Root process is done.
+[2018-05-15 07:43:28,358] launcher  (127.0.0.1:39887) INFO    Finished cleaning spawned subprocesses.
+[2018-05-15 07:43:28,398] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-05-15 07:43:28,398] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-05-15 07:43:28,398] launcher  INFO    Worker distribution: 
+[2018-05-15 07:43:28,398] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.10363544 0.10542263 0.11208998 0.09812961 0.10777885 0.10000982
+ 0.10056815 0.10302286 0.09982767 0.11395207 0.11661644 0.12253075
+ 0.10154921 0.10991588 0.11869317 0.10138837 0.13799841 0.10148681
+ 0.09925886 0.12333013]
+Mean:
+0.10886025542927821
+Std:
+0.010280144807353571
+[2018-05-15 07:43:48,369] launcher  (127.0.0.1:38745) INFO    Root process is done.
+[2018-05-15 07:43:48,369] launcher  (127.0.0.1:38745) INFO    Finished cleaning spawned subprocesses.

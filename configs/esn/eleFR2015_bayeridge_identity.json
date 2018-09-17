@@ -1,0 +1,22 @@
+{
+    "regression_parameters": [
+        0.26276579251384097,
+        0.5090871286495947,
+        0.11639013426420512,
+        0.7676982283690004
+    ],
+    "n_internal_units": 458,
+    "embedding": "identity",
+    "regression_method": "bayeridge",
+    "feedback_scaling": 0.0,
+    "connectivity": 0.25,
+    "spectral_radius": 0.9434785656543431,
+    "n_dim": null,
+    "teacher_scaling": 0.42320835397237044,
+    "input_scaling": 0.1020757510773997,
+    "noise_level": 0.0,
+    "input_shift": 0.0,
+    "embedding_parameters": null,
+    "n_drop": 100,
+    "teacher_shift": 0.0
+}

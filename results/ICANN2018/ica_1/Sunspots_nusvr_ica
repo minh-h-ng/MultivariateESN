@@ -1,0 +1,81 @@
+[2018-08-25 09:23:37,383] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-25 09:23:37,383] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-25 09:23:37,383] launcher  INFO    Worker distribution: 
+[2018-08-25 09:23:37,383] launcher  INFO       127.0.0.1:	7 + origin
+2018-08-25 09:23:37,801 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 09:23:37,801 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 09:23:37,802 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 09:23:37,802 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 09:23:37,802 root            INFO     Loading data (./data/Sunspots)
+2018-08-25 09:23:37,802 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 09:23:37,802 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 09:23:37,803 root            INFO     Loading data (./data/Sunspots)
+2018-08-25 09:23:37,803 root            INFO     Loading data (./data/Sunspots)
+2018-08-25 09:23:37,804 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 09:23:37,805 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 09:23:37,806 root            INFO     Loading data (./data/Sunspots)
+2018-08-25 09:23:37,807 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 09:23:37,807 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 09:23:37,808 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 09:23:37,808 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 09:23:37,808 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 09:23:37,808 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 09:23:37,808 root            INFO     Loading data (./data/Sunspots)
+2018-08-25 09:23:37,808 root            INFO     Loading data (./data/Sunspots)
+2018-08-25 09:23:37,809 root            INFO     Loading data (./data/Sunspots)
+2018-08-25 09:23:37,825 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 09:23:37,825 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 09:23:37,826 root            INFO     Loading data (./data/Sunspots)
+2018-08-25 09:23:37,902 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 09:23:37,902 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-08-25 09:23:37,902 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 09:23:37,902 parameterhelper INFO     Config: ./configs/user/nusvr_ica (overload)
+2018-08-25 09:23:37,902 root            INFO     Loading data (./data/Sunspots)
+2018-08-25 09:23:37,902 root            INFO     Loading data (./data/Sunspots)
+2018-08-25 09:23:37,944 root            INFO     Initializing genetic algorithm
+2018-08-25 09:23:37,944 root            INFO     Initializing genetic algorithm
+2018-08-25 09:23:37,945 root            INFO     Running GA optimization
+2018-08-25 09:23:37,945 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.325643	0.310121	0.0144092	1.24917
+1  	23    	0.159944	0.218158	0.0144092	0.953586
+2  	23    	0.0692928	0.119472	0.0144092	0.528037
+3  	17    	0.0281962	0.01237 	0.0144092	0.0464794
+4  	23    	0.0265509	0.0108448	0.0144092	0.0401316
+5  	24    	0.0262981	0.0099799	0.0144092	0.0365423
+6  	26    	0.0271479	0.00994556	0.00215983	0.0365423
+7  	24    	0.0275532	0.00975533	0.00215983	0.0354023
+8  	20    	0.0250209	0.00965176	0.00215983	0.0345113
+9  	21    	0.0247018	0.00899696	0.0147601 	0.0342551
+10 	23    	0.0245326	0.00883591	0.0147601 	0.0338915
+11 	22    	0.0237889	0.00985446	0.00369004	0.0336478
+12 	20    	0.0233982	0.0101729 	0.00369004	0.0333183
+13 	22    	0.0240322	0.00908432	0.00369004	0.0332306
+14 	23    	0.0238234	0.0091187 	0.00369004	0.0329132
+15 	21    	0.0228275	0.0101615 	0.00369004	0.0328437
+16 	21    	0.0208309	0.0119235 	0.00369004	0.0325889
+17 	24    	0.0196399	0.0128334 	0.00369004	0.0325455
+18 	20    	0.0195703	0.0128025 	0.00369004	0.0324067
+19 	20    	0.0199396	0.012283  	0.00369004	0.0323576
+20 	17    	0.0200537	0.0120446 	0.00787402	0.0322552
+2018-08-25 09:39:59,480 root            INFO     Saving the best parameters
+2018-08-25 09:39:59,480 root            INFO     Saving the best parameters
+2018-08-25 09:39:59,480 root            INFO     Done
+2018-08-25 09:39:59,480 root            INFO     Done
+[2018-08-25 09:39:59,915] launcher  (127.0.0.1:34913) INFO    Root process is done.
+[2018-08-25 09:39:59,915] launcher  (127.0.0.1:34913) INFO    Finished cleaning spawned subprocesses.
+[2018-08-25 09:39:59,952] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-08-25 09:39:59,952] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-08-25 09:39:59,952] launcher  INFO    Worker distribution: 
+[2018-08-25 09:39:59,952] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.04838374 0.04882288 0.04848599 0.04807187 0.04823361 0.04756173
+ 0.0485259  0.04828064 0.04866358 0.04839182 0.04856429 0.04866613
+ 0.04851431 0.04812288 0.04872924 0.04812839 0.04886943 0.04774932
+ 0.04833412 0.04845931]
+Mean:
+0.04837795867718561
+Std:
+0.0003267963389129681
+[2018-08-25 09:40:30,472] launcher  (127.0.0.1:40969) INFO    Root process is done.
+[2018-08-25 09:40:30,472] launcher  (127.0.0.1:40969) INFO    Finished cleaning spawned subprocesses.
