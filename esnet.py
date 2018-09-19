@@ -19,6 +19,7 @@ from sklearn import linear_model
 #from wpca import WPCA, EMPCA
 import RobustPCA
 import FastICA
+import KICA
 
 import math
 import subprocess
@@ -182,6 +183,9 @@ class ESN(object):
                 self._embedding_method = FastICA.FastICA(n_components=n_dim)
                 #self._embedding_method = FastICA.FastICA(n_components=n_dim, fun_args={'alpha':alpha})
                 #self._embedding_method = FastICA.FastICA(n_components = n_dim, algorithm = 'deflation')
+
+            elif (embedding == 'kica'):
+                self._embedding_method = KICA.KICA(n_components=n_dim)
 
             else:
                 raise(ValueError, "Unknown embedding method")
@@ -383,7 +387,7 @@ def format_config(n_internal_units, spectral_radius, connectivity, input_scaling
 
     return config
 
-def generate_datasets(X, Y, test_percent = 0.2, val_percent = 0.2, scaler = StandardScaler):
+def generate_datasets(X, Y, test_percent = 0.25, val_percent = 0.25, scaler = StandardScaler):
     n_data,_ = X.shape
 
     n_te = np.ceil(test_percent*n_data).astype(int)
@@ -420,7 +424,7 @@ def generate_datasets(X, Y, test_percent = 0.2, val_percent = 0.2, scaler = Stan
 
     return Xtr, Ytr, Xval, Yval, Xte, Yte, Yscaler
 
-def generate_datasets_1d(path, test_percent = 0.2, val_percent = 0.2, scaler = StandardScaler):
+def generate_datasets_1d(path, test_percent = 0.25, val_percent = 0.25, scaler = StandardScaler):
     data = np.loadtxt(path, delimiter=',')
     data = data.reshape((data.shape[0], 1))
     n_data,_ = data.shape

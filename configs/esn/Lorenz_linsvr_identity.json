@@ -1,20 +1,20 @@
 {
-    "embedding": "identity",
-    "feedback_scaling": 0.0,
-    "n_internal_units": 104,
+    "n_drop": 100,
     "connectivity": 0.25,
+    "input_scaling": 0.24339457611399343,
+    "n_internal_units": 139,
+    "n_dim": null,
+    "spectral_radius": 0.8339863674802577,
     "embedding_parameters": null,
+    "noise_level": 0.09188273927170895,
     "regression_method": "linsvr",
-    "input_scaling": 0.5241190234559223,
-    "noise_level": 0.04838256204314423,
-    "spectral_radius": 1.240921171905857,
+    "embedding": "identity",
     "input_shift": 0.0,
     "teacher_shift": 0.0,
-    "n_drop": 100,
-    "n_dim": null,
-    "teacher_scaling": 0.8309507772591108,
+    "teacher_scaling": 0.6898310473033045,
     "regression_parameters": [
-        3.7226221772079167,
+        7.519017401047753,
         0.001
-    ]
+    ],
+    "feedback_scaling": "feedback_scaling"
 }

@@ -1,0 +1,82 @@
+[2018-09-19 08:26:34,256] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 08:26:34,256] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-19 08:26:34,256] launcher  INFO    Worker distribution: 
+[2018-09-19 08:26:34,256] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-19 08:26:34,670 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 08:26:34,670 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-19 08:26:34,671 root            INFO     Loading data (./data/Lorenz)
+2018-09-19 08:26:34,672 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 08:26:34,673 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-19 08:26:34,674 root            INFO     Loading data (./data/Lorenz)
+2018-09-19 08:26:34,677 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 08:26:34,678 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-19 08:26:34,678 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 08:26:34,679 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-19 08:26:34,679 root            INFO     Loading data (./data/Lorenz)
+2018-09-19 08:26:34,679 root            INFO     Loading data (./data/Lorenz)
+2018-09-19 08:26:34,683 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 08:26:34,683 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-19 08:26:34,684 root            INFO     Loading data (./data/Lorenz)
+2018-09-19 08:26:34,685 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 08:26:34,685 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 08:26:34,686 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-19 08:26:34,686 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-19 08:26:34,687 root            INFO     Loading data (./data/Lorenz)
+2018-09-19 08:26:34,687 root            INFO     Loading data (./data/Lorenz)
+2018-09-19 08:26:34,707 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 08:26:34,707 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-19 08:26:34,708 root            INFO     Loading data (./data/Lorenz)
+2018-09-19 08:26:35,007 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 08:26:35,007 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 08:26:35,007 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-19 08:26:35,007 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-19 08:26:35,007 root            INFO     Loading data (./data/Lorenz)
+2018-09-19 08:26:35,007 root            INFO     Loading data (./data/Lorenz)
+2018-09-19 08:26:35,128 root            INFO     Initializing genetic algorithm
+2018-09-19 08:26:35,128 root            INFO     Initializing genetic algorithm
+2018-09-19 08:26:35,129 root            INFO     Running GA optimization
+2018-09-19 08:26:35,129 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min        	max
+0  	50    	0.307338	0.354617	1.16767e-05	1  
+1  	21    	0.293616	0.328073	1.16767e-05	0.863636
+2  	22    	0.325891	0.343567	1.16767e-05	0.863636
+3  	20    	0.326218	0.335533	1.16767e-05	0.863636
+4  	24    	0.299564	0.30695 	1.09174e-05	0.811798
+5  	22    	0.272337	0.274997	1.05677e-05	0.811798
+6  	24    	0.265691	0.265681	1.02608e-05	0.532468
+7  	19    	0.265679	0.265669	9.98596e-06	0.532468
+8  	21    	0.265691	0.265681	9.08965e-06	0.532468
+9  	24    	0.263521	0.263799	7.84218e-06	0.532468
+10 	19    	0.26074 	0.261358	7.84218e-06	0.532468
+11 	22    	0.254752	0.256   	6.90015e-06	0.577922
+12 	22    	0.255668	0.256721	6.46124e-06	0.532468
+13 	17    	0.263023	0.263399	6.46124e-06	0.532468
+14 	17    	0.266237	0.26623 	6.42338e-06	0.532468
+15 	24    	0.266237	0.266231	6.26632e-06	0.532468
+16 	20    	0.266237	0.266231	5.79296e-06	0.532468
+17 	19    	0.266298	0.266292	5.79296e-06	0.535948
+18 	19    	0.265782	0.265814	5.27285e-06	0.532468
+19 	21    	0.263964	0.264134	5.27285e-06	0.532468
+20 	21    	0.262146	0.262431	5.27285e-06	0.532468
+2018-09-19 08:29:37,730 root            INFO     Saving the best parameters
+2018-09-19 08:29:37,730 root            INFO     Saving the best parameters
+2018-09-19 08:29:37,731 root            INFO     Done
+2018-09-19 08:29:37,731 root            INFO     Done
+[2018-09-19 08:29:38,163] launcher  (127.0.0.1:34177) INFO    Root process is done.
+[2018-09-19 08:29:38,164] launcher  (127.0.0.1:34177) INFO    Finished cleaning spawned subprocesses.
+[2018-09-19 08:29:38,200] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 08:29:38,200] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-19 08:29:38,200] launcher  INFO    Worker distribution: 
+[2018-09-19 08:29:38,200] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[5.38858204e-06 4.57869189e-06 4.52008900e-06 4.33729643e-06
+ 4.18739379e-06 6.39182401e-06 4.07877345e-06 4.92328457e-06
+ 4.14582357e-06 4.45944801e-06 4.60457606e-06 6.04606240e-06
+ 4.01261195e-06 3.86936476e-06 4.39021639e-06 4.01189999e-06
+ 4.61414039e-06 4.85182040e-06 5.06641298e-06 5.54652634e-06]
+Mean:
+4.701241921639101e-06
+Std:
+6.712943389590554e-07
+[2018-09-19 08:29:43,531] launcher  (127.0.0.1:37721) INFO    Root process is done.
+[2018-09-19 08:29:43,531] launcher  (127.0.0.1:37721) INFO    Finished cleaning spawned subprocesses.

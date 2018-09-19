@@ -88,6 +88,12 @@
         "val2": "n_internal_units"
       },
 
+      "kica": {
+        "operator": "multiply_intreturn",
+        "val1": "n_dim_percent",
+        "val2": "n_internal_units"
+      },
+
       "autoencoder": {
         "operator": "multiply_intreturn",
         "val1": "n_dim_percent",
@@ -109,6 +115,7 @@
       "fa": null,
       "mds": null,
       "ica": null,
+      "kica": null,
       "autoencoder": null
     },
 

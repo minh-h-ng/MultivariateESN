@@ -1,0 +1,81 @@
+[2018-09-18 03:56:44,972] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 03:56:44,972] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-18 03:56:44,972] launcher  INFO    Worker distribution: 
+[2018-09-18 03:56:44,972] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-18 03:56:45,391 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:56:45,391 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:56:45,391 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:56:45,391 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 03:56:45,391 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 03:56:45,391 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 03:56:45,392 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:56:45,392 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:56:45,392 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:56:45,392 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:56:45,392 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 03:56:45,393 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:56:45,394 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:56:45,395 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 03:56:45,395 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:56:45,396 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:56:45,397 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 03:56:45,398 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:56:45,409 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:56:45,409 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 03:56:45,410 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:56:45,410 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:56:45,410 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 03:56:45,411 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:56:45,551 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:56:45,551 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:56:45,551 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 03:56:45,551 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 03:56:45,551 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:56:45,551 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:56:45,619 root            INFO     Initializing genetic algorithm
+2018-09-18 03:56:45,619 root            INFO     Initializing genetic algorithm
+2018-09-18 03:56:45,621 root            INFO     Running GA optimization
+2018-09-18 03:56:45,621 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max     
+0  	50    	0.313308	0.272231	0.0358744	0.978261
+1  	23    	0.429814	0.341272	0.106991 	0.962264
+2  	19    	0.4688  	0.375402	0.106991 	0.96319 
+3  	22    	0.507954	0.402053	0.10509  	0.961832
+4  	21    	0.507852	0.402183	0.10509  	0.961832
+5  	21    	0.500152	0.394886	0.10509  	0.961832
+6  	25    	0.501322	0.396663	0.104111 	0.961832
+7  	20    	0.497972	0.393995	0.104111 	0.961832
+8  	25    	0.493043	0.389107	0.104054 	0.961832
+9  	21    	0.490526	0.386643	0.103088 	0.961832
+10 	19    	0.488335	0.384435	0.103088 	0.872774
+11 	26    	0.488252	0.384519	0.103088 	0.872774
+12 	21    	0.488066	0.384707	0.103088 	0.872774
+13 	21    	0.487945	0.384828	0.103088 	0.872774
+14 	21    	0.487931	0.384843	0.103088 	0.872774
+15 	18    	0.487931	0.384843	0.103088 	0.872774
+16 	17    	0.487931	0.384843	0.103088 	0.872774
+17 	19    	0.487931	0.384843	0.103088 	0.872774
+18 	19    	0.487931	0.384843	0.103088 	0.872774
+19 	12    	0.487931	0.384843	0.103088 	0.872774
+20 	22    	0.487931	0.384843	0.103088 	0.872774
+2018-09-18 05:59:06,223 root            INFO     Saving the best parameters
+2018-09-18 05:59:06,223 root            INFO     Saving the best parameters
+2018-09-18 05:59:06,223 root            INFO     Done
+2018-09-18 05:59:06,223 root            INFO     Done
+[2018-09-18 05:59:06,653] launcher  (127.0.0.1:39329) INFO    Root process is done.
+[2018-09-18 05:59:06,653] launcher  (127.0.0.1:39329) INFO    Finished cleaning spawned subprocesses.
+[2018-09-18 05:59:06,690] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 05:59:06,690] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-18 05:59:06,690] launcher  INFO    Worker distribution: 
+[2018-09-18 05:59:06,690] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.11099416 0.11073831 0.11200801 0.11269953 0.1112162  0.11215222
+ 0.1115692  0.11216536 0.11271074 0.11079048 0.11527703 0.11184064
+ 0.11314135 0.11463207 0.11072999 0.11088496 0.11151218 0.11273732
+ 0.11526301 0.1141821 ]
+Mean:
+0.11236224241550855
+Std:
+0.001437508345902626
+[2018-09-18 06:00:59,076] launcher  (127.0.0.1:46575) INFO    Root process is done.
+[2018-09-18 06:00:59,077] launcher  (127.0.0.1:46575) INFO    Finished cleaning spawned subprocesses.

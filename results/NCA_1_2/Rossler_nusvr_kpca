@@ -1,0 +1,93 @@
+[2018-09-19 01:47:23,375] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 01:47:23,375] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-19 01:47:23,375] launcher  INFO    Worker distribution: 
+[2018-09-19 01:47:23,375] launcher  INFO       127.0.0.1:	11 + origin
+2018-09-19 01:47:24,056 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,057 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,058 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,058 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,059 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,060 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,061 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,061 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,061 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,061 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,062 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,062 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,066 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,067 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,067 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,067 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,068 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,068 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,069 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,069 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,069 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,069 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,070 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,070 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,070 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,070 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,071 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,072 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,072 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,073 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,076 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,076 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,077 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,084 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,084 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,085 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,362 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,362 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 01:47:24,362 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,362 parameterhelper INFO     Config: ./configs/user/nusvr_kpca (overload)
+2018-09-19 01:47:24,363 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,363 root            INFO     Loading data (./data/Rossler)
+2018-09-19 01:47:24,499 root            INFO     Initializing genetic algorithm
+2018-09-19 01:47:24,499 root            INFO     Initializing genetic algorithm
+2018-09-19 01:47:24,502 root            INFO     Running GA optimization
+2018-09-19 01:47:24,502 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min       	max     
+0  	50    	0.248725	0.326162	0.00024257	0.991379
+1  	24    	0.187256	0.283518	0.000209359	0.942363
+2  	20    	0.095713	0.196433	0.000198584	0.699422
+3  	22    	0.040523	0.0979968	0.000198584	0.699422
+4  	23    	0.0281401	0.0279729	0.000180845	0.0576923
+5  	21    	0.0282291	0.0280887	0.000180845	0.0625   
+6  	22    	0.0282457	0.0280611	0.000180845	0.0566038
+7  	25    	0.0276889	0.0276742	0.000176186	0.0566038
+8  	17    	0.026592 	0.0268625	0.000176186	0.05625  
+9  	15    	0.0229844	0.0236587	0.000176186	0.05625  
+10 	21    	0.0201015	0.0202991	0.000165152	0.0573248
+11 	22    	0.0191807	0.0190075	0.000165152	0.0382166
+12 	22    	0.0191435	0.0189743	0.000165152	0.0382166
+13 	22    	0.019163 	0.0189967	0.000165152	0.0382166
+14 	23    	0.0191908	0.0190258	0.000162608	0.0382166
+15 	23    	0.0191906	0.019026 	0.000162608	0.0382166
+16 	18    	0.0191901	0.0190264	0.000162608	0.0382166
+17 	23    	0.0191898	0.0190268	0.000162608	0.0382166
+18 	22    	0.0191896	0.019027 	0.000162608	0.0382166
+19 	24    	0.0191897	0.0190269	0.00015987 	0.0382166
+20 	21    	0.0191891	0.0190275	0.00015987 	0.0382166
+2018-09-19 02:44:01,493 root            INFO     Saving the best parameters
+2018-09-19 02:44:01,493 root            INFO     Saving the best parameters
+2018-09-19 02:44:01,493 root            INFO     Done
+2018-09-19 02:44:01,493 root            INFO     Done
+[2018-09-19 02:44:01,976] launcher  (127.0.0.1:39891) INFO    Root process is done.
+[2018-09-19 02:44:01,976] launcher  (127.0.0.1:39891) INFO    Finished cleaning spawned subprocesses.
+[2018-09-19 02:44:02,038] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 02:44:02,039] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-19 02:44:02,039] launcher  INFO    Worker distribution: 
+[2018-09-19 02:44:02,039] launcher  INFO       127.0.0.1:	11 + origin
+Errors:
+[0.00017329 0.00016451 0.00018437 0.00019094 0.00017813 0.00019027
+ 0.00020597 0.00018158 0.00016502 0.0001643  0.00019323 0.00020463
+ 0.00018157 0.00018309 0.00020215 0.00015166 0.00017061 0.00014927
+ 0.0001992  0.00017883]
+Mean:
+0.00018063183247015688
+Std:
+1.606563950770574e-05
+[2018-09-19 02:46:36,437] launcher  (127.0.0.1:43523) INFO    Root process is done.
+[2018-09-19 02:46:36,437] launcher  (127.0.0.1:43523) INFO    Finished cleaning spawned subprocesses.

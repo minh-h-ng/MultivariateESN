@@ -27,6 +27,7 @@
       "fa": "n_dim",
       "mds": "n_dim",
       "ica": "n_dim",
+      "kica": "n_dim",
       "autoencoder": null
     },
 
@@ -44,6 +45,7 @@
       "fa": null,
       "mds": null,
       "ica": null,
+      "kica": null,
       "autoencoder": null
     },
 

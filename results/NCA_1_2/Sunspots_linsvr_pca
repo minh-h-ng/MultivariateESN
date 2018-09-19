@@ -1,0 +1,93 @@
+[2018-09-19 13:18:21,121] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 13:18:21,121] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-19 13:18:21,121] launcher  INFO    Worker distribution: 
+[2018-09-19 13:18:21,121] launcher  INFO       127.0.0.1:	11 + origin
+2018-09-19 13:18:21,806 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,807 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,807 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,807 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,808 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,808 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,808 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,808 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,808 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,808 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,808 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,809 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,809 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,809 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,809 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,811 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,812 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,812 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,812 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,813 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,813 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,813 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,814 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,814 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,816 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,816 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,817 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,817 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,818 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,819 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,822 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,823 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,824 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,835 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,835 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,836 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,963 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,963 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:18:21,964 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,964 parameterhelper INFO     Config: ./configs/user/linsvr_pca (overload)
+2018-09-19 13:18:21,964 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:21,964 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:18:22,030 root            INFO     Initializing genetic algorithm
+2018-09-19 13:18:22,030 root            INFO     Initializing genetic algorithm
+2018-09-19 13:18:22,032 root            INFO     Running GA optimization
+2018-09-19 13:18:22,032 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min      	max    
+0  	50    	0.59218	0.298385	0.0287506	1.03521
+1  	17    	0.43281	0.271372	0.0287506	0.966912
+2  	26    	0.405593	0.354239	0.0287506	0.902778
+3  	21    	0.454403	0.426405	0.0287506	0.902778
+4  	25    	0.465358	0.436533	0.0280059	0.902778
+5  	23    	0.464853	0.436298	0.0280059	0.902778
+6  	21    	0.464262	0.436017	0.0280059	0.902778
+7  	27    	0.463748	0.435726	0.0280059	0.902778
+8  	20    	0.463707	0.435701	0.0280059	0.899408
+9  	22    	0.463707	0.435701	0.0280059	0.899408
+10 	23    	0.463707	0.435701	0.0280059	0.899408
+11 	17    	0.463707	0.435701	0.0280059	0.899408
+12 	24    	0.463707	0.435701	0.0280059	0.899408
+13 	22    	0.463707	0.435701	0.0280059	0.899408
+14 	20    	0.463761	0.435648	0.0280059	0.899408
+15 	21    	0.463707	0.435701	0.0280059	0.899408
+16 	21    	0.463707	0.435701	0.0280059	0.899408
+17 	22    	0.463707	0.435701	0.0280059	0.899408
+18 	23    	0.463707	0.435701	0.0280059	0.899408
+19 	20    	0.463707	0.435701	0.0280059	0.899408
+20 	20    	0.463707	0.435701	0.0280059	0.899408
+2018-09-19 13:26:19,749 root            INFO     Saving the best parameters
+2018-09-19 13:26:19,749 root            INFO     Saving the best parameters
+2018-09-19 13:26:19,749 root            INFO     Done
+2018-09-19 13:26:19,749 root            INFO     Done
+[2018-09-19 13:26:20,232] launcher  (127.0.0.1:39201) INFO    Root process is done.
+[2018-09-19 13:26:20,233] launcher  (127.0.0.1:39201) INFO    Finished cleaning spawned subprocesses.
+[2018-09-19 13:26:20,296] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 13:26:20,296] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-19 13:26:20,296] launcher  INFO    Worker distribution: 
+[2018-09-19 13:26:20,296] launcher  INFO       127.0.0.1:	11 + origin
+Errors:
+[0.0269556  0.02791799 0.02789139 0.03051169 0.02829664 0.03185796
+ 0.02830989 0.03681886 0.02790697 0.02724395 0.02565652 0.02573021
+ 0.03550156 0.03414169 0.02672071 0.02585835 0.02610573 0.02934964
+ 0.02756614 0.02906724]
+Mean:
+0.028970437922687314
+Std:
+0.0031591236972874216
+[2018-09-19 13:26:40,231] launcher  (127.0.0.1:38655) INFO    Root process is done.
+[2018-09-19 13:26:40,231] launcher  (127.0.0.1:38655) INFO    Finished cleaning spawned subprocesses.

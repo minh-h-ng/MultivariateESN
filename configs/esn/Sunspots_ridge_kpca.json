@@ -1,17 +1,17 @@
 {
-    "spectral_radius": 1.1410923996419846,
-    "input_scaling": 0.9,
-    "n_drop": 100,
-    "teacher_shift": 0.0,
+    "n_internal_units": 151,
+    "embedding_parameters": 0.0031551407345791318,
+    "n_dim": 65,
     "regression_method": "ridge",
+    "teacher_scaling": 0.6895531664820074,
+    "n_drop": 100,
+    "input_scaling": 0.8747910687050892,
+    "noise_level": 0.04607909124316446,
     "connectivity": 0.25,
-    "regression_parameters": 0.001,
     "embedding": "kpca",
-    "n_dim": 154,
+    "regression_parameters": 0.001,
+    "teacher_shift": 0.0,
+    "spectral_radius": 1.225098558831902,
     "input_shift": 0.0,
-    "noise_level": 0.05170799943927522,
-    "teacher_scaling": 0.5182777165346497,
-    "feedback_scaling": 0.0,
-    "embedding_parameters": 0.001,
-    "n_internal_units": 198
+    "feedback_scaling": "feedback_scaling"
 }

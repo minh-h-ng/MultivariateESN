@@ -1,0 +1,93 @@
+[2018-09-18 09:57:18,447] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 09:57:18,447] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-18 09:57:18,447] launcher  INFO    Worker distribution: 
+[2018-09-18 09:57:18,447] launcher  INFO       127.0.0.1:	11 + origin
+2018-09-18 09:57:19,124 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,124 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,125 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,130 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,131 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,132 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,135 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,135 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,136 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,136 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,136 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,136 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,136 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,136 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,137 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,137 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,137 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,137 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,137 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,137 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,137 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,137 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,138 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,138 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,140 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,141 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,142 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,148 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,148 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,149 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,155 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,155 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,155 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,156 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,156 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,157 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,356 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,356 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 09:57:19,357 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,357 parameterhelper INFO     Config: ./configs/user/linsvr_identity (overload)
+2018-09-18 09:57:19,357 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,357 root            INFO     Loading data (./data/SP500)
+2018-09-18 09:57:19,454 root            INFO     Initializing genetic algorithm
+2018-09-18 09:57:19,454 root            INFO     Initializing genetic algorithm
+2018-09-18 09:57:19,455 root            INFO     Running GA optimization
+2018-09-18 09:57:19,455 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min     	max    
+0  	50    	1.11704	0.506449	0.107357	1.76108
+1  	21    	0.675766	0.337283	0.107357	1.64039
+2  	23    	0.316004	0.184269	0.104364	0.773459
+3  	23    	0.145969	0.0570399	0.104364	0.408268
+4  	21    	0.10926 	0.0123276	0.0959386	0.176886
+5  	24    	0.103657	0.00417604	0.0959386	0.107357
+6  	20    	0.0999042	0.00353585	0.0959386	0.107357
+7  	21    	0.0970767	0.00312466	0.0881426	0.110884
+8  	21    	0.0952861	0.00263708	0.0881426	0.104   
+9  	17    	0.0928907	0.00462152	0.0815269	0.0959386
+10 	20    	0.0893526	0.0058868 	0.0815269	0.0959386
+11 	22    	0.0862325	0.00497838	0.0815269	0.0959386
+12 	22    	0.0836739	0.00403078	0.0815269	0.097655 
+13 	18    	0.0815269	0         	0.0815269	0.0815269
+14 	19    	0.0815269	0         	0.0815269	0.0815269
+15 	19    	0.0815269	0         	0.0815269	0.0815269
+16 	22    	0.0816561	0.00146131	0.0805907	0.0917299
+17 	25    	0.0813022	0.000399855	0.0805907	0.0815269
+18 	24    	0.0814791	0.00317658 	0.0805907	0.103478 
+19 	21    	0.080703 	0.000304244	0.0805907	0.0815269
+20 	22    	0.0808932	0.00198801 	0.0805907	0.094779 
+2018-09-18 10:07:56,040 root            INFO     Saving the best parameters
+2018-09-18 10:07:56,040 root            INFO     Saving the best parameters
+2018-09-18 10:07:56,040 root            INFO     Done
+2018-09-18 10:07:56,040 root            INFO     Done
+[2018-09-18 10:07:56,523] launcher  (127.0.0.1:41685) INFO    Root process is done.
+[2018-09-18 10:07:56,523] launcher  (127.0.0.1:41685) INFO    Finished cleaning spawned subprocesses.
+[2018-09-18 10:07:56,585] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 10:07:56,585] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-18 10:07:56,585] launcher  INFO    Worker distribution: 
+[2018-09-18 10:07:56,585] launcher  INFO       127.0.0.1:	11 + origin
+Errors:
+[0.67611968 1.10194759 0.83827774 0.64772368 0.1587017  0.36534209
+ 0.4575617  0.16321566 0.21538167 0.70573315 0.1066929  0.14038724
+ 0.44918134 0.89678813 0.60439161 0.2103281  0.2801093  0.23245877
+ 0.19546161 0.30528271]
+Mean:
+0.4375543174534574
+Std:
+0.2840977710735511
+[2018-09-18 10:08:25,979] launcher  (127.0.0.1:45843) INFO    Root process is done.
+[2018-09-18 10:08:25,979] launcher  (127.0.0.1:45843) INFO    Finished cleaning spawned subprocesses.

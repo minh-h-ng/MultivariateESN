@@ -1,0 +1,81 @@
+[2018-09-19 13:10:27,331] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 13:10:27,332] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-19 13:10:27,332] launcher  INFO    Worker distribution: 
+[2018-09-19 13:10:27,332] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-19 13:10:27,752 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:10:27,753 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 13:10:27,753 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:10:27,753 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:10:27,753 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:10:27,754 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 13:10:27,754 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 13:10:27,755 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:10:27,754 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:10:27,755 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:10:27,755 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 13:10:27,756 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:10:27,756 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:10:27,756 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 13:10:27,757 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:10:27,759 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:10:27,759 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 13:10:27,760 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:10:27,763 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:10:27,763 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:10:27,763 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 13:10:27,763 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 13:10:27,764 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:10:27,764 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:10:27,872 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:10:27,872 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 13:10:27,872 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 13:10:27,872 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 13:10:27,872 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:10:27,872 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 13:10:27,918 root            INFO     Initializing genetic algorithm
+2018-09-19 13:10:27,918 root            INFO     Initializing genetic algorithm
+2018-09-19 13:10:27,919 root            INFO     Running GA optimization
+2018-09-19 13:10:27,919 root            INFO     Running GA optimization
+gen	nevals	avg      	std      	min      	max     
+0  	50    	0.0396753	0.0119108	0.0222447	0.086007
+1  	25    	0.0308733	0.00333245	0.0222447	0.0393544
+2  	18    	0.0278393	0.00342416	0.0222447	0.0315251
+3  	24    	0.0242826	0.00278007	0.0222447	0.030085 
+4  	23    	0.0226554	0.000983006	0.0222447	0.0277784
+5  	25    	0.0223978	9.96805e-05	0.0222447	0.0227334
+6  	21    	0.0223144	7.00264e-05	0.0222447	0.022468 
+7  	20    	0.0222566	3.12938e-05	0.0222362	0.0223483
+8  	19    	0.0222438	1.33661e-05	0.0222309	0.0223307
+9  	19    	0.0222397	1.16537e-05	0.0222309	0.0223084
+10 	19    	0.02223  	1.2627e-05 	0.0221706	0.0222447
+11 	22    	0.022224 	1.98478e-05	0.0221706	0.0222447
+12 	19    	0.0221851	8.85354e-05	0.0218998	0.0222309
+13 	22    	0.0221282	0.000117966	0.0218998	0.0223349
+14 	23    	0.022076 	0.000130567	0.0218998	0.0223291
+15 	19    	0.0219628	0.000100144	0.0218998	0.0221706
+16 	19    	0.0219115	3.95623e-05	0.0218998	0.0220456
+17 	20    	0.0218986	4.8814e-06 	0.0218792	0.0218998
+18 	18    	0.0218965	7.53536e-06	0.0218792	0.0218998
+19 	20    	0.0218916	1.00695e-05	0.0218792	0.0218998
+20 	22    	0.0218862	9.73679e-06	0.0218792	0.0218998
+2018-09-19 13:12:04,922 root            INFO     Saving the best parameters
+2018-09-19 13:12:04,922 root            INFO     Saving the best parameters
+2018-09-19 13:12:04,922 root            INFO     Done
+2018-09-19 13:12:04,922 root            INFO     Done
+[2018-09-19 13:12:05,355] launcher  (127.0.0.1:46141) INFO    Root process is done.
+[2018-09-19 13:12:05,355] launcher  (127.0.0.1:46141) INFO    Finished cleaning spawned subprocesses.
+[2018-09-19 13:12:05,392] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 13:12:05,392] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-19 13:12:05,392] launcher  INFO    Worker distribution: 
+[2018-09-19 13:12:05,392] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.02183283 0.02143121 0.02099896 0.0212724  0.02120479 0.02094353
+ 0.02068201 0.02071392 0.02116223 0.0214108  0.0208861  0.02117741
+ 0.02190261 0.02082821 0.02092975 0.02142352 0.02119502 0.02128123
+ 0.02121368 0.02144028]
+Mean:
+0.021196524171776514
+Std:
+0.00031891017804762525
+[2018-09-19 13:12:09,110] launcher  (127.0.0.1:34167) INFO    Root process is done.
+[2018-09-19 13:12:09,110] launcher  (127.0.0.1:34167) INFO    Finished cleaning spawned subprocesses.

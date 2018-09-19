@@ -1,0 +1,94 @@
+[2018-09-19 04:08:58,341] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 04:08:58,341] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-19 04:08:58,341] launcher  INFO    Worker distribution: 
+[2018-09-19 04:08:58,341] launcher  INFO       127.0.0.1:	11 + origin
+2018-09-19 04:08:59,017 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,017 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,018 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,025 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,026 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,026 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,026 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,027 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,027 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,030 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,031 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,031 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,032 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,032 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,033 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,033 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,033 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,033 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,033 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,034 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,034 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,038 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,038 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,038 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,039 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,039 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,040 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,040 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,040 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,041 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,050 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,050 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,051 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,053 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,054 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,054 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,324 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,324 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 04:08:59,324 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,324 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-19 04:08:59,325 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,325 root            INFO     Loading data (./data/Rossler)
+2018-09-19 04:08:59,457 root            INFO     Initializing genetic algorithm
+2018-09-19 04:08:59,457 root            INFO     Initializing genetic algorithm
+2018-09-19 04:08:59,458 root            INFO     Running GA optimization
+2018-09-19 04:08:59,458 root            INFO     Running GA optimization
+gen	nevals	avg       	std       	min        	max      
+0  	50    	0.00712871	0.00495604	0.000658015	0.0226347
+1  	23    	0.00317626	0.0016586 	0.000658015	0.00860818
+2  	22    	0.00163677	0.000692193	0.000658015	0.0034737 
+3  	19    	0.000907374	0.000275697	0.000459393	0.00152081
+4  	23    	0.000630789	8.42443e-05	0.000459393	0.000847156
+5  	24    	0.000541167	8.75525e-05	0.000459393	0.000658015
+6  	22    	0.000464873	5.70386e-05	0.000285698	0.000627318
+7  	22    	0.000418777	7.09879e-05	0.000196021	0.000460984
+8  	23    	0.00029739 	9.0014e-05 	0.000157004	0.000459393
+9  	19    	0.00021451 	2.64499e-05	0.000157004	0.000291186
+10 	20    	0.000182815	2.73939e-05	0.000152075	0.000244253
+11 	20    	0.000142462	3.40027e-05	5.40828e-05	0.000189601
+12 	20    	0.000104606	4.7184e-05 	5.23526e-05	0.000157004
+13 	22    	6.31857e-05	2.53766e-05	5.23526e-05	0.000152075
+14 	22    	5.41e-05   	1.50589e-06	5.23526e-05	5.90556e-05
+15 	18    	5.30735e-05	7.24514e-07	5.23526e-05	5.40828e-05
+16 	16    	5.25316e-05	4.26591e-07	5.20012e-05	5.39496e-05
+17 	22    	5.23672e-05	2.1054e-07 	5.20012e-05	5.36099e-05
+18 	20    	5.22823e-05	1.40561e-07	5.20012e-05	5.23526e-05
+19 	19    	5.21769e-05	1.75701e-07	5.20012e-05	5.23526e-05
+20 	24    	5.21154e-05	4.74095e-07	5.13341e-05	5.52159e-05
+2018-09-19 04:13:20,733 root            INFO     Saving the best parameters
+2018-09-19 04:13:20,733 root            INFO     Saving the best parameters
+2018-09-19 04:13:20,734 root            INFO     Done
+2018-09-19 04:13:20,734 root            INFO     Done
+[2018-09-19 04:13:21,215] launcher  (127.0.0.1:36723) INFO    Root process is done.
+[2018-09-19 04:13:21,216] launcher  (127.0.0.1:36723) INFO    Finished cleaning spawned subprocesses.
+[2018-09-19 04:13:21,277] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 04:13:21,277] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-19 04:13:21,277] launcher  INFO    Worker distribution: 
+[2018-09-19 04:13:21,277] launcher  INFO       127.0.0.1:	11 + origin
+Errors:
+[6.62729494e-05 4.04570953e-05 6.44756599e-05 5.74426197e-05
+ 5.94180238e-05 5.14791611e-05 5.37095750e-05 5.77683213e-05
+ 5.47077957e-05 5.50458659e-05 6.10608975e-05 5.76753041e-05
+ 5.72532233e-05 4.86034262e-05 5.23014224e-05 5.85654047e-05
+ 6.47044648e-05 6.29105322e-05 4.96827982e-05 5.09847816e-05]
+Mean:
+5.622596611315568e-05
+Std:
+6.150726621495572e-06
+[2018-09-19 04:13:32,029] launcher  (127.0.0.1:37411) INFO    Root process is done.
+[2018-09-19 04:13:32,029] launcher  (127.0.0.1:37411) INFO    Finished cleaning spawned subprocesses.

@@ -1,21 +1,21 @@
 {
+    "teacher_scaling": 0.48562125765086245,
+    "embedding": "ica",
     "connectivity": 0.25,
-    "n_dim": 28,
-    "teacher_scaling": 0.6660595342460144,
-    "n_internal_units": 195,
+    "n_dim": 1,
+    "feedback_scaling": "feedback_scaling",
+    "noise_level": 0.01578989500752115,
     "teacher_shift": 0.0,
-    "input_scaling": 0.3205575694508932,
+    "embedding_parameters": null,
+    "regression_parameters": [
+        8.638988900784366,
+        0.9201399652324291,
+        0.001
+    ],
     "input_shift": 0.0,
     "regression_method": "nusvr",
-    "noise_level": 0.03858410933911145,
+    "n_internal_units": 500,
+    "input_scaling": 0.15985797699974966,
     "n_drop": 100,
-    "embedding_parameters": null,
-    "spectral_radius": 0.8622746659252403,
-    "feedback_scaling": 0.0,
-    "embedding": "ica",
-    "regression_parameters": [
-        6.4963606882091645,
-        0.3702432385930234,
-        0.001
-    ]
+    "spectral_radius": 1.225270388426975
 }

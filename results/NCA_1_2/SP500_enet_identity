@@ -1,0 +1,93 @@
+[2018-09-18 05:25:15,104] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 05:25:15,104] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-18 05:25:15,104] launcher  INFO    Worker distribution: 
+[2018-09-18 05:25:15,104] launcher  INFO       127.0.0.1:	11 + origin
+2018-09-18 05:25:15,787 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,787 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,788 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,788 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,789 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,789 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,789 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,789 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,789 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,789 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,790 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,790 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,794 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,794 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,794 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,794 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,794 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,795 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,795 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,795 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,796 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,800 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,800 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,800 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,801 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,801 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,801 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,802 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,802 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,802 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,802 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,802 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:15,802 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:15,803 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,803 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:15,803 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:16,016 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:16,016 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 05:25:16,017 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:16,017 parameterhelper INFO     Config: ./configs/user/enet_identity (overload)
+2018-09-18 05:25:16,017 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:16,017 root            INFO     Loading data (./data/SP500)
+2018-09-18 05:25:16,114 root            INFO     Initializing genetic algorithm
+2018-09-18 05:25:16,114 root            INFO     Initializing genetic algorithm
+2018-09-18 05:25:16,116 root            INFO     Running GA optimization
+2018-09-18 05:25:16,116 root            INFO     Running GA optimization
+gen	nevals	avg    	std     	min     	max    
+0  	50    	1.34617	0.479954	0.118398	1.80091
+1  	20    	0.723901	0.406213	0.118398	1.80091
+2  	20    	0.374267	0.195575	0.118398	0.891248
+3  	22    	0.216022	0.0703004	0.118398	0.425757
+4  	23    	0.148981	0.0489442	0.0896962	0.30174 
+5  	24    	0.108106	0.0188418	0.0896962	0.167671
+6  	19    	0.0938328	0.00951742	0.0896962	0.124118
+7  	18    	0.0889483	0.00227324	0.0834339	0.0918927
+8  	21    	0.0869597	0.00311681	0.0834339	0.09068  
+9  	20    	0.0839391	0.0019415 	0.0792165	0.0896962
+10 	24    	0.0814607	0.00336843	0.0729666	0.0837278
+11 	19    	0.0778161	0.00432124	0.072837 	0.0834339
+12 	19    	0.0733495	0.00169235	0.0710318	0.0792165
+13 	23    	0.0722801	0.000615913	0.0710318	0.074321 
+14 	19    	0.0716789	0.000431329	0.0709773	0.0726777
+15 	23    	0.0712087	0.000476046	0.0701714	0.071962 
+16 	23    	0.0707872	0.000392177	0.0701714	0.0715708
+17 	22    	0.0704696	0.000354632	0.0700031	0.0712328
+18 	22    	0.0699161	0.000679881	0.068294 	0.0709587
+19 	20    	0.0692355	0.000771937	0.068294 	0.0701714
+20 	21    	0.0684032	0.000378703	0.0680237	0.0699335
+2018-09-18 05:29:34,852 root            INFO     Saving the best parameters
+2018-09-18 05:29:34,852 root            INFO     Saving the best parameters
+2018-09-18 05:29:34,852 root            INFO     Done
+2018-09-18 05:29:34,852 root            INFO     Done
+[2018-09-18 05:29:35,330] launcher  (127.0.0.1:37443) INFO    Root process is done.
+[2018-09-18 05:29:35,330] launcher  (127.0.0.1:37443) INFO    Finished cleaning spawned subprocesses.
+[2018-09-18 05:29:35,392] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 05:29:35,392] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-18 05:29:35,392] launcher  INFO    Worker distribution: 
+[2018-09-18 05:29:35,392] launcher  INFO       127.0.0.1:	11 + origin
+Errors:
+[0.09815536 0.108325   0.10548695 0.11036291 0.10992862 0.09402795
+ 0.10223748 0.1024367  0.10269803 0.09661578 0.10057061 0.1051983
+ 0.0999326  0.10260583 0.1000826  0.10226279 0.09551538 0.10170239
+ 0.11039126 0.09574188]
+Mean:
+0.10221392100824242
+Std:
+0.004819152446298234
+[2018-09-18 05:29:48,881] launcher  (127.0.0.1:34623) INFO    Root process is done.
+[2018-09-18 05:29:48,881] launcher  (127.0.0.1:34623) INFO    Finished cleaning spawned subprocesses.

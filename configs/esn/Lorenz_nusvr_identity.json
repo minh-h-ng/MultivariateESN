@@ -1,21 +1,21 @@
 {
+    "regression_method": "nusvr",
+    "noise_level": 0.018612180445641103,
+    "spectral_radius": 0.6192587386194632,
     "embedding": "identity",
     "n_dim": null,
-    "n_internal_units": 167,
-    "regression_method": "nusvr",
+    "teacher_scaling": 0.798165304718753,
     "connectivity": 0.25,
+    "n_internal_units": 458,
+    "feedback_scaling": "feedback_scaling",
     "teacher_shift": 0.0,
-    "spectral_radius": 0.5065805029293324,
-    "n_drop": 100,
+    "embedding_parameters": null,
     "input_shift": 0.0,
+    "n_drop": 100,
     "regression_parameters": [
-        2.9426947897056213,
-        0.9125845747684754,
+        9.9526837019428,
+        0.7989238294114016,
         0.001
     ],
-    "embedding_parameters": null,
-    "feedback_scaling": 0.0,
-    "teacher_scaling": 0.30272295194387333,
-    "input_scaling": 0.7764204315955696,
-    "noise_level": 0.08740552218214273
+    "input_scaling": 0.819249732164844
 }

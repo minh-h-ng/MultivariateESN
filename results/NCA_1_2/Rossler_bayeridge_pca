@@ -1,0 +1,94 @@
+[2018-09-18 19:01:22,779] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 19:01:22,779] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-18 19:01:22,779] launcher  INFO    Worker distribution: 
+[2018-09-18 19:01:22,780] launcher  INFO       127.0.0.1:	11 + origin
+2018-09-18 19:01:23,459 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,460 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,461 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,462 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,462 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,462 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,463 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,463 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,464 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,464 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,465 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,465 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,465 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,465 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,466 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,466 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,466 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,466 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,466 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,466 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,467 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,467 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,467 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,468 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,471 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,472 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,473 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,484 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,484 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,485 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,488 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,488 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,489 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,499 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,499 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,500 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,784 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,784 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 19:01:23,785 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,785 parameterhelper INFO     Config: ./configs/user/bayeridge_pca (overload)
+2018-09-18 19:01:23,785 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,785 root            INFO     Loading data (./data/Rossler)
+2018-09-18 19:01:23,924 root            INFO     Initializing genetic algorithm
+2018-09-18 19:01:23,924 root            INFO     Initializing genetic algorithm
+2018-09-18 19:01:23,927 root            INFO     Running GA optimization
+2018-09-18 19:01:23,927 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min        	max     
+0  	50    	0.282155	0.338908	6.31156e-06	0.991786
+1  	19    	0.192966	0.284219	9.22825e-05	0.991786
+2  	23    	0.0719803	0.144906	6.3287e-07 	0.737179
+3  	18    	0.0283304	0.0285259	6.3287e-07 	0.0592334
+4  	21    	0.0258529	0.0265459	6.3287e-07 	0.0592334
+5  	21    	0.021046 	0.0214365	4.76156e-07	0.0592334
+6  	22    	0.0196304	0.0198085	1.84789e-07	0.0418118
+7  	22    	0.0192783	0.0197253	1.82142e-07	0.0418118
+8  	22    	0.0174294	0.0186811	1.68036e-07	0.0418118
+9  	20    	0.0141575	0.0157332	1.20314e-07	0.0418118
+10 	22    	0.0131482	0.0154577	6.26772e-08	0.0418118
+11 	25    	0.00960729	0.0133921	5.87481e-08	0.0418118
+12 	22    	0.00462072	0.00894616	5.63225e-08	0.0418118
+13 	20    	0.00159244	0.0027123 	5.63123e-08	0.0243902
+14 	21    	0.00141305	0.00149375	5.58098e-08	0.00348432
+15 	19    	0.00123498	0.00130609	5.24917e-08	0.00348432
+16 	26    	0.00135968	0.00144171	4.96022e-08	0.00348432
+17 	22    	0.00152395	0.00158893	4.94342e-08	0.00348432
+18 	24    	0.00157804	0.00163117	4.78912e-08	0.00348432
+19 	20    	0.00161968	0.00166131	4.59904e-08	0.00348432
+20 	18    	0.00149717	0.00156679	4.56534e-08	0.00348432
+2018-09-18 19:06:21,239 root            INFO     Saving the best parameters
+2018-09-18 19:06:21,239 root            INFO     Saving the best parameters
+2018-09-18 19:06:21,239 root            INFO     Done
+2018-09-18 19:06:21,239 root            INFO     Done
+[2018-09-18 19:06:21,720] launcher  (127.0.0.1:46765) INFO    Root process is done.
+[2018-09-18 19:06:21,720] launcher  (127.0.0.1:46765) INFO    Finished cleaning spawned subprocesses.
+[2018-09-18 19:06:21,783] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 19:06:21,783] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-18 19:06:21,783] launcher  INFO    Worker distribution: 
+[2018-09-18 19:06:21,783] launcher  INFO       127.0.0.1:	11 + origin
+Errors:
+[4.55230351e-08 4.53255778e-08 4.62352273e-08 4.58751941e-08
+ 4.54093080e-08 4.60845389e-08 4.59770428e-08 4.59544960e-08
+ 4.55713848e-08 4.59038864e-08 4.65638512e-08 4.56755485e-08
+ 4.61196600e-08 4.56951091e-08 4.59573752e-08 4.61882037e-08
+ 4.58281201e-08 4.57220213e-08 4.57522774e-08 4.57015208e-08]
+Mean:
+4.585316892759486e-08
+Std:
+2.914322271970362e-10
+[2018-09-18 19:06:30,731] launcher  (127.0.0.1:36063) INFO    Root process is done.
+[2018-09-18 19:06:30,731] launcher  (127.0.0.1:36063) INFO    Finished cleaning spawned subprocesses.

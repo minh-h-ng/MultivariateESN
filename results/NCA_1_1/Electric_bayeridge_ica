@@ -1,0 +1,81 @@
+[2018-09-18 03:08:38,566] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 03:08:38,566] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-18 03:08:38,566] launcher  INFO    Worker distribution: 
+[2018-09-18 03:08:38,566] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-18 03:08:38,983 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:08:38,983 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-09-18 03:08:38,984 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:08:38,985 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:08:38,986 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:08:38,986 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-09-18 03:08:38,986 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-09-18 03:08:38,987 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:08:38,987 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:08:38,987 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:08:38,988 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-09-18 03:08:38,988 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:08:38,988 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:08:38,988 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:08:38,989 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-09-18 03:08:38,989 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-09-18 03:08:38,990 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:08:38,990 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:08:38,995 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:08:38,995 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-09-18 03:08:38,996 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:08:39,013 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:08:39,014 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-09-18 03:08:39,014 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:08:39,139 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:08:39,139 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 03:08:39,139 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-09-18 03:08:39,139 parameterhelper INFO     Config: ./configs/user/bayeridge_ica (overload)
+2018-09-18 03:08:39,140 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:08:39,140 root            INFO     Loading data (./data/Electric)
+2018-09-18 03:08:39,208 root            INFO     Initializing genetic algorithm
+2018-09-18 03:08:39,208 root            INFO     Initializing genetic algorithm
+2018-09-18 03:08:39,210 root            INFO     Running GA optimization
+2018-09-18 03:08:39,210 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.515293	0.269198	0.0112108	1.07075
+1  	22    	0.464215	0.293963	0.0112108	0.938534
+2  	21    	0.469251	0.319374	0.0112108	0.938534
+3  	27    	0.377296	0.334887	0.0112108	0.917949
+4  	26    	0.197465	0.257628	0.0102564	0.917949
+5  	26    	0.0861226	0.0749702	0.0102564	0.164182
+6  	22    	0.0858323	0.0750861	0.00224215	0.160958
+7  	22    	0.0852412	0.0755716	0.00223714	0.160958
+8  	22    	0.083905 	0.0767694	0.00223714	0.160958
+9  	21    	0.0817581	0.0787358	0.00220264	0.160795
+10 	19    	0.0815799	0.0788702	0.00223714	0.16045 
+11 	21    	0.0822131	0.0782447	0.00223714	0.160444
+12 	18    	0.0840408	0.0763952	0.00223714	0.160444
+13 	19    	0.0849929	0.0753908	0.00223714	0.160431
+14 	17    	0.0853024	0.075038 	0.0102564 	0.160372
+15 	22    	0.0852864	0.0750087	0.0102564 	0.160372
+16 	22    	0.0852759	0.0749636	0.0102564 	0.160372
+17 	20    	0.0852873	0.0749376	0.0102564 	0.160251
+18 	19    	0.0852977	0.0749188	0.0102564 	0.160251
+19 	25    	0.0853071	0.0749202	0.0102564 	0.160866
+20 	20    	0.0853015	0.0749119	0.0103896 	0.160213
+2018-09-18 03:47:27,317 root            INFO     Saving the best parameters
+2018-09-18 03:47:27,317 root            INFO     Saving the best parameters
+2018-09-18 03:47:27,317 root            INFO     Done
+2018-09-18 03:47:27,317 root            INFO     Done
+[2018-09-18 03:47:27,748] launcher  (127.0.0.1:43779) INFO    Root process is done.
+[2018-09-18 03:47:27,748] launcher  (127.0.0.1:43779) INFO    Finished cleaning spawned subprocesses.
+[2018-09-18 03:47:27,788] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 03:47:27,788] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-18 03:47:27,788] launcher  INFO    Worker distribution: 
+[2018-09-18 03:47:27,788] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.12629161 0.12769583 0.1271272  0.12771098 0.12592902 0.12575489
+ 0.12683317 0.12559745 0.12779316 0.12626016 0.12645933 0.12709198
+ 0.12564127 0.12658739 0.12711271 0.12706296 0.12625413 0.12734778
+ 0.1265377  0.12616564]
+Mean:
+0.1266627181266282
+Std:
+0.0006716482071670871
+[2018-09-18 03:47:40,225] launcher  (127.0.0.1:44361) INFO    Root process is done.
+[2018-09-18 03:47:40,225] launcher  (127.0.0.1:44361) INFO    Finished cleaning spawned subprocesses.

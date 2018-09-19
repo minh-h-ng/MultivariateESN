@@ -1,20 +1,20 @@
 {
-    "connectivity": 0.25,
-    "n_internal_units": 171,
-    "input_scaling": 0.9,
-    "teacher_shift": 0.0,
+    "spectral_radius": 0.5,
+    "embedding_parameters": 0.09042849145922799,
     "input_shift": 0.0,
+    "noise_level": 0.023872851864320237,
+    "regression_method": "enet",
+    "embedding": "kpca",
+    "n_drop": 100,
+    "input_scaling": 0.9,
+    "teacher_scaling": 0.6539669594640551,
+    "n_internal_units": 340,
+    "n_dim": 137,
     "regression_parameters": [
         0.001,
-        0.037353468856976976
+        0.04332202629171564
     ],
-    "noise_level": 0.03575089415830356,
-    "feedback_scaling": 0.0,
-    "regression_method": "enet",
-    "embedding_parameters": 0.03202187311803101,
-    "n_dim": 133,
-    "spectral_radius": 1.077226703117617,
-    "embedding": "kpca",
-    "teacher_scaling": 0.5387206214918886,
-    "n_drop": 100
+    "teacher_shift": 0.0,
+    "connectivity": 0.25,
+    "feedback_scaling": "feedback_scaling"
 }

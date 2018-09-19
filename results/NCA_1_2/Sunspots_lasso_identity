@@ -1,0 +1,93 @@
+[2018-09-19 11:33:47,368] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 11:33:47,368] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-19 11:33:47,368] launcher  INFO    Worker distribution: 
+[2018-09-19 11:33:47,368] launcher  INFO       127.0.0.1:	11 + origin
+2018-09-19 11:33:48,049 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,049 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,049 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,049 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,050 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,050 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,054 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,054 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,055 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,056 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,056 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,057 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,058 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,058 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,059 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,059 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,060 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,060 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,060 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,060 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,061 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,061 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,061 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,062 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,062 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,063 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,063 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,063 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,064 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,064 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,065 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,065 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,066 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,083 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,083 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,084 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,214 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,214 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 11:33:48,215 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,215 parameterhelper INFO     Config: ./configs/user/lasso_identity (overload)
+2018-09-19 11:33:48,215 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,215 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 11:33:48,280 root            INFO     Initializing genetic algorithm
+2018-09-19 11:33:48,280 root            INFO     Initializing genetic algorithm
+2018-09-19 11:33:48,282 root            INFO     Running GA optimization
+2018-09-19 11:33:48,282 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min     	max    
+0  	50    	0.923323	0.190706	0.411497	1.03222
+1  	20    	0.768355	0.203306	0.411497	1.03222
+2  	23    	0.57439 	0.135135	0.411497	1.03222
+3  	19    	0.44719 	0.0353956	0.411497	0.52204
+4  	24    	0.377734	0.109389 	0.0532632	0.464101
+5  	18    	0.253859	0.161094 	0.0532632	0.417958
+6  	19    	0.0913892	0.100322 	0.0407113	0.381481
+7  	18    	0.0511113	0.00391919	0.0404122	0.0543998
+8  	19    	0.0457921	0.00573818	0.0401516	0.0525552
+9  	23    	0.0408916	0.00226889	0.0398244	0.0519975
+10 	21    	0.0401049	0.000153433	0.039765 	0.0404122
+11 	22    	0.0399294	0.000119299	0.039765 	0.0401516
+12 	22    	0.0397884	0.00010205 	0.0395075	0.0399495
+13 	19    	0.039698 	0.000117892	0.0395075	0.0399246
+14 	22    	0.0395971	0.000111156	0.0395075	0.039765 
+15 	21    	0.0395283	6.25556e-05	0.0395075	0.0397378
+16 	18    	0.0395075	0          	0.0395075	0.0395075
+17 	18    	0.0394929	3.52077e-05	0.0393919	0.0395075
+18 	23    	0.0394592	5.93321e-05	0.0393555	0.0395075
+19 	24    	0.0393793	9.31839e-05	0.0391606	0.0395075
+20 	19    	0.0392202	0.000169519	0.0387919	0.0394692
+2018-09-19 11:38:43,652 root            INFO     Saving the best parameters
+2018-09-19 11:38:43,652 root            INFO     Saving the best parameters
+2018-09-19 11:38:43,652 root            INFO     Done
+2018-09-19 11:38:43,652 root            INFO     Done
+[2018-09-19 11:38:44,130] launcher  (127.0.0.1:36143) INFO    Root process is done.
+[2018-09-19 11:38:44,131] launcher  (127.0.0.1:36143) INFO    Finished cleaning spawned subprocesses.
+[2018-09-19 11:38:44,192] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 11:38:44,192] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-19 11:38:44,192] launcher  INFO    Worker distribution: 
+[2018-09-19 11:38:44,192] launcher  INFO       127.0.0.1:	11 + origin
+Errors:
+[0.03645197 0.03658049 0.03672232 0.03620824 0.03616503 0.03645843
+ 0.03655746 0.03679483 0.03603335 0.03636777 0.03644917 0.03672802
+ 0.03646815 0.03683728 0.03654087 0.03654407 0.0362236  0.03615511
+ 0.03633611 0.03704477]
+Mean:
+0.036483350764916836
+Std:
+0.0002519076422789435
+[2018-09-19 11:39:05,460] launcher  (127.0.0.1:43909) INFO    Root process is done.
+[2018-09-19 11:39:05,461] launcher  (127.0.0.1:43909) INFO    Finished cleaning spawned subprocesses.

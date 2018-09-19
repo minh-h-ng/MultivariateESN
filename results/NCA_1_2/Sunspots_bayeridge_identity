@@ -1,0 +1,93 @@
+[2018-09-19 07:36:56,892] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 07:36:56,893] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-19 07:36:56,893] launcher  INFO    Worker distribution: 
+[2018-09-19 07:36:56,893] launcher  INFO       127.0.0.1:	11 + origin
+2018-09-19 07:36:57,569 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,569 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,570 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,575 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,576 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,576 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,576 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,577 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,577 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,579 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,579 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,580 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,581 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,581 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,581 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,581 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,581 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,581 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,582 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,582 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,582 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,588 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,589 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,590 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,592 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,592 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,593 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,593 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,594 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,594 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,597 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,597 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,598 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,628 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,629 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,630 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,742 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,742 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-19 07:36:57,743 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,743 parameterhelper INFO     Config: ./configs/user/bayeridge_identity (overload)
+2018-09-19 07:36:57,743 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,743 root            INFO     Loading data (./data/Sunspots)
+2018-09-19 07:36:57,809 root            INFO     Initializing genetic algorithm
+2018-09-19 07:36:57,809 root            INFO     Initializing genetic algorithm
+2018-09-19 07:36:57,811 root            INFO     Running GA optimization
+2018-09-19 07:36:57,811 root            INFO     Running GA optimization
+gen	nevals	avg      	std       	min      	max      
+0  	50    	0.0310902	0.00595568	0.0235263	0.0554858
+1  	22    	0.0262631	0.00188896	0.0235263	0.0334612
+2  	23    	0.0245303	0.000873591	0.0235263	0.0274329
+3  	21    	0.0235138	0.000639168	0.0219061	0.025081 
+4  	22    	0.0228676	0.000676621	0.0219061	0.0238336
+5  	20    	0.022286 	0.000490163	0.0217245	0.0232496
+6  	21    	0.0218524	0.000176242	0.0213663	0.0221794
+7  	24    	0.0216634	0.000202313	0.0213373	0.0219061
+8  	19    	0.0214754	0.000175889	0.0213373	0.0219061
+9  	17    	0.0213784	9.44268e-05	0.0213373	0.02183  
+10 	22    	0.0213466	1.35152e-05	0.0213373	0.0213663
+11 	23    	0.0213385	5.67754e-06	0.0213373	0.0213663
+12 	23    	0.0213444	5.05716e-05	0.0213343	0.0216984
+13 	22    	0.0213371	8.13168e-07	0.0213343	0.0213373
+14 	17    	0.0213368	1.15156e-06	0.0213343	0.0213373
+15 	23    	0.0213362	1.45489e-06	0.0213343	0.0213373
+16 	21    	0.021335 	1.28013e-06	0.0213343	0.0213373
+17 	26    	0.0213345	7.11838e-07	0.0213343	0.0213373
+18 	15    	0.0213344	5.87364e-07	0.0213343	0.0213373
+19 	22    	0.0213409	4.61991e-05	0.0213343	0.0216643
+20 	26    	0.0213343	3.46945e-18	0.0213343	0.0213343
+2018-09-19 07:38:52,296 root            INFO     Saving the best parameters
+2018-09-19 07:38:52,296 root            INFO     Saving the best parameters
+2018-09-19 07:38:52,296 root            INFO     Done
+2018-09-19 07:38:52,296 root            INFO     Done
+[2018-09-19 07:38:52,779] launcher  (127.0.0.1:37691) INFO    Root process is done.
+[2018-09-19 07:38:52,780] launcher  (127.0.0.1:37691) INFO    Finished cleaning spawned subprocesses.
+[2018-09-19 07:38:52,842] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-19 07:38:52,842] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-19 07:38:52,842] launcher  INFO    Worker distribution: 
+[2018-09-19 07:38:52,842] launcher  INFO       127.0.0.1:	11 + origin
+Errors:
+[0.02109186 0.02132229 0.02115389 0.02088419 0.02131313 0.02110157
+ 0.02150538 0.02176822 0.0217799  0.02158863 0.0221799  0.02103705
+ 0.02169091 0.02153533 0.02109058 0.02155426 0.02154317 0.02160385
+ 0.02168352 0.02080808]
+Mean:
+0.0214117859544314
+Std:
+0.0003393601766508228
+[2018-09-19 07:38:57,993] launcher  (127.0.0.1:34187) INFO    Root process is done.
+[2018-09-19 07:38:57,993] launcher  (127.0.0.1:34187) INFO    Finished cleaning spawned subprocesses.

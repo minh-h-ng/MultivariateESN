@@ -1,0 +1,81 @@
+[2018-09-18 18:08:43,179] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 18:08:43,179] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-18 18:08:43,179] launcher  INFO    Worker distribution: 
+[2018-09-18 18:08:43,180] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-18 18:08:43,593 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 18:08:43,593 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 18:08:43,594 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-18 18:08:43,594 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-18 18:08:43,595 root            INFO     Loading data (./data/Electric)
+2018-09-18 18:08:43,595 root            INFO     Loading data (./data/Electric)
+2018-09-18 18:08:43,597 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 18:08:43,598 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-18 18:08:43,598 root            INFO     Loading data (./data/Electric)
+2018-09-18 18:08:43,599 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 18:08:43,599 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-18 18:08:43,600 root            INFO     Loading data (./data/Electric)
+2018-09-18 18:08:43,605 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 18:08:43,605 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-18 18:08:43,606 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 18:08:43,606 root            INFO     Loading data (./data/Electric)
+2018-09-18 18:08:43,606 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-18 18:08:43,607 root            INFO     Loading data (./data/Electric)
+2018-09-18 18:08:43,621 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 18:08:43,621 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-18 18:08:43,622 root            INFO     Loading data (./data/Electric)
+2018-09-18 18:08:43,625 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 18:08:43,626 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-18 18:08:43,626 root            INFO     Loading data (./data/Electric)
+2018-09-18 18:08:43,756 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 18:08:43,756 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 18:08:43,756 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-18 18:08:43,756 parameterhelper INFO     Config: ./configs/user/ridge_identity (overload)
+2018-09-18 18:08:43,757 root            INFO     Loading data (./data/Electric)
+2018-09-18 18:08:43,757 root            INFO     Loading data (./data/Electric)
+2018-09-18 18:08:43,824 root            INFO     Initializing genetic algorithm
+2018-09-18 18:08:43,824 root            INFO     Initializing genetic algorithm
+2018-09-18 18:08:43,825 root            INFO     Running GA optimization
+2018-09-18 18:08:43,825 root            INFO     Running GA optimization
+gen	nevals	avg    	std      	min     	max     
+0  	50    	0.14572	0.0102825	0.128003	0.178724
+1  	24    	0.13646	0.00395188	0.128003	0.146097
+2  	17    	0.133231	0.00234098	0.128003	0.137676
+3  	19    	0.131244	0.00263824	0.128003	0.135523
+4  	22    	0.128004	0.00102774	0.126111	0.131895
+5  	25    	0.127385	0.000819604	0.126111	0.128003
+6  	23    	0.12713 	0.000908481	0.126111	0.129706
+7  	20    	0.126434	0.000630229	0.126111	0.128003
+8  	21    	0.126151	0.00018127 	0.126111	0.12705 
+9  	19    	0.126111	2.77556e-17	0.126111	0.126111
+10 	24    	0.126171	0.000424288	0.126111	0.129141
+11 	15    	0.126111	2.77556e-17	0.126111	0.126111
+12 	18    	0.126111	2.77556e-17	0.126111	0.126111
+13 	26    	0.126126	0.000271621	0.125537	0.127843
+14 	18    	0.125984	0.000237401	0.125537	0.126111
+15 	23    	0.125721	0.000267333	0.125537	0.126111
+16 	24    	0.125716	0.00086069 	0.125537	0.13162 
+17 	25    	0.125645	0.000672556	0.125537	0.130319
+18 	21    	0.125532	3.99791e-05	0.125252	0.125537
+19 	24    	0.125515	7.74718e-05	0.125252	0.125537
+20 	22    	0.125486	0.00010971 	0.125252	0.125537
+2018-09-18 18:15:39,475 root            INFO     Saving the best parameters
+2018-09-18 18:15:39,475 root            INFO     Saving the best parameters
+2018-09-18 18:15:39,476 root            INFO     Done
+2018-09-18 18:15:39,476 root            INFO     Done
+[2018-09-18 18:15:39,899] launcher  (127.0.0.1:37465) INFO    Root process is done.
+[2018-09-18 18:15:39,899] launcher  (127.0.0.1:37465) INFO    Finished cleaning spawned subprocesses.
+[2018-09-18 18:15:39,939] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 18:15:39,939] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-18 18:15:39,939] launcher  INFO    Worker distribution: 
+[2018-09-18 18:15:39,939] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.12368151 0.1319945  0.1351456  0.12994054 0.13234807 0.13494768
+ 0.1338457  0.11984704 0.12675571 0.13150274 0.13097417 0.12896643
+ 0.12810464 0.12368324 0.13112466 0.12671942 0.13240543 0.13205835
+ 0.12928132 0.13062985]
+Mean:
+0.12969782918310166
+Std:
+0.003857971778929405
+[2018-09-18 18:15:49,555] launcher  (127.0.0.1:38825) INFO    Root process is done.
+[2018-09-18 18:15:49,556] launcher  (127.0.0.1:38825) INFO    Finished cleaning spawned subprocesses.

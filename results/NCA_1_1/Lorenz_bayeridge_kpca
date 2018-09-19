@@ -1,0 +1,82 @@
+[2018-09-18 22:02:20,493] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 22:02:20,493] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-18 22:02:20,494] launcher  INFO    Worker distribution: 
+[2018-09-18 22:02:20,494] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-18 22:02:20,910 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 22:02:20,910 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 22:02:20,911 root            INFO     Loading data (./data/Lorenz)
+2018-09-18 22:02:20,916 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 22:02:20,916 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 22:02:20,917 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 22:02:20,917 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 22:02:20,917 root            INFO     Loading data (./data/Lorenz)
+2018-09-18 22:02:20,918 root            INFO     Loading data (./data/Lorenz)
+2018-09-18 22:02:20,918 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 22:02:20,918 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 22:02:20,919 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 22:02:20,919 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 22:02:20,919 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 22:02:20,919 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 22:02:20,919 root            INFO     Loading data (./data/Lorenz)
+2018-09-18 22:02:20,920 root            INFO     Loading data (./data/Lorenz)
+2018-09-18 22:02:20,920 root            INFO     Loading data (./data/Lorenz)
+2018-09-18 22:02:20,923 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 22:02:20,924 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 22:02:20,924 root            INFO     Loading data (./data/Lorenz)
+2018-09-18 22:02:20,930 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 22:02:20,931 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 22:02:20,932 root            INFO     Loading data (./data/Lorenz)
+2018-09-18 22:02:21,229 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 22:02:21,229 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 22:02:21,229 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 22:02:21,229 parameterhelper INFO     Config: ./configs/user/bayeridge_kpca (overload)
+2018-09-18 22:02:21,230 root            INFO     Loading data (./data/Lorenz)
+2018-09-18 22:02:21,230 root            INFO     Loading data (./data/Lorenz)
+2018-09-18 22:02:21,367 root            INFO     Initializing genetic algorithm
+2018-09-18 22:02:21,367 root            INFO     Initializing genetic algorithm
+2018-09-18 22:02:21,369 root            INFO     Running GA optimization
+2018-09-18 22:02:21,369 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min        	max    
+0  	50    	0.264658	0.332341	1.66961e-06	0.97992
+1  	24    	0.191009	0.268242	1.66961e-06	0.977912
+2  	22    	0.159287	0.236064	7.58395e-07	0.919708
+3  	24    	0.136012	0.175107	7.62933e-08	0.392857
+4  	19    	0.0697384	0.124976	6.68e-08   	0.392857
+5  	24    	0.0116191	0.0237058	4.27861e-08	0.223214
+6  	20    	0.00919646	0.0106736	4.27861e-08	0.0267857
+7  	24    	0.00660797	0.00843475	2.68783e-08	0.0267857
+8  	22    	0.00500002	0.00583028	2.59801e-08	0.0267857
+9  	22    	0.0057143 	0.00720065	2.59801e-08	0.0267857
+10 	22    	0.00553573	0.00689062	2.23972e-08	0.0267857
+11 	23    	0.00464287	0.004968  	2.23972e-08	0.0267857
+12 	20    	0.0044643 	0.00446427	2.23972e-08	0.00892857
+13 	22    	0.0044643 	0.00446427	2.23972e-08	0.00892857
+14 	25    	0.0044643 	0.00446427	1.88459e-08	0.00892857
+15 	17    	0.0044643 	0.00446428	1.88459e-08	0.00892857
+16 	20    	0.0044643 	0.00446428	1.88459e-08	0.00892857
+17 	18    	0.0044643 	0.00446428	1.88459e-08	0.00892857
+18 	22    	0.0044643 	0.00446428	1.88459e-08	0.00892857
+19 	23    	0.0044643 	0.00446428	1.88459e-08	0.00892857
+20 	20    	0.0044643 	0.00446428	1.88459e-08	0.00892857
+2018-09-18 22:31:03,290 root            INFO     Saving the best parameters
+2018-09-18 22:31:03,290 root            INFO     Saving the best parameters
+2018-09-18 22:31:03,290 root            INFO     Done
+2018-09-18 22:31:03,290 root            INFO     Done
+[2018-09-18 22:31:03,723] launcher  (127.0.0.1:40115) INFO    Root process is done.
+[2018-09-18 22:31:03,724] launcher  (127.0.0.1:40115) INFO    Finished cleaning spawned subprocesses.
+[2018-09-18 22:31:03,760] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 22:31:03,760] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-18 22:31:03,760] launcher  INFO    Worker distribution: 
+[2018-09-18 22:31:03,760] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[2.33294780e-08 6.44811162e-08 2.02501158e-08 6.70554040e-08
+ 5.51310936e-08 2.60859304e-08 2.73976419e-08 4.33759305e-08
+ 7.66070864e-08 6.92003393e-08 3.49737057e-08 4.42838386e-08
+ 5.42175610e-08 2.80180812e-08 6.92895936e-08 8.12787032e-08
+ 3.67600067e-08 5.29424683e-08 2.88316284e-08 1.47217171e-08]
+Mean:
+4.591157199205706e-08
+Std:
+1.997337961483342e-08
+[2018-09-18 22:31:17,743] launcher  (127.0.0.1:34593) INFO    Root process is done.
+[2018-09-18 22:31:17,744] launcher  (127.0.0.1:34593) INFO    Finished cleaning spawned subprocesses.

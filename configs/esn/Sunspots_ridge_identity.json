@@ -1,17 +1,17 @@
 {
-    "teacher_shift": 0.0,
-    "noise_level": 0.0,
     "input_shift": 0.0,
-    "embedding": "identity",
-    "regression_parameters": 0.001,
-    "feedback_scaling": 0.0,
-    "input_scaling": 0.10958330144991697,
-    "spectral_radius": 0.639807170283331,
-    "n_dim": null,
+    "input_scaling": 0.6595302938810114,
+    "spectral_radius": 1.1032855816938503,
     "connectivity": 0.25,
-    "embedding_parameters": null,
     "regression_method": "ridge",
+    "teacher_scaling": 0.6344584880333836,
     "n_drop": 100,
-    "teacher_scaling": 0.5683893669646629,
-    "n_internal_units": 454
+    "embedding": "identity",
+    "teacher_shift": 0.0,
+    "noise_level": 0.0880809822210985,
+    "n_dim": null,
+    "regression_parameters": 0.001,
+    "n_internal_units": 146,
+    "embedding_parameters": null,
+    "feedback_scaling": "feedback_scaling"
 }

@@ -1,0 +1,81 @@
+[2018-09-18 00:27:52,147] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 00:27:52,147] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-18 00:27:52,147] launcher  INFO    Worker distribution: 
+[2018-09-18 00:27:52,147] launcher  INFO       127.0.0.1:	7 + origin
+2018-09-18 00:27:52,566 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 00:27:52,566 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 00:27:52,566 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-18 00:27:52,566 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-18 00:27:52,567 root            INFO     Loading data (./data/Electric)
+2018-09-18 00:27:52,567 root            INFO     Loading data (./data/Electric)
+2018-09-18 00:27:52,569 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 00:27:52,569 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 00:27:52,569 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 00:27:52,569 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-18 00:27:52,569 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-18 00:27:52,569 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-18 00:27:52,570 root            INFO     Loading data (./data/Electric)
+2018-09-18 00:27:52,570 root            INFO     Loading data (./data/Electric)
+2018-09-18 00:27:52,570 root            INFO     Loading data (./data/Electric)
+2018-09-18 00:27:52,570 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 00:27:52,571 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-18 00:27:52,571 root            INFO     Loading data (./data/Electric)
+2018-09-18 00:27:52,577 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 00:27:52,577 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 00:27:52,577 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-18 00:27:52,577 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-18 00:27:52,578 root            INFO     Loading data (./data/Electric)
+2018-09-18 00:27:52,580 root            INFO     Loading data (./data/Electric)
+2018-09-18 00:27:52,724 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 00:27:52,724 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 00:27:52,724 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-18 00:27:52,724 parameterhelper INFO     Config: ./configs/user/bayelinear_ica (overload)
+2018-09-18 00:27:52,725 root            INFO     Loading data (./data/Electric)
+2018-09-18 00:27:52,725 root            INFO     Loading data (./data/Electric)
+2018-09-18 00:27:52,796 root            INFO     Initializing genetic algorithm
+2018-09-18 00:27:52,796 root            INFO     Initializing genetic algorithm
+2018-09-18 00:27:52,798 root            INFO     Running GA optimization
+2018-09-18 00:27:52,798 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max    
+0  	50    	0.535515	0.252208	0.0288809	1.31328
+1  	19    	0.396187	0.219575	0.0285714	0.987097
+2  	18    	0.379842	0.263047	0.00714286	0.842105
+3  	21    	0.272242	0.247128	0.00714286	0.795918
+4  	20    	0.0963948	0.098203	0.00714286	0.744318
+5  	20    	0.0842389	0.0762998	0.0070922 	0.161276
+6  	24    	0.0837916	0.0766569	0.0070922 	0.160454
+7  	22    	0.0837834	0.0766568	0.0070922 	0.160454
+8  	15    	0.0837757	0.0766561	0.0070922 	0.160454
+9  	28    	0.0837757	0.0766527	0.00675676	0.160536
+10 	25    	0.083773 	0.07665  	0.00675676	0.160454
+11 	23    	0.0837684	0.0766474	0.00675676	0.160519
+12 	21    	0.0837609	0.0766444	0.0070922 	0.160503
+13 	21    	0.0837455	0.0766401	0.0070922 	0.160492
+14 	21    	0.0837356	0.0766383	0.0070922 	0.160423
+15 	15    	0.0837305	0.0766383	0.0070922 	0.160369
+16 	20    	0.0837305	0.0766383	0.0070922 	0.160369
+17 	21    	0.0837305	0.0766383	0.0070922 	0.160369
+18 	21    	0.0837321	0.0766399	0.0070922 	0.160524
+19 	21    	0.0837305	0.0766383	0.0070922 	0.160369
+20 	16    	0.0837305	0.0766383	0.0070922 	0.160369
+2018-09-18 00:41:38,585 root            INFO     Saving the best parameters
+2018-09-18 00:41:38,585 root            INFO     Saving the best parameters
+2018-09-18 00:41:38,586 root            INFO     Done
+2018-09-18 00:41:38,586 root            INFO     Done
+[2018-09-18 00:41:39,018] launcher  (127.0.0.1:44739) INFO    Root process is done.
+[2018-09-18 00:41:39,018] launcher  (127.0.0.1:44739) INFO    Finished cleaning spawned subprocesses.
+[2018-09-18 00:41:39,055] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 00:41:39,055] launcher  INFO    Deploying 8 worker(s) over 1 host(s).
+[2018-09-18 00:41:39,055] launcher  INFO    Worker distribution: 
+[2018-09-18 00:41:39,055] launcher  INFO       127.0.0.1:	7 + origin
+Errors:
+[0.12697907 0.12615917 0.12657494 0.12608313 0.1260409  0.12594598
+ 0.12641694 0.12669659 0.1268422  0.12624869 0.12598467 0.12650269
+ 0.12609342 0.12619503 0.12598079 0.12625354 0.12630522 0.12622067
+ 0.12647605 0.12601402]
+Mean:
+0.1263006860399725
+Std:
+0.000289912601074287
+[2018-09-18 00:41:44,432] launcher  (127.0.0.1:38019) INFO    Root process is done.
+[2018-09-18 00:41:44,432] launcher  (127.0.0.1:38019) INFO    Finished cleaning spawned subprocesses.

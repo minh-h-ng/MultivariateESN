@@ -1,22 +1,22 @@
 {
-    "feedback_scaling": 0.0,
-    "spectral_radius": 0.753336274592962,
-    "regression_method": "bayeridge",
     "connectivity": 0.25,
-    "embedding_parameters": 0.011779320936324897,
-    "embedding": "kpca",
-    "input_scaling": 0.8176192811601692,
+    "feedback_scaling": "feedback_scaling",
     "input_shift": 0.0,
-    "noise_level": 0.0006150031694416969,
+    "input_scaling": 0.6039246582404133,
+    "teacher_shift": 0.0,
+    "n_drop": 100,
+    "embedding_parameters": 0.058329840725283785,
+    "regression_method": "bayeridge",
+    "teacher_scaling": 0.7992881635479101,
+    "n_internal_units": 195,
+    "noise_level": 0.0538101379557232,
+    "embedding": "kpca",
+    "n_dim": 1,
     "regression_parameters": [
-        0.17154479126248925,
-        1.0,
-        0.05976016342143525,
+        0.506325458138314,
+        0.5938859806311777,
+        0.21710894297414346,
         0.001
     ],
-    "teacher_scaling": 0.3679465303447226,
-    "n_internal_units": 449,
-    "teacher_shift": 0.0,
-    "n_dim": 328,
-    "n_drop": 100
+    "spectral_radius": 1.175174087759765
 }

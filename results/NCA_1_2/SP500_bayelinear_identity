@@ -1,0 +1,93 @@
+[2018-09-18 02:06:32,443] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 02:06:32,443] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-18 02:06:32,443] launcher  INFO    Worker distribution: 
+[2018-09-18 02:06:32,443] launcher  INFO       127.0.0.1:	11 + origin
+2018-09-18 02:06:33,128 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,128 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,129 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,129 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,130 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,130 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,130 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,131 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,132 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,135 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,135 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,136 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,136 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,136 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,136 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,136 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,136 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,136 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,137 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,137 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,137 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,138 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,139 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,139 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,139 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,140 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,140 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,145 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,146 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,147 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,147 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,147 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,148 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,154 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,155 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,156 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,362 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,362 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 02:06:33,362 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,362 parameterhelper INFO     Config: ./configs/user/bayelinear_identity (overload)
+2018-09-18 02:06:33,363 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,363 root            INFO     Loading data (./data/SP500)
+2018-09-18 02:06:33,460 root            INFO     Initializing genetic algorithm
+2018-09-18 02:06:33,460 root            INFO     Initializing genetic algorithm
+2018-09-18 02:06:33,461 root            INFO     Running GA optimization
+2018-09-18 02:06:33,461 root            INFO     Running GA optimization
+gen	nevals	avg     	std      	min      	max     
+0  	50    	0.160991	0.0360049	0.0947596	0.238335
+1  	23    	0.123225	0.0219544	0.0947596	0.183736
+2  	21    	0.106724	0.00749181	0.088558 	0.128901
+3  	23    	0.0991803	0.00655915	0.088558 	0.114058
+4  	20    	0.0925581	0.00443571	0.088558 	0.10284 
+5  	25    	0.0898108	0.00145538	0.088558 	0.0966145
+6  	20    	0.089049 	0.000549621	0.0880523	0.0909986
+7  	20    	0.0886105	0.000333664	0.0880523	0.0894169
+8  	23    	0.0885119	0.00125098 	0.0879797	0.0970872
+9  	21    	0.0880416	0.000506477	0.0857618	0.088558 
+10 	22    	0.0878844	0.000537413	0.0857618	0.0880523
+11 	21    	0.0876365	0.000818595	0.0857618	0.0880523
+12 	24    	0.08727  	0.00103461 	0.0857618	0.0879797
+13 	21    	0.0863828	0.000995846	0.0857618	0.0879797
+14 	21    	0.0858061	0.00031051 	0.0857618	0.0879797
+15 	15    	0.0857618	0          	0.0857618	0.0857618
+16 	20    	0.0858412	0.00055594 	0.0857618	0.0897328
+17 	19    	0.0857618	0          	0.0857618	0.0857618
+18 	19    	0.0859728	0.0014772  	0.0857618	0.0963132
+19 	25    	0.0859662	0.00143129 	0.0857618	0.0959853
+20 	16    	0.0857618	0          	0.0857618	0.0857618
+2018-09-18 02:08:46,167 root            INFO     Saving the best parameters
+2018-09-18 02:08:46,167 root            INFO     Saving the best parameters
+2018-09-18 02:08:46,168 root            INFO     Done
+2018-09-18 02:08:46,168 root            INFO     Done
+[2018-09-18 02:08:46,649] launcher  (127.0.0.1:44185) INFO    Root process is done.
+[2018-09-18 02:08:46,649] launcher  (127.0.0.1:44185) INFO    Finished cleaning spawned subprocesses.
+[2018-09-18 02:08:46,711] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 02:08:46,711] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-18 02:08:46,711] launcher  INFO    Worker distribution: 
+[2018-09-18 02:08:46,711] launcher  INFO       127.0.0.1:	11 + origin
+Errors:
+[0.68803165 0.41543397 0.72784887 0.57851736 0.7026951  0.48599852
+ 0.40748292 0.47592423 0.66102439 0.14755976 0.488206   0.2939123
+ 0.52078741 0.74612372 0.46751061 0.65737512 0.44446492 0.33919659
+ 0.50145551 0.79243277]
+Mean:
+0.5270990859772838
+Std:
+0.1628445904654592
+[2018-09-18 02:08:52,944] launcher  (127.0.0.1:35861) INFO    Root process is done.
+[2018-09-18 02:08:52,945] launcher  (127.0.0.1:35861) INFO    Finished cleaning spawned subprocesses.

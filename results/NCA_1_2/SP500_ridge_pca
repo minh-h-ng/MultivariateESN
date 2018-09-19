@@ -1,0 +1,93 @@
+[2018-09-18 16:53:32,271] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 16:53:32,271] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-18 16:53:32,271] launcher  INFO    Worker distribution: 
+[2018-09-18 16:53:32,271] launcher  INFO       127.0.0.1:	11 + origin
+2018-09-18 16:53:32,954 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,954 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,954 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,955 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,955 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,955 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,956 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,956 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,956 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,958 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,959 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,960 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,964 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,964 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,964 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,964 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,964 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,965 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,965 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,965 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,965 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,965 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,966 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,966 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,974 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,975 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,975 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,975 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,976 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,976 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,976 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:32,976 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,976 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,976 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:32,977 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:32,977 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:33,179 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:33,179 parameterhelper INFO     Loading config for dimensionality as a percentage of the reservoir size.
+2018-09-18 16:53:33,179 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:33,179 parameterhelper INFO     Config: ./configs/user/ridge_pca (overload)
+2018-09-18 16:53:33,180 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:33,180 root            INFO     Loading data (./data/SP500)
+2018-09-18 16:53:33,278 root            INFO     Initializing genetic algorithm
+2018-09-18 16:53:33,278 root            INFO     Initializing genetic algorithm
+2018-09-18 16:53:33,279 root            INFO     Running GA optimization
+2018-09-18 16:53:33,279 root            INFO     Running GA optimization
+gen	nevals	avg     	std     	min      	max     
+0  	50    	0.304932	0.272812	0.0617978	0.996904
+1  	21    	0.237335	0.259162	0.0617978	0.996904
+2  	23    	0.153529	0.171071	0.0763359	0.793427
+3  	24    	0.10147 	0.0373624	0.0763359	0.202381
+4  	22    	0.101337	0.0356276	0.0749457	0.203883
+5  	25    	0.102114	0.0380353	0.0702693	0.203883
+6  	23    	0.10856 	0.0491279	0.0702693	0.203883
+7  	19    	0.0891614	0.0340066	0.00970874	0.203883
+8  	21    	0.0804117	0.0238426	0.00970874	0.203883
+9  	21    	0.0776712	0.0162302	0.00970874	0.135922
+10 	27    	0.0631113	0.0268152	0.00970874	0.0873786
+11 	24    	0.0484397	0.029909 	0.00917431	0.0873786
+12 	16    	0.0378615	0.0281527	0.00970874	0.0660638
+13 	24    	0.0378475	0.0281388	0.00970874	0.0660296
+14 	19    	0.0378346	0.0281201	0.00970874	0.0660058
+15 	20    	0.037819 	0.0281045	0.00970874	0.0659762
+16 	18    	0.0378098	0.0280991	0.00970874	0.0659686
+17 	22    	0.0378081	0.0280994	0.00970874	0.0659976
+18 	25    	0.0378066	0.0280978	0.00970874	0.0659074
+19 	18    	0.0378073	0.0280985	0.00970874	0.0660511
+20 	18    	0.0378058	0.0280971	0.00970874	0.0659029
+2018-09-18 16:56:02,292 root            INFO     Saving the best parameters
+2018-09-18 16:56:02,292 root            INFO     Saving the best parameters
+2018-09-18 16:56:02,292 root            INFO     Done
+2018-09-18 16:56:02,292 root            INFO     Done
+[2018-09-18 16:56:02,776] launcher  (127.0.0.1:42291) INFO    Root process is done.
+[2018-09-18 16:56:02,776] launcher  (127.0.0.1:42291) INFO    Finished cleaning spawned subprocesses.
+[2018-09-18 16:56:02,838] launcher  INFO    SCOOP 0.7 1.1 on linux using Python 3.5.2 (default, Nov 23 2017, 16:37:01) [GCC 5.4.0 20160609], API: 1013
+[2018-09-18 16:56:02,838] launcher  INFO    Deploying 12 worker(s) over 1 host(s).
+[2018-09-18 16:56:02,838] launcher  INFO    Worker distribution: 
+[2018-09-18 16:56:02,838] launcher  INFO       127.0.0.1:	11 + origin
+Errors:
+[0.08420346 0.08478436 0.08904873 0.08610847 0.08732569 0.08851697
+ 0.08449606 0.08613421 0.08642945 0.08411538 0.09165127 0.08610106
+ 0.0922435  0.08581902 0.08556592 0.08522045 0.08748825 0.08524407
+ 0.08645995 0.08688807]
+Mean:
+0.08669221674633201
+Std:
+0.0021688820665126205
+[2018-09-18 16:56:08,703] launcher  (127.0.0.1:40027) INFO    Root process is done.
+[2018-09-18 16:56:08,703] launcher  (127.0.0.1:40027) INFO    Finished cleaning spawned subprocesses.
